@@ -1,0 +1,6 @@
+﻿Event,Description
+"beforeSend(jqXHR, settings)",Runs before request is sent. Can cancel by returning false
+"success(data, textStatus, jqXHR)",Called when request succeeds
+"error(jqXHR, textStatus, errorThrown)","Called on error (network, 4xx, 5xx)"
+"complete(jqXHR, textStatus)",Called after success or error
+statusCode,"Map of HTTP codes to functions (e.g., "404", "500)

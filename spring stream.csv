@@ -1,0 +1,5 @@
+﻿Object,Use Case,Best For
+InputStream,Read raw bytes,"Binary data (PDF, ZIP, images)"
+Reader,Read characters (text),"UTF-8, JSON, XML, CSV"
+OutputStream,Write raw bytes,Binary responses
+Writer,Write characters (text),"HTML, JSON, CSV, logs"

@@ -1,0 +1,419 @@
+1
+00:00:00,000 --> 00:00:04,760
+hallo und herzlich willkommen auf dem
+youtube-kanal von programmieren -
+
+3
+00:00:04,770 --> 00:00:10,580
+starten punkt.de mein name ist hendrik
+und in diesem zehnten teil des java
+
+5
+00:00:10,590 --> 00:00:14,959
+crash kursus soll sich alles um die
+sogenannte do weil schleife drehen
+
+7
+00:00:14,969 --> 00:00:19,099
+fangen wir mal damit an was wir in
+diesem video alles lernen werden
+
+9
+00:00:19,109 --> 00:00:24,109
+zunächst sehen wir uns einmal an was
+eine duval schleife denn eigentlich ist
+
+11
+00:00:24,119 --> 00:00:26,480
+beziehungsweise was man darunter
+versteht
+
+13
+00:00:26,490 --> 00:00:29,990
+im letzten video sind wir schon sehr
+detailliert auf die weiße schleife
+
+15
+00:00:30,000 --> 00:00:35,000
+eingegangen und die duval schleife ist
+im prinzip fast das gleiche mit einem
+
+17
+00:00:35,010 --> 00:00:39,110
+unterschied den ich im letzten video
+bereits angesprochen hatte den ich aber
+
+19
+00:00:39,120 --> 00:00:43,190
+ich hier noch mal im detail aufzeigen
+möchte und dann werden wir uns die duval
+
+21
+00:00:43,200 --> 00:00:47,869
+schleife in der praxis ansehen damit du
+auch weißt wie du sie jetzt wirklich in
+
+23
+00:00:47,879 --> 00:00:53,270
+dein programm verwenden kannst beginnen
+wir also mal damit was ist eine do well
+
+25
+00:00:53,280 --> 00:00:58,400
+schleife eine duval schleife ist wie ich
+es bereits schon gesagt hatte sehr
+
+27
+00:00:58,410 --> 00:01:02,450
+identisch zur weil schleife
+der einzige unterschied besteht darin
+
+29
+00:01:02,460 --> 00:01:07,760
+dass die bedingungen nicht zu beginn
+sondern erst am ende geprüft wird und
+
+31
+00:01:07,770 --> 00:01:13,100
+zwar nach dem schleifen block und das
+resultat was man hier von jetzt hat ist
+
+33
+00:01:13,110 --> 00:01:19,310
+im prinzip einfach das dass die schleife
+immer mindestens einmal ausgeführt wird
+
+35
+00:01:19,320 --> 00:01:23,840
+und zwar auch wenn die bedingungen
+bereits von beginn an nicht erfüllt ist
+
+37
+00:01:23,850 --> 00:01:28,700
+dass es auch der konkrete unterschied
+der eben zur weil schleife besteht sehen
+
+39
+00:01:28,710 --> 00:01:31,039
+wir uns das ganze jetzt aber mal in der
+praxis an
+
+41
+00:01:31,049 --> 00:01:35,300
+damit das ganze nicht so abstrakt bleibt
+ich habe hier noch das beispiel programm
+
+43
+00:01:35,310 --> 00:01:39,859
+vom letzten video geöffnet von derweil
+schleife da hatten wir schon gelernt die
+
+45
+00:01:39,869 --> 00:01:44,330
+weil schleife ist kopfgesteuert ich kann
+hier nun mal das beispiel auf den
+
+47
+00:01:44,340 --> 00:01:48,200
+ursprungszustand zurück bringen
+da hatten wir nämlich hier die einst in
+
+49
+00:01:48,210 --> 00:01:54,859
+der variablen amba und genau hier immer
+die variablen am bau um 1 erhöht und
+
+51
+00:01:54,869 --> 00:01:58,999
+hier auch diese kurz schreibweise kennen
+gelernt und was wir jetzt machen möchten
+
+53
+00:01:59,009 --> 00:02:05,149
+ist dieses exakt gleiche beispiel in ein
+ja in eine warteschleife transformieren
+
+55
+00:02:05,159 --> 00:02:11,210
+und hierzu kommentiere ich jetzt einfach
+mal das ganze aus damit wir es noch als
+
+57
+00:02:11,220 --> 00:02:15,810
+vergleich
+ja zur hand haben und jetzt definieren
+
+59
+00:02:15,820 --> 00:02:19,170
+wir uns eine duval schleife und die wird
+immer eingeleitet durch das
+
+61
+00:02:19,180 --> 00:02:24,300
+schlüsselwort du das heißt tue und was
+soll diese schleife tun
+
+63
+00:02:24,310 --> 00:02:29,700
+naja sie soll zunächst mal den schleifen
+blog ausführen weil wir haben ja gesagt
+
+65
+00:02:29,710 --> 00:02:33,870
+die bedingung wird am ende geprüft der
+schleifen blog das waren ja diese zwei
+
+67
+00:02:33,880 --> 00:02:38,190
+anweisungen hier die kopieren wir jetzt
+einfach mal hier rein und damit haben
+
+69
+00:02:38,200 --> 00:02:43,350
+wir den schleifen blog schon und nach
+diesen schleifen block kommt erst das
+
+71
+00:02:43,360 --> 00:02:47,790
+schlüsselwort weil ich schreibe es mal
+ganz sauber hier runter weil und dann
+
+73
+00:02:47,800 --> 00:02:52,230
+noch eine bedingung und jetzt ist dass
+die bedingungen die wir hier zuvor hier
+
+75
+00:02:52,240 --> 00:02:58,110
+oben hatten die fügen wir hier noch ein
+und jetzt fehlt noch ein semikolon das
+
+77
+00:02:58,120 --> 00:03:02,100
+brauchen wir bei der normalen weil
+schleife nicht am ende aber beim dewald
+
+79
+00:03:02,110 --> 00:03:05,400
+schleifer muss man hier immer nach der
+bedingung noch das semikolon schreiben
+
+81
+00:03:05,410 --> 00:03:09,750
+und damit haben wir jetzt hier das
+beispiel von zuvor in eine du weil
+
+83
+00:03:09,760 --> 00:03:13,320
+schleife verwandelt und was ist jetzt
+hier an die besonderheit die
+
+85
+00:03:13,330 --> 00:03:22,080
+besonderheit ist das ganze ist jetzt fuß
+gesteuert fuß gesteuerte schleife fuß
+
+87
+00:03:22,090 --> 00:03:27,240
+gesteuert deshalb weil die bedingungen
+jetzt am ende also am fuß der schleife
+
+89
+00:03:27,250 --> 00:03:31,350
+sozusagen erst geprüft wird und nicht
+wie zuvor bei derweil schleife im
+
+91
+00:03:31,360 --> 00:03:35,160
+kopfbereich
+was passiert jetzt also wir haben hier
+
+93
+00:03:35,170 --> 00:03:39,270
+die variablen amber die wird mit dem
+wert 1 initialisiert dann kommt dieser
+
+95
+00:03:39,280 --> 00:03:43,140
+schleife blog dieser schleifen blog wird
+jetzt unabhängig von der bedingung hier
+
+97
+00:03:43,150 --> 00:03:48,240
+unten zunächst einmal ausgeführt und das
+meine ich mit diesem es wird mindestens
+
+99
+00:03:48,250 --> 00:03:51,480
+einmal ausgeführt
+es ist vollkommen egal was ich in der
+
+101
+00:03:51,490 --> 00:03:56,460
+bedingung steht dieser blog wird immer
+mindestens einmal ausgeführt und in
+
+103
+00:03:56,470 --> 00:04:00,990
+vielen problemstellungen kann das
+sinnvoll sein genau deshalb existiert
+
+105
+00:04:01,000 --> 00:04:04,830
+diese du weil schleife eben auch und
+erst wenn diese schleifen blog einmal
+
+107
+00:04:04,840 --> 00:04:07,530
+durchgelaufen ist geht's hier die
+bedingung rein
+
+109
+00:04:07,540 --> 00:04:11,250
+hier wird die bedingungen geprüft und
+sollte diese bedingungen jetzt ruhe
+
+111
+00:04:11,260 --> 00:04:15,510
+geben dann springt man hier wieder
+zurück und dann wird dieser block erneut
+
+113
+00:04:15,520 --> 00:04:19,410
+ausgeführt dann wird wieder die
+bedingungen geprüft und das geschieht so
+
+115
+00:04:19,420 --> 00:04:24,960
+lange bis hier ebenfalls rauskommt dann
+geht's einfach hier unter der schleife
+
+117
+00:04:24,970 --> 00:04:28,680
+weiterhin kurt damit du mir das ganze
+glaubst speichern wird und führen es
+
+119
+00:04:28,690 --> 00:04:32,640
+noch einmal kurz aus und wie wir sehen
+es werden die zahlen eins bis fünf
+
+121
+00:04:32,650 --> 00:04:35,670
+ausgegeben
+und auch wenn wir hier jetzt die zahl
+
+123
+00:04:35,680 --> 00:04:41,070
+sechs ja die die variable mit der zahl
+sechs initialisieren dann sehen wir die
+
+125
+00:04:41,080 --> 00:04:44,880
+bedingungen ist von vornherein nicht
+erfüllt dann nur alles kleiner gleich
+
+127
+00:04:44,890 --> 00:04:49,260
+fünf die bedingungen zu true werden
+lassen würde wenn wir das ganze jetzt
+
+129
+00:04:49,270 --> 00:04:53,700
+aber ausführen sehen wir es wird der
+wert trotzdem einmal ausgegeben weil
+
+131
+00:04:53,710 --> 00:04:58,590
+eben dieser schleifen blog mindestens
+einmal ausgeführt wird dann wird gesehen
+
+133
+00:04:58,600 --> 00:05:02,970
+okay die bedingung stimmt nicht das
+heißt wir springen raus und bei dieser
+
+135
+00:05:02,980 --> 00:05:08,250
+kopf gesteuerten schleife ist es eben
+genau anders da wird zunächst diese
+
+137
+00:05:08,260 --> 00:05:11,730
+bedingungen geprüft und sollte die
+bedingungen nicht erfüllt sein dann wird
+
+139
+00:05:11,740 --> 00:05:15,810
+dieser block gar nicht ausgeführt
+das war jetzt alles was ich dir zu duval
+
+141
+00:05:15,820 --> 00:05:20,220
+schleife mitgeben wollte falls du nicht
+ganz genau verstanden hast was hier los
+
+143
+00:05:20,230 --> 00:05:24,900
+ist dann seht ihr noch mal das video von
+zuvor an und zwar der teil 9
+
+145
+00:05:24,910 --> 00:05:28,680
+da ging es um die wahl schleife dann
+solltest du das in kombination mit
+
+147
+00:05:28,690 --> 00:05:33,659
+diesem video jetzt endgültig verstanden
+haben und im nächsten video soll es dann
+
+149
+00:05:33,669 --> 00:05:38,010
+um die sogenannte vor schleife gehen ein
+weiterer schleifen typ der sehr
+
+151
+00:05:38,020 --> 00:05:42,360
+wichtiges und sehr oft zur anwendung
+kommt ich hoffe dir das video gefallen
+
+153
+00:05:42,370 --> 00:05:46,350
+du konntest ein mehrwert für dich hier
+raus ziehen falls das so ist dann würde
+
+155
+00:05:46,360 --> 00:05:50,400
+ich mich über ein like freuen ich würde
+mich über einen kommentar freuen also
+
+157
+00:05:50,410 --> 00:05:54,450
+jegliche form von feedback und falls sie
+den kanal noch nicht abonniert haben
+
+159
+00:05:54,460 --> 00:05:58,650
+solltest dann kannst du das jetzt
+nachholen indem du einfach unter diesem
+
+161
+00:05:58,660 --> 00:06:03,360
+video auf den abonnieren -button klickt
+dann erhältst du jedes neue video
+
+163
+00:06:03,370 --> 00:06:06,210
+direkten deine inbox und verpasst nichts
+mehr
+
+165
+00:06:06,220 --> 00:06:10,110
+das war's ich wünschen noch einen
+schönen tag und dann sehen wir uns im
+
+167
+00:06:10,120 --> 00:06:14,280
+nächsten video wieder biss dann schau
+

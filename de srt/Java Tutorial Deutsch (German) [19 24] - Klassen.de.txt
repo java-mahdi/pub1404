@@ -1,0 +1,799 @@
+1
+00:00:00,000 --> 00:00:04,610
+hallo und herzlich willkommen auf dem
+youtube-kanal von programmieren -
+
+3
+00:00:04,620 --> 00:00:10,759
+staaten punkt.de mein name ist hendrik
+und hier befinden wir uns jetzt im 19ten
+
+5
+00:00:10,769 --> 00:00:15,350
+video unseres java crash kursus auf
+youtube und in diesem video soll es um
+
+7
+00:00:15,360 --> 00:00:20,120
+die so genannten klassen gehen sehen wir
+uns zunächst mal an was wir in diesem
+
+9
+00:00:20,130 --> 00:00:23,960
+video alles lernen werden
+zunächst werden wir uns mal ansehen was
+
+11
+00:00:23,970 --> 00:00:28,849
+ist eine klasse das wird also ein sehr
+theoretischer inhalt sein und wir sind
+
+13
+00:00:28,859 --> 00:00:32,420
+bereits im letzten video auch schon ein
+bisschen darauf eingegangen da habe ich
+
+15
+00:00:32,430 --> 00:00:37,069
+ja das grobe konzept erklärt welches
+hinter der objektorientierung steckt und
+
+17
+00:00:37,079 --> 00:00:40,160
+hier werden wir es noch mal kurz
+wiederholen und auffrischen dass wir
+
+19
+00:00:40,170 --> 00:00:44,479
+dann für die nächsten zwei parts
+gerüstet sind denn wir werden uns dann
+
+21
+00:00:44,489 --> 00:00:49,279
+ansehen wie definiert man eine klasse
+das wird also der erste praxisteil zum
+
+23
+00:00:49,289 --> 00:00:53,270
+thema objektorientierung sein damit du
+auch weißt wie du klassen in deinen
+
+25
+00:00:53,280 --> 00:00:58,340
+programm verwenden und erzeugen kannst
+und danach werden wir uns ansehen wie
+
+27
+00:00:58,350 --> 00:01:03,410
+erzeugt man ein objekt einer klasse was
+das zu bedeuten hat das wird gleich klar
+
+29
+00:01:03,420 --> 00:01:07,609
+werden sehen wir uns also zunächst mal
+an was eine klasse denn überhaupt ist
+
+31
+00:01:07,619 --> 00:01:11,330
+ich hatte es bereits im letzten video
+schon erwähnt eine klasse ist ein
+
+33
+00:01:11,340 --> 00:01:16,670
+bauplan für ein objekt außerdem hattest
+du gelernt dass man in einer klasse zwei
+
+35
+00:01:16,680 --> 00:01:23,330
+dinge definiert nämlich einmal welche
+eigenschaften bzw attribute hat ein
+
+37
+00:01:23,340 --> 00:01:29,359
+objekt und welche methoden kann ein
+objekt ausführen was meine ich nun genau
+
+39
+00:01:29,369 --> 00:01:33,620
+damit eigenschaften und attribute das
+sind zwei begriffe die kammern synonym
+
+41
+00:01:33,630 --> 00:01:37,219
+miteinander verwenden
+also sagt ein fehler eigenschaften sagt
+
+43
+00:01:37,229 --> 00:01:40,789
+entweder attribute da gibt es noch ein
+paar mehr begriffe jeder nennt es ein
+
+45
+00:01:40,799 --> 00:01:44,389
+bisschen anders das soll jetzt nicht das
+wichtige sein
+
+47
+00:01:44,399 --> 00:01:47,950
+es soll er das wichtige sein dass du
+verstehst worum es sich hierbei handelt
+
+49
+00:01:47,960 --> 00:01:51,530
+und es ist ja jetzt so die klasse gibt
+dem bauplan vor
+
+51
+00:01:51,540 --> 00:01:56,060
+das heißt mit den eigenschaften
+beziehungsweise mit den attributen geben
+
+53
+00:01:56,070 --> 00:02:01,580
+wir eben vor welche eigenschaften kann
+das objekt haben zb welche farbe hat das
+
+55
+00:02:01,590 --> 00:02:07,570
+objekt oder von welcher marke ist das
+objekt oder welchen namen hat das objekt
+
+57
+00:02:07,580 --> 00:02:12,960
+oder welches alter hat das objekt und so
+weiter also alles so daten
+
+59
+00:02:12,970 --> 00:02:16,860
+die das objekt beschreiben sage ich
+jetzt mal und dann gibt es eben noch die
+
+61
+00:02:16,870 --> 00:02:21,810
+methoden und jedes objekt kann die
+methoden die in der klasse festgelegt
+
+63
+00:02:21,820 --> 00:02:26,990
+werden ausführen und die methoden die
+geben diesen objekten jetzt sozusagen
+
+65
+00:02:27,000 --> 00:02:32,880
+funktionalität mit das heißt das objekt
+kann etwas tun mit hilfe der methode so
+
+67
+00:02:32,890 --> 00:02:37,380
+und jetzt ist es eben so dass man mit
+der definition einer klasse alleine noch
+
+69
+00:02:37,390 --> 00:02:41,430
+überhaupt gar nichts anfangen kann
+denn wenn man damit arbeiten möchte oder
+
+71
+00:02:41,440 --> 00:02:46,230
+irgend etwas produktives machen möchte
+dann muss man von der klasse zunächst
+
+73
+00:02:46,240 --> 00:02:50,790
+mal ein objekt erzeugen und von einer
+klasse kann man jetzt nicht nur ein
+
+75
+00:02:50,800 --> 00:02:55,140
+einziges objekt erzeugen denn es ist ja
+ein bauplan das heißt wir können davon
+
+77
+00:02:55,150 --> 00:02:59,610
+beliebig viele objekte erzeugen und
+jedes objekt hat an seine eigenen
+
+79
+00:02:59,620 --> 00:03:04,290
+attribute und kann seine methoden
+selbstständig ausführen damit wollte ich
+
+81
+00:03:04,300 --> 00:03:08,220
+jetzt nur noch mal betonen dass jedes
+objekt für sich steht das heißt wenn ich
+
+83
+00:03:08,230 --> 00:03:12,570
+jetzt von einer klasse auto
+beispielsweise drei objekte erzeugt dann
+
+85
+00:03:12,580 --> 00:03:17,400
+hat jedes einzelne objekt seine eigenen
+attribute und kann seine eigenen
+
+87
+00:03:17,410 --> 00:03:20,610
+methoden ausführen so viel mal zu der
+theorie
+
+89
+00:03:20,620 --> 00:03:24,210
+ich denke wir sollten jetzt einfach mal
+in die praxis bringen und zwar in die
+
+91
+00:03:24,220 --> 00:03:28,199
+entwicklungsumgebung und uns hier mal
+angucken wie man das ganze realisieren
+
+93
+00:03:28,209 --> 00:03:30,150
+kann
+das erste was wir jetzt mal machen
+
+95
+00:03:30,160 --> 00:03:34,410
+möchten ist uns eine klasse definieren
+und in java ist es gängige konvention
+
+97
+00:03:34,420 --> 00:03:39,990
+dass man jede klasse eines programms in
+einem eigenen pfeil hat hier haben wir
+
+99
+00:03:40,000 --> 00:03:45,060
+gerade das file programmpunkt java
+dieses teil enthält jetzt schon eine
+
+101
+00:03:45,070 --> 00:03:49,440
+klasse und zwar die klasse public cloud
+programm
+
+103
+00:03:49,450 --> 00:03:52,860
+deswegen wenn wir uns jetzt eine
+zusätzliche klasse erzeugen möchten
+
+105
+00:03:52,870 --> 00:03:58,170
+müssen wir zunächst mal uns eine ein
+neues pfeil anlegen und hierzu gehst du
+
+107
+00:03:58,180 --> 00:04:00,780
+nie clips einfach links in dem package
+explorer
+
+109
+00:04:00,790 --> 00:04:04,770
+da gehst du auf das jeweilige package
+das steht jetzt hier default package das
+
+111
+00:04:04,780 --> 00:04:08,850
+klickst du an dann machst du einen
+rechtsklick drauf dann gehst du of new
+
+113
+00:04:08,860 --> 00:04:14,280
+und dann gehst du auf klaas dann kannst
+du hier ein paar daten einstellen da
+
+115
+00:04:14,290 --> 00:04:17,550
+soll jetzt alles uninteressant für uns
+sein wir möchten nur einen namen
+
+117
+00:04:17,560 --> 00:04:20,550
+eingeben
+und wir möchten jetzt mal ein automodell
+
+119
+00:04:20,560 --> 00:04:23,249
+ihren mithilfe
+der klasse deswegen nennen wir diese
+
+121
+00:04:23,259 --> 00:04:28,830
+klasse k ganz wichtig bei klassen den
+anfangsbuchstaben immer groß schreiben
+
+123
+00:04:28,840 --> 00:04:32,580
+das ist auch eine konvention dadurch
+kannst du dann später im programm sofort
+
+125
+00:04:32,590 --> 00:04:36,810
+10 bei was es sich um eine klasse
+handelt und bei war es eben nicht und
+
+127
+00:04:36,820 --> 00:04:40,469
+dann gehst du auf finnisch und dann
+sehen wir haben wir jetzt hier ein neues
+
+129
+00:04:40,479 --> 00:04:44,909
+fall geöffnet in so einem neuen tab ihr
+könnt hier auch hin und her springen und
+
+131
+00:04:44,919 --> 00:04:48,900
+dem package explorer siehst du
+wir haben jetzt hier auch zwei files
+
+133
+00:04:48,910 --> 00:04:53,850
+angezeigt so und hier wurde jetzt im
+prinzip schon automatisiert eine klasse
+
+135
+00:04:53,860 --> 00:04:58,830
+für uns definiert und das funktioniert
+einfach nur mit diesem paar wörtern hier
+
+137
+00:04:58,840 --> 00:05:05,339
+zum einen schreibt man public dann kommt
+das schlüsselwort class und daneben der
+
+139
+00:05:05,349 --> 00:05:09,990
+name der klasse und dann kommt ein blog
+und alles was in diesem blog steht ist
+
+141
+00:05:10,000 --> 00:05:15,120
+eben der inhalt der klasse dieses public
+ist ein sichtbarkeit modifiziert was
+
+143
+00:05:15,130 --> 00:05:18,900
+diese sichtbarkeit modifizierung
+bewirken das werden wir uns auch noch
+
+145
+00:05:18,910 --> 00:05:21,089
+ansehen
+das werden wir jetzt auch gleich bei den
+
+147
+00:05:21,099 --> 00:05:25,500
+attributen noch sehen das kannst du also
+erstmal vergessen einfach merken hier
+
+149
+00:05:25,510 --> 00:05:29,460
+schreibst du einfach erst mal public hin
+und daneben das schlüsselwort class ich
+
+151
+00:05:29,470 --> 00:05:33,540
+denke das ist selbsterklärend wir
+definieren eine klasse deswegen hat man
+
+153
+00:05:33,550 --> 00:05:36,899
+dieses schlüsselwort eben auch glas
+genannt so und jetzt hatte ich ja gesagt
+
+155
+00:05:36,909 --> 00:05:43,100
+in einer klasse gibt es jetzt zwei dinge
+einmal gibt es attribute beziehungsweise
+
+157
+00:05:43,110 --> 00:05:49,230
+eigenschaften und was es noch gibt sind
+methoden so und wir wollen jetzt ein
+
+159
+00:05:49,240 --> 00:05:52,409
+auto modellieren und ein auto hat ja
+verschiedene eigenschaften
+
+161
+00:05:52,419 --> 00:05:56,939
+beispielsweise können wir jetzt sagen
+ich schreibe zu mal privat das ist
+
+163
+00:05:56,949 --> 00:06:00,870
+wieder ein sichtbarkeit modifiziert was
+der bedeutet darauf werden wir auch noch
+
+165
+00:06:00,880 --> 00:06:05,520
+zu sprechen bekommen ignoriert es jetzt
+einfach mal und jetzt definiere ich eine
+
+167
+00:06:05,530 --> 00:06:10,860
+stinknormale variable ich sage also
+string und die nämlich color weil hier
+
+169
+00:06:10,870 --> 00:06:14,580
+drin möchte ich beispielsweise die farbe
+speichern
+
+171
+00:06:14,590 --> 00:06:19,710
+dann möchte ich noch ein neues attribut
+haben also ein weiteres dieses attribut
+
+173
+00:06:19,720 --> 00:06:25,499
+nämlich brand da möchte ich nämlich die
+marke des autos speichern
+
+175
+00:06:25,509 --> 00:06:30,190
+und da mache ich mir noch ein attribut
+das nenne ich jetzt einfach mal
+
+177
+00:06:30,200 --> 00:06:37,350
+horsepower mit dem datentyp integer und
+hier drin möchte ich eben die ps-zahl
+
+179
+00:06:37,360 --> 00:06:42,280
+speichern
+also wie viel ps hat das auto und hier
+
+181
+00:06:42,290 --> 00:06:46,030
+könnte ich jetzt beliebig weiter machen
+um das auto eben immer genauer zu
+
+183
+00:06:46,040 --> 00:06:50,620
+beschreiben je nachdem wie genau man es
+eben in seinem programm dann braucht und
+
+185
+00:06:50,630 --> 00:06:54,430
+was man generell so viele daten von
+diesem auto eben brauch und dann gibt es
+
+187
+00:06:54,440 --> 00:06:58,900
+neben diesen attributen auch noch
+sogenannte methoden eine methode könnte
+
+189
+00:06:58,910 --> 00:07:02,530
+zum beispiel sein
+3 ich definiere jetzt hier einfach mal
+
+191
+00:07:02,540 --> 00:07:10,540
+schnell da gebe ich jetzt mal aus das
+auto fährt was eine methode ist haben
+
+193
+00:07:10,550 --> 00:07:15,100
+wir bereits gelernt und zwar in einem
+anderen video in diesem crash kurs hier
+
+195
+00:07:15,110 --> 00:07:18,520
+haben wir jetzt die besonderheit wir
+definieren die methode jetzt hier mitten
+
+197
+00:07:18,530 --> 00:07:23,650
+in dieser klasse und wir haben jetzt
+hier kein static drin denn hierbei
+
+199
+00:07:23,660 --> 00:07:27,100
+handelt es sich jetzt nicht um eine
+sogenannte statische methode sondern
+
+201
+00:07:27,110 --> 00:07:32,410
+diese methode ist nicht statisch was das
+bedeutet wie gesagt darauf werden wir
+
+203
+00:07:32,420 --> 00:07:36,130
+auch noch zu sprechen kommen ansonsten
+ist der aufbau dieser methode zu
+
+205
+00:07:36,140 --> 00:07:39,550
+gewähren kennen es gibt auch hier wieder
+dieses public das ist wieder dieser
+
+207
+00:07:39,560 --> 00:07:43,900
+mysteriöse sichtbarkeit modifiziere den
+wir noch kennenlernen werden dann gibt
+
+209
+00:07:43,910 --> 00:07:48,550
+es den rückgabe typ der das wort weil
+ich eben nichts zurückgegeben wird der
+
+211
+00:07:48,560 --> 00:07:52,360
+name der methode und dann ganz normal
+der block und hier soll eben jetzt was
+
+213
+00:07:52,370 --> 00:07:56,710
+passieren und in unserem fall wird nur
+etwas auf der konsole ausgegeben und das
+
+215
+00:07:56,720 --> 00:07:59,950
+war es jetzt im prinzip schon hier haben
+wir jetzt eine komplette klasse
+
+217
+00:07:59,960 --> 00:08:04,900
+definiert und wir haben auch direkt
+schon attribute darin definiert und wir
+
+219
+00:08:04,910 --> 00:08:09,580
+haben methoden darin definiert genauer
+gesagt eine methode so und jetzt möchten
+
+221
+00:08:09,590 --> 00:08:13,030
+wir mit dieser klasse natürlich
+irgendetwas anfangen und es ist jetzt
+
+223
+00:08:13,040 --> 00:08:18,760
+nach wie vor so dass unser programm in
+der methode startet und alles was in der
+
+225
+00:08:18,770 --> 00:08:22,360
+mine methode ist von oben nach unten
+ausführt das heißt wenn wir das programm
+
+227
+00:08:22,370 --> 00:08:26,080
+jetzt mal ausführen dann sehen wir was
+passiert erstmal gar nichts obwohl wir
+
+229
+00:08:26,090 --> 00:08:29,740
+diese klasse hier haben weil wie gesagt
+diese klasse ist jetzt nur ein bauplan
+
+231
+00:08:29,750 --> 00:08:34,600
+damit allein können wir nichts machen
+wir müssen jetzt erstmal ein objekt von
+
+233
+00:08:34,610 --> 00:08:38,830
+dieser klasse erstellen und das
+bezeichnet diesen vorgang bezeichnet man
+
+235
+00:08:38,840 --> 00:08:42,759
+auch als instanz ihren das heißt nämlich
+ich möchte eine ins
+
+237
+00:08:42,769 --> 00:08:47,109
+bzw ein objekt das sind auch so begriffe
+die man synonym verwenden kann
+
+239
+00:08:47,119 --> 00:08:50,919
+von dieser klassiker erstellen und das
+funktioniert jetzt folgendermaßen
+
+241
+00:08:50,929 --> 00:08:55,840
+zunächst mal schreibe ich kam dann
+schreibe ich zum beispiel karbon ist
+
+243
+00:08:55,850 --> 00:09:02,019
+gleich new car macht klammern und ein
+semikolon mit dieser einen zeile haben
+
+245
+00:09:02,029 --> 00:09:08,499
+wir jetzt ein objekt von der klasse k
+erzeugt bzw instanziert also instanz
+
+247
+00:09:08,509 --> 00:09:15,729
+ihren eines objekts sowas ist jetzt hier
+genau passiert in diesem vorderen
+
+249
+00:09:15,739 --> 00:09:21,220
+bereich legen wir einfach nur eine
+variable an wie gewohnt der wir eben
+
+251
+00:09:21,230 --> 00:09:24,369
+dann dieses objekt vom typ k speichern
+werden
+
+253
+00:09:24,379 --> 00:09:27,579
+jetzt habe ich schon gesagt das objekt
+ist jetzt vom typ k
+
+255
+00:09:27,589 --> 00:09:31,869
+das heißt diese klassen sowie es wir sie
+benennen repräsentieren jetzt eigene
+
+257
+00:09:31,879 --> 00:09:36,009
+datentypen diesen halt jetzt nicht mehr
+wie die primitiven datentypen die wir
+
+259
+00:09:36,019 --> 00:09:39,669
+bereits kennen gelernt haben wie
+beispielsweise integer oder string
+
+261
+00:09:39,679 --> 00:09:43,840
+sondern dessen jetzt eben komplexere
+datentypen die sich hieraus mehreren
+
+263
+00:09:43,850 --> 00:09:49,210
+dingen zusammensetzen und in diesem fall
+heißt der typ jetzt eben einfach k die
+
+265
+00:09:49,220 --> 00:09:53,829
+variable heißt jetzt karbon da ist quasi
+jetzt das objekt darin gespeichert und
+
+267
+00:09:53,839 --> 00:09:58,150
+das objekt wird jetzt mit hilfe des so
+genannten new operators erzeugt das ist
+
+269
+00:09:58,160 --> 00:10:03,309
+einfach ein ein schlüsselwort das musst
+du dir merken einfach news schreiben und
+
+271
+00:10:03,319 --> 00:10:07,900
+dann schreibst du um von einer klasse
+ein objekt zu erzeugen einfach den namen
+
+273
+00:10:07,910 --> 00:10:11,769
+der klasse hin und macht danach ein
+rundes klammer paar
+
+275
+00:10:11,779 --> 00:10:16,179
+hierbei handelt es sich nämlich um den
+sogenannten konstrukt war aufruf der
+
+277
+00:10:16,189 --> 00:10:20,079
+konstrukteur ist das ding an einer
+klasse sage ich jetzt mal dass die
+
+279
+00:10:20,089 --> 00:10:26,230
+klasse dann konstruiert und letztendlich
+ein objekt davon erzeugt aber darauf
+
+281
+00:10:26,240 --> 00:10:29,829
+werden wir auch in einem extra video zu
+sprechen kommen weil das dann auch noch
+
+283
+00:10:29,839 --> 00:10:32,769
+mal ein thema für sich
+hier in diesem video ist jetzt einfach
+
+285
+00:10:32,779 --> 00:10:36,699
+nur wichtig dass du verstanden hast wie
+man eine klasse erzeugt beziehungsweise
+
+287
+00:10:36,709 --> 00:10:40,869
+wie man eine klasse definiert das haben
+wir hier einmal gemacht man kann der
+
+289
+00:10:40,879 --> 00:10:45,129
+klasse attribute geben man da kann der
+klasse methoden geben und mit dieser
+
+291
+00:10:45,139 --> 00:10:49,539
+klasse allein können wir nichts anfangen
+denn wir benötigen erst mal ein objekt
+
+293
+00:10:49,549 --> 00:10:53,680
+oder eine instanz davon wie gesagt die
+bezeichnung in kammern synonym
+
+295
+00:10:53,690 --> 00:10:58,450
+und das erzeugt man eben indem man
+einfach sagt new dann den namen der
+
+297
+00:10:58,460 --> 00:11:02,740
+klasse hin schreibt und ein rundes
+klammer paar macht und das ganze wird in
+
+299
+00:11:02,750 --> 00:11:07,960
+einer variable gespeichert die eben vom
+typ k ist so damit sind wir jetzt für
+
+301
+00:11:07,970 --> 00:11:11,320
+dieses video durch wir haben jetzt noch
+nicht wirklich mit dieser klasse
+
+303
+00:11:11,330 --> 00:11:16,090
+gearbeitet das liegt aber daran dass wir
+uns dazu noch mal einzelne details
+
+305
+00:11:16,100 --> 00:11:20,110
+ansehen müssen die wir in den folgenden
+videos kennenlernen werden
+
+307
+00:11:20,120 --> 00:11:24,880
+bleibt also gespannt und unbedingt dabei
+falls du das video gefallen hat und du
+
+309
+00:11:24,890 --> 00:11:28,090
+ein mehrwert daraus ziehen konnte ist
+dann gebt uns gerne einen daumen nach
+
+311
+00:11:28,100 --> 00:11:31,810
+oben lassen netten kommentar da und
+falls ihr diesen kanal noch nicht
+
+313
+00:11:31,820 --> 00:11:35,170
+abonniert haben solltest dann kannst du
+das jetzt nachholen indem du unter
+
+315
+00:11:35,180 --> 00:11:38,530
+diesem video auf den abonnieren -button
+klickst ich wünsche dir noch einen
+
+317
+00:11:38,540 --> 00:11:43,510
+schönen tag und dann sehen wir uns im
+nächsten video bis dahin
+
+318
+00:11:40,280 --> 00:11:43,510
+nächsten video bis dahin
+

@@ -1,0 +1,504 @@
+1
+00:00:00,000 --> 00:00:04,760
+hallo und herzlich willkommen auf dem
+youtube-kanal von programmieren -
+
+3
+00:00:04,770 --> 00:00:10,850
+starten punkt.de mein name ist hendrik
+und wir befinden uns hier am 23 ein
+
+5
+00:00:10,860 --> 00:00:14,650
+video des java crash kursus und in
+diesem video soll es um das thema
+
+7
+00:00:14,660 --> 00:00:19,700
+methoden überladen gehen sehen wir uns
+hierzu zunächst mal an was wir in diesem
+
+9
+00:00:19,710 --> 00:00:24,529
+video alles lernen werden und diese
+auflistung ist heute sehr kurz denn es
+
+11
+00:00:24,539 --> 00:00:29,210
+gibt nur einen punkt und zwar werden wir
+lernen wie man methoden in der praxis
+
+13
+00:00:29,220 --> 00:00:34,220
+überlegt dh werden uns jetzt gar keine
+weitere folie ansehen wir springen jetzt
+
+15
+00:00:34,230 --> 00:00:38,180
+direkt in die entwicklungsumgebung und
+in der entwicklungsumgebung werde ich
+
+17
+00:00:38,190 --> 00:00:41,510
+dir das ganze jetzt mal präsentieren so
+und damit sind wir jetzt hier in unserem
+
+19
+00:00:41,520 --> 00:00:45,170
+programm wieder angekommen es ist wie
+gesagt das programm was du noch von den
+
+21
+00:00:45,180 --> 00:00:49,100
+letzten videos kennst wir haben ja
+einfach nur die klasse k und eben hier
+
+23
+00:00:49,110 --> 00:00:53,389
+unsere klasse programm wo die methode
+drin ist und in diesem video soll es
+
+25
+00:00:53,399 --> 00:00:57,229
+jetzt darum das thema methoden überladen
+gehen sehen wir uns das ganze einfach
+
+27
+00:00:57,239 --> 00:01:01,310
+mal anhand der methode drive an
+wir haben hier eine methode drive
+
+29
+00:01:01,320 --> 00:01:06,740
+definiert wir geben da einfach nur aus
+das auto fährt wir könnten aber genauso
+
+31
+00:01:06,750 --> 00:01:11,960
+sagen es wäre doch cool wenn wir gleich
+zum beispiel integer wert übergeben
+
+33
+00:01:11,970 --> 00:01:16,850
+könnten den investiert damit wir quasi
+hier noch zusätzlich ausgeben können wie
+
+35
+00:01:16,860 --> 00:01:27,500
+schnell das auto fährt dann sagen wir
+hier das auto fährt plus speed + km h
+
+37
+00:01:27,510 --> 00:01:33,140
+dann gehen wir mal speichern wir das
+ganze ging ins programm zurück schon
+
+39
+00:01:33,150 --> 00:01:37,520
+wird der konstrukteur passt alles so
+jetzt haben wir hier immer noch unser
+
+41
+00:01:37,530 --> 00:01:43,730
+objekt erzeugt wir stellen also instanz
+mit grün vw und 130 ps und jetzt können
+
+43
+00:01:43,740 --> 00:01:48,350
+wir sagen cover drive und jetzt haben
+wir eben hier gesagt wir brauchen ein
+
+45
+00:01:48,360 --> 00:01:54,020
+parameter erwarten wir nämlich ein
+integer wert für den speed darüber gebe
+
+47
+00:01:54,030 --> 00:01:58,460
+ich jetzt mal 30 dass wir 30 km h fahren
+ich führe das ganze aus und wir sehen
+
+49
+00:01:58,470 --> 00:02:04,580
+das auto für 30 km h bis hierher nichts
+neues es könnte aber jetzt sein dass wir
+
+51
+00:02:04,590 --> 00:02:09,109
+dem client die möglichkeit geben wollen
+dass er jetzt entweder direkt einen wert
+
+53
+00:02:09,119 --> 00:02:13,070
+mit übergibt damit er ja gleich sich
+ausgeben lassen kann wie schnell das
+
+55
+00:02:13,080 --> 00:02:16,970
+auto fährt oder aber das wäre auch die
+möglichkeit geben wollen dass er die
+
+57
+00:02:16,980 --> 00:02:21,320
+drive methode ohne parameter aufrufen
+kann wenn er zum beispiel gerade einfach
+
+59
+00:02:21,330 --> 00:02:25,460
+nicht weiß wie schnell das auto fährt
+und das ging ja nicht weil wir wissen ja
+
+61
+00:02:25,470 --> 00:02:29,600
+man kann von einer methode also den
+methoden nahmen nur einmal vergeben
+
+63
+00:02:29,610 --> 00:02:32,570
+sonst müsste der computer ja nicht was
+er ausführen soll
+
+65
+00:02:32,580 --> 00:02:37,550
+und da sind wir jetzt eben genau beim
+thema methoden überladen angekommen das
+
+67
+00:02:37,560 --> 00:02:40,040
+heißt wir können uns diese methode jetzt
+einmal kopieren
+
+69
+00:02:40,050 --> 00:02:44,120
+hier noch mal hin kopieren und dann
+sehen wir uns wird die gleichen fehler
+
+71
+00:02:44,130 --> 00:02:48,650
+angezeigt wir haben hier quasi die
+methode doppelt beim methoden überladen
+
+73
+00:02:48,660 --> 00:02:51,860
+ist es aber jetzt so wenn wir das hier
+weg löschen und sagen hier sollen wir
+
+75
+00:02:51,870 --> 00:02:56,870
+kein parameter übergeben und das hier
+wieder auf den ursprung quasi ändern und
+
+77
+00:02:56,880 --> 00:03:02,030
+sagen fährt punkt punkt punkt dann sehen
+wir wir haben keine fehlermeldung mehr
+
+79
+00:03:02,040 --> 00:03:06,949
+und das liegt daran dass wir diese
+methode jetzt überladen haben denn der
+
+81
+00:03:06,959 --> 00:03:11,210
+computer unterscheidet jetzt nicht nur
+den namen bei methoden weil die namen
+
+83
+00:03:11,220 --> 00:03:14,449
+sind ja offensichtlich gleich er
+unterscheidet auch die sogenannte
+
+85
+00:03:14,459 --> 00:03:20,420
+signatur die signatur sind einfach die
+übergabe parameter die du über gibst und
+
+87
+00:03:20,430 --> 00:03:25,910
+zwar in der speziellen reihenfolge und
+genau und in der abfolge eben und der
+
+89
+00:03:25,920 --> 00:03:30,290
+computer erkennt da eben die datentypen
+dh der computer sieht jetzt hier es gibt
+
+91
+00:03:30,300 --> 00:03:34,880
+eine methode drive der wird ein integer
+übergeben und es gibt eine methode drive
+
+93
+00:03:34,890 --> 00:03:38,710
+da wird gar nichts übergeben
+und deshalb ist beides für ihn mögen
+
+95
+00:03:38,720 --> 00:03:44,110
+weil er weiß jetzt welche die methode
+drive aufrufen 30 übergeben
+
+97
+00:03:44,120 --> 00:03:49,510
+ok damit übergehen wenn intel wehrt er
+weist sofort das ist diese methode hier
+
+99
+00:03:49,520 --> 00:03:53,830
+weil hier wird ja so ein parameter
+erwartet also für ich einmal das aus und
+
+101
+00:03:53,840 --> 00:03:55,870
+wir sehen auf der konsole genau das tut
+er
+
+103
+00:03:55,880 --> 00:03:59,020
+wenn wir den parameter jetzt heraus
+löschen weil er es zum beispiel nicht
+
+105
+00:03:59,030 --> 00:04:02,980
+weiß wie schnell das auto fährt das
+ganze ausführen dann sehen wir eher
+
+107
+00:04:02,990 --> 00:04:08,140
+führt einfach nur aus das auto fährt und
+das ist jetzt eben diese methodik und so
+
+109
+00:04:08,150 --> 00:04:12,160
+kann man seine methoden jetzt beliebig
+überladen das heißt wir könnten die
+
+111
+00:04:12,170 --> 00:04:16,539
+kopieren uns nochmal eine methode hin
+machen so geht es natürlich nicht weil
+
+113
+00:04:16,549 --> 00:04:19,599
+jetzt haben wir genau die gleiche
+signatur nämlich keine parameter
+
+115
+00:04:19,609 --> 00:04:24,520
+ich könnte jetzt auch nicht sagen in
+kitzscher speed dann würden sich diese
+
+117
+00:04:24,530 --> 00:04:28,600
+signaturen quasi ähneln also nicht nur
+an sie würden die identisch sein weil
+
+119
+00:04:28,610 --> 00:04:32,200
+der gleichen methoden name gleichen
+parameter aber wir könnten jetzt hier
+
+121
+00:04:32,210 --> 00:04:35,440
+zum beispiel noch sagen über gibt doch
+noch einen string und ein name des
+
+123
+00:04:35,450 --> 00:04:40,270
+fahrers zum beispiel dann würde das auch
+wieder funktionieren und so kannst du
+
+125
+00:04:40,280 --> 00:04:45,430
+eben sehr cool programmieren sage ich
+jetzt mal weil du eben dem client also
+
+127
+00:04:45,440 --> 00:04:49,240
+demjenigen der die klasse aufruft und
+verwendet verschiedene möglichkeiten
+
+129
+00:04:49,250 --> 00:04:54,159
+geben kannst wir eine methode
+letztendlich benutzt das heißt wenn er
+
+131
+00:04:54,169 --> 00:04:57,700
+weiß wie viel wie schnell das auto fährt
+kann er gleich die zahl mit übergeben
+
+133
+00:04:57,710 --> 00:05:01,960
+wenn das nicht weiß dann solle die
+methode aufrufen können ohne dass sich
+
+135
+00:05:01,970 --> 00:05:06,159
+hier ein parameter mit übergibt und wenn
+eben der name des fahrers noch wichtig
+
+137
+00:05:06,169 --> 00:05:09,340
+ist dann sondern eben jetzt diese
+methode aufrufen war auch noch der name
+
+139
+00:05:09,350 --> 00:05:12,850
+des fahrers mit übergeben wird
+und dann wird intern in der methode
+
+141
+00:05:12,860 --> 00:05:17,230
+irgendwas mit diesem namen gemacht was
+auch immer und das ist das ganze
+
+143
+00:05:17,240 --> 00:05:21,190
+geheimnis vom überladen von methoden und
+wir haben ja auch im letzten video den
+
+145
+00:05:21,200 --> 00:05:25,630
+konstrukteur kennengelernt und wir sehen
+wir hier der konstrukteur im prinzip ist
+
+147
+00:05:25,640 --> 00:05:30,430
+ja nichts anderes als eine methode
+das bedeutet auch den konstrukteur
+
+149
+00:05:30,440 --> 00:05:33,580
+können wir überladen
+das heißt wir können uns jetzt hier ein
+
+151
+00:05:33,590 --> 00:05:38,440
+konstrukt orban publicis und hierüber
+gebe ich jetzt eben keine parameter
+
+153
+00:05:38,450 --> 00:05:42,460
+wir sehen die signaturen unterscheiden
+sich hier ist nichts mit übergeben
+
+155
+00:05:42,470 --> 00:05:48,100
+hier sind drei parameter mit übergeben
+bedeutet hier können wir jetzt zum
+
+157
+00:05:48,110 --> 00:05:55,980
+beispiel sagen
+auto wurde erzeugt punkt dann können wir
+
+159
+00:05:55,990 --> 00:06:00,360
+das programm gehen und jetzt genauso
+sagen kkt ist gleich new k
+
+161
+00:06:00,370 --> 00:06:05,010
+jetzt wieder den diesen konstrukte
+aufrufen und wir sehen das ganze lässt
+
+163
+00:06:05,020 --> 00:06:07,909
+sich ausführen
+ich kann das programm problemlos aus
+
+165
+00:06:07,919 --> 00:06:13,439
+versehen auto würde erzeugt und so kann
+man jetzt eben die konstrukteuren
+
+167
+00:06:13,449 --> 00:06:17,670
+überladen man kann normale methoden
+überladen man kann auch statische
+
+169
+00:06:17,680 --> 00:06:22,260
+methoden überladen und so kann man eben
+seine programme flexibler machen als
+
+171
+00:06:22,270 --> 00:06:25,709
+wenn man das eben nicht tun könnte und
+was ich hier auch noch ganz klar jetzt
+
+173
+00:06:25,719 --> 00:06:29,820
+nochmal herausstellen möchte zum ende
+ist die signatur bezieht sich nicht nur
+
+175
+00:06:29,830 --> 00:06:32,670
+auf die anzahl der parameter das heißt
+ich könnte jetzt hier auch drei
+
+177
+00:06:32,680 --> 00:06:38,850
+übergeben
+string test ein string test zwei string
+
+179
+00:06:38,860 --> 00:06:43,409
+test 3 wir sehen es würde immer noch
+funktionieren obwohl ich hier drei
+
+181
+00:06:43,419 --> 00:06:48,240
+parameter in der signatur und hier auch
+drei parameter nein die signatur bezieht
+
+183
+00:06:48,250 --> 00:06:52,680
+sich wirklich speziell auf die typen und
+die reihenfolge das heißt hier kennt der
+
+185
+00:06:52,690 --> 00:06:56,580
+computer drei parameter werden übergeben
+erst als ein string zweiter ist ein
+
+187
+00:06:56,590 --> 00:07:00,659
+streng dritter ist ein string erkennt
+der ersten string zweiter ist ein string
+
+189
+00:07:00,669 --> 00:07:04,709
+dritten in titz deshalb kann er sie
+eindeutig voneinander unterscheiden und
+
+191
+00:07:04,719 --> 00:07:09,089
+deswegen funktioniert das ganze auch das
+war alles zu diesem video
+
+193
+00:07:09,099 --> 00:07:12,330
+ich hoffe es hat dir gefallen ich hoffe
+du konntest mehr wird für dich raus
+
+195
+00:07:12,340 --> 00:07:14,700
+ziehen
+und falls dem so ist dann gib uns gerne
+
+197
+00:07:14,710 --> 00:07:19,409
+einen daumen nach oben lasst uns einen
+kommentar da abonniere diesen kanal und
+
+199
+00:07:19,419 --> 00:07:22,439
+dann wünsche ich dir noch einen schönen
+tag und wir sehen uns im nächsten video
+
+201
+00:07:22,449 --> 00:07:25,409
+wieder bis dahin
+

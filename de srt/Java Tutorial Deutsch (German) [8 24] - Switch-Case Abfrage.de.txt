@@ -1,0 +1,764 @@
+1
+00:00:00,000 --> 00:00:04,789
+hallo und herzlich willkommen auf dem
+youtube-kanal von programmieren -
+
+3
+00:00:04,799 --> 00:00:11,330
+staaten punkt.de mein name ist hendrik
+und in diese macht ein video des java
+
+5
+00:00:11,340 --> 00:00:15,770
+crash kursus soll es nun um die
+sogenannte switch case anweisung gehen
+
+7
+00:00:15,780 --> 00:00:19,910
+sehen wir uns auch hier zunächst mal
+wieder an was wir in diesem video denn
+
+9
+00:00:19,920 --> 00:00:23,179
+alles lernen werden
+zunächst werden wir uns einmal ansehen
+
+11
+00:00:23,189 --> 00:00:26,330
+was man denn überhaupt unter switch
+blöcken versteht
+
+13
+00:00:26,340 --> 00:00:30,349
+und wenn wir das geschafft haben dann
+werden wir uns eben die switch case
+
+15
+00:00:30,359 --> 00:00:34,370
+abfragen in der praxis ansehen
+beginnen wir also direkt mal mit den
+
+17
+00:00:34,380 --> 00:00:40,010
+sogenannten switch blöcken switch blöcke
+sind eine weitere kontrolle struktur zum
+
+19
+00:00:40,020 --> 00:00:45,290
+steuern des programmablaufs im letzten
+video hatten wir bereits die fw abfragen
+
+21
+00:00:45,300 --> 00:00:51,319
+kennengelernt mit denen wir eben sagen
+konnten wenn das passiert soll dieser
+
+23
+00:00:51,329 --> 00:00:55,880
+code ausgeführt werden wenn das passiert
+soll dieser code ausgeführt werden und
+
+25
+00:00:55,890 --> 00:01:00,439
+so weiter also wir konnten unser
+programm steuern und mussten jetzt nicht
+
+27
+00:01:00,449 --> 00:01:05,149
+immer alles von oben nach unten einfach
+ablaufen lassen und switch blöcke sind
+
+29
+00:01:05,159 --> 00:01:09,859
+jetzt eben auch so ein instrument mit
+dem wir unseren programmablauf steuern
+
+31
+00:01:09,869 --> 00:01:12,469
+können
+aber hier wird der code blogs nicht
+
+33
+00:01:12,479 --> 00:01:17,899
+anhand einer zu erfüllenden bedingungen
+ausgeführt sondern anhand von konstanten
+
+35
+00:01:17,909 --> 00:01:23,420
+und konstanten sind eben einfach werte
+er die konstanz in und feststehen was
+
+37
+00:01:23,430 --> 00:01:27,679
+ich genau damit meinen das wirst du
+jetzt gleich sehen wie switchen nämlich
+
+39
+00:01:27,689 --> 00:01:31,340
+jetzt mal auf ein bild so in diesem bild
+habe ich jetzt mal ein kleines programm
+
+41
+00:01:31,350 --> 00:01:35,840
+geschrieben und da haben wir jetzt eben
+genau so eine switch case abfrage
+
+43
+00:01:35,850 --> 00:01:39,020
+eingebaut
+das erste was passiert ist das hier eine
+
+45
+00:01:39,030 --> 00:01:43,340
+variable deklariert und direkt
+initialisiert wird die variable hat der
+
+47
+00:01:43,350 --> 00:01:47,389
+bezeichnung numbers und es wird direkt
+der wert 2 zugewiesen
+
+49
+00:01:47,399 --> 00:01:51,830
+und dann kommt eben jetzt dieses
+neuartige diese neuartige switch case
+
+51
+00:01:51,840 --> 00:01:56,840
+abfrage die wird immer eingeleitet durch
+das schlüsselwort switch dann folgt ein
+
+53
+00:01:56,850 --> 00:02:01,639
+klammer paar diesem klammer paar wird
+jetzt eine variable übergeben
+
+55
+00:02:01,649 --> 00:02:06,709
+zb die variablen amber die wir hier oben
+gerade deklariert haben so und dann
+
+57
+00:02:06,719 --> 00:02:10,880
+öffnet sich hier ein code block und
+innerhalb dieses code blogs sind jetzt
+
+59
+00:02:10,890 --> 00:02:15,399
+verschiedene fälle definiert
+zu englisch heißt fall ja case deswegen
+
+61
+00:02:15,409 --> 00:02:20,920
+steht hier überall case man muss hier
+auch wirklich case schreiben und da kann
+
+63
+00:02:20,930 --> 00:02:23,789
+man jetzt so viele cases definieren wie
+man möchte
+
+65
+00:02:23,799 --> 00:02:29,920
+wir haben jetzt hier insgesamt drei
+cases erstmal einmal case ein space 2
+
+67
+00:02:29,930 --> 00:02:35,229
+ps3 und einen sogenannten default case
+was das ist da werde ich gleich darauf
+
+69
+00:02:35,239 --> 00:02:40,000
+zurückkommen so und jeder case hat jetzt
+eine konstante in diesem fall hat der
+
+71
+00:02:40,010 --> 00:02:45,520
+erste case die konstante 1 der zweite
+case hat hier die konstante 2 und der
+
+73
+00:02:45,530 --> 00:02:49,839
+dritte case hat die konstante 3 es ist
+jetzt ganz wichtig zu verstehen dass
+
+75
+00:02:49,849 --> 00:02:53,979
+hiermit nicht nummerierung gemeint ist
+zum beispiel dass das der erste dass der
+
+77
+00:02:53,989 --> 00:02:58,000
+zweite dass der dritte ist sondern hier
+geht es wirklich einfach um konstante
+
+79
+00:02:58,010 --> 00:03:02,530
+werte die man selbst festlegt das
+bedeutet hierbei case 1 könnte auch
+
+81
+00:03:02,540 --> 00:03:07,180
+einfach stehen case 17
+und dann case 2 das ist keine
+
+83
+00:03:07,190 --> 00:03:10,539
+reihenfolge hier sondern es geht
+wirklich um die werte und jetzt
+
+85
+00:03:10,549 --> 00:03:14,649
+funktioniert das ganze folgendermaßen
+wir übergeben hier die variable in der
+
+87
+00:03:14,659 --> 00:03:19,509
+klammer und jetzt arbeitet die switch
+case abfrage folgendermaßen es wird
+
+89
+00:03:19,519 --> 00:03:24,069
+immer beim ersten obersten case hier
+begonnen und da bittet überprüft ob der
+
+91
+00:03:24,079 --> 00:03:28,509
+wert der in der variable steckt der
+konstanten entspricht die hier am
+
+93
+00:03:28,519 --> 00:03:33,280
+jeweiligen case definiert ist in diesem
+fall übergeben wir eben die zwei in der
+
+95
+00:03:33,290 --> 00:03:37,360
+variablen amber weil die steckte gerade
+in der variablen amber drin und dann
+
+97
+00:03:37,370 --> 00:03:41,890
+gehen wir jetzt von oben nach unten case
+1 haben wir hier hier ist die konstante
+
+99
+00:03:41,900 --> 00:03:47,349
+1 der wert von numbers also zwei
+entspricht nicht der 1 deshalb ist
+
+101
+00:03:47,359 --> 00:03:52,360
+dieser case ungültig und wird somit
+nicht ausgeführt jetzt kommen wir zum
+
+103
+00:03:52,370 --> 00:03:56,920
+nächsten case case 2
+der wert in der variable numbers ist 2
+
+105
+00:03:56,930 --> 00:04:01,270
+und hier ist die konstante auch zwei das
+heißt die stimmen überein
+
+107
+00:04:01,280 --> 00:04:06,520
+und deshalb wird dieser case jetzt
+ausgeführt das heißt hier wird die print
+
+109
+00:04:06,530 --> 00:04:11,619
+ln methode ausgeführt und es wird
+ausgegeben numbers hat den wert 2 und
+
+111
+00:04:11,629 --> 00:04:16,539
+dann folgt noch ein schlüsselwort break
+das signalisiert nur dass jetzt das
+
+113
+00:04:16,549 --> 00:04:20,110
+ganze abgebrochen werden soll und man
+aus dieser switch case abfrage
+
+115
+00:04:20,120 --> 00:04:23,350
+herausspringen soll
+was das genau für auswirkungen hat das
+
+117
+00:04:23,360 --> 00:04:25,440
+werden wir uns dann aber auch gleich
+noch im detail
+
+119
+00:04:25,450 --> 00:04:30,270
+sehen so und dadurch das eben jetzt hier
+dieses schlüsselwort break aufgerufen
+
+121
+00:04:30,280 --> 00:04:33,390
+wurde kommen wir gar nicht mehr zu
+diesem nachfolgenden cases hier
+
+123
+00:04:33,400 --> 00:04:38,730
+wenn jetzt in der variable number die
+zahl 3 gestanden wäre dann wäre auch
+
+125
+00:04:38,740 --> 00:04:44,430
+case zwei ungültig weil eben zwei nicht
+drei entspricht das heißt diese dieser
+
+127
+00:04:44,440 --> 00:04:48,660
+case zwei wenn nicht ausgeführt worden
+und man hätte geprüft ob case ob der
+
+129
+00:04:48,670 --> 00:04:53,730
+dritte fall hier case drei übereinstimmt
+hier ist gerade die drei drin und die
+
+131
+00:04:53,740 --> 00:04:56,670
+hätte dann der 3 entsprochen
+das heißt dann wie eben das ausgeführt
+
+133
+00:04:56,680 --> 00:05:01,950
+worden und mit break wäre dann wieder
+die switch case abfrage verlassen worden
+
+135
+00:05:01,960 --> 00:05:07,560
+was passiert denn jetzt wenn keiner der
+cases ja die entsprechende konstante
+
+137
+00:05:07,570 --> 00:05:13,950
+hier hat die in der variable steckt dann
+wird eben genau dieses default aktiv das
+
+139
+00:05:13,960 --> 00:05:19,200
+heißt wenn irgendwas eingegeben wird was
+nicht abgedeckt ist hier doch irgendein
+
+141
+00:05:19,210 --> 00:05:24,060
+case und wird default angegeben haben
+dann wird eben in so einem fall das hier
+
+143
+00:05:24,070 --> 00:05:26,610
+ausgeführt
+das heißt in dem fall wenn wir alle
+
+145
+00:05:26,620 --> 00:05:31,230
+zahlen 1 geben außer 1 2 oder 3
+egal welche dann wird immer default
+
+147
+00:05:31,240 --> 00:05:35,730
+ausgegeben so viel jetzt mal dazu wir
+werden uns das ganze jetzt aber mal in
+
+149
+00:05:35,740 --> 00:05:39,720
+der praxis ansehen damit wir hier auf
+ein paar feinheiten eingehen können
+
+151
+00:05:39,730 --> 00:05:42,840
+ich bin jetzt hier also mal in die
+entwicklungsumgebung gewechselt und
+
+153
+00:05:42,850 --> 00:05:46,650
+jetzt bauen wir uns einfach nochmal ein
+beispiel ich nehme wieder eine variable
+
+155
+00:05:46,660 --> 00:05:51,930
+mit dem typ intel diesen ähnliches mann
+und initialisieren sie mal mit dem wert
+
+157
+00:05:51,940 --> 00:05:56,760
+2 diese zahlen die wir jetzt hier ein
+mann speichern sollen jetzt dann gleich
+
+159
+00:05:56,770 --> 00:06:01,380
+nachfolgend monate repräsentieren das
+heißt die wenn jene 1 drinsteht dann
+
+161
+00:06:01,390 --> 00:06:04,680
+soll das für den januar stehen wenn ich
+eine zweiteren steht was es gerade tut
+
+163
+00:06:04,690 --> 00:06:09,270
+dann sollte es für den februar stehen
+mit drei für den märz und so weiter
+
+165
+00:06:09,280 --> 00:06:12,990
+jetzt bauen wir uns hier eine switch
+case anweisung ich schreibe also das
+
+167
+00:06:13,000 --> 00:06:17,160
+schlüsselwort switch jetzt übergebe ich
+die variable man weil die möchten wir
+
+169
+00:06:17,170 --> 00:06:20,400
+durch prüfen
+so und jetzt haben wir hier freie wahl
+
+171
+00:06:20,410 --> 00:06:25,200
+und können uns fälle definieren den
+ersten fall nenne ich jetzt mal case 1
+
+173
+00:06:25,210 --> 00:06:28,230
+weil die einzel jahr den januar
+repräsentieren
+
+175
+00:06:28,240 --> 00:06:32,940
+und jetzt kommt ebenso eine print allen
+methode und da sage ich
+
+177
+00:06:32,950 --> 00:06:38,460
+januar und danach wieder ein break
+was diese brakes wieso man jetzt
+
+179
+00:06:38,470 --> 00:06:41,160
+wirklich braucht das da werde ich auch
+gleich noch mal im detail darauf
+
+181
+00:06:41,170 --> 00:06:44,720
+eingehen
+jetzt machen wir uns noch ein case zwei
+
+183
+00:06:44,730 --> 00:06:51,780
+den nenne ich jetzt einfach
+februar soll dann ausgegeben werden auch
+
+185
+00:06:51,790 --> 00:06:56,550
+hier wieder ein break zu kopieren ist
+dann geht das ganze schneller als manch
+
+187
+00:06:56,560 --> 00:07:05,150
+ein case 3 hier geben welt jetzt märz
+aus einem case 4
+
+189
+00:07:05,160 --> 00:07:11,910
+hier geben wir direkt mal april aus und
+so geht es dann weiter den default
+
+191
+00:07:11,920 --> 00:07:16,020
+lassen jetzt erstmal noch weg so jetzt
+speichern wir das ganze mal und führen
+
+193
+00:07:16,030 --> 00:07:20,070
+das programm einfach außen schauen was
+passiert es wird tatsächlich februar
+
+195
+00:07:20,080 --> 00:07:25,320
+ausgegeben wir haben wir hier die 2 die
+in die variable übergeben das heißt es
+
+197
+00:07:25,330 --> 00:07:30,960
+wird oben begonnen entspricht der wert 2
+hier der 19 entspricht da der 2
+
+199
+00:07:30,970 --> 00:07:35,880
+deswegen wird februar ausgegeben was
+passiert jetzt wenn wir jetzt hier die 5
+
+201
+00:07:35,890 --> 00:07:39,870
+1 geben dafür haben wir jetzt hier
+gerade keinen case und default haben wir
+
+203
+00:07:39,880 --> 00:07:44,730
+auch weggelassen ich probier's mal aus
+wir sehen es wird nichts ausgegeben weil
+
+205
+00:07:44,740 --> 00:07:49,170
+das was passiert ist folgendes ist wird
+jeder case geprüft am ende wird
+
+207
+00:07:49,180 --> 00:07:53,610
+festgestellt kein case entspricht diese
+zahl ein default case gibt es nicht
+
+209
+00:07:53,620 --> 00:07:57,420
+deswegen wird einfach raus gesprungen
+und es würde dann hier unten weitergehen
+
+211
+00:07:57,430 --> 00:08:03,050
+wenn man jetzt einen default case hätte
+den definiere ich mir mal kurz default
+
+213
+00:08:03,060 --> 00:08:08,870
+und da gebe ich jetzt mal ein anderer
+monat
+
+215
+00:08:08,880 --> 00:08:14,450
+ich speicher das ganze macht hier auch
+noch mal ein break in und jetzt führe
+
+217
+00:08:14,460 --> 00:08:17,990
+ich es aus und dann sehen wir es wird
+eben ausgegeben anderer monat auch wenn
+
+219
+00:08:18,000 --> 00:08:22,820
+wir jetzt hier 201 geben dann wird auch
+ausgegeben anderer monat weil default
+
+221
+00:08:22,830 --> 00:08:27,560
+alles abdeckt was hier nicht durch einen
+case repräsentiert ist so jetzt geben
+
+223
+00:08:27,570 --> 00:08:31,250
+wir hier mal wieder die 2 1
+und jetzt schauen wir mal was passiert
+
+225
+00:08:31,260 --> 00:08:36,589
+also ich fürs nochmal aus dann wird eben
+februar ausgegeben was passiert wenn wir
+
+227
+00:08:36,599 --> 00:08:41,150
+das break hier vergessen
+schauen wir uns einfach mal an wir sehen
+
+229
+00:08:41,160 --> 00:08:45,710
+es wird erst februar ausgegeben und dann
+auch noch märz und das klingt jetzt
+
+231
+00:08:45,720 --> 00:08:50,810
+daran sobald ein case gefunden hat also
+sobald das gemanagt hat die der werte
+
+233
+00:08:50,820 --> 00:08:55,220
+variable mit einem case dann wird diese
+anweisung hier ausgeführt oder auch hier
+
+235
+00:08:55,230 --> 00:08:59,900
+können auch mehrere anweisung stehen als
+nur eine und sobald dieser case zwei
+
+237
+00:08:59,910 --> 00:09:05,120
+abgearbeitet wurde und kein break da
+steht dann haben wir nicht das signal
+
+239
+00:09:05,130 --> 00:09:09,560
+den switch blog zu verlassen und deshalb
+wird einfach der nächste auch ausgeführt
+
+241
+00:09:09,570 --> 00:09:13,310
+und hier wird gar nicht mehr geprüft ob
+der wert übereinstimmt sondern jetzt
+
+243
+00:09:13,320 --> 00:09:17,870
+wird wirklich einfach nur noch alles bis
+nach ganz unten ausgeführt bis eben das
+
+245
+00:09:17,880 --> 00:09:21,860
+nächste break kommt und das erklärt auch
+wieso erzieherin märz ausgegeben wird
+
+247
+00:09:21,870 --> 00:09:25,460
+dann kommt ja das break das heißt
+deshalb wird nichts weiteres mehr
+
+249
+00:09:25,470 --> 00:09:28,850
+ausgegeben
+wenn wir hier das break löschen dann
+
+251
+00:09:28,860 --> 00:09:32,540
+wird natürlich auch noch der april mit
+ausgegeben weil erst nachdem april das
+
+253
+00:09:32,550 --> 00:09:36,260
+break wieder kommt und das ist im
+prinzip die ganze look die hinter diesem
+
+255
+00:09:36,270 --> 00:09:40,430
+hinter dieser switch case abfrage steckt
+jetzt ist es so dass das ganze natürlich
+
+257
+00:09:40,440 --> 00:09:44,630
+nicht nur auf integer zahlen beschränkt
+ist wir können natürlich genauso einen
+
+259
+00:09:44,640 --> 00:09:49,250
+string aus der variable machen und jetzt
+hier gleich sagen wir übergeben den
+
+261
+00:09:49,260 --> 00:09:54,860
+monat februar
+so und jetzt kriegen wir hier natürlich
+
+263
+00:09:54,870 --> 00:09:59,210
+fehlermeldungen weil wir jetzt hier case
+angeben wie wir übergeben eine variable
+
+265
+00:09:59,220 --> 00:10:03,260
+mit dem typ string jetzt erkennt der
+computer schon hoppla hier sind aber
+
+267
+00:10:03,270 --> 00:10:05,300
+keine strings es kann ja gar nicht
+funktionieren
+
+269
+00:10:05,310 --> 00:10:08,870
+das heißt hier können wir jetzt als
+konstanten auch strings definieren
+
+271
+00:10:08,880 --> 00:10:13,370
+müssen sogar und hier kann ich jetzt
+auch direkt hinschreiben januar da
+
+273
+00:10:13,380 --> 00:10:15,800
+müssen wir das nicht so blöd durch
+zahlen darstellen
+
+275
+00:10:15,810 --> 00:10:21,400
+hier kann ich ihn schreiben februar hier
+kann ich hin schreiben
+
+277
+00:10:21,410 --> 00:10:28,610
+märz und hier kann ich hin schreiben
+april und wenn ich das ganze jetzt
+
+279
+00:10:28,620 --> 00:10:33,890
+nochmal ausführlich hier noch die brakes
+wieder an dass wir sehen das alles
+
+281
+00:10:33,900 --> 00:10:37,400
+wieder funktioniert und wenn ich das
+jetzt ausführt dann sehen wir wird auch
+
+283
+00:10:37,410 --> 00:10:42,950
+februar ausgegeben nur jetzt wird eben
+einfach der typ string geprüft stimmt
+
+285
+00:10:42,960 --> 00:10:47,510
+januar mit februar über ein nein stimmt
+februar mit februar über ein jahr
+
+287
+00:10:47,520 --> 00:10:51,890
+deswegen führe dass hieraus dann kommt
+ein break wir springen raus und es geht
+
+289
+00:10:51,900 --> 00:10:55,520
+hier unten im kot weiter
+das war alles was ich dir in diesem
+
+291
+00:10:55,530 --> 00:10:59,510
+video erklären wollte falls ihr das
+video gefallen hat gebt uns doch gerne
+
+293
+00:10:59,520 --> 00:11:03,230
+einen daumen nach oben lassen netten
+kommentar da wir würden uns wirklich
+
+295
+00:11:03,240 --> 00:11:05,930
+darüber freuen
+und falls du diesen kanal noch nicht
+
+297
+00:11:05,940 --> 00:11:09,740
+abonniert hast dann klickt jetzt unter
+diesem video auf den abonnieren -button
+
+299
+00:11:09,750 --> 00:11:12,800
+und du wirst in zukunft nichts mehr von
+uns verpassen
+
+301
+00:11:12,810 --> 00:11:16,730
+das war es für heute ich wünsche dir
+noch einen schönen tag und dann sehen
+
+303
+00:11:16,740 --> 00:11:21,800
+wir uns im nächsten video wieder ich
+freue mich auf dich bis dahin
+
+304
+00:11:18,480 --> 00:11:21,800
+freue mich auf dich bis dahin
+

@@ -1,0 +1,884 @@
+1
+00:00:00,000 --> 00:00:05,030
+hallo und herzlich willkommen auf dem
+youtube-kanal von programmieren -
+
+3
+00:00:05,040 --> 00:00:11,810
+staaten punkt.de mein name ist hendrik
+und wir befinden uns mittlerweile im 21
+
+5
+00:00:11,820 --> 00:00:16,550
+video des java crashkurs es hier auf
+youtube und in diesem video soll es nun
+
+7
+00:00:16,560 --> 00:00:21,710
+um eigenschaften bzw attribute gehen in
+den letzten videos sind wir ja schon im
+
+9
+00:00:21,720 --> 00:00:24,950
+detail auf die objektorientierung zu
+sprechen gekommen
+
+11
+00:00:24,960 --> 00:00:29,390
+und da haben wir gelernt dass ich eine
+klasse zum einen aus attributen
+
+13
+00:00:29,400 --> 00:00:33,860
+zusammensetzt und zum anderen aus
+methoden auf methoden sind wir schon im
+
+15
+00:00:33,870 --> 00:00:38,380
+detail im letzten video eingegangen und
+jetzt möchten wir mal auf die attribute
+
+17
+00:00:38,390 --> 00:00:42,380
+beziehungsweise auf die eigenschaften
+eingehen wie gesagt die kann man
+
+19
+00:00:42,390 --> 00:00:46,639
+verschieden bezeichnen im prinzip meint
+man aber immer das gleiche damit sehen
+
+21
+00:00:46,649 --> 00:00:50,569
+wir uns zunächst mal an was wir in
+diesem video alles lernen gärten
+
+23
+00:00:50,579 --> 00:00:55,580
+zunächst werden wir uns ansehen was ist
+eine eigenschaft beziehungsweise was ist
+
+25
+00:00:55,590 --> 00:01:00,349
+ein attribut wir werden uns also in der
+theorie überhaupt mal bewusst machen um
+
+27
+00:01:00,359 --> 00:01:04,420
+was es sich dabei handelt und danach
+werden wir uns dann eigenschaften bzw
+
+29
+00:01:04,430 --> 00:01:09,560
+attribute in der praxis ansehen und das
+ist dann eben der praxisteil wo wir in
+
+31
+00:01:09,570 --> 00:01:14,000
+die entwicklungsumgebung gehen und dort
+direkt programmieren und wir sehen uns
+
+33
+00:01:14,010 --> 00:01:17,960
+hier habe ich es auch noch angedeutet es
+wird ein unterpunkt geben und zwar die
+
+35
+00:01:17,970 --> 00:01:22,280
+sogenannten guetta und setter die werden
+wir uns auch noch ansehen weil die
+
+37
+00:01:22,290 --> 00:01:26,510
+sollte man wirklich in kombination mit
+diesen attributen lernen starten wir
+
+39
+00:01:26,520 --> 00:01:31,270
+also mal mit der frage was ist eine
+eigenschaft bzw was ist ein attribut
+
+41
+00:01:31,280 --> 00:01:36,679
+eine eigenschaft beziehungsweise ein
+attribut wird dazu verwendet um eine
+
+43
+00:01:36,689 --> 00:01:39,890
+klasse zu beschreiben
+das haben wir schon in unserem beispiel
+
+45
+00:01:39,900 --> 00:01:44,870
+gesehen wir definieren wirklich nur
+attribute und zwar in form von solchen
+
+47
+00:01:44,880 --> 00:01:49,039
+variablen die eben irgendwie das objekt
+beschreiben
+
+49
+00:01:49,049 --> 00:01:54,499
+wir hatten ein beispiel die klassiker
+also die klasse autor und dinge die das
+
+51
+00:01:54,509 --> 00:01:59,569
+auto beschreiben sind zum beispiel die
+farbe des autos oder die ps anzahl des
+
+53
+00:01:59,579 --> 00:02:04,880
+autos usw und die methoden waren eben
+die sachen die die funktionalität
+
+55
+00:02:04,890 --> 00:02:08,960
+letztendlich ermöglichen aber wir sind
+jetzt hier bei den attributen das sind
+
+57
+00:02:08,970 --> 00:02:14,119
+eben dinge die die klasse bis
+jetzt ist die frage was unterscheidet so
+
+59
+00:02:14,129 --> 00:02:18,349
+ein attribut von einer gewöhnlichen
+variable weil wir haben ja gesehen im
+
+61
+00:02:18,359 --> 00:02:22,640
+prinzip definiert man es genauso wie
+normale variablen nun ja was das ganze
+
+63
+00:02:22,650 --> 00:02:26,569
+unterscheidet ist der sichtbarkeit
+modifiziere solche sichtbarkeit
+
+65
+00:02:26,579 --> 00:02:29,089
+modifiziere haben wir bereits kennen
+gelernt
+
+67
+00:02:29,099 --> 00:02:32,270
+da haben wir mal wieder darüber
+gesprochen dass wir die erstmal einfach
+
+69
+00:02:32,280 --> 00:02:36,860
+hin schreiben und später kommen wir
+darauf zu sprechen was die wirklich für
+
+71
+00:02:36,870 --> 00:02:39,830
+eine auswirkung haben
+und das möchten wir uns in diesem video
+
+73
+00:02:39,840 --> 00:02:44,720
+tun und zwar haben wir da die
+sichtbarkeit modifizierter privat und
+
+75
+00:02:44,730 --> 00:02:47,629
+den sichtbarkeit modifizierter public
+kennengelernt
+
+77
+00:02:47,639 --> 00:02:52,069
+diese sichtbarkeit modifiziere kommen
+immer zum einsatz wenn wir im prinzip
+
+79
+00:02:52,079 --> 00:02:55,789
+sauber objektorientiert programmieren
+wollen das heißt in der
+
+81
+00:02:55,799 --> 00:03:00,559
+objektorientierung da erstellen wir
+spezifische klassen wie beispielsweise
+
+83
+00:03:00,569 --> 00:03:02,750
+in unserem aktuellen programm die klasse
+k
+
+85
+00:03:02,760 --> 00:03:08,270
+und ich habe bereits erwähnt dort drin
+soll man auch nur methoden und attribute
+
+87
+00:03:08,280 --> 00:03:11,539
+definieren die sich auf die klassiker
+beziehen
+
+89
+00:03:11,549 --> 00:03:14,899
+das heißt die farbe des autos die gehört
+da rein
+
+91
+00:03:14,909 --> 00:03:19,339
+die farbe von einem haus was zum
+beispiel in einem computerspiel neben
+
+93
+00:03:19,349 --> 00:03:23,240
+dem auto steht gehört da nicht rein
+die gehört nämlich dann in die klasse
+
+95
+00:03:23,250 --> 00:03:27,740
+haus und so stellt man eben sicher dass
+man alles sauber voneinander trennt das
+
+97
+00:03:27,750 --> 00:03:31,789
+heißt wir trennen alles schon sauber
+voneinander und fassen alle dinge
+
+99
+00:03:31,799 --> 00:03:37,879
+zusammen die irgendwie zusammengehören
+und zwar in form von diesen klassen und
+
+101
+00:03:37,889 --> 00:03:41,119
+wenn man das schon macht dann sollte man
+auch dafür sorgen dass die werte
+
+103
+00:03:41,129 --> 00:03:45,770
+wirklich sicher von den anderen klassen
+abgeschirmt sind das heißt mit dem
+
+105
+00:03:45,780 --> 00:03:51,110
+sichtbarkeit modifiziere privat
+beispielsweise sorgen wir dafür dass von
+
+107
+00:03:51,120 --> 00:03:56,390
+außen also von außerhalb von der klasse
+niemand auf dieses attribut zugreifen
+
+109
+00:03:56,400 --> 00:03:58,999
+kann
+das funktioniert dann einfach nicht und
+
+111
+00:03:59,009 --> 00:04:02,569
+genau das möchte ich dir jetzt mal im
+programm demonstrieren wir sind hier als
+
+113
+00:04:02,579 --> 00:04:06,619
+jetzt wieder in unserem aktuellen
+programm drin haben wir die klasse k und
+
+115
+00:04:06,629 --> 00:04:10,520
+hier wird wie gesagt schon drei
+attribute definiert ich habe mir schon
+
+117
+00:04:10,530 --> 00:04:14,629
+erwähnt wir definieren sie genauso wie
+variablen wird es eben noch ein
+
+119
+00:04:14,639 --> 00:04:18,890
+sichtbarkeit modifizierte davor kommt in
+diesem fall haben wir jetzt drei mal
+
+121
+00:04:18,900 --> 00:04:22,300
+privat davor was hat es jetzt für
+auswirkungen
+
+123
+00:04:22,310 --> 00:04:25,800
+sehen wir es uns zunächst einmal an wenn
+wir es auf public setzen
+
+125
+00:04:25,810 --> 00:04:32,409
+public bedeutet außerhalb von der klasse
+kann man auch auf dieses attribut jetzt
+
+127
+00:04:32,419 --> 00:04:35,800
+zugreifen
+das möchten wir jetzt mal testen und
+
+129
+00:04:35,810 --> 00:04:40,629
+zwar gehen wir jetzt hier mal in das in
+die mine methode rein und da haben wir
+
+131
+00:04:40,639 --> 00:04:45,310
+schon objekt von kr stellt nämlich
+karbon und darauf möchten wir jetzt mal
+
+133
+00:04:45,320 --> 00:04:49,360
+das attribut aufrufen das funktioniert
+jetzt genau wie bei den methoden
+
+135
+00:04:49,370 --> 00:04:53,230
+das heißt wir schreiben zunächst der
+name des objekts hin dann machen wir
+
+137
+00:04:53,240 --> 00:04:57,760
+einen punkt und jetzt können wir das
+jeweilige attribut einfach auswählen das
+
+139
+00:04:57,770 --> 00:05:03,820
+heißt ja color weil hier wird das color
+benannt und jetzt können wir diesem
+
+141
+00:05:03,830 --> 00:05:08,800
+einfach mal einen wert zu weisen
+und zwar zb die farbe gelb das auto soll
+
+143
+00:05:08,810 --> 00:05:13,120
+also gelb sein wie wir sehen geht die
+fehlermeldung weg ich kann das programm
+
+145
+00:05:13,130 --> 00:05:17,440
+einfach mal ausführen passiert natürlich
+nichts nur die methode hier wird
+
+147
+00:05:17,450 --> 00:05:22,719
+ausgeführt ich kann das ganze jetzt auch
+auf der konsole einmal ausgeben und zwar
+
+149
+00:05:22,729 --> 00:05:28,870
+sage ich jetzt einfach k1 punkt color
+greift also wieder auf dieses attribut
+
+151
+00:05:28,880 --> 00:05:34,210
+zu für das ganze aus und wir sehen die
+farbe geld wird ausgegeben so jetzt
+
+153
+00:05:34,220 --> 00:05:40,600
+können wir das ganze mal im privat
+umändern privat bedeutet jetzt nur diese
+
+155
+00:05:40,610 --> 00:05:45,490
+klasse hier hat zugriff auf das attribut
+also nur innerhalb von dieser klasse
+
+157
+00:05:45,500 --> 00:05:50,590
+können wir einfach frei auf das attribut
+color zu weisen wenn wir jetzt mal die
+
+159
+00:05:50,600 --> 00:05:55,000
+methode reingucken sehen wir die ist
+definitiv in einer anderen klasse und
+
+161
+00:05:55,010 --> 00:05:58,300
+zwar in der klasse programm
+und genau aus dem grund sehen wir hier
+
+163
+00:05:58,310 --> 00:06:03,969
+auch schon den ersten fehlermeldungen
+und wir sehen befiehlt k punkt color ist
+
+165
+00:06:03,979 --> 00:06:08,409
+not wisse das heißt wir haben jetzt
+keine sichtbarkeit weil eben der
+
+167
+00:06:08,419 --> 00:06:13,029
+sichtbarkeit modifiziert privat dafür
+sorgt dass dieses attribut wirklich
+
+169
+00:06:13,039 --> 00:06:17,700
+abgeschirmt ist das heißt nur hier
+innerhalb kann man darauf zugreifen
+
+171
+00:06:17,710 --> 00:06:21,730
+außerhalb nicht und deswegen
+funktioniert das ganze jetzt auch nicht
+
+173
+00:06:21,740 --> 00:06:24,250
+mehr
+und genau deshalb konnten wir hier auch
+
+175
+00:06:24,260 --> 00:06:28,690
+problemlos diese drive methode aufrufen
+weil wenn wir mal ins programm gucken
+
+177
+00:06:28,700 --> 00:06:32,469
+sehen wir diese methode ist public das
+heißt wir können von außen darauf
+
+179
+00:06:32,479 --> 00:06:35,330
+zugreifen
+wenn wir diese auch privat ändern das
+
+181
+00:06:35,340 --> 00:06:38,450
+ganze speichern dann funktioniert das
+hier auch nicht mehr
+
+183
+00:06:38,460 --> 00:06:41,860
+und das ist jetzt ebenso dieser ganze
+sinn von diesen sichtbarkeit
+
+185
+00:06:41,870 --> 00:06:47,690
+modifizieren dass man eben regeln kann
+wer auf was zugriff hat und in der
+
+187
+00:06:47,700 --> 00:06:51,170
+objektorientierten programmierung ist es
+jetzt eben so wenn man sauber
+
+189
+00:06:51,180 --> 00:06:55,790
+programmiert dann setzt man diese
+attribute niemals auf public weil auf
+
+191
+00:06:55,800 --> 00:07:00,110
+public kann jeder darauf zugreifen
+so wie wir es hier gerade gesehen haben
+
+193
+00:07:00,120 --> 00:07:05,450
+und das würde bedeuten von überall im
+programm könnte jetzt jeder einfach
+
+195
+00:07:05,460 --> 00:07:09,620
+diese werte manipulieren und das ist
+natürlich wahnsinnig gefährlich weil
+
+197
+00:07:09,630 --> 00:07:14,420
+wenn von außen einfach unkontrolliert
+hier ein wert geändert wird kann es sein
+
+199
+00:07:14,430 --> 00:07:18,140
+dass es irgendwo anders im programm zu
+schwierigkeiten kommt weil eben der wert
+
+201
+00:07:18,150 --> 00:07:22,730
+auf einmal anders ist als erwartet und
+deswegen machen wir diese attribute
+
+203
+00:07:22,740 --> 00:07:27,440
+immer privat wenn du dich den
+fortgeschrittenen themen widmet der java
+
+205
+00:07:27,450 --> 00:07:31,460
+programmierung dann wird es da auch noch
+andere sichtbarkeit modifizierung gehen
+
+207
+00:07:31,470 --> 00:07:36,710
+beispielsweise protected da hat man dann
+eben den vorteil dass das ganze dann
+
+209
+00:07:36,720 --> 00:07:40,070
+auch noch mit vererbt wird wenn es eine
+vererbung geht aber dessen alles
+
+211
+00:07:40,080 --> 00:07:46,070
+konzepte die können eben nicht in diesen
+crashkurs bzw vererbung werden wir uns
+
+213
+00:07:46,080 --> 00:07:48,560
+sogar noch ansehen
+aber der rest dessen alles
+
+215
+00:07:48,570 --> 00:07:52,400
+fortgeschrittene themen in diesem kurs
+soll es darum gehen desto sauberer
+
+217
+00:07:52,410 --> 00:07:57,200
+einführung kriegst nicht zu
+detailversessen aber einfach eine
+
+219
+00:07:57,210 --> 00:08:00,860
+saubere einführung damit schon mal gutes
+fundament hast so und jetzt kommen wir
+
+221
+00:08:00,870 --> 00:08:05,030
+mal wieder auf die attribute zu sprechen
+und zwar haben wir zum problem
+
+223
+00:08:05,040 --> 00:08:08,900
+jetzt wurde dieses wo wir gesagt haben
+wir definieren diese immer als privat
+
+225
+00:08:08,910 --> 00:08:12,410
+damit dass sauber gekapselt ist können
+wir jetzt natürlich nicht mehr von außen
+
+227
+00:08:12,420 --> 00:08:15,740
+drauf zugreifen das ist ja der sinn na
+ja aber was ist wenn mich jetzt zum
+
+229
+00:08:15,750 --> 00:08:20,810
+beispiel jetzt den wert also die farbe
+des autos ausgeben möchten hier in der
+
+231
+00:08:20,820 --> 00:08:25,400
+mine methode oder was ist wenn wir den
+wert von horse power in der methode
+
+233
+00:08:25,410 --> 00:08:29,630
+ändern möchten so und da kommen jetzt
+die sogenannten guetta und retter ins
+
+235
+00:08:29,640 --> 00:08:32,090
+spiel
+die götter und wetter sind hilfs
+
+237
+00:08:32,100 --> 00:08:37,910
+methoden die sich immer auf ein attribut
+beziehen das heißt jedes attribut zb das
+
+239
+00:08:37,920 --> 00:08:42,800
+attribut color kann einen guetta und
+einen seite haben und das sind einfach
+
+241
+00:08:42,810 --> 00:08:46,560
+nur höchst methoden die werden auch hier
+drin definiert über die man
+
+243
+00:08:46,570 --> 00:08:52,280
+quasi von außen kontrolliert das ihn
+wichtig kontrolliert auf diese attribute
+
+245
+00:08:52,290 --> 00:08:56,700
+zugreifen kann zu definieren wir uns mal
+diese götter und setter jetzt gibt es
+
+247
+00:08:56,710 --> 00:08:59,790
+zwei möglichkeiten entweder man schreibt
+sich die methode einfach
+
+249
+00:08:59,800 --> 00:09:03,570
+oder man lässt sie in den clips
+automatisch generieren was wir zu machen
+
+251
+00:09:03,580 --> 00:09:06,510
+möchten
+man klickt dazu auf source und dann auf
+
+253
+00:09:06,520 --> 00:09:11,760
+generate getty centers und jetzt kann
+man hier ankreuzen für welches attribut
+
+255
+00:09:11,770 --> 00:09:15,600
+man die götter und setter erzeugen
+lassen möchte aber wenn man zum beispiel
+
+257
+00:09:15,610 --> 00:09:20,700
+den jetta nicht haben möchte kann man
+ihn hier auch abwählen und so weiter da
+
+259
+00:09:20,710 --> 00:09:23,940
+kannst du ja selbst ein bisschen
+rumprobieren dann klickst du auf ok und
+
+261
+00:09:23,950 --> 00:09:27,810
+jetzt siehst du wurden hier automatisch
+lauter methoden generiert und das sind
+
+263
+00:09:27,820 --> 00:09:31,350
+eben jetzt die götter und jetta die
+methoden schauen immer gleich aus das
+
+265
+00:09:31,360 --> 00:09:35,850
+ist eben eine konvention die get methode
+da schreibt man immer das wort get und
+
+267
+00:09:35,860 --> 00:09:39,390
+daneben fängt man mit einem
+großbuchstaben an und dann einfach den
+
+269
+00:09:39,400 --> 00:09:43,770
+namen des attributs hier steht also
+color also schreibt man hier auch keiner
+
+271
+00:09:43,780 --> 00:09:47,220
+hin nur dass man den ersten buchstaben
+nach geld eben mit einem großen
+
+273
+00:09:47,230 --> 00:09:51,480
+buchstaben schreibt ansonsten ganz
+normal den namen und bei sad genauso da
+
+275
+00:09:51,490 --> 00:09:55,500
+schreibt man eben setzen und dann auch
+wieder den namen des attributs nur mit
+
+277
+00:09:55,510 --> 00:09:59,670
+einem großen anfangsbuchstaben zur die
+methoden du siehst die haben relativ
+
+279
+00:09:59,680 --> 00:10:03,810
+simple funktionen hier diese get methode
+die gibt uns einfach dieses attribut
+
+281
+00:10:03,820 --> 00:10:09,390
+zurück oder diese methode der übergeben
+wir einen wert von color also ein string
+
+283
+00:10:09,400 --> 00:10:15,330
+wert und die wayss quasi dem attribut
+einfach den wert zu und damit haben wir
+
+285
+00:10:15,340 --> 00:10:19,830
+jetzt quasi eine möglichkeit geschaffen
+dass wir diese kapselung umgehen können
+
+287
+00:10:19,840 --> 00:10:23,250
+wir können nämlich jetzt hier im
+programm reingehen sagen carbon jetzt
+
+289
+00:10:23,260 --> 00:10:27,120
+möchten wir den wert von color setzen
+jetzt schreiben wir nicht mehr color ist
+
+291
+00:10:27,130 --> 00:10:32,760
+gleich sondern stattdessen schreiben wir
+color punkt sadc aller berufen also wie
+
+293
+00:10:32,770 --> 00:10:36,420
+wir es bereits können die methode auf
+und hier übergeben wir jetzt einen
+
+295
+00:10:36,430 --> 00:10:41,760
+string zum beispiel die farbe rot und
+wenn wir den wert haben möchten dann
+
+297
+00:10:41,770 --> 00:10:46,590
+machen wir es ganz genauso und sagenwelt
+hier kam punkt einst und jetzt sagen wir
+
+299
+00:10:46,600 --> 00:10:51,470
+nicht punkt color das geht ja nicht
+sondern stattdessen sagen wir geld color
+
+301
+00:10:51,480 --> 00:10:55,890
+und jetzt führen wir das ganze aus und
+wir sehen jetzt wird uns wieder rot
+
+303
+00:10:55,900 --> 00:10:58,730
+ausgegeben das ganze hat also
+funktioniert
+
+305
+00:10:58,740 --> 00:11:02,840
+und mit diesem geld an und sichern kann
+man jetzt kontrolliert auf dieses
+
+307
+00:11:02,850 --> 00:11:07,040
+attribut zugreifen und zwar deshalb
+kontrolliert weil wir hier drinnen jetzt
+
+309
+00:11:07,050 --> 00:11:11,210
+auch noch definieren können was eben
+beachtet werden soll was mögliche
+
+311
+00:11:11,220 --> 00:11:14,930
+validierungen sind usw
+das heißt man könnte hier die methode
+
+313
+00:11:14,940 --> 00:11:19,639
+reingehen und zum beispiel sagen nerv
+abfrage noch einbauen und sagen das
+
+315
+00:11:19,649 --> 00:11:25,820
+attribut nur gesetzt werden wenn es zum
+beispiel mindestens fünf aus fünf
+
+317
+00:11:25,830 --> 00:11:30,710
+buchstaben besteht oder es soll nur
+gesetzt werden wenn es das wort rot oder
+
+319
+00:11:30,720 --> 00:11:35,360
+das wort gelb ist und da kann man jetzt
+eben konten kontrollieren von innerhalb
+
+321
+00:11:35,370 --> 00:11:40,400
+der klasse was überhaupt zulässig sein
+soll und damit ist das ganze dann wieder
+
+323
+00:11:40,410 --> 00:11:44,930
+in einen geregelten rahmen und es ist
+man kann sauber auf diese attribute zu
+
+325
+00:11:44,940 --> 00:11:49,130
+greifen so ich weiß das war jetzt in
+diesem video eine ganze menge stoff wir
+
+327
+00:11:49,140 --> 00:11:53,480
+haben uns also noch mal darüber
+unterhalten was diese attribute sind was
+
+329
+00:11:53,490 --> 00:11:57,290
+sie für einen sinn haben und wir haben
+gleichzeitig auch noch die götter und
+
+331
+00:11:57,300 --> 00:12:00,350
+setter kennengelernt
+diese hilfs methoden die man sich
+
+333
+00:12:00,360 --> 00:12:04,370
+entweder selber schreibt oder man sich
+automatisch von eclipse generieren lässt
+
+335
+00:12:04,380 --> 00:12:08,780
+indem man hier auf source geht und dann
+auf generate getty centers und damit
+
+337
+00:12:08,790 --> 00:12:12,260
+hast du jetzt weitere sehr wichtige
+grundlagen der objektorientierten
+
+339
+00:12:12,270 --> 00:12:15,500
+programmierung in java kennengelernt und
+damit wollen wir es jetzt in diesem
+
+341
+00:12:15,510 --> 00:12:19,010
+video belassen
+ich hoffe du hast alles verstanden du
+
+343
+00:12:19,020 --> 00:12:22,579
+hast viel gelernt und falls du was für
+dich mitnehmen konnte ist dann gehen uns
+
+345
+00:12:22,589 --> 00:12:25,910
+doch einen daumen nach oben da würden
+wir uns darüber freuen dass eventuell
+
+347
+00:12:25,920 --> 00:12:30,110
+ein kommentar da und falls sie den kanal
+noch nicht abonniert hast unbedingt
+
+349
+00:12:30,120 --> 00:12:33,710
+abonnieren es wird nämlich noch viel
+viel weiterer content folgen
+
+351
+00:12:33,720 --> 00:12:39,200
+das war's ich bin raus und wir sehen uns
+im nächsten video wieder
+
+352
+00:12:35,940 --> 00:12:39,200
+im nächsten video wieder
+

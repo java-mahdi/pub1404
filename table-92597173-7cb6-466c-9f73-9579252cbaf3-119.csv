@@ -1,0 +1,10 @@
+﻿Command,Purpose
+kind create cluster,Create a new local Kubernetes cluster
+kind create cluster --name X,Create cluster with custom name
+kind create cluster --config file.yaml,"Create cluster with custom topology (e.g., workers)"
+kind get clusters,List all existing kind clusters
+kind get nodes --name X,List nodes (containers) in cluster X
+kind load docker-image img --name X,Load a Docker image into cluster X
+kind delete cluster --name X,Delete cluster X
+kind export logs --name X,Save diagnostic logs from cluster X
+kind --help,Show all available commands

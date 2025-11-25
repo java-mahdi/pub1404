@@ -1,0 +1,175 @@
+hallo und herzlich willkommen auf dem
+youtube-kanal von programmieren -
+staaten punkt.de mein name ist hendrik
+und in diesem video möchte ich dir den
+vierten teil unseres java crash kursus
+vorstellen und in diesem video soll es
+jetzt um einen kleinen einschub gehen
+und zwar lernen wir die klasse trinken
+in diesem video werde ich jetzt gar
+nicht groß irgendwie auf theorie
+eingehen sondern wir wechseln direkt in
+die entwicklungsumgebung um uns dort ja
+das ganze in der praxis anzusehen
+im letzten video ging es ja um die
+primitiven datentypen und neben diesen
+primitiven datentypen gibt es jetzt aber
+auch noch weitere datentypen und
+meistens sind das eben so genannte
+klassen was klassen sind wirst du erst
+im späteren verlauf des kurses noch im
+detail lernen
+an dieser stelle möchte ich dir aber nur
+kurz eine sehr wichtige klasse
+vorstellen und zwar die klasse string
+ich stell dir deshalb vor weil wir damit
+im verlauf des kurses ja viel arbeiten
+werden dann können wir einfach jetzt
+schon bessere programme realisieren die
+mehr spaß machen und aus dem grund
+lernen wie die eben jetzt ja hier schon
+kennen und strings ich habe es in einem
+der vorherigen video schon mal erwähnt
+sind nichts anderes als so genannte text
+werte und mit text werten arbeitet man
+ja relativ häufig das haben wir im
+ersten video auch schon da haben wir als
+parameter einen text wert also einen
+sogenannten string an die print allen
+methode übergeben um uns ja text auf der
+konsole ausgeben zu lassen und mit hilfe
+der primitiven datentypen die wir im
+letzten video kennen gelernt haben ist
+das ausgeben von text nicht möglich denn
+es gibt da höchstens den datentyp
+carrick da mit dem man einzelne zeichen
+speichern kann
+ich kann das ganze mal dir zeigen den
+haben wir nämlich im letzten video auch
+gar nicht uns in der praxis angesehen
+hierzu schreibt mir einfach charakter
+dann nennen wir die variable mal wieder
+test und jetzt können wir diese variable
+gleich mit einem zeichen initialisieren
+und hier ist es jetzt wichtig von
+strings kennen wir es ja da machen wir
+hier diese hochgestellten
+anführungsstriche doppelten
+und dann schreiben wir hier unseren text
+rein beim charakter ist server anderes
+wenn wir einzelne zeit nehmen da machen
+wir hochgestellte einfache
+anführungsstriche und jetzt nehmen wir
+einfach eine einzelne zeichen zum
+beispiel dass a
+und jetzt ist das eben in der variable
+test das ganze können wir uns
+selbstverständlich auch wieder ausgeben
+lassen
+dann führen wir das ganze einmal aus und
+das avid uns ausgegeben das ganze hat
+also funktioniert und wenn wir jetzt
+hier versuchen den string rhein zu
+speichern also ein text wert dann sehen
+wir das funktioniert nicht da kriegen
+wir die fehlermeldung can convert from
+strength to charakter und das gegeben
+jetzt daran weil character nur ein
+zeichen wie gesagt fassen kann
+und genau aus diesem grund lernen wird
+es an dieser stelle auch der hat den
+besagten typ die besagte klasse trinken
+und eine klasse ist im prinzip nichts
+anderes als ein komplexer datentyp also
+im letzten video hatten wir die
+primitiven datentypen diese bilden
+sozusagen die absoluten grundbausteine
+in der programmierung und in klassen da
+werden eben ganz viele von diesen
+primitiven datentypen ja kombiniert das
+ganze wird ein bisschen komplexer
+gestaltet und dann hat man einen
+komplexeren datentyp so ist das jetzt
+mal die ganz große erklärung wie gesagt
+in einem späteren video werden wir da
+noch im detail darauf eingehen und
+diesen daten tipp string den kann man
+sich jetzt folgendermaßen ja da kann man
+sich jetzt folgendermaßen eine variable
+deklarieren
+indem wir hier das character weg löschen
+und stattdessen einfach string
+hinschreiben hier sehen wir jetzt auch
+eine besonderheit und zwar ist der
+buchstabe der erste buchstabe groß und
+das habe neben klassen an sich in java
+klassen da macht man den ersten
+buchstaben immer groß damit man sofort
+das als klasse identifizieren kann
+primitive datentypen klein und klassen
+wie gesagt groß und string ist auch eine
+klasse deswegen ist jeder buchstabe groß
+und wie man sehen kann haben wir jetzt
+hier keine fehlermeldung mehr
+und wenn wir das ganze jetzt einmal
+ausführen dann sehen wir uns wird ja
+ausgegeben also ein text wert nicht nur
+ein zeichen sondern mehrere
+zeichen und hier kann man jetzt
+natürlich beliebige viele zeichen
+reinschreiben auch leerzeichen usw
+wenn man das dann nochmal ausführt dann
+wird das problemlos ausgegeben was ich
+dir vielleicht jetzt noch kurz zeigen
+will ist die print allen methode da
+haben wir bisher immer entweder so ein
+variable namen übergeben oder wir haben
+gelernt dass wir hier direkt einen
+string einschreiben können zum beispiel
+meinen namen und dann wird er eben auf
+der konsole ausgegeben
+jetzt ist es aber so dass man auch
+variablen und ja hier solche strings
+verbinden kann und wie das funktioniert
+es gibt folgendermaßen wir gehen in die
+print allen methode wir schreiben hier
+zum beispiel namen doppelpunkt machen
+ein leerzeichen und wenn man jetzt zum
+beispiel auch noch zusätzlich den inhalt
+der variable ausgeben möchte nach diesem
+string hier dann verwendet man jetzt das
+pluszeichen und damit können wir das
+ganze verketten das ist jetzt hier der
+verkettung operator in diesem fall
+und jetzt schreiben wir einfach den
+namen der variable hin speichern das
+ganze führen das programm noch einmal
+aus um jetzt sehen wir wird ausgegeben
+namen doppelpunkt hendrik das heißt wir
+können hier auch beliebig weiter machen
+wir können jetzt die normalen
+pluszeichen hinschreiben zum beispiel
+machen oft tolle videos ein bisschen
+selbstlob ich an dieser stelle dann
+führen wir das ganze noch mal aus und
+jetzt sehen wir wird das alles
+miteinander verkettet und so kann man
+eben auch mehr ausgeben mit einer printe
+ländern weise das würde ich dir noch
+kurz mit geben
+und damit sind wir jetzt auch schon am
+ende angelangt falls du das video
+gefallen hat dann geht man es doch gerne
+einen daumen nach oben und falls noch
+nicht geschehen ist dann abonniere doch
+unseren youtube kanal dann erhältst du
+jedes mal wenn wir ein neues video aus
+bringen es direkten deine inbox du wirst
+also informiert und verpasst keinen
+wertvollen content mehr
+ich wünsche dir noch einen schönen abend
+einen schönen morgen einen schönen
+mittag je nachdem welche tageszeit
+gerade bei ihr ist und dann sehen wir
+uns im nächsten video wieder biss dann
+ich freue mich

@@ -1,0 +1,599 @@
+1
+00:00:00,000 --> 00:00:04,730
+hallo und herzlich willkommen auf dem
+youtube-kanal von programmieren -
+
+3
+00:00:04,740 --> 00:00:10,850
+starten punkt.de mein name ist hendrik
+und in diesem elften teil unseres java
+
+5
+00:00:10,860 --> 00:00:14,780
+crash kursus soll es nun um die
+sogenannte vor schleife gehen
+
+7
+00:00:14,790 --> 00:00:19,189
+in den videos zuvor hatten bereits zwei
+andere schleifen typen kennen gelernt
+
+9
+00:00:19,199 --> 00:00:22,910
+nämlich einmal die wahl schleife und
+einmal die duh weil schleife
+
+11
+00:00:22,920 --> 00:00:27,170
+diese beiden schleifen arten waren sich
+sehr ähnlich und die vor schleife
+
+13
+00:00:27,180 --> 00:00:31,400
+die wird jetzt noch mal was ganz anderes
+sein sehen wir uns aber zunächst mal an
+
+15
+00:00:31,410 --> 00:00:35,750
+was wir in diesem video denn überhaupt
+alles lernen werden zunächst wenn wir
+
+17
+00:00:35,760 --> 00:00:40,729
+uns mal ansehen was ist eine vor
+schleife wenn wir das gemacht haben und
+
+19
+00:00:40,739 --> 00:00:44,990
+wirklich verstanden haben wie dieses
+konstrukt funktioniert dann werden wir
+
+21
+00:00:45,000 --> 00:00:48,979
+uns die vorschläge in der praxis ansehen
+und da noch ein bisschen daran herum
+
+23
+00:00:48,989 --> 00:00:53,720
+spielen falls sich das also interessiert
+dann bleibt unbedingt dran denn jetzt
+
+25
+00:00:53,730 --> 00:00:59,450
+legen wir los der erste punkt was ist
+eine vor schleife die vor schleife wird
+
+27
+00:00:59,460 --> 00:01:04,070
+auch oft als sogenannte zähler schleife
+bezeichnet und die wird immer dann
+
+29
+00:01:04,080 --> 00:01:08,810
+verwendet wenn man schon ganz genau weiß
+wie oft die schleife letztendlich
+
+31
+00:01:08,820 --> 00:01:13,039
+durchlaufen werden soll
+wir hatten es bereits bei derweil
+
+33
+00:01:13,049 --> 00:01:17,630
+schleife und derweil schleife die
+verwendet man eher wenn man nicht genau
+
+35
+00:01:17,640 --> 00:01:20,480
+weiß wie oft eine schleife durchlaufen
+werden soll
+
+37
+00:01:20,490 --> 00:01:24,200
+bei der vorschlag weiß man dass in der
+regel dazu werden wir aber dann gleich
+
+39
+00:01:24,210 --> 00:01:28,340
+noch kommen und die nächste besonderheit
+der eine vor schleife mit sich bringt
+
+41
+00:01:28,350 --> 00:01:33,050
+ist die sogenannte zähler variable die
+den die die zahl des aktuellen
+
+43
+00:01:33,060 --> 00:01:36,890
+durchlaufs beinhaltet klingt doch ein
+bisschen abstrakt deswegen habe ich
+
+45
+00:01:36,900 --> 00:01:41,780
+jetzt hier mal ein kleines bild für dich
+vorbereitet wo man so eine schleife so
+
+47
+00:01:41,790 --> 00:01:44,960
+ein ganzes konstrukt ja programmiert
+wurde
+
+49
+00:01:44,970 --> 00:01:48,980
+und anhand dieses bild anhand dieses
+beispiels möchten wir uns jetzt die
+
+51
+00:01:48,990 --> 00:01:53,840
+unterschiedlichen bestandteile dieser
+vor schleife näherbringen beginnen wir
+
+53
+00:01:53,850 --> 00:01:58,010
+also mal damit wie auch die weiße
+schleife wird die vor schleife mit hilfe
+
+55
+00:01:58,020 --> 00:02:02,289
+eines schlüssels eingeleitet in diesem
+fall das schlüsselwort vor
+
+57
+00:02:02,299 --> 00:02:07,580
+dann kommt ein rundes klammer paar und
+diesen diesem runden klammer paar steht
+
+59
+00:02:07,590 --> 00:02:11,360
+jetzt nicht nur die bedingungen sondern
+das ganze sieht ein bisschen komplexer
+
+61
+00:02:11,370 --> 00:02:15,440
+aus dass untergliedert sich
+nämlich insgesamt in drei bereiche und
+
+63
+00:02:15,450 --> 00:02:19,730
+dann kommt der schleifen blog da wird
+wie bereits gewohnt der code
+
+65
+00:02:19,740 --> 00:02:24,140
+reingeschrieben die ganzen anweisungen
+die immer ausgeführt werden sollen wenn
+
+67
+00:02:24,150 --> 00:02:27,890
+wir uns in einem schleifen durchlauf
+befinden also im prinzip alle
+
+69
+00:02:27,900 --> 00:02:31,880
+anweisungen die immer wieder wiederholt
+werden sollen solange diese vor schleife
+
+71
+00:02:31,890 --> 00:02:36,770
+eben aktiv ist gehen wir aber nun mal
+genauer auf die bedingungen dieser
+
+73
+00:02:36,780 --> 00:02:40,190
+vorschlag für ein bzw auf dieses
+konstrukt das sich aus drei teilen
+
+75
+00:02:40,200 --> 00:02:44,510
+zusammen setzt sehen wir uns also jetzt
+hier mal den ersten teilbereich an
+
+77
+00:02:44,520 --> 00:02:50,060
+das ist nämlich dieser bereich hier und
+da steht nichts anderes als integer ist
+
+79
+00:02:50,070 --> 00:02:53,030
+gleich null
+hierbei handelt es sich also um die
+
+81
+00:02:53,040 --> 00:02:57,979
+initialisierung der sogenannten zähler
+variable ich habe diese zähler variable
+
+83
+00:02:57,989 --> 00:03:01,850
+ich jetzt mal mit i bezeichnet in der
+regel wird sie auch mit i bezeichnet
+
+85
+00:03:01,860 --> 00:03:05,600
+innerhalb einer voll schleife aber du
+kannst hier jeden beliebigen namen
+
+87
+00:03:05,610 --> 00:03:10,610
+wählen falls du das eben nicht als sie
+bezeichnen möchtest dann folgt ein
+
+89
+00:03:10,620 --> 00:03:14,930
+semikolon dass sie mit colon zeigt okay
+diese erste teilbereich hier ist jetzt
+
+91
+00:03:14,940 --> 00:03:19,280
+abgeschlossen wir kommen zum nächsten
+und der zweite teil bereich der vor
+
+93
+00:03:19,290 --> 00:03:23,720
+schleife ist die ja wie gewohnt die
+bedingung wir kennen die bereits aus
+
+95
+00:03:23,730 --> 00:03:27,920
+derweil schleife hier wird einfach
+wieder ein bulliger ausdruck ausgewertet
+
+97
+00:03:27,930 --> 00:03:32,840
+und je nachdem ob das ganze crew oder
+falls ist wird der code blog eben noch
+
+99
+00:03:32,850 --> 00:03:35,720
+mal ausgeführt
+auch dieser bereich wird dann wieder mit
+
+101
+00:03:35,730 --> 00:03:41,539
+einem semikolon vom letzten teilbereich
+abgeschirmt sozusagen und hier steht
+
+103
+00:03:41,549 --> 00:03:47,600
+jetzt i + + dieser letzte teil bereich
+der zuständig für die erhöhung oder auch
+
+105
+00:03:47,610 --> 00:03:51,920
+verminderung je nachdem wie man es eben
+möchte in diesem fall ist eine erhöhung
+
+107
+00:03:51,930 --> 00:03:56,570
+und zwar die erfüllung der celler
+variable hier wird also einfach gesagt
+
+109
+00:03:56,580 --> 00:04:01,789
+sobald der kurt block ausgeführt wurde
+wie soll die zeller variable was er mit
+
+111
+00:04:01,799 --> 00:04:05,870
+der celler variable passieren in diesem
+fall wird sie eben um den wert 1 erhöht
+
+113
+00:04:05,880 --> 00:04:10,699
+hier dargestellt durch das e plus plus
+also die verkürzte schreibweise und die
+
+115
+00:04:10,709 --> 00:04:14,270
+grundsätzliche funktionsweise dieser
+voll schleife ist jetzt einfach die
+
+117
+00:04:14,280 --> 00:04:19,130
+dieser erste teilbereich mit der
+initialisierung der zähler variable wird
+
+119
+00:04:19,140 --> 00:04:23,450
+immer zu beginn einmal ausgeführt dann
+wird eben die bedingungen ab
+
+121
+00:04:23,460 --> 00:04:27,710
+fragt wenn die bedingung true ist wird
+der schleifen blog ausgeführt und
+
+123
+00:04:27,720 --> 00:04:31,550
+nachdem das schleifen block erfolgreich
+ausgeführt wurde wird die zähler
+
+125
+00:04:31,560 --> 00:04:36,200
+variable in diesem fall um 1 erhöht
+dann kommt also dieser letzte teil
+
+127
+00:04:36,210 --> 00:04:39,350
+bereich zum einsatz
+und dann wird wieder die bedingung
+
+129
+00:04:39,360 --> 00:04:42,950
+ausgeführt also diese dieser erste
+teilbereich wird wirklich nur einmal am
+
+131
+00:04:42,960 --> 00:04:46,010
+beginn der vorläufer ausgeführt im
+weiteren verlauf nicht mehr
+
+133
+00:04:46,020 --> 00:04:50,270
+man springt also direkt wieder zur
+bedingung da wird wieder geprüft wenn
+
+135
+00:04:50,280 --> 00:04:54,529
+die bedingung true ist wird der
+schleifen blog erneut ausgeführt dann
+
+137
+00:04:54,539 --> 00:04:58,670
+wird wieder der letzte teil bereich
+aktiv nämlich die erhöhung der celler
+
+139
+00:04:58,680 --> 00:05:03,469
+variable um 1 in diesem fall und dann
+wird wieder die bedingung ausgeführt und
+
+141
+00:05:03,479 --> 00:05:07,909
+so weiter also dieses typische schleifen
+verhalten auch das möchten wir uns jetzt
+
+143
+00:05:07,919 --> 00:05:11,779
+mal in der praxis ansehen
+ich habe hier das beispiel aus dem bild
+
+145
+00:05:11,789 --> 00:05:14,960
+was wir zuvor in der powerpoint
+präsentation gesehen haben einmal
+
+147
+00:05:14,970 --> 00:05:19,640
+vorbereitet und das möchten wir jetzt
+mal speichern und ausführen damit wir
+
+149
+00:05:19,650 --> 00:05:23,800
+sehen was hier überhaupt passiert wir
+sehen auf der konsole wird nacheinander
+
+151
+00:05:23,810 --> 00:05:33,379
+von der null bis hin zur zahl neun alles
+ausgegeben also 0 1 2 3 4 5 6 7 8 9
+
+153
+00:05:33,389 --> 00:05:37,339
+das liegt jetzt einfach daran weil wir
+hier die bedingungen kleiner gleich
+
+155
+00:05:37,349 --> 00:05:42,620
+ziehen haben und hier als beginnenden
+wert die null gewählt haben
+
+157
+00:05:42,630 --> 00:05:47,180
+wenn wir das zum beispiel in die fünf
+ändern dann starten wir eben direkt bei
+
+159
+00:05:47,190 --> 00:05:51,350
+der 5 wir sehen jetzt zählt nur noch von
+5 bis 9
+
+161
+00:05:51,360 --> 00:05:55,580
+im prinzip verhält sich das ganze also
+wie eine ganz normale schleife nur dass
+
+163
+00:05:55,590 --> 00:05:59,480
+wir hier oben eben dieses spezielle
+konstrukt haben was für anfänger oft
+
+165
+00:05:59,490 --> 00:06:05,390
+sehr schwer zu verstehen wirkt sehr
+kompliziert und komplex wirkt aber im
+
+167
+00:06:05,400 --> 00:06:09,080
+prinzip ist es gar nicht du musst dir
+einfach nur merken dieser erste teil
+
+169
+00:06:09,090 --> 00:06:14,120
+hier der ist immer die initialisierung
+einer zelle variable dieser zweite teil
+
+171
+00:06:14,130 --> 00:06:17,810
+hier ist immer die bedingungen und
+dieser letzte teil der bezieht sich
+
+173
+00:06:17,820 --> 00:06:21,649
+immer auf die zell variable oder zähler
+variable wie auch immer man sie
+
+175
+00:06:21,659 --> 00:06:25,909
+bezeichnen möchte
+und ja sorgt dafür dass sie eben erhöht
+
+177
+00:06:25,919 --> 00:06:30,610
+wird oder man kann natürlich hier auch -
+- hin machen dann wird sie eben
+
+179
+00:06:30,620 --> 00:06:35,730
+vermindert wir bleiben aber jetzt hier
+mal beim plus und hier drin
+
+181
+00:06:35,740 --> 00:06:39,960
+schleifen blog wo eben alle anweisungen
+der reihe nach ausgeführt werden und das
+
+183
+00:06:39,970 --> 00:06:44,520
+besondere ist jetzt wie gesagt an dieser
+voll schleife wir haben hier in die
+
+185
+00:06:44,530 --> 00:06:49,740
+schleife direkt integriert diese zähler
+variable auf die wir innerhalb der
+
+187
+00:06:49,750 --> 00:06:54,390
+schleife zugreifen können das heißt wir
+können hier einfach die ausgabe machen
+
+189
+00:06:54,400 --> 00:06:59,370
+sie sagen hier und dann wird immer die
+zeller variable ausgegeben wir könnten
+
+191
+00:06:59,380 --> 00:07:04,080
+jetzt auch einfach sagen hier sollte mal
+zwei ausgegeben werden speichert das
+
+193
+00:07:04,090 --> 00:07:07,499
+ganze und fürs aus dann sehen wir der
+wert wird eben immer mit zwei
+
+195
+00:07:07,509 --> 00:07:12,600
+multipliziert wir starten bei 5 wir sind
+also quasi hier im ersten durchlauf da
+
+197
+00:07:12,610 --> 00:07:17,580
+die zelle variable den wert 5 er wird
+mit zwei multipliziert dadurch ergibt
+
+199
+00:07:17,590 --> 00:07:22,740
+sich die zehn der schleifen durchlauf
+ist fertig weil der ganze block einmal
+
+201
+00:07:22,750 --> 00:07:26,010
+erfolgreich ausgeführt wurde
+jetzt kommen wir hier zu diesem dritten
+
+203
+00:07:26,020 --> 00:07:30,870
+teil bereich wird um 1 erhöht wir haben
+jetzt also den wert 6 und jetzt wird
+
+205
+00:07:30,880 --> 00:07:35,040
+wieder die bedingungen geprüft sechs
+kleiner als zehn das ganze wird wieder
+
+207
+00:07:35,050 --> 00:07:40,170
+ausgeführt sechs mal zwei ergibt 12
+deswegen steht hier die zwölf und so
+
+209
+00:07:40,180 --> 00:07:44,100
+weiter also wenn du ein bisschen jetzt
+selbst damit herumspielt ein bisschen
+
+211
+00:07:44,110 --> 00:07:48,149
+das ganze obst dann wirst du sehen das
+ganze ist gar nicht so schwer wie es im
+
+213
+00:07:48,159 --> 00:07:52,709
+ersten moment aussieht aber es ist sehr
+nützlich besonders wenn wir dann später
+
+215
+00:07:52,719 --> 00:07:56,700
+mit datenstrukturen arbeiten werden
+versucht er also dieses konstrukt
+
+217
+00:07:56,710 --> 00:08:00,629
+wirklich näher zu bringen versuche es zu
+verstehen und dann bist du ganz gut
+
+219
+00:08:00,639 --> 00:08:05,399
+dabei das war alles was ich dir in
+diesem video mitteilen wollte falls du
+
+221
+00:08:05,409 --> 00:08:09,300
+einen mehrwert aus diesem video ziehen
+konntest dann würde ich mich sehr über
+
+223
+00:08:09,310 --> 00:08:13,439
+einen kommentar oder über einen daumen
+nach oben freuen oder im idealfall sogar
+
+225
+00:08:13,449 --> 00:08:18,300
+über beides und falls du diesen kanal
+noch nicht abonniert haben solltest dann
+
+227
+00:08:18,310 --> 00:08:21,689
+holt das jetzt unbedingt nach indem du
+unter diesem video auf abonnieren
+
+229
+00:08:21,699 --> 00:08:26,879
+klickst und du wirst in zukunft kein
+video mehr von uns verpassen und glaubt
+
+231
+00:08:26,889 --> 00:08:31,140
+mir es wird noch einiges auf dich
+zukommen wir haben einiges geplant bitte
+
+233
+00:08:31,150 --> 00:08:35,159
+abonnieren also diesen kanal
+du wirst auf jeden fall viel mehrwert
+
+235
+00:08:35,169 --> 00:08:38,699
+herausziehen
+das war alles ich freue mich dich im
+
+237
+00:08:38,709 --> 00:08:43,829
+nächsten video wieder begrüßen zu dürfen
+bis dahin
+
+238
+00:08:40,930 --> 00:08:43,829
+bis dahin
+

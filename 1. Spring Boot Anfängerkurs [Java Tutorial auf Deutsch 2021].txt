@@ -1,0 +1,7394 @@
+1
+00:00:00,000 --> 00:00:02,460
+du konntest schon erste kenntnisse in
+شما از قبل مقداری دانش داشتید
+
+2
+00:00:02,460 --> 00:00:04,200
+der programmiersprache java sammeln und
+زبان برنامه نویسی جاوا و
+
+3
+00:00:04,200 --> 00:00:06,240
+möchtest jetzt deinen ersten job als
+دوست دارید اولین شغل خود را به عنوان
+
+4
+00:00:06,240 --> 00:00:08,760
+bringt entwickler angehen da müssen wir
+توسعه‌دهندگان را به این موضوع سوق می‌دهد که ما باید به آن بپردازیم.
+
+5
+00:00:08,760 --> 00:00:10,230
+genau richtig dahin hast du die
+دقیقاً همینجاست که شما دارید
+
+6
+00:00:10,230 --> 00:00:11,700
+grundlagen der springt und decken
+اصول اولیه پریدن و پوشش
+
+7
+00:00:11,700 --> 00:00:14,280
+entwicklung und dabei nicht nur die
+توسعه و نه تنها
+
+8
+00:00:14,280 --> 00:00:15,960
+praktischen sondern auch theoretischen
+عملی اما در عین حال نظری
+
+9
+00:00:15,960 --> 00:00:18,090
+aspekte damit du in einem interview mit
+جنبه‌هایی که بتوانید در مصاحبه با آنها شرکت کنید
+
+10
+00:00:18,090 --> 00:00:19,710
+potenziellen arbeitgebern oder kunden
+کارفرمایان یا مشتریان بالقوه
+
+11
+00:00:19,710 --> 00:00:22,920
+wirklich überzeugen kannst damit viel
+واقعاً می‌توانید با آن خیلی‌ها را متقاعد کنید
+
+12
+00:00:22,920 --> 00:00:25,199
+spaß beim video ich würde eine kurze
+با این ویدیو سرگرم شدم، من یه ویدیوی کوتاه می‌خوام.
+
+13
+00:00:25,199 --> 00:00:27,480
+einleitung zur springt auch den weiteren
+مقدمه‌ای بر همچنین به ادامه مطلب می‌رود
+
+14
+00:00:27,480 --> 00:00:29,630
+verlauf des kurses geben
+طرح کلی دوره
+
+15
+00:00:29,630 --> 00:00:31,920
+würde das video an guckst weiß dass
+ویدیو را تماشا می‌کردم، می‌دانستم که
+
+16
+00:00:31,920 --> 00:00:33,690
+bestimmt schon aber es springt ist ein
+قطعاً اما می‌پرد یک
+
+17
+00:00:33,690 --> 00:00:37,469
+web application framework dh wir
+چارچوب برنامه وب یعنی ما
+
+18
+00:00:37,469 --> 00:00:39,290
+benutzen das springt als entwickler
+از آن به عنوان یک توسعه‌دهنده استفاده کنید
+
+19
+00:00:39,290 --> 00:00:41,670
+umzuhören zu einem werkzeugkasten zu
+گوش دادن به جعبه ابزار
+
+20
+00:00:41,670 --> 00:00:44,610
+bekommen der uns das bauen von web
+ما را به ساخت وب ترغیب کنید
+
+21
+00:00:44,610 --> 00:00:46,410
+applikationen vereinfacht das heißt
+برنامه‌های کاربردی ساده‌شده که یعنی
+
+22
+00:00:46,410 --> 00:00:47,969
+viele sachen sind für uns schon
+خیلی چیزها از قبل برای ما هستند
+
+23
+00:00:47,969 --> 00:00:50,239
+vorbereitet damit wir da nun auch unsere
+آماده شده‌ایم تا اکنون بتوانیم
+
+24
+00:00:50,239 --> 00:00:54,059
+logik ergänzen müssen unsere logik ist
+منطق باید مکمل منطق ما باشد
+
+25
+00:00:54,059 --> 00:00:55,800
+neben dem fall meine ich natürlich die
+منظورم علاوه بر این مورد، البته
+
+26
+00:00:55,800 --> 00:00:58,289
+business logik also was unsere anwendung
+منطق کسب و کار، پس برنامه ما چیست؟
+
+27
+00:00:58,289 --> 00:01:00,890
+versucht für ein problem zu lösen das
+تلاش برای حل مشکلی که
+
+28
+00:01:00,890 --> 00:01:03,329
+spring framework an sichtbar auf dem
+چارچوب فنری قابل مشاهده روی
+
+29
+00:01:03,329 --> 00:01:06,390
+spring framework auf was schon ein
+چارچوب بهاری در مورد آنچه که در حال حاضر وجود دارد
+
+30
+00:01:06,390 --> 00:01:09,360
+bisschen älter ist das ganze hat ist
+کل ماجرا کمی قدیمی است
+
+31
+00:01:09,360 --> 00:01:11,220
+dann auch entsprechend sehr sehr groß
+پس به همان نسبت نیز بسیار بسیار بزرگ است
+
+32
+00:01:11,220 --> 00:01:13,890
+geworden spring an sich ist hat ein sehr
+بهار به خودی خود بسیار جذاب است
+
+33
+00:01:13,890 --> 00:01:16,049
+vielseitiges eco system von ganz vielen
+سیستم سازگار با محیط زیست همه کاره از بسیاری
+
+34
+00:01:16,049 --> 00:01:17,689
+verschiedenen
+متفاوت
+
+35
+00:01:17,689 --> 00:01:20,670
+modulen die man alle in springt benutzen
+ماژول‌هایی که می‌توانید در همه پرش‌ها استفاده کنید
+
+36
+00:01:20,670 --> 00:01:22,850
+kann was springt hat der ansatz
+آیا چیزی که می‌پرد می‌تواند رویکرد داشته باشد؟
+
+37
+00:01:22,850 --> 00:01:26,100
+convention opfer konfiguration dh früher
+پیکربندی قربانی کنوانسیون یعنی زودتر
+
+38
+00:01:26,100 --> 00:01:27,960
+als man adresse des spring anwendung
+به عنوان آدرس درخواست بهار
+
+39
+00:01:27,960 --> 00:01:30,840
+aussetzen musste da hat man sich viel
+مجبور شدم تعلیق کنم چون خیلی چیزها داری
+
+40
+00:01:30,840 --> 00:01:32,520
+zeit damit verbracht verschiedene module
+زمان صرف شده برای ماژول‌های مختلف
+
+41
+00:01:32,520 --> 00:01:34,020
+vorher nochmal zu konfigurieren bevor
+برای پیکربندی مجدد قبل از
+
+42
+00:01:34,020 --> 00:01:35,400
+man eigentlich zum programmieren der
+شما در واقع باید برنامه نویسی کنید
+
+43
+00:01:35,400 --> 00:01:37,590
+eigentlich der anwendung kam und das
+در واقع درخواست آمد و آن
+
+44
+00:01:37,590 --> 00:01:38,790
+problem versucht sich bringt so ein
+مشکل سعی می‌کند چنین چیزی را ایجاد کند
+
+45
+00:01:38,790 --> 00:01:41,430
+bisschen zu lösen indem es uns für alle
+کم کم با ممکن ساختن آن برای همه
+
+46
+00:01:41,430 --> 00:01:43,320
+module noch meine vorkonfiguration gibt
+ماژول‌ها یا پیش‌تنظیمات من این است
+
+47
+00:01:43,320 --> 00:01:45,689
+es heißt viele sachen werden für uns
+یعنی خیلی چیزها برای ما خواهد بود
+
+48
+00:01:45,689 --> 00:01:46,820
+schon
+قبلاً
+
+49
+00:01:46,820 --> 00:01:48,659
+bereitgestellt oder es wird etwas machen
+ارائه شده یا کاری انجام خواهد داد
+
+50
+00:01:48,659 --> 00:01:50,220
+können und dadurch wird eine so genannte
+می‌تواند و این به اصطلاح ایجاد می‌کند
+
+51
+00:01:50,220 --> 00:01:53,579
+boilerplate code also code der immer
+کد تکراری، همچنین کدی که همیشه
+
+52
+00:01:53,579 --> 00:01:55,170
+wieder wiederholt wird aber sich nicht
+دوباره تکرار میشه اما نه
+
+53
+00:01:55,170 --> 00:01:56,520
+wirklich von anwendungen zur anwendungen
+واقعاً از برنامه‌ها به برنامه‌ها
+
+54
+00:01:56,520 --> 00:01:59,159
+groß unterscheidet halt vermieden das
+تفاوت بزرگی که فقط از آن اجتناب شد
+
+55
+00:01:59,159 --> 00:02:00,960
+ist das ist für uns sehr sehr gut als
+این برای ما خیلی خوب است چون
+
+56
+00:02:00,960 --> 00:02:03,200
+entwickler
+توسعه‌دهنده
+
+57
+00:02:03,200 --> 00:02:05,759
+der grund warum du springt lernen
+دلیل اینکه شما پریدن را یاد می‌گیرید
+
+58
+00:02:05,759 --> 00:02:08,640
+solltest ist wenn du java-entwickler
+اگر توسعه‌دهنده جاوا هستید، باید این کار را انجام دهید
+
+59
+00:02:08,640 --> 00:02:12,420
+bist und java ist in deutschland vor
+و جاوا قبلاً در آلمان است
+
+60
+00:02:12,420 --> 00:02:14,910
+allem eines der meistgenutzten sprachen
+یکی از پرکاربردترین زبان‌ها
+
+61
+00:02:14,910 --> 00:02:17,250
+unter unter professionellen entwicklern
+در میان توسعه‌دهندگان حرفه‌ای
+
+62
+00:02:17,250 --> 00:02:19,980
+und da gibt es auch einige jobs für also
+و همچنین برخی مشاغل برای
+
+63
+00:02:19,980 --> 00:02:21,750
+ist auf jeden fall eine gute wahl dann
+قطعاً انتخاب خوبی است پس
+
+64
+00:02:21,750 --> 00:02:23,310
+ist das nicht gut wahrscheinlichkeit
+آیا این احتمال خوبی نیست؟
+
+65
+00:02:23,310 --> 00:02:25,230
+groß dass neue projekte die aufgesetzt
+خیلی خوبه که پروژه‌های جدید راه‌اندازی شدن
+
+66
+00:02:25,230 --> 00:02:27,420
+werden mit springbock aufgesetzt werden
+با اسپرینگ‌بوک تنظیم خواهد شد
+
+67
+00:02:27,420 --> 00:02:30,060
+ist einfach das etablierteste framework
+به سادگی تثبیت‌شده‌ترین چارچوب است
+
+68
+00:02:30,060 --> 00:02:32,370
+heutzutage ist ein bisschen der standard
+امروزه کمی استاندارد است
+
+69
+00:02:32,370 --> 00:02:34,890
+und ja es ist auch zu recht glaube ich
+و بله، به نظرم درست است
+
+70
+00:02:34,890 --> 00:02:37,370
+meiner meinung nach
+به نظر من
+
+71
+00:02:37,790 --> 00:02:40,769
+der kurs an sich ist sehr fokussiert auf
+خودِ دوره بسیار متمرکز است
+
+72
+00:02:40,769 --> 00:02:43,260
+spring gut ich werde meine verschiedenen
+خوب بپر، من کارهای مختلفم را انجام خواهم داد.
+
+73
+00:02:43,260 --> 00:02:45,870
+teilen des kurses wo man vielleicht
+اشتراک گذاری دوره در جایی که ممکن است
+
+74
+00:02:45,870 --> 00:02:48,269
+anderes hintergrundwissen benötigt das
+دانش پیش‌زمینه دیگری مورد نیاز است
+
+75
+00:02:48,269 --> 00:02:49,920
+explizit auch mal sagen aber ich möchte
+صریحاً بگویم اما دوست دارم
+
+76
+00:02:49,920 --> 00:02:51,000
+nicht die leute mit dem
+نه افرادی که با
+
+77
+00:02:51,000 --> 00:02:54,390
+hintergrundwissen davon abhalten springt
+دانش زمینه‌ای مانع از پرش آن می‌شود
+
+78
+00:02:54,390 --> 00:02:55,680
+zu deren und dann gelang wahr zu sein
+به آنها و سپس موفق شدند که درست باشند
+
+79
+00:02:55,680 --> 00:02:58,230
+weil zu viele andere themen erklärt
+زیرا بسیاری از مباحث دیگر توضیح داده شده است
+
+80
+00:02:58,230 --> 00:03:00,830
+werden entsprechend
+بر این اساس هستند
+
+81
+00:03:00,830 --> 00:03:03,239
+würde ich dich bitten andere kenntnisse
+از شما دانش دیگری می‌پرسم
+
+82
+00:03:03,239 --> 00:03:04,829
+außerhalb des großes mit dem anderen
+بیرون از خانه‌ی بزرگ با دیگری
+
+83
+00:03:04,829 --> 00:03:06,030
+tutorial was ich besser damit
+آموزش اینکه چه کارهایی را می‌توانم با آن بهتر انجام دهم
+
+84
+00:03:06,030 --> 00:03:09,480
+beschäftigt zu lernen und alle diskurs
+مشغول یادگیری و همه گفتمان‌ها
+
+85
+00:03:09,480 --> 00:03:11,190
+alle teil des kurses entsprechend auch
+تمام بخش‌های دوره به ترتیب
+
+86
+00:03:11,190 --> 00:03:12,780
+alleinstehende kannst zwischen den teil
+افراد مجرد می‌توانند بین این دو بخش یکی را انتخاب کنند
+
+87
+00:03:12,780 --> 00:03:14,850
+des kurses wechseln es werden vorher
+مسیر را تغییر دهید، این اتفاق خواهد افتاد
+
+88
+00:03:14,850 --> 00:03:16,380
+nochmal alle vorkenntnisse nötig sind
+تمام دانش قبلی دوباره مورد نیاز است
+
+89
+00:03:16,380 --> 00:03:18,269
+aufgelistet damit du auch wirklich
+طوری فهرست شده که شما واقعاً
+
+90
+00:03:18,269 --> 00:03:20,120
+nichts verpasst
+چیزی از قلم نیفتاده
+
+91
+00:03:20,120 --> 00:03:22,500
+im ersten teil des kurses werde ich euch
+در بخش اول دوره به شما نشان خواهم داد
+
+92
+00:03:22,500 --> 00:03:25,109
+dem spanish leiser zeigen wir unser
+اسپانیایی‌های ساکت‌تر، ما خودمان را نشان می‌دهیم
+
+93
+00:03:25,109 --> 00:03:28,319
+grund projekt erzeugen werden hierfür
+پروژه پایه برای این کار ایجاد خواهد شد
+
+94
+00:03:28,319 --> 00:03:29,540
+sind keine
+نه هستند
+
+95
+00:03:29,540 --> 00:03:32,430
+voraussetzung gegeben also ihr solltet
+پیش نیاز داده شده است، بنابراین شما باید
+
+96
+00:03:32,430 --> 00:03:35,160
+euch mit java auskennen aber jeder kann
+در مورد جاوا می‌دانم اما همه می‌توانند
+
+97
+00:03:35,160 --> 00:03:38,569
+dieses tutorial eigentlich befolgen
+راستی این آموزش رو دنبال کن
+
+98
+00:03:38,569 --> 00:03:40,950
+wir werden jetzt einmal den springen die
+حالا از آن پرش خواهیم کرد
+
+99
+00:03:40,950 --> 00:03:42,600
+schleuser öffnen dafür gehen wir auch
+قاچاقچیان باز می‌کنند، این چیزی است که ما برای آن می‌رویم
+
+100
+00:03:42,600 --> 00:03:45,019
+startpunkt
+نقطه شروع
+
+101
+00:03:45,410 --> 00:03:47,730
+haben wir eine einfache web oberfläche
+ما یک رابط وب ساده داریم
+
+102
+00:03:47,730 --> 00:03:51,440
+wo wir unser projekt definieren können
+جایی که می‌توانیم پروژه خود را تعریف کنیم
+
+103
+00:03:51,440 --> 00:03:53,220
+dafür werde ich jetzt erstmal als
+برای این کار، من الان خواهم بود
+
+104
+00:03:53,220 --> 00:03:55,049
+package manager also als
+مدیر بسته همچنین به عنوان
+
+105
+00:03:55,049 --> 00:03:56,940
+verwaltungsprogramm für unsere
+برنامه مدیریتی برای ما
+
+106
+00:03:56,940 --> 00:03:58,829
+dependency es die bibliotheken die für
+وابستگی، کتابخانه‌هایی هستند که برای
+
+107
+00:03:58,829 --> 00:04:00,299
+unseren java oder unseres ringguth
+جاوا یا رینگوت ما
+
+108
+00:04:00,299 --> 00:04:01,830
+application nutzen
+استفاده از برنامه
+
+109
+00:04:01,830 --> 00:04:03,900
+auf nebensätzen also ist hier schon
+روی بندهای فرعی، بنابراین اینجا از قبل آمده است
+
+110
+00:04:03,900 --> 00:04:08,130
+vorher stellt die sprache auf java die
+قبل از آن، زبان، جاوا را تنظیم می‌کند
+
+111
+00:04:08,130 --> 00:04:11,270
+spring gut version auf 2.5 punkt 3
+نسخه خوب بهاری با امتیاز ۲.۵ و ۳
+
+112
+00:04:11,270 --> 00:04:13,350
+den namen des projekts werde ich jetzt
+الان اسم پروژه رو میگم
+
+113
+00:04:13,350 --> 00:04:16,160
+einfach mal auf
+فقط کلیک کنید
+
+114
+00:04:16,220 --> 00:04:19,459
+beispielprojekt sätzen
+جملات نمونه پروژه
+
+115
+00:04:19,459 --> 00:04:23,610
+klar als packaging die version von java
+نسخه جاوا را به صورت بسته‌بندی شده پاک کنید
+
+116
+00:04:23,610 --> 00:04:25,130
+auf die 8
+روی ۸
+
+117
+00:04:25,130 --> 00:04:27,360
+und ich werde jetzt eine die pansy also
+و من حالا یک بنفشه خواهم داشت، پس
+
+118
+00:04:27,360 --> 00:04:29,940
+eine bibliothek hinzufügen und es ist
+یک کتابخانه اضافه کنید و همینطور است
+
+119
+00:04:29,940 --> 00:04:32,100
+die spring web gibt es noch viele
+وب بهاری هنوز تعداد زیادی وجود دارد
+
+120
+00:04:32,100 --> 00:04:34,110
+weitere wenn man sich das alles mal
+اگر به همه اینها نگاه کنید، بیشتر
+
+121
+00:04:34,110 --> 00:04:35,940
+durchlesen will und da was uns weiteres
+می‌خواهم بخوانم و چیز دیگری هم هست
+
+122
+00:04:35,940 --> 00:04:38,070
+hinzufügen will kann man das gerne
+می‌خواهید اضافه کنید، می‌توانید این کار را انجام دهید
+
+123
+00:04:38,070 --> 00:04:39,510
+machen aber für dieses tutorial werden
+اما برای این آموزش
+
+124
+00:04:39,510 --> 00:04:40,920
+jetzt einfach mal nur spring web
+الان فقط وب بهاری
+
+125
+00:04:40,920 --> 00:04:43,460
+auswählen
+انتخاب کنید
+
+126
+00:04:43,640 --> 00:04:45,660
+wenn ich auf das ganze jetzt mal
+اگر الان به کل ماجرا نگاه کنم
+
+127
+00:04:45,660 --> 00:04:48,200
+generieren lassen
+تولید کردن
+
+128
+00:04:48,770 --> 00:04:51,710
+und safe anklicken
+و روی گزینه ایمن کلیک کنید
+
+129
+00:04:51,710 --> 00:04:55,140
+habe ich hier mal einen download ich
+من اینجا دانلود دارم
+
+130
+00:04:55,140 --> 00:04:55,950
+werde das ganze ist einfach mal
+کل ماجرا فقط این است
+
+131
+00:04:55,950 --> 00:04:58,490
+extrahieren
+عصاره
+
+132
+00:04:58,670 --> 00:05:02,720
+worauf extrakt klicken
+چه چیزی را استخراج کنید کلیک کنید
+
+133
+00:05:02,930 --> 00:05:06,350
+tutorial aussuchen
+یک آموزش انتخاب کنید
+
+134
+00:05:07,910 --> 00:05:11,150
+das hat funktioniert
+که کار کرد
+
+135
+00:05:11,990 --> 00:05:14,690
+dann werde ich ihn
+پس من خواهم بود
+
+136
+00:05:14,690 --> 00:05:18,660
+intelligent das projekt öfter dj ist
+این پروژه هوشمند اغلب دی‌جی است
+
+137
+00:05:18,660 --> 00:05:20,820
+mein die integrierte development
+توسعه یکپارچه من
+
+138
+00:05:20,820 --> 00:05:23,250
+environment wo ich meinen java code
+محیطی که کد جاوای من در آن قرار دارد
+
+139
+00:05:23,250 --> 00:05:25,220
+schreiben werde
+خواهد نوشت
+
+140
+00:05:25,220 --> 00:05:27,060
+würde ich auch gerne was anderes
+یه چیز دیگه هم دوست دارم
+
+141
+00:05:27,060 --> 00:05:29,280
+benutzen nicht für mich persönlich ist
+استفاده برای من شخصاً نیست
+
+142
+00:05:29,280 --> 00:05:32,690
+jain der beste
+بله بهترین
+
+143
+00:05:33,740 --> 00:05:37,470
+dann würde ich hier auf project gehen
+بعدش میرفتم اینجا برای پروژه
+
+144
+00:05:37,470 --> 00:05:39,030
+das ist jetzt nur der ordner bei mir in
+این الان فقط پوشه‌ی من است
+
+145
+00:05:39,030 --> 00:05:41,960
+bei mir der vaart
+با من، وارت
+
+146
+00:05:42,140 --> 00:05:44,880
+und unser beispielprojekt mal öffnen wir
+و پروژه نمونه ما که باز می‌کنیم
+
+147
+00:05:44,880 --> 00:05:47,880
+sehen hier es ist schon von tg als
+اینجا را ببین، این از قبل از طرف tg as است
+
+148
+00:05:47,880 --> 00:05:51,650
+nebenprojekt erkannt wurden
+پروژه جانبی مورد تقدیر قرار گرفت
+
+149
+00:05:52,109 --> 00:05:55,119
+da wird jetzt alle unsere die entensys
+تمام entensy های ما
+
+150
+00:05:55,119 --> 00:05:58,619
+also bibliotheken für uns installieren
+بنابراین کتابخانه‌ها را برای ما نصب کنید
+
+151
+00:05:58,619 --> 00:06:01,359
+wir können jetzt einmal in die prob xml
+اکنون می‌توانیم به مشکل xml نگاه کنیم.
+
+152
+00:06:01,359 --> 00:06:02,609
+reinschauen
+نگاهی بیندازید
+
+153
+00:06:02,609 --> 00:06:05,669
+comics e mail bei mehreren projekten
+ایمیل کمیک برای چندین پروژه
+
+154
+00:06:05,669 --> 00:06:08,379
+definiert die bibliotheken die wir in
+کتابخانه‌هایی را که در آنها داریم تعریف می‌کند
+
+155
+00:06:08,379 --> 00:06:09,579
+unserem projekt nutzen das wäre dann
+از پروژه ما استفاده کنید که خواهد بود
+
+156
+00:06:09,579 --> 00:06:12,119
+einmal das springt startup
+به محض اینکه استارتاپ جهش کند
+
+157
+00:06:12,119 --> 00:06:17,109
+das test framework für springt auch den
+چارچوب آزمون برای [موارد زیر] نیز تغییر می‌کند
+
+158
+00:06:17,109 --> 00:06:18,869
+menschen planen
+طرح مردم
+
+159
+00:06:18,869 --> 00:06:21,189
+und wir uns unser projekt einmal
+و ما به پروژه خود نگاه می‌کنیم
+
+160
+00:06:21,189 --> 00:06:22,799
+anschauen dann werden wir sehen
+نگاه کن پس خواهیم دید
+
+161
+00:06:22,799 --> 00:06:25,449
+dass da noch nicht viel drin ist wir
+که هنوز چیز زیادی در آن وجود ندارد
+
+162
+00:06:25,449 --> 00:06:27,489
+haben so ein beispiel test der aber auch
+چنین آزمون نمونه‌ای داشته باشید که آن هم
+
+163
+00:06:27,489 --> 00:06:29,069
+wer ist eigentlich
+در واقع چه کسی
+
+164
+00:06:29,069 --> 00:06:30,929
+wir haben
+ما داریم
+
+165
+00:06:30,929 --> 00:06:34,419
+eine menge klasse die mit splitter
+کلی کلاس با خرده ریزها
+
+166
+00:06:34,419 --> 00:06:37,289
+notiert ist und
+مورد توجه قرار گرفته است و
+
+167
+00:06:37,349 --> 00:06:39,789
+beim der resource ordner also dieses
+در پوشه منابع، بنابراین این
+
+168
+00:06:39,789 --> 00:06:41,799
+application properties datei ist jetzt
+فایل ویژگی‌های برنامه اکنون
+
+169
+00:06:41,799 --> 00:06:42,989
+auch leer
+همچنین خالی
+
+170
+00:06:42,989 --> 00:06:44,829
+wir werden es immer einfach trotzdem
+ما همیشه به هر حال این کار را خواهیم کرد
+
+171
+00:06:44,829 --> 00:06:47,049
+nochmal unser anwendungen die stadt um
+دوباره برنامه‌های ما در اطراف شهر
+
+172
+00:06:47,049 --> 00:06:48,819
+zu gucken was uns springen da einfach
+تا ببینیم چه چیزی به سمت ما پرتاب می‌شود
+
+173
+00:06:48,819 --> 00:06:52,059
+mal gibt jetzt hat sich eine konsole
+اکنون یک کنسول وجود دارد
+
+174
+00:06:52,059 --> 00:06:54,610
+geöffnet wir sehen dass der tomcat web
+باز شد، می‌بینیم که وب تامکت
+
+175
+00:06:54,610 --> 00:06:57,699
+server ist ein application server auf
+سرور یک سرور برنامه است
+
+176
+00:06:57,699 --> 00:06:59,610
+dem spring jetzt laufen wird
+بهار اکنون جاری خواهد شد
+
+177
+00:06:59,610 --> 00:07:02,589
+auf dem port 80 80 auf unserem computer
+روی پورت ۸۰ ۸۰ روی کامپیوتر ما
+
+178
+00:07:02,589 --> 00:07:04,179
+gesteuert hatten ich werde jetzt einfach
+حالا به سادگی
+
+179
+00:07:04,179 --> 00:07:07,319
+mal drauf zugreifen dem ich
+وقتی بهش دسترسی پیدا کردم
+
+180
+00:07:07,319 --> 00:07:10,139
+auf den localhost
+به هاست محلی
+
+181
+00:07:10,139 --> 00:07:14,079
+88 navigiere und bekomme jetzt von einem
+۸۸ پیمایش کنید و همین حالا از یک
+
+182
+00:07:14,079 --> 00:07:16,199
+webserver 1 404
+وب سرور ۱ ۴۰۴
+
+183
+00:07:16,199 --> 00:07:19,599
+not found das heißt wir haben hier einen
+پیدا نشد، یعنی ما یک
+
+184
+00:07:19,599 --> 00:07:20,919
+invaliden fahrrad oder ein fahrrad
+دوچرخه معلول یا دوچرخه
+
+185
+00:07:20,919 --> 00:07:22,539
+worauf der webserver nicht weiß was er
+جایی که وب سرور نمی‌داند چیست
+
+186
+00:07:22,539 --> 00:07:24,359
+antworten soll
+باید پاسخ دهد
+
+187
+00:07:24,359 --> 00:07:27,849
+das ist gegeben da wir jetzt bin ich
+که از وقتی که ما هستیم داده شده، حالا من هستم
+
+188
+00:07:27,849 --> 00:07:29,559
+gesagt haben wie wir auf verschiedene
+گفت که چگونه ما به موارد مختلف پاسخ می‌دهیم
+
+189
+00:07:29,559 --> 00:07:32,589
+anfragen reagieren möchten aber immerhin
+می‌خواهم به سوالات پاسخ دهم اما حداقل
+
+190
+00:07:32,589 --> 00:07:33,759
+haben wir schon mal eine funktionierende
+ما از قبل یک [سیستم/سیستم/...] فعال داریم
+
+191
+00:07:33,759 --> 00:07:35,249
+anwendung
+کاربرد
+
+192
+00:07:35,249 --> 00:07:37,629
+in diesem teil des kurses werden wir
+در این بخش از دوره، ما
+
+193
+00:07:37,629 --> 00:07:40,539
+lernen wie http anfragen in spring gut
+یاد بگیرید چگونه در بهار درخواست‌های http ارسال کنید
+
+194
+00:07:40,539 --> 00:07:42,659
+verarbeitet werden
+پردازش شود
+
+195
+00:07:42,659 --> 00:07:45,009
+also ist es schon dafür ist dass du
+بنابراین در حال حاضر برای آن است که شما
+
+196
+00:07:45,009 --> 00:07:49,239
+ungefähr weiß wie http funktioniert und
+تقریباً می‌داند http چگونه کار می‌کند و
+
+197
+00:07:49,239 --> 00:07:51,899
+das springen schleuser projekt
+پروژه قاچاقچی در حال پریدن
+
+198
+00:07:51,899 --> 00:07:54,279
+vielleicht schon mal aufgesetzt hast
+ممکن است قبلاً لباس پوشیده باشید
+
+199
+00:07:54,279 --> 00:07:55,869
+damit du die tore hier auch folgen
+تا بتوانید اهداف را اینجا هم دنبال کنید
+
+200
+00:07:55,869 --> 00:07:58,389
+kannst also mit spring booster web sowie
+می‌توانید از اسپرینگ بوستر وب استفاده کنید و
+
+201
+00:07:58,389 --> 00:08:00,969
+in den vorigen teil des kurses
+در بخش قبلی دوره
+
+202
+00:08:00,969 --> 00:08:03,069
+wir sind jetzt wieder einen teil der
+ما اکنون دوباره بخشی از
+
+203
+00:08:03,069 --> 00:08:05,889
+bisher ein einfaches spring starter web
+تا اینجا یک وب استارتر بهاری ساده
+
+204
+00:08:05,889 --> 00:08:08,110
+projekt also sind hier noch keine sachen
+پروژه بنابراین هنوز هیچ چیزی اینجا نیست
+
+205
+00:08:08,110 --> 00:08:09,729
+hinzugefügt wurden einfach nur quasi
+به سادگی اضافه شدند
+
+206
+00:08:09,729 --> 00:08:12,579
+tier da wo wir schon im letzten torlauf
+حیوانی که در آخرین اسلالوم در آن بودیم
+
+207
+00:08:12,579 --> 00:08:15,879
+gehört haben und wir werden jetzt einen
+شنیده‌ایم و اکنون خواهیم داشت
+
+208
+00:08:15,879 --> 00:08:20,069
+einfachen controller erzeugen
+یک کنترلر ساده ایجاد کنید
+
+209
+00:08:23,699 --> 00:08:25,569
+und ich würde jetzt ja einmal die klasse
+و الان دوست دارم کلاس برم
+
+210
+00:08:25,569 --> 00:08:30,479
+hello world controller erzeugen
+ایجاد کنترلر hello world
+
+211
+00:08:31,860 --> 00:08:36,399
+und die annotation rest controller hier
+و کنترلر استراحت حاشیه‌نویسی اینجا
+
+212
+00:08:36,399 --> 00:08:38,430
+hinzufügen
+اضافه کردن
+
+213
+00:08:38,430 --> 00:08:41,469
+was das jetzt macht ist es gibt dieser
+کاری که الان انجام میده اینه که این وجود داره
+
+214
+00:08:41,469 --> 00:08:43,169
+klasse die möglichkeit
+فرصت عالی
+
+215
+00:08:43,169 --> 00:08:44,670
+verschiedene
+متفاوت
+
+216
+00:08:44,670 --> 00:08:48,779
+fahrer in der url zu erkennen und darauf
+درایور در URL و به
+
+217
+00:08:48,779 --> 00:08:51,250
+responses zu geben also daten zurück zu
+برای دادن پاسخ، یعنی برگرداندن داده‌ها به
+
+218
+00:08:51,250 --> 00:08:53,620
+senden aber dafür müssen wir den
+ارسال کنید اما برای آن ما نیاز داریم
+
+219
+00:08:53,620 --> 00:08:55,560
+controller erstmal sagen auf welche
+کنترل کننده اول بگوید کدام
+
+220
+00:08:55,560 --> 00:08:59,709
+pfade er überhaupt reagieren soll das
+مسیرهایی که او باید به آنها واکنش نشان دهد
+
+221
+00:08:59,709 --> 00:09:01,870
+werden wir jetzt einmal ein gate mapping
+اکنون نگاشت دروازه را انجام خواهیم داد
+
+222
+00:09:01,870 --> 00:09:04,000
+benutzen dafür mache ich erstmal eine
+برای این کار از من استفاده کنید، من ابتدا یک
+
+223
+00:09:04,000 --> 00:09:08,670
+location die hier auch heißt nur kipping
+مکانی که به آن کیپینگ نیز گفته می‌شود
+
+224
+00:09:14,740 --> 00:09:17,560
+und werde hier den pfad
+و مسیر را اینجا پیدا خواهم کرد
+
+225
+00:09:17,560 --> 00:09:20,530
+hallo angehen
+سلام رویکرد
+
+226
+00:09:20,530 --> 00:09:22,730
+und ich werde ihnen noch eine methode
+و من یک روش دیگر به شما ارائه خواهم داد
+
+227
+00:09:22,730 --> 00:09:24,770
+das muss man immer dazu gehen bringen
+همیشه باید آن را به سرانجام برسانی
+
+228
+00:09:24,770 --> 00:09:26,440
+wenn man so einen cache mapping erzeugt
+اگر چنین نگاشت حافظه پنهانی ایجاد کنید
+
+229
+00:09:26,440 --> 00:09:28,700
+und das ist quasi die methode die dann
+و این اساساً روشی است که
+
+230
+00:09:28,700 --> 00:09:31,790
+aufgerufen wird wenn dieser fahrt also
+وقتی این سفر نامیده می‌شود
+
+231
+00:09:31,790 --> 00:09:34,670
+dann bei uns seinen localhost 80 80 mit
+سپس با ما localhost 80 80 با
+
+232
+00:09:34,670 --> 00:09:37,760
+diesem pfad hallo aufgerufen wird das
+این مسیر hello نامیده می‌شود.
+
+233
+00:09:37,760 --> 00:09:39,400
+ist in diesem fall würde ich sagen
+در این صورت من میگم
+
+234
+00:09:39,400 --> 00:09:42,580
+hello world
+سلام دنیا
+
+235
+00:09:43,720 --> 00:09:46,120
+und gäbe dann zurück
+و بعد پس بده
+
+236
+00:09:46,120 --> 00:09:48,610
+halo wird
+هاله ویل
+
+237
+00:09:48,610 --> 00:09:52,510
+genau jetzt wird das ganze einmal
+الان همه چیز تمام خواهد شد
+
+238
+00:09:52,510 --> 00:09:54,950
+testen werden ja in form eines springen
+آزمایش به صورت پرش خواهد بود
+
+239
+00:09:54,950 --> 00:09:57,460
+anwendung starten
+شروع برنامه
+
+240
+00:09:57,460 --> 00:09:59,780
+jetzt in meinem browser ich werde jetzt
+حالا در مرورگرم، این کار را خواهم کرد
+
+241
+00:09:59,780 --> 00:10:02,450
+hier einmal auf logos 80 80 gehen und
+به لوگوهای ۸۰ ۸۰ بروید و
+
+242
+00:10:02,450 --> 00:10:04,550
+wie ihr seht kriegt man auf den 404 also
+همانطور که می‌بینید، با خطای ۴۰۴ مواجه می‌شوید.
+
+243
+00:10:04,550 --> 00:10:07,640
+not found fehler das ist klar weil wir
+خطایی یافت نشد که واضح باشد زیرا ما
+
+244
+00:10:07,640 --> 00:10:09,380
+haben ja noch gar kein gar kein metting
+اصلاً جلسه ای ندارند
+
+245
+00:10:09,380 --> 00:10:11,900
+auf diesen lehrern fatih auf unseren
+درباره این معلمان فاتح درباره ما
+
+246
+00:10:11,900 --> 00:10:13,600
+home vaart ist dass er üblicherweise
+خانه وارِت این است که او معمولاً
+
+247
+00:10:13,600 --> 00:10:15,380
+jetzt will ich einfach mal hallo
+الان فقط می‌خوام یه سلامی بکنم
+
+248
+00:10:15,380 --> 00:10:17,450
+eingeben und wie sieht haben wir jetzt
+وارد شوید و حالا چه شکلی است؟
+
+249
+00:10:17,450 --> 00:10:20,450
+hier hello world zurückbekommen und das
+سلام دنیا را دوباره اینجا و اینجا دریافت کنید
+
+250
+00:10:20,450 --> 00:10:21,830
+ist so ein bisschen die grundlage was
+کمی از اساس چیزی است که
+
+251
+00:10:21,830 --> 00:10:23,300
+der rest controller macht es nochmal ein
+کنترل کننده بقیه دوباره این کار را انجام می دهد
+
+252
+00:10:23,300 --> 00:10:25,790
+bisschen hinter die kulissen gucken um
+نگاهی به پشت صحنه بیندازید
+
+253
+00:10:25,790 --> 00:10:27,080
+euch zu erklären was da eigentlich bei
+تا برایت توضیح دهم که واقعاً چه اتفاقی دارد می‌افتد
+
+254
+00:10:27,080 --> 00:10:30,430
+unseren break west gerade passiert ist
+تعطیلات ما به سمت غرب تازه تمام شده بود
+
+255
+00:10:30,430 --> 00:10:33,320
+wenn wir unseren gatwick kurs des
+وقتی مسیر گاتویک خود را ادامه می‌دهیم
+
+256
+00:10:33,320 --> 00:10:37,370
+browsers machen an den pfad halo wird
+مرورگرها مسیر را به صورت هاله ایجاد می‌کنند
+
+257
+00:10:37,370 --> 00:10:39,260
+erstmal ein gatwick west an der
+اول یک گاتویک غربی در
+
+258
+00:10:39,260 --> 00:10:41,570
+application server geschickt dass unser
+سرور برنامه ارسال کرد که ما
+
+259
+00:10:41,570 --> 00:10:44,330
+traum kat fast erinnert der sprintstar
+کت رویایی تقریباً ستاره دو سرعت را به خاطر می‌آورد
+
+260
+00:10:44,330 --> 00:10:47,390
+web kommt mit dem tomcat der so
+وب با تامکت همراه است که
+
+261
+00:10:47,390 --> 00:10:49,220
+konfiguriert wird das ja auf den port 80
+این روی پورت ۸۰ پیکربندی شده است
+
+262
+00:10:49,220 --> 00:10:50,750
+80 hört wenn wir unsere springer
+۸۰ می‌شنویم وقتی که می‌پریم
+
+263
+00:10:50,750 --> 00:10:52,150
+anwendung starten
+شروع برنامه
+
+264
+00:10:52,150 --> 00:10:54,620
+dann wird der rest weitergeleitet an den
+سپس بقیه به
+
+265
+00:10:54,620 --> 00:10:57,380
+tomcat service container bei dem dann
+کانتینر سرویس تامکت که در آن
+
+266
+00:10:57,380 --> 00:10:58,910
+möglicherweise mehrere anwendungen
+احتمالاً چندین برنامه
+
+267
+00:10:58,910 --> 00:11:02,810
+laufen oder mehrere services die für die
+در حال اجرا یا چندین سرویس که مسئول آن هستند
+
+268
+00:11:02,810 --> 00:11:05,330
+verschiedenen java-anwendungen requests
+درخواست‌های مختلف برنامه‌های جاوا
+
+269
+00:11:05,330 --> 00:11:07,010
+hingegen nehmen und bearbeiten in diesem
+با این حال، این را بگیرید و پردازش کنید
+
+270
+00:11:07,010 --> 00:11:08,900
+fall haben wir dann nur einen service
+در صورتی که فقط یک سرویس داشته باشیم
+
+271
+00:11:08,900 --> 00:11:10,960
+und zwar den sprint des bechers service
+یعنی اسپرینت سرویس جام
+
+272
+00:11:10,960 --> 00:11:13,030
+die das spring anwendung hat diesen
+برنامه بهار این را دارد
+
+273
+00:11:13,030 --> 00:11:15,760
+dispatcher service und was dieser
+خدمات اعزام کننده و این چیست
+
+274
+00:11:15,760 --> 00:11:17,380
+service dann macht ist er nimmt die
+خدمات پس از آن او انجام می دهد
+
+275
+00:11:17,380 --> 00:11:19,540
+anfrage entgegen guckt ob er
+درخواست می‌کند و می‌بیند که آیا او
+
+276
+00:11:19,540 --> 00:11:21,760
+irgendwelche controller sind zb helau
+برخی از کنترل‌کننده‌ها مثلاً هلو
+
+277
+00:11:21,760 --> 00:11:25,300
+controller der diesem request bearbeiten
+کنترل‌کننده‌ای که این درخواست را پردازش می‌کند
+
+278
+00:11:25,300 --> 00:11:26,470
+kann das heißt dann muss natürlich
+آیا این به این معنی است که البته
+
+279
+00:11:26,470 --> 00:11:28,260
+einmal die mit der methoden typ
+یک بار آن که نوع متد را دارد
+
+280
+00:11:28,260 --> 00:11:31,840
+übereinstimmen und der fahrt in diesem
+مسابقه و سفر در این
+
+281
+00:11:31,840 --> 00:11:34,480
+fall ist ja beides auf den hello
+مورد هر دو در سلام است
+
+282
+00:11:34,480 --> 00:11:37,330
+controller zurückzuführen wenn wir zum
+کنترل کننده وقتی که ما
+
+283
+00:11:37,330 --> 00:11:38,800
+beispiel einen pfad an geben den es
+به عنوان مثال، مسیری را مشخص کنید که
+
+284
+00:11:38,800 --> 00:11:41,920
+nicht gibt dann wird der tomcat bzw
+پس گربه نر وجود ندارد یا
+
+285
+00:11:41,920 --> 00:11:45,400
+spring 1 404 zu geben weil wir können
+بهار ۱ ۴۰۴ چون ما می‌توانیم
+
+286
+00:11:45,400 --> 00:11:46,960
+den rekord nicht richtig bearbeiten wir
+ما رکورد را به درستی ویرایش نمی‌کنیم
+
+287
+00:11:46,960 --> 00:11:48,400
+wissen nicht welchen controller wie das
+نمی‌دانم کدام کنترل‌کننده مثل آن است
+
+288
+00:11:48,400 --> 00:11:50,740
+zuweisen sollen oder welchen kurve dann
+باید اختصاص دهد یا کدام منحنی را پس از آن
+
+289
+00:11:50,740 --> 00:11:52,630
+laufen lassen müssen aber hier wissen
+اجرا کنید اما باید اینجا را بدانید
+
+290
+00:11:52,630 --> 00:11:54,460
+und wissen wie es ja und unser
+و بدانیم که اوضاع چگونه است و ما
+
+291
+00:11:54,460 --> 00:11:57,310
+controller erstellt dann quasi unsere
+سپس کنترلر ما را ایجاد می‌کند
+
+292
+00:11:57,310 --> 00:11:59,410
+response die wird dann weitergeleitet
+پاسخی که سپس ارسال می‌شود
+
+293
+00:11:59,410 --> 00:12:01,870
+und letztendlich zurück an den user
+و در نهایت به کاربر بازمی‌گردد
+
+294
+00:12:01,870 --> 00:12:04,140
+geleitet
+رهبری کرد
+
+295
+00:12:04,140 --> 00:12:06,730
+noch einmal uns zu erklären weil es
+دوباره برای ما توضیح دهد زیرا
+
+296
+00:12:06,730 --> 00:12:08,800
+schon etwas abstrakt ist als entwickler
+به عنوان یک توسعه‌دهنده، از قبل تا حدودی انتزاعی است
+
+297
+00:12:08,800 --> 00:12:11,080
+hat man nicht so oft damit zu tun und
+لازم نیست که اغلب با آن سر و کار داشته باشید و
+
+298
+00:12:11,080 --> 00:12:15,010
+zwar im prinzip des java servlet java
+در اصل، جاوا سرولت (java servlet) است.
+
+299
+00:12:15,010 --> 00:12:17,500
+servlet sind klassen ist ein standard
+سرولت‌ها کلاس‌هایی هستند که یک استاندارد محسوب می‌شوند
+
+300
+00:12:17,500 --> 00:12:20,770
+zum annehmen und abarbeiten von http
+برای پذیرش و پردازش http
+
+301
+00:12:20,770 --> 00:12:24,070
+request in java wir brauchen um ein java
+درخواست در جاوا، ما به یک جاوا نیاز داریم
+
+302
+00:12:24,070 --> 00:12:26,440
+services laufen zu lassen eine service
+خدمات برای اجرای یک سرویس
+
+303
+00:12:26,440 --> 00:12:28,840
+engine ein container das normalerweise
+موتور یک کانتینر که به طور معمول
+
+304
+00:12:28,840 --> 00:12:30,550
+ein application server da gibt es
+یک سرور برنامه وجود دارد
+
+305
+00:12:30,550 --> 00:12:32,680
+mehrere zum beispiel james oder auch tom
+چند نفر، مثلاً جیمز یا تام
+
+306
+00:12:32,680 --> 00:12:35,560
+cat den wir jetzt gerade benutzen und
+cat که در حال حاضر از آن استفاده می‌کنیم و
+
+307
+00:12:35,560 --> 00:12:37,720
+die spring anwendungen benutzen generell
+کاربردهای بهاری معمولاً از
+
+308
+00:12:37,720 --> 00:12:40,960
+den dispatcher service das ist sozusagen
+سرویس اعزام کننده ای که به اصطلاح گفته می شود
+
+309
+00:12:40,960 --> 00:12:43,150
+das das ist der default service für
+این سرویس پیش‌فرض برای
+
+310
+00:12:43,150 --> 00:12:46,270
+jedes springer wendung und der service
+هر نوبت اسپرینگر و سرویس
+
+311
+00:12:46,270 --> 00:12:47,710
+zuständig dass unsere bus controller zum
+مسئول اطمینان از اینکه کنترل‌کننده‌های اتوبوس ما
+
+312
+00:12:47,710 --> 00:12:49,290
+beispiel die verschiedenen
+مثال متفاوت
+
+313
+00:12:49,290 --> 00:12:51,930
+anfragen und so weiter bearbeiten können
+درخواست‌ها و غیره
+
+314
+00:12:51,930 --> 00:12:55,210
+wir werden uns aber mit der theorie der
+اما ما به تئوری خواهیم پرداخت
+
+315
+00:12:55,210 --> 00:12:57,210
+dem thema dependency injection
+موضوع تزریق وابستگی
+
+316
+00:12:57,210 --> 00:12:59,620
+beschäftigen die pens injection ist
+از قلم‌های تزریق استفاده کنید
+
+317
+00:12:59,620 --> 00:13:02,140
+einer der grössten features bei spring
+یکی از بزرگترین ویژگی‌های بهار
+
+318
+00:13:02,140 --> 00:13:04,630
+eine der wichtigsten sachen entsprechend
+یکی از مهمترین موارد طبق
+
+319
+00:13:04,630 --> 00:13:06,610
+finde ich es wichtig dass wir das auch
+من فکر می‌کنم مهم است که ما هم
+
+320
+00:13:06,610 --> 00:13:08,230
+wirklich verstehen verstehen warum das
+واقعاً می‌فهمم که چرا
+
+321
+00:13:08,230 --> 00:13:09,410
+gemacht wird
+ساخته شده است
+
+322
+00:13:09,410 --> 00:13:11,240
+und natürlich wird es auch öfter mal in
+و البته اغلب نیز در
+
+323
+00:13:11,240 --> 00:13:13,970
+interviews gefragt dass man erklärt was
+از مصاحبه‌ها خواسته شد تا توضیح دهند که چه چیزی
+
+324
+00:13:13,970 --> 00:13:16,009
+eigentlich dahinter passiert warum man
+در واقع پشت سر اتفاق می‌افتد که چرا شما
+
+325
+00:13:16,009 --> 00:13:18,850
+das macht etc
+که باعث می‌شود و غیره
+
+326
+00:13:18,850 --> 00:13:21,680
+eine dependence sie also besitzt einfach
+وابستگی‌ای که او به سادگی دارد
+
+327
+00:13:21,680 --> 00:13:24,470
+nur eine abhängigkeit und wenn wir
+فقط یک وابستگی است و اگر ما
+
+328
+00:13:24,470 --> 00:13:26,120
+software entwickeln möchten wir als
+ما می‌خواهیم نرم‌افزاری را توسعه دهیم که
+
+329
+00:13:26,120 --> 00:13:28,250
+entwickler abhängigkeiten unserem coach
+وابستگی‌های توسعه‌دهنده مربی ما
+
+330
+00:13:28,250 --> 00:13:31,329
+soweit es geht vermeiden
+تا حد امکان اجتناب کنید
+
+331
+00:13:31,329 --> 00:13:33,560
+ich erkläre ich mal warum an einem
+دلیلش را در یک پست توضیح خواهم داد
+
+332
+00:13:33,560 --> 00:13:35,029
+echten beispiel für den
+مثال واقعی از
+
+333
+00:13:35,029 --> 00:13:36,050
+deutschsprachigen raum habe ich
+منطقه آلمانی زبان من
+
+334
+00:13:36,050 --> 00:13:36,819
+natürlich
+به طور طبیعی
+
+335
+00:13:36,819 --> 00:13:39,889
+eine autofabrik hier als beispiel
+به عنوان مثال، یک کارخانه اتومبیل سازی
+
+336
+00:13:39,889 --> 00:13:41,990
+ausgewählt da sehen wir in dieser fabrik
+همانطور که در این کارخانه می‌بینیم، انتخاب شده است
+
+337
+00:13:41,990 --> 00:13:44,779
+wie ein auto zusammengesetzt wird und
+چگونه یک ماشین مونتاژ می‌شود و
+
+338
+00:13:44,779 --> 00:13:47,480
+dafür haben wir ein grundgerüst für
+برای این کار ما یک چارچوب اساسی داریم
+
+339
+00:13:47,480 --> 00:13:48,610
+unser auto
+ماشین ما
+
+340
+00:13:48,610 --> 00:13:51,649
+an diesem grundgerüst werden wir gerade
+ما در حال حاضر روی این چارچوب اولیه کار می‌کنیم
+
+341
+00:13:51,649 --> 00:13:54,850
+mehrere komponente einbauen aber
+چندین مؤلفه را نصب کنید اما
+
+342
+00:13:54,850 --> 00:13:58,279
+dabei ist halt wichtig dass wir nicht zu
+مهم اینه که ما این کار رو نکنیم
+
+343
+00:13:58,279 --> 00:14:02,360
+abhängig von den anderen fabriken werden
+وابسته به کارخانه‌های دیگر
+
+344
+00:14:02,360 --> 00:14:03,410
+was heißt das genau
+یعنی چی دقیقا؟
+
+345
+00:14:03,410 --> 00:14:05,930
+wenn ich mein auto bauen möchte ich zum
+اگر بخواهم ماشینم را بسازم،
+
+346
+00:14:05,930 --> 00:14:08,540
+beispiel nicht mein auto so bauen oder
+مثلاً، ماشین من را این‌طور نساز یا
+
+347
+00:14:08,540 --> 00:14:10,339
+ein gerüst so bauen dass ich dann nur
+داربستی بساز تا فقط بتوانم
+
+348
+00:14:10,339 --> 00:14:13,069
+eine art von reifen rein tun kann weil
+نوعی تایر را می‌توان در آن قرار داد زیرا
+
+349
+00:14:13,069 --> 00:14:15,139
+wenn zum beispiel mein reifen lieferant
+برای مثال، اگر تأمین‌کننده لاستیک من
+
+350
+00:14:15,139 --> 00:14:18,399
+die preise zu sehr erhöht oder
+قیمت‌ها بیش از حد افزایش یافته‌اند یا
+
+351
+00:14:18,399 --> 00:14:21,079
+pleite geht dann habe ich auch das
+ورشکست شود، آنوقت من هم دارم
+
+352
+00:14:21,079 --> 00:14:22,550
+problem dass ich keine reifen mehr
+مشکل این است که دیگر لاستیک ندارم
+
+353
+00:14:22,550 --> 00:14:25,329
+bekomme und meine fabrik steht still
+بگیر و کارخانه‌ام راکد است
+
+354
+00:14:25,329 --> 00:14:29,120
+und wenig im kopf haben wir falls du
+و اگر شما [این کار را] انجام دهید، چیز زیادی در ذهن نداریم.
+
+355
+00:14:29,120 --> 00:14:30,130
+dich an die grundlagen der
+شما به اصول اولیه
+
+356
+00:14:30,130 --> 00:14:31,579
+objektorientierten programmierung
+برنامه‌نویسی شیءگرا
+
+357
+00:14:31,579 --> 00:14:35,170
+mariners interfaces als programmierer
+رابط کاربری مارینرز به عنوان یک برنامه نویس
+
+358
+00:14:35,170 --> 00:14:38,110
+mit denen wir
+با چه کسی ما
+
+359
+00:14:38,110 --> 00:14:40,610
+eine abstraktion unserer klassen
+چکیده‌ای از کلاس‌های ما
+
+360
+00:14:40,610 --> 00:14:42,019
+erzeugen können das heißt wir sagen zum
+می‌تواند این معنی را تولید کند که ما می‌گوییم
+
+361
+00:14:42,019 --> 00:14:43,939
+beispiel ich habe jetzt hier eine motor
+مثلاً من اینجا یک موتور دارم.
+
+362
+00:14:43,939 --> 00:14:46,899
+fabrik und würde dann vielleicht eine
+کارخانه و سپس شاید یک
+
+363
+00:14:46,899 --> 00:14:50,120
+instanz oder eine implementation dieses
+نمونه یا پیاده‌سازی این
+
+364
+00:14:50,120 --> 00:14:51,860
+in diesem fall einem interface nennt
+در این حالت یک رابط نامیده می‌شود
+
+365
+00:14:51,860 --> 00:14:54,170
+sich das in java erzeugen und dem
+این را در جاوا ایجاد کنید و
+
+366
+00:14:54,170 --> 00:14:56,149
+verhalten sind aber die des motor
+رفتار، رفتار موتور است
+
+367
+00:14:56,149 --> 00:14:59,089
+factory oder die bet motor factory was
+کارخانه یا کارخانه موتور شرط بندی چیست؟
+
+368
+00:14:59,089 --> 00:15:00,740
+aber nur zeigen sollen das sind zwei
+اما فقط برای نشان دادن اینکه دو تا وجود دارد
+
+369
+00:15:00,740 --> 00:15:03,470
+unterschiedliche versionen einer moto
+نسخه‌های مختلف یک موتور
+
+370
+00:15:03,470 --> 00:15:06,939
+factory und kann dann jemand unten sieht
+کارخانه و سپس کسی می‌تواند زیر را ببیند
+
+371
+00:15:06,939 --> 00:15:09,340
+beliebig austauschen
+معاوضه به دلخواه
+
+372
+00:15:09,340 --> 00:15:14,050
+welche fabrik ich da in mein objekt ist
+کدام کارخانه را در شیء خود دارم؟
+
+373
+00:15:14,050 --> 00:15:15,180
+eine variable
+یک متغیر
+
+374
+00:15:15,180 --> 00:15:16,740
+einfüge
+درج
+
+375
+00:15:16,740 --> 00:15:18,540
+was das ganze
+کل چی؟
+
+376
+00:15:18,540 --> 00:15:21,250
+entkoppelt in dem sinne dass ich nicht
+از این نظر که من نیستم، جدا شده‌ام
+
+377
+00:15:21,250 --> 00:15:24,190
+an eine gewisse fabrik hier meine
+به یک کارخانه خاص اینجا، من
+
+378
+00:15:24,190 --> 00:15:26,490
+variable gebunden bin kann die
+متغیر محدود می تواند
+
+379
+00:15:26,490 --> 00:15:28,810
+austauschen mit dem new key word
+با کلمه کلیدی جدید تبادل کنید
+
+380
+00:15:28,810 --> 00:15:33,720
+unterschiedliche fabriken hier zu weisen
+کارخانه‌های مختلف اینجا
+
+381
+00:15:33,720 --> 00:15:38,590
+jetzt wird sich aber zeigen dass ist da
+اما حالا مشخص خواهد شد که وجود دارد
+
+382
+00:15:38,590 --> 00:15:40,540
+immer noch eine abhängigkeit erzeugt
+هنوز وابستگی ایجاد می‌کند
+
+383
+00:15:40,540 --> 00:15:43,330
+wird wird und zwar in einem beispiel was
+خواهد بود و در یک مثال چه چیزی
+
+384
+00:15:43,330 --> 00:15:45,340
+sie jetzt wieder an der autofabrik mache
+او اکنون دوباره در کارخانه اتومبیل سازی کار می کند.
+
+385
+00:15:45,340 --> 00:15:48,580
+diesmal aber im kot und zwar habe ich
+اما این بار در مدفوع و من
+
+386
+00:15:48,580 --> 00:15:50,670
+hier eine autofabrik
+اینجا یک کارخانه ماشین سازی است
+
+387
+00:15:50,670 --> 00:15:52,800
+die
+‎‏ ...
+
+388
+00:15:52,800 --> 00:15:56,320
+das interface motor factory als variable
+رابط کارخانه موتور به عنوان یک متغیر
+
+389
+00:15:56,320 --> 00:15:58,390
+hier in unserer klasse hat das heißt wir
+اینجا در کلاس ما، این یعنی ما
+
+390
+00:15:58,390 --> 00:16:00,240
+haben hier eine generische
+عمومی داشته باشید
+
+391
+00:16:00,240 --> 00:16:03,820
+motorenfabrik in dem fall habe ich mich
+کارخانه موتور در این مورد من
+
+392
+00:16:03,820 --> 00:16:05,860
+hier für die beste fabrik für
+اینجا برای بهترین کارخانه
+
+393
+00:16:05,860 --> 00:16:09,540
+entschieden mode beste motor factory und
+تصمیم گرفت بهترین کارخانه موتور مد و
+
+394
+00:16:09,540 --> 00:16:12,040
+das geschäft läuft gut wir machen
+کسب و کار خوب پیش می‌رود، ما در حال انجام آن هستیم
+
+395
+00:16:12,040 --> 00:16:14,710
+ordentlich umsatz mit unserer fabrik und
+گردش مالی مناسب با کارخانه ما و
+
+396
+00:16:14,710 --> 00:16:16,930
+entsprechend schießen dann bald viele
+بر این اساس، بسیاری به زودی شلیک خواهند کرد
+
+397
+00:16:16,930 --> 00:16:18,880
+weitere fabriken in unserer cobains
+کارخانه‌های بیشتر در کوبین‌های ما
+
+398
+00:16:18,880 --> 00:16:19,770
+hinzu
+اضافه شد
+
+399
+00:16:19,770 --> 00:16:21,910
+und die wird sind alle die besten oder
+و همه آنها بهترین هستند یا
+
+400
+00:16:21,910 --> 00:16:23,500
+factory das heißt überall benutzen wir
+کارخانه‌ای که به معنای هر جایی است که ما استفاده می‌کنیم
+
+401
+00:16:23,500 --> 00:16:26,110
+dieses new key word wir haben nach wie
+این کلمه کلیدی جدید که ما هنوز داریم
+
+402
+00:16:26,110 --> 00:16:29,110
+vor die das model factory interfaces
+قبل از رابط‌های کارخانه مدل
+
+403
+00:16:29,110 --> 00:16:31,030
+heißt wir haben soweit entkoppelt dass
+یعنی ما تا اینجا از هم جدا شده‌ایم که
+
+404
+00:16:31,030 --> 00:16:35,500
+wir jede motor factory diesem dieser
+ما هر کارخانه موتورسازی، این، این
+
+405
+00:16:35,500 --> 00:16:38,200
+variable hinzufügen können aber da die
+متغیر است اما از آنجایی که
+
+406
+00:16:38,200 --> 00:16:40,030
+besser oder factory einfach die besten
+بهتر یا کارخانه‌ای، به سادگی بهترین
+
+407
+00:16:40,030 --> 00:16:41,250
+motor produziert
+موتور تولید شده
+
+408
+00:16:41,250 --> 00:16:43,150
+benutzen wir das ganze einfach überall
+ما به سادگی از کل آن در همه جا استفاده می‌کنیم
+
+409
+00:16:43,150 --> 00:16:44,920
+und benutzten die beiden you beth moore
+و از دو تاش استفاده کردی، بث مور
+
+410
+00:16:44,920 --> 00:16:47,560
+the factory da passiert was ganz traurig
+کارخانه اتفاق بسیار غم انگیزی در آنجا در حال رخ دادن است.
+
+411
+00:16:47,560 --> 00:16:48,750
+ist und zwar
+است و به طور خاص
+
+412
+00:16:48,750 --> 00:16:51,330
+unsere besten lotterie factory
+بهترین کارخانه قرعه کشی ما
+
+413
+00:16:51,330 --> 00:16:53,040
+explodiert
+منفجر شد
+
+414
+00:16:53,040 --> 00:16:56,680
+und wir können unsere produktion nicht
+و ما نمی‌توانیم تولید خود را افزایش دهیم
+
+415
+00:16:56,680 --> 00:16:58,240
+weiterleiten also alle unsere fabriken
+تمام کارخانه‌هایمان را به جلو ببریم
+
+416
+00:16:58,240 --> 00:17:00,160
+stehen jetzt still wir bekommen keine
+الان که هنوز ایستاده‌ایم، هیچ چیزی دریافت نمی‌کنیم
+
+417
+00:17:00,160 --> 00:17:02,610
+motoren mehr
+موتورها بیشتر
+
+418
+00:17:03,270 --> 00:17:05,470
+was müsst ihr mal reden was ihr in
+چی داری که در موردش حرف بزنی؟
+
+419
+00:17:05,470 --> 00:17:07,780
+unserem chor ein problem erzeugt hat und
+برای گروه کر ما مشکل ایجاد کرده است و
+
+420
+00:17:07,780 --> 00:17:10,300
+zwar unser anforderung haben sich
+اگرچه الزامات ما
+
+421
+00:17:10,300 --> 00:17:13,060
+geändert wir wollen jetzt eine andere
+تغییر کردیم، حالا یه چیز متفاوت می‌خوایم
+
+422
+00:17:13,060 --> 00:17:15,760
+fabrik da haben vor unserem motor weil
+کارخانه‌ای جلوی موتور ما وجود دارد زیرا
+
+423
+00:17:15,760 --> 00:17:17,709
+wir durch das new key word gesagt haben
+ما از طریق کلمه کلیدی جدید گفتیم
+
+424
+00:17:17,709 --> 00:17:19,390
+dass wir überall diesem best motor
+که ما همه جا این بهترین موتور را داریم
+
+425
+00:17:19,390 --> 00:17:23,110
+factory einbauen möchten haben wir in
+کارخانه‌ای که در آن داریم
+
+426
+00:17:23,110 --> 00:17:26,230
+unserem code eine kopplung erzeugt wir
+کد ما یک اتصال ایجاد می‌کند، ما
+
+427
+00:17:26,230 --> 00:17:27,700
+sind an diese best model factory
+در این بهترین کارخانه مدل هستند
+
+428
+00:17:27,700 --> 00:17:29,740
+gekoppelt obwohl wir interface benutzt
+اگرچه از رابط استفاده کردیم، اما به هم متصل بودیم
+
+429
+00:17:29,740 --> 00:17:30,690
+haben
+داشته باشند
+
+430
+00:17:30,690 --> 00:17:33,070
+dann hat er noch sehr viele instanzen
+پس او هنوز موارد زیادی دارد
+
+431
+00:17:33,070 --> 00:17:36,330
+erzeugt von unserer besten motto factory
+تولید شده توسط بهترین کارخانه شعار ما
+
+432
+00:17:36,330 --> 00:17:39,430
+was auch eventuell ohne dich ist wenn
+که ممکن است بدون تو هم باشد اگر
+
+433
+00:17:39,430 --> 00:17:41,130
+zum beispiel unsere besten oder factory
+به عنوان مثال بهترین یا کارخانه ما
+
+434
+00:17:41,130 --> 00:17:45,220
+in meinem motor erzeugt dann kann es
+در موتور من پس می‌تواند
+
+435
+00:17:45,220 --> 00:17:46,180
+sein dass vielleicht auch eine fabrik
+شاید آن یک کارخانه باشد
+
+436
+00:17:46,180 --> 00:17:47,340
+genügt
+کافی است
+
+437
+00:17:47,340 --> 00:17:50,320
+hier kommt dann die pension jackson ins
+جکسونِ بازنشسته وارد می‌شود
+
+438
+00:17:50,320 --> 00:17:51,360
+spiel
+بازی
+
+439
+00:17:51,360 --> 00:17:53,980
+und zwar falls ihr meine lenken größere
+و اگر تو بزرگترم را هدایت کنی
+
+440
+00:17:53,980 --> 00:17:55,930
+java-entwickler java programm
+برنامه جاوا توسعه دهنده جاوا
+
+441
+00:17:55,930 --> 00:17:57,850
+geschrieben habt wisst ihr das
+نوشتی میدونی که
+
+442
+00:17:57,850 --> 00:17:59,110
+vielleicht dass man vielleicht bei dem
+شاید که شاید در
+
+443
+00:17:59,110 --> 00:18:01,540
+ein klasse anfängt man erstellt ein paar
+یک کلاس شروع می‌شود که شما چند تا ایجاد می‌کنید
+
+444
+00:18:01,540 --> 00:18:03,490
+klassen und in den klassen nehmen immer
+کلاس‌ها و در کلاس‌ها همیشه
+
+445
+00:18:03,490 --> 00:18:05,140
+mehr klassen eingebaut und vielleicht
+کلاس‌های بیشتری ساخته شده‌اند و شاید
+
+446
+00:18:05,140 --> 00:18:07,300
+reichen die klassen sich gegenseitig ein
+کلاس‌ها از یکدیگر اطاعت می‌کنند
+
+447
+00:18:07,300 --> 00:18:09,340
+paar klassen weiter runter und hatte am
+چند کلاس پایین‌تر و
+
+448
+00:18:09,340 --> 00:18:11,110
+ende so eine baumstruktur hier wie auf
+چنین ساختار درختی را در اینجا پایان دهید
+
+449
+00:18:11,110 --> 00:18:12,940
+der linken seite ihren diesem diagramm
+سمت چپ این نمودار
+
+450
+00:18:12,940 --> 00:18:16,840
+gezeigt wird und auch das zeigt wie ohne
+نشان داده شده است و این همچنین نشان می‌دهد که چگونه بدون
+
+451
+00:18:16,840 --> 00:18:19,540
+die pens injection der code halt immer
+تزریق قلم‌ها، کد همیشه
+
+452
+00:18:19,540 --> 00:18:22,180
+komplexer wird mit die pension jackson
+با حقوق بازنشستگی جکسون پیچیده‌تر می‌شود
+
+453
+00:18:22,180 --> 00:18:23,620
+haben wir dann andere ansatz und zwar
+سپس ما یک رویکرد متفاوت داریم، یعنی
+
+454
+00:18:23,620 --> 00:18:26,050
+haben wir eine klasse hier haben sie das
+ما اینجا یک کلاس داریم، شما
+
+455
+00:18:26,050 --> 00:18:28,390
+ding pansy in sektor genannt wir werden
+چیزی که در بخشی به نام بنفشه وجود دارد، ما آن را انجام خواهیم داد
+
+456
+00:18:28,390 --> 00:18:29,970
+vielleicht gucken wie das bringe heißt
+شاید ببینید اسم bring چیست.
+
+457
+00:18:29,970 --> 00:18:32,970
+und diese penalty im sektor
+و این جریمه در بخش
+
+458
+00:18:32,970 --> 00:18:38,410
+ist dazu da unsere abhängigkeiten an die
+آیا برای کاهش وابستگی ما به ... وجود دارد؟
+
+459
+00:18:38,410 --> 00:18:41,680
+verschiedenen klassen weiterzugeben ist
+کلاس‌های مختلف
+
+460
+00:18:41,680 --> 00:18:43,270
+dass wir hier in unserem kommt uns nicht
+که ما اینجا در خودمان هستیم
+
+461
+00:18:43,270 --> 00:18:44,920
+mehr darum kümmern müssen wie wir das
+باید بیشتر به این اهمیت بدهیم که چگونه
+
+462
+00:18:44,920 --> 00:18:46,480
+ganze hier zum beispiel in diese
+برای مثال، اینجا در این
+
+463
+00:18:46,480 --> 00:18:48,400
+baumstruktur unter gereicht wird der
+ساختار درختی تحت عنوان
+
+464
+00:18:48,400 --> 00:18:50,920
+defense sector macht das ganze für uns
+بخش دفاعی همه کار را برای ما انجام می‌دهد
+
+465
+00:18:50,920 --> 00:18:53,970
+automatisch tatsächlich
+به طور خودکار در واقع
+
+466
+00:18:53,970 --> 00:18:55,500
+ist
+است
+
+467
+00:18:55,500 --> 00:18:58,240
+die jetzt unser beispiel
+که اکنون نمونه ماست
+
+468
+00:18:58,240 --> 00:19:00,280
+in spring funktionieren würde wenn wir
+اگر در بهار کار کنیم، جواب می‌دهد
+
+469
+00:19:00,280 --> 00:19:02,710
+jetzt bringen benutzt hätten statt das
+حالا به جای «» از «» استفاده می‌کردیم.
+
+470
+00:19:02,710 --> 00:19:05,410
+ist ihr vorgemacht haben und zwar als
+این است که به او نشان داده باشم و آن را به عنوان
+
+471
+00:19:05,410 --> 00:19:06,570
+spring einen so genannten application
+یک برنامه به اصطلاح را به کار بیندازید
+
+472
+00:19:06,570 --> 00:19:08,100
+kontext
+زمینه
+
+473
+00:19:08,100 --> 00:19:11,770
+und diese application kontext erzeugt
+و این زمینه برنامه ایجاد می‌کند
+
+474
+00:19:11,770 --> 00:19:14,740
+dann die instanzen unserer klassen zum
+سپس نمونه‌هایی از کلاس‌های ما به
+
+475
+00:19:14,740 --> 00:19:17,170
+beispiel in diesem fall unserer best
+به عنوان مثال در این مورد بهترین ما
+
+476
+00:19:17,170 --> 00:19:19,840
+motor factory der wird doch einmal
+کارخانه موتورسازی که روزی
+
+477
+00:19:19,840 --> 00:19:23,200
+erzeugt und diese application kontext
+ایجاد شده و این زمینه برنامه
+
+478
+00:19:23,200 --> 00:19:25,559
+wird dann
+سپس
+
+479
+00:19:25,559 --> 00:19:28,360
+da wo unsere mode factories angegeben
+جایی که کارخانه‌های مد ما نشان دادند
+
+480
+00:19:28,360 --> 00:19:30,850
+werden eine passende instanz an der
+یک نمونه مناسب در
+
+481
+00:19:30,850 --> 00:19:33,300
+cluster in diesem fall dem motto factory
+در این مورد، خوشه، کارخانه شعار است
+
+482
+00:19:33,300 --> 00:19:36,070
+einfach einfügen für uns automatisch das
+به سادگی به طور خودکار برای ما وارد کنید
+
+483
+00:19:36,070 --> 00:19:37,440
+passiert weil wir hier
+اتفاق افتاد چون ما اینجا هستیم
+
+484
+00:19:37,440 --> 00:19:39,940
+das add on the way to notation
+افزودن در مسیر نت نویسی
+
+485
+00:19:39,940 --> 00:19:41,550
+hinzugefügt haben
+اضافه کرده اند
+
+486
+00:19:41,550 --> 00:19:45,940
+spring weiß dass wir eine klasse haben
+بهار می‌داند که ما کلاس داریم
+
+487
+00:19:45,940 --> 00:19:47,740
+in unserem application kontext nimmt man
+در زمینه کاربرد ما، ما این را در نظر می‌گیریم
+
+488
+00:19:47,740 --> 00:19:49,140
+dann auch alle bienen
+سپس همه زنبورها
+
+489
+00:19:49,140 --> 00:19:51,580
+und fügt es dann für uns ein wir müssen
+و سپس آن را برای ما وارد می‌کند، ما باید
+
+490
+00:19:51,580 --> 00:19:53,559
+nicht irgendwie eine mit new irgendwas
+نه به نحوی با چیزی جدید یکی شدن
+
+491
+00:19:53,559 --> 00:19:55,390
+deklarieren oder uns selbst darum
+خودمان آن را اعلام کنیم یا از آن مراقبت کنیم
+
+492
+00:19:55,390 --> 00:19:58,290
+kümmern wie diese klasse erzeugt wird
+مهم نیست که این کلاس چگونه ایجاد شده است
+
+493
+00:19:58,290 --> 00:20:02,080
+das heißt wenn die besten oder factory
+یعنی اگر بهترین یا کارخانه
+
+494
+00:20:02,080 --> 00:20:04,410
+jetzt wegfällt wie in unserem beispiel
+اکنون مانند مثال ما ناپدید می‌شود
+
+495
+00:20:04,410 --> 00:20:06,340
+können wir da einfach in unseren
+ما به سادگی می‌توانیم این کار را در خودمان انجام دهیم
+
+496
+00:20:06,340 --> 00:20:10,050
+application kontext zum beispiel neue
+زمینه برنامه برای مثال جدید
+
+497
+00:20:10,050 --> 00:20:13,450
+factory einfach einbauen und automatisch
+نصب آسان در کارخانه و به صورت خودکار
+
+498
+00:20:13,450 --> 00:20:16,740
+mit spring wieder genau wie vorher
+با بهار دوباره درست مثل قبل
+
+499
+00:20:16,740 --> 00:20:21,240
+die neue factory implementation
+پیاده‌سازی جدید کارخانه
+
+500
+00:20:21,240 --> 00:20:23,710
+hier einfach einfügen unsere anderen
+به سادگی مورد دیگر ما را وارد کنید
+
+501
+00:20:23,710 --> 00:20:26,040
+klassen
+کلاس‌ها
+
+502
+00:20:26,040 --> 00:20:28,600
+das ganze nennt sich dann in virgen of
+سپس کل چیز به نام باکره نامیده می‌شود
+
+503
+00:20:28,600 --> 00:20:29,910
+control
+کنترل
+
+504
+00:20:29,910 --> 00:20:34,960
+weil wir spring diese aufgabe oder die
+زیرا ما از این وظیفه می‌پریم یا
+
+505
+00:20:34,960 --> 00:20:37,179
+kontrolle über die allokation unsere
+کنترل بر تخصیص ما
+
+506
+00:20:37,179 --> 00:20:40,470
+klassen instanzen abgeben
+ارسال نمونه‌های کلاس
+
+507
+00:20:40,470 --> 00:20:42,690
+darüber hinaus sollte die pens jackson
+علاوه بر این، قلم‌های جکسون
+
+508
+00:20:42,690 --> 00:20:45,179
+auch viele weitere vorteile
+همچنین بسیاری از مزایای دیگر
+
+509
+00:20:45,179 --> 00:20:47,410
+natürlich einmal wie wir schon gesehen
+البته همانطور که قبلاً دیده‌ایم
+
+510
+00:20:47,410 --> 00:20:49,090
+haben wir haben weniger abhängigkeiten
+وابستگی‌های کمتری داریم
+
+511
+00:20:49,090 --> 00:20:51,760
+wir benutzen das new kehrt keyword nicht
+ما از کلمه کلیدی new returns استفاده می‌کنیم، نه
+
+512
+00:20:51,760 --> 00:20:55,140
+mehr wir haben generell weniger code
+بیشتر، ما معمولاً کد کمتری داریم
+
+513
+00:20:55,140 --> 00:20:57,550
+und was man später noch mal in der
+و کاری که می‌توانید بعداً انجام دهید
+
+514
+00:20:57,550 --> 00:21:00,130
+praxis anschauen werden ist wir können
+تمرین به این نگاه خواهد کرد که آیا می‌توانیم
+
+515
+00:21:00,130 --> 00:21:02,110
+dadurch auch unsere pro gramm leichte
+بدین ترتیب برنامه ما نیز روشن می‌شود
+
+516
+00:21:02,110 --> 00:21:05,260
+testen wir können zum beispiel dummy
+برای مثال، می‌توانیم آدمک را آزمایش کنیم
+
+517
+00:21:05,260 --> 00:21:07,870
+klassen sogenannte mox durch dieses die
+کلاس‌هایی که از طریق این [روش/روش/...] به اصطلاح mox نامیده می‌شوند
+
+518
+00:21:07,870 --> 00:21:11,070
+penn station in unser programm einfügen
+ایستگاه پن را به برنامه خود اضافه کنید
+
+519
+00:21:11,070 --> 00:21:14,070
+wodurch wir dann vordefinierte rückgaben
+که سپس به ما اجازه می‌دهد تا بازده‌های از پیش تعریف شده‌ای داشته باشیم
+
+520
+00:21:14,070 --> 00:21:16,480
+deklarieren können das macht testen sehr
+می‌تواند اعلام کند که آزمایش را بسیار آسان می‌کند
+
+521
+00:21:16,480 --> 00:21:20,430
+einfach automatische tests schreiben
+به سادگی تست‌های خودکار بنویسید
+
+522
+00:21:21,390 --> 00:21:23,740
+wir sind wieder ein intel ging ich
+ما دوباره یک اینتل هستیم که من رفتم
+
+523
+00:21:23,740 --> 00:21:26,410
+möchte euch jetzt einmal zeigen wie
+حالا می‌خواهم به شما نشان دهم که چگونه
+
+524
+00:21:26,410 --> 00:21:28,480
+fancy injection wirklich funktioniert
+تزریق فانتزی واقعاً مؤثر است
+
+525
+00:21:28,480 --> 00:21:30,520
+eben spring ich habe jetzt hier einfach
+فقط بپر، من الان اینجام، به همین سادگی
+
+526
+00:21:30,520 --> 00:21:32,710
+nur ein springmesser projekt mit auch
+فقط یک پروژه switchblade با ...
+
+527
+00:21:32,710 --> 00:21:36,520
+wieder nur den staat arbeiten das erste
+دوباره فقط دولت اول کار می‌کند
+
+528
+00:21:36,520 --> 00:21:38,740
+was ich machen will ist ich möchte einer
+کاری که من می‌خواهم انجام دهم این است که می‌خواهم یکی از آنها باشم
+
+529
+00:21:38,740 --> 00:21:41,260
+von den bands hier für den spring
+از گروه‌های موسیقی که برای بهار اینجا هستند
+
+530
+00:21:41,260 --> 00:21:42,810
+kontext deklarieren falls solche
+اگر چنین باشد، زمینه اعلام می‌کند
+
+531
+00:21:42,810 --> 00:21:45,460
+netbeans sind einfach nur instanzen von
+netbeans صرفاً نمونه‌هایی از
+
+532
+00:21:45,460 --> 00:21:46,750
+unseren deklarierten klassen die
+کلاس‌های اعلام‌شده‌ی ما
+
+533
+00:21:46,750 --> 00:21:49,120
+springen für uns dann die pens sie
+برای ما بپر، سپس خودکارها را
+
+534
+00:21:49,120 --> 00:21:51,700
+entdeckten kann also in andere klassen
+بنابراین، موارد کشف شده می‌توانند به طبقات دیگر منتقل شوند.
+
+535
+00:21:51,700 --> 00:21:54,400
+einfügen kann damit wir das ganze so ein
+می‌توانیم وارد کنیم تا بتوانیم کل کار را انجام دهیم
+
+536
+00:21:54,400 --> 00:21:56,560
+bisschen dynamisch machen können müssen
+باید بتوانیم چیزها را کمی پویا کنیم
+
+537
+00:21:56,560 --> 00:21:58,630
+wir einige regeln in spring befolgen als
+ما در بهار از برخی قوانین پیروی می‌کنیم، زیرا
+
+538
+00:21:58,630 --> 00:22:00,400
+erstes werde ich da einmal ein interface
+اول یه رابط کاربری میسازم
+
+539
+00:22:00,400 --> 00:22:04,350
+um eine klasse deklarieren
+برای اعلام یک کلاس
+
+540
+00:22:08,360 --> 00:22:11,280
+und dann werde ich eine implementierung
+و سپس اجرا خواهم کرد
+
+541
+00:22:11,280 --> 00:22:16,640
+des besagten interfaces deklariert
+از رابط مذکور اعلام شده
+
+542
+00:22:19,940 --> 00:22:22,320
+jetzt kommt der entscheidende teil und
+حالا قسمت مهم و حیاتی از راه می‌رسد
+
+543
+00:22:22,320 --> 00:22:23,230
+zwar
+یعنی
+
+544
+00:22:23,230 --> 00:22:25,480
+ganz einfach nur mit komponenten
+به سادگی با اجزا
+
+545
+00:22:25,480 --> 00:22:26,610
+notieren
+توجه داشته باشید
+
+546
+00:22:26,610 --> 00:22:29,740
+es muss der spring and component seien
+باید فنر و قطعه مربوطه باشد
+
+547
+00:22:29,740 --> 00:22:30,660
+hier
+اینجا
+
+548
+00:22:30,660 --> 00:22:33,130
+und was ich jetzt springe gesagt habe
+و چیزی که الان گفتم، بپر
+
+549
+00:22:33,130 --> 00:22:37,299
+ist beim starten der anwendung liegt mir
+هنگام شروع برنامه من هستم
+
+550
+00:22:37,299 --> 00:22:39,669
+einfach eine generische instanz also das
+به سادگی یک نمونه عمومی به طوری که
+
+551
+00:22:39,669 --> 00:22:42,309
+ganze wird dann mit dem tv constructor
+سپس کل کار با سازنده تلویزیون انجام می‌شود.
+
+552
+00:22:42,309 --> 00:22:45,130
+aufgerufen mit dem new key word irgendwo
+با کلمه کلیدی جدید در جایی تماس گرفته شد
+
+553
+00:22:45,130 --> 00:22:46,600
+im hintergrund wo wir es nicht sehen und
+در پس‌زمینه‌ای که ما آن را نمی‌بینیم و
+
+554
+00:22:46,600 --> 00:22:48,820
+in diesen application kontext gelegt von
+قرار داده شده در این زمینه برنامه توسط
+
+555
+00:22:48,820 --> 00:22:50,520
+dem wir vorher gesprochen haben und
+که قبلاً صحبت کردیم و
+
+556
+00:22:50,520 --> 00:22:53,110
+diesen application kontext werde ich mir
+من از این زمینه برنامه استفاده خواهم کرد
+
+557
+00:22:53,110 --> 00:22:55,330
+um das ganze euch mal zu zeigen jetzt in
+تا الان همه چیز را به شما نشان دهم
+
+558
+00:22:55,330 --> 00:22:58,950
+eine variable stecken
+یک متغیر وارد کنید
+
+559
+00:22:59,490 --> 00:23:03,970
+und mir diese instanz der sc hella
+و این نمونه از هلا در مدرسه
+
+560
+00:23:03,970 --> 00:23:06,250
+service und mal extrahieren dass ich
+خدمات و عصاره ای که من
+
+561
+00:23:06,250 --> 00:23:08,260
+hier einen saison fing service
+اینجا یک سرویس فینگرفنگ فصلی است
+
+562
+00:23:08,260 --> 00:23:09,780
+deklarieren und
+اعلام و
+
+563
+00:23:09,780 --> 00:23:12,250
+mit dem application kontexten methode
+با روش زمینه برنامه
+
+564
+00:23:12,250 --> 00:23:15,090
+geht wien aufrufen
+به وین می‌رود
+
+565
+00:23:15,090 --> 00:23:18,280
+und sich so viel glas aus den eingaben
+و آنقدر شیشه از ورودی‌ها
+
+566
+00:23:18,280 --> 00:23:19,890
+wert geben
+ارزش دادن
+
+567
+00:23:19,890 --> 00:23:22,210
+und das letztlich doch etwas machen was
+و در نهایت کاری انجام دهید که
+
+568
+00:23:22,210 --> 00:23:24,669
+auch jetzt nur für tutorials gedacht ist
+اکنون فقط برای آموزش‌ها در نظر گرفته شده است
+
+569
+00:23:24,669 --> 00:23:26,320
+und zwar mit dem sales und service
+یعنی با فروش و خدمات
+
+570
+00:23:26,320 --> 00:23:29,910
+system auf benutzen
+سیستم در حال استفاده
+
+571
+00:23:30,840 --> 00:23:32,950
+das will ich die ganze anwendung einmal
+من کل برنامه را یک بار می‌خواهم
+
+572
+00:23:32,950 --> 00:23:35,700
+laufen lassen
+بگذار اجرا شود
+
+573
+00:23:38,440 --> 00:23:39,700
+macht hat man irgendwelche dependency
+قدرتی که به آن وابسته هستید
+
+574
+00:23:39,700 --> 00:23:41,519
+drehen
+نوبت
+
+575
+00:23:41,519 --> 00:23:43,629
+und wir sehen haben wir unten hello
+و می‌بینیم که در زیر آن hello نوشته شده است.
+
+576
+00:23:43,629 --> 00:23:44,940
+world
+جهان
+
+577
+00:23:44,940 --> 00:23:48,610
+als ausgabe so gesehen ist in diesem
+به عنوان مسئله‌ای که در این مورد بسیار دیده می‌شود
+
+578
+00:23:48,610 --> 00:23:50,379
+application kontext irgendwie eine neue
+زمینه برنامه به نوعی جدید است
+
+579
+00:23:50,379 --> 00:23:53,710
+instanz gelangt von unserer klasse das
+نمونه از کلاس ما می‌گیرد
+
+580
+00:23:53,710 --> 00:23:55,539
+ist alles so ein bisschen wie magie von
+همه چیز کمی شبیه جادو است
+
+581
+00:23:55,539 --> 00:23:59,129
+spring die uns da schon einiges abnimmt
+بهاری که خیلی چیزها را از دست ما می‌گیرد
+
+582
+00:23:59,129 --> 00:24:01,299
+jetzt kann es aber natürlich auch sein
+اما حالا مسلماً می‌تواند اینطور هم باشد
+
+583
+00:24:01,299 --> 00:24:03,610
+dass wir vielleicht gar nicht irgendwie
+که حتی ممکن است ما
+
+584
+00:24:03,610 --> 00:24:05,230
+dass wir gar nicht wollen dass das
+که ما آن را نمی‌خواهیم
+
+585
+00:24:05,230 --> 00:24:08,049
+bringe einfach so einen default instanz
+فقط یک نمونه پیش‌فرض بیاورید
+
+586
+00:24:08,049 --> 00:24:09,549
+unserer klasse erzeugt ohne dass sie
+کلاس ما بدون آنها
+
+587
+00:24:09,549 --> 00:24:11,549
+irgendetwas konfigurieren
+چیزی را پیکربندی کنید
+
+588
+00:24:11,549 --> 00:24:14,860
+und dafür können wir tatsächlich auch in
+و ما در واقع می توانیم این کار را انجام دهیم
+
+589
+00:24:14,860 --> 00:24:17,649
+spring etwas genauer werden dass
+کمی دقیق‌تر به آن نگاه کن
+
+590
+00:24:17,649 --> 00:24:19,559
+wirklich einmal zeigen
+واقعاً نشان دادن
+
+591
+00:24:19,559 --> 00:24:23,879
+wie das ganze funktioniert und zwar
+چگونه همه چیز کار می‌کند
+
+592
+00:24:24,929 --> 00:24:28,000
+das ist ja einmal aus kopieren aus
+این یک بار از کپی از است
+
+593
+00:24:28,000 --> 00:24:30,539
+kommentieren
+نظر
+
+594
+00:24:30,539 --> 00:24:33,809
+mit dem service an also sage ich mal den
+با این سرویس، بنابراین من می‌گویم
+
+595
+00:24:33,809 --> 00:24:35,909
+say something
+چیزی بگو
+
+596
+00:24:35,909 --> 00:24:39,549
+of service der hit auf wiedersehn say
+از خدمات، خداحافظی کن، بگو
+
+597
+00:24:39,549 --> 00:24:41,789
+something service
+چیزی سرویس
+
+598
+00:24:41,789 --> 00:24:43,809
+mit dem unterschied dass wir jetzt hier
+با این تفاوت که ما الان اینجاییم
+
+599
+00:24:43,809 --> 00:24:48,179
+eine string what to say
+رشته ای که چه بگویم
+
+600
+00:24:51,960 --> 00:24:55,470
+und hier gebe ich jetzt als war
+و حالا من همانطور که بود، می‌دهم
+
+601
+00:24:55,470 --> 00:24:59,030
+das nun ernst ring an
+حلقه‌ای که حالا جدی شده
+
+602
+00:24:59,030 --> 00:25:00,840
+und wie sieht welche das ganze jetzt
+و حالا کل ماجرا چطور به نظر می‌رسد؟
+
+603
+00:25:00,840 --> 00:25:03,929
+nicht mit component an notieren der
+نه با مؤلفه برای یادداشت برداری
+
+604
+00:25:03,929 --> 00:25:05,309
+grund dafür ist dass ich mir jetzt hier
+دلیلش این است که من الان
+
+605
+00:25:05,309 --> 00:25:07,980
+noch eine weitere klasse erzeugen werde
+کلاس دیگری ایجاد خواهد کرد
+
+606
+00:25:07,980 --> 00:25:11,000
+dich nennen werde
+باهات تماس میگیرم
+
+607
+00:25:13,130 --> 00:25:15,440
+something
+چیزی
+
+608
+00:25:15,440 --> 00:25:17,690
+konfiguration
+پیکربندی
+
+609
+00:25:17,690 --> 00:25:20,390
+und der gebe ich jetzt hier
+و حالا آن را اینجا ارائه می‌دهم
+
+610
+00:25:20,390 --> 00:25:24,600
+die annotation konfiguration was diese
+پیکربندی حاشیه‌نویسی چیست؟
+
+611
+00:25:24,600 --> 00:25:26,940
+kontinuität konfiguration annotation
+حاشیه‌نویسی پیکربندی پیوستگی
+
+612
+00:25:26,940 --> 00:25:29,970
+macht ist sie sagt spring das am anfang
+قدرت اینه که اون میگه از اول بپر اون رو
+
+613
+00:25:29,970 --> 00:25:32,669
+wenn das programm startet diese klasse
+وقتی برنامه این کلاس را شروع می کند
+
+614
+00:25:32,669 --> 00:25:35,789
+dafür zuständig ist dienst zu erzeugen
+مسئول تولید خدمات است
+
+615
+00:25:35,789 --> 00:25:37,200
+und die sind application kontext zu
+و آنها زمینه کاربردی برای
+
+616
+00:25:37,200 --> 00:25:39,600
+legen damit er sie damit diese das
+بگذار تا او بتواند آن را بگذارد
+
+617
+00:25:39,600 --> 00:25:41,280
+machen kann müssen wir innerhalb
+آیا می توانیم در داخل آن را انجام دهیم
+
+618
+00:25:41,280 --> 00:25:43,289
+methoden an geben den wir auch wieder
+روش هایی که ما نیز دوباره می دهیم
+
+619
+00:25:43,289 --> 00:25:46,919
+mit edwin alttieren hier jetzt mache ich
+الان اینجا با ادوین آلتیرن هستم.
+
+620
+00:25:46,919 --> 00:25:50,809
+den say something konfigurierbar service
+سرویس قابل تنظیم say something
+
+621
+00:26:03,360 --> 00:26:07,720
+und ja wir sehen was bringt gemacht hat
+و بله، ما می‌بینیم چه چیزی به ارمغان آورده است
+
+622
+00:26:07,720 --> 00:26:10,059
+ist es hat als erstes diese methode
+آیا این روش اول است؟
+
+623
+00:26:10,059 --> 00:26:12,330
+aufgerufen im hintergrund
+در پس زمینه فراخوانی می‌شود
+
+624
+00:26:12,330 --> 00:26:16,480
+wo sie eine bienen erwartet bei den
+جایی که او انتظار یک زنبور عسل را دارد
+
+625
+00:26:16,480 --> 00:26:18,879
+instanz und wir haben wiederum einmal
+به عنوان مثال و ما یک بار دیگر
+
+626
+00:26:18,879 --> 00:26:21,100
+den generischen say something
+عمومی چیزی بگو
+
+627
+00:26:21,100 --> 00:26:23,830
+konfigurierte server es hier instanziert
+سرور پیکربندی شده، در اینجا نمونه‌سازی می‌شود
+
+628
+00:26:23,830 --> 00:26:24,999
+das heißt wenn ich jetzt zum beispiel at
+این یعنی اگر من الان مثلاً در
+
+629
+00:26:24,999 --> 00:26:26,879
+component hätte
+جزء خواهد داشت
+
+630
+00:26:26,879 --> 00:26:28,840
+dann wäre das so als hätte ich das
+آنگاه مثل این خواهد بود که من آن را داشته باشم
+
+631
+00:26:28,840 --> 00:26:31,320
+einfach dann direkt return
+به سادگی مستقیماً برگردید
+
+632
+00:26:31,320 --> 00:26:34,330
+aber ich habe hier vorher noch was mit
+اما من قبلاً چیزی اینجا دارم
+
+633
+00:26:34,330 --> 00:26:37,210
+meiner instanz und mein abi gemacht so
+من و مدرک دیپلمم این کار را کردیم
+
+634
+00:26:37,210 --> 00:26:39,090
+dass wir hier als ausgabe
+که ما اینجا به عنوان یک مسئله مطرح می‌کنیم
+
+635
+00:26:39,090 --> 00:26:41,710
+das bekommen was ich hier mit dem said
+آنچه را که اینجا گفتم با آن دریافت کنید
+
+636
+00:26:41,710 --> 00:26:44,820
+that brought you say gesetzt habe
+که تو را آورده، بگو من تعیین کرده‌ام
+
+637
+00:26:44,820 --> 00:26:47,710
+ich hoffe dass alles sinn gemacht wie
+امیدوارم همه چیز منطقی بوده باشه، مثل
+
+638
+00:26:47,710 --> 00:26:48,820
+eben schon gesehen hat habe ich hier
+من تازه اینجا رو دیدم
+
+639
+00:26:48,820 --> 00:26:50,950
+musste ich hier dafür noch mal damit ich
+مجبور شدم دوباره این کار را انجام دهم تا بتوانم
+
+640
+00:26:50,950 --> 00:26:53,769
+aus meinem kontext meine saison service
+از متن من، خدمات فصلی من
+
+641
+00:26:53,769 --> 00:26:55,720
+bekommen habe das ganze hier aus
+کل ماجرا را از اینجا گرفتم
+
+642
+00:26:55,720 --> 00:26:58,359
+kommentieren das könnt ihr nochmal
+نظر بده، می‌تونی دوباره این کار رو انجام بدی
+
+643
+00:26:58,359 --> 00:27:00,659
+zeigen
+نشان دادن
+
+644
+00:27:01,350 --> 00:27:03,690
+das ganze liegt daran
+کل ماجرا به خاطر
+
+645
+00:27:03,690 --> 00:27:06,809
+dass springt immer wissen muss
+که همیشه می‌پرد، باید بداند
+
+646
+00:27:06,809 --> 00:27:09,249
+welche klasse ist gerade installieren
+کدام کلاس در حال حاضر در حال نصب است
+
+647
+00:27:09,249 --> 00:27:11,470
+kann das heißt gerade haben wir zwei
+یعنی میشه ما دوتا داشته باشیم؟
+
+648
+00:27:11,470 --> 00:27:14,379
+bands die beide von den saints anfing
+گروه‌هایی که هر دو از قدیسان شروع کردند
+
+649
+00:27:14,379 --> 00:27:17,980
+service implementieren also unser sex
+خدمات پیاده سازی رابطه جنسی ما
+
+650
+00:27:17,980 --> 00:27:19,539
+haben wir komplett service unseres
+ما خدمات کاملی از خود داریم
+
+651
+00:27:19,539 --> 00:27:22,450
+service aber es springt nicht wie es
+سرویس می‌دهد اما مثل آن نمی‌پرد
+
+652
+00:27:22,450 --> 00:27:24,009
+dazwischen unterscheiden kann und da
+می‌تواند آنها را از هم تشخیص دهد و
+
+653
+00:27:24,009 --> 00:27:26,230
+gibt es auch zum beispiel ein relativ
+همچنین، برای مثال، یک مورد نسبتاً
+
+654
+00:27:26,230 --> 00:27:27,789
+einfache methode es gibt natürlich sehr
+روش ساده‌ای است، البته موارد بسیار زیادی وجود دارد
+
+655
+00:27:27,789 --> 00:27:29,139
+viele so wie immer ins bringen gibt es
+مثل همیشه، چیزهای زیادی در راه است
+
+656
+00:27:29,139 --> 00:27:31,539
+mehrere wege etwas zu machen ein
+چندین روش برای انجام کاری
+
+657
+00:27:31,539 --> 00:27:33,210
+einfacher weg ist einfach indem man hier
+راه آسان‌تر این است که اینجا کلیک کنید
+
+658
+00:27:33,210 --> 00:27:36,549
+eine als der eine der dienst als emery
+یکی به عنوان یکی، خدمت به عنوان سنباده
+
+659
+00:27:36,549 --> 00:27:38,399
+markiert
+علامت گذاری شده
+
+660
+00:27:38,399 --> 00:27:41,139
+und dadurch hat diese bienen vorrang
+و بنابراین این زنبورها اولویت دارند
+
+661
+00:27:41,139 --> 00:27:43,389
+wenn man einfach nur aus dem und aus dem
+اگر فقط از ... و ... بیرون بروید
+
+662
+00:27:43,389 --> 00:27:44,739
+kontext sagt ich möchte ich in der
+متن می‌گوید که من می‌خواهم در
+
+663
+00:27:44,739 --> 00:27:45,869
+bienen bekommen
+زنبورها را بگیرید
+
+664
+00:27:45,869 --> 00:27:48,009
+und entsprechend werden wir hier jetzt
+و بر این اساس، اکنون خواهیم بود
+
+665
+00:27:48,009 --> 00:27:50,320
+gleich unten hannover tschuldigung gut
+درست زیر هانوفر، متاسفم، خوب
+
+666
+00:27:50,320 --> 00:27:51,509
+weise
+راه
+
+667
+00:27:51,509 --> 00:27:54,509
+integriert
+یکپارچه
+
+668
+00:27:55,259 --> 00:27:57,639
+ich möchte jetzt noch mal was anderes
+الان یه چیز متفاوت دوست دارم
+
+669
+00:27:57,639 --> 00:27:58,690
+machen ich möchte mich jetzt nicht mehr
+دیگه نمیخوام انجامش بدم
+
+670
+00:27:58,690 --> 00:28:02,369
+mit dem mit dem
+با با
+
+671
+00:28:03,059 --> 00:28:06,030
+konto hier unten mit
+حساب زیر را با
+
+672
+00:28:06,030 --> 00:28:08,260
+auseinandersetzen sondern euch nochmal
+بلکه
+
+673
+00:28:08,260 --> 00:28:09,940
+das add on the wire zeigen was sie auch
+افزونه روی سیم نشان می‌دهد که شما چه چیزی را می‌خواهید
+
+674
+00:28:09,940 --> 00:28:11,800
+wirklich der größte vorteil von le pens
+واقعاً بزرگترین مزیت لوپن است
+
+675
+00:28:11,800 --> 00:28:14,350
+injection ist dass wir mit spring
+تزریق این است که ما از فنر استفاده می‌کنیم
+
+676
+00:28:14,350 --> 00:28:17,890
+einfach unsere beans in irgendwelche
+به سادگی لوبیاهایمان را در هر چیزی قرار دهید
+
+677
+00:28:17,890 --> 00:28:20,160
+klassen weisen können
+کلاس‌ها می‌توانند اختصاص داده شوند
+
+678
+00:28:20,160 --> 00:28:24,400
+der kritischen kontext kann nur wiens in
+زمینه بحرانی فقط می‌تواند مربوط به وین باشد
+
+679
+00:28:24,400 --> 00:28:26,260
+andere wiens stecken sonst weiß ja nicht
+وین‌های دیگه گیر افتادن، وگرنه نمی‌دونم
+
+680
+00:28:26,260 --> 00:28:28,000
+von diesen dienst nicht wieder irgendwas
+هیچ چیز بیشتر از این سرویس
+
+681
+00:28:28,000 --> 00:28:30,760
+rein stecken soll das gute ist dass
+باید قرار داده شود نکته خوب این است که
+
+682
+00:28:30,760 --> 00:28:32,800
+viele klassen von spring automatisch
+بسیاری از کلاس‌های فنر به صورت خودکار
+
+683
+00:28:32,800 --> 00:28:34,150
+wiens sind auch wenn da nicht irgendwie
+حتی اگر به نحوی وجود نداشته باشد، وین‌ها هستند
+
+684
+00:28:34,150 --> 00:28:36,430
+component oder so was dran steht zum
+کامپوننت یا چیزی شبیه به آن می‌گوید
+
+685
+00:28:36,430 --> 00:28:37,410
+beispiel
+مثال
+
+686
+00:28:37,410 --> 00:28:40,630
+wäre da auch unsere rest controller die
+همچنین کنترل کننده استراحت ما خواهد بود
+
+687
+00:28:40,630 --> 00:28:42,730
+wir schon in vorherigen teil des kurses
+ما قبلاً در بخش قبلی دوره بودیم
+
+688
+00:28:42,730 --> 00:28:45,160
+kennengelernt haben was kannst du dich
+چه چیزی را می توانید ملاقات کنید؟
+
+689
+00:28:45,160 --> 00:28:46,390
+noch immer zeigen wie das ganze halt
+هنوز هم نشان می دهد که چگونه کل ماجرا
+
+690
+00:28:46,390 --> 00:28:47,770
+auch zusammen funktioniert damit ihr
+همچنین با هم کار می‌کنند تا شما
+
+691
+00:28:47,770 --> 00:28:49,510
+vielleicht auch eine idee bekommt wie
+شاید ایده‌ای هم داشته باشید که چطور
+
+692
+00:28:49,510 --> 00:28:51,850
+das in der praxis benutzt wird sich
+که در عمل استفاده می‌شود
+
+693
+00:28:51,850 --> 00:28:53,050
+immer dem rest controller hier
+همیشه کنترل کننده بقیه اینجاست
+
+694
+00:28:53,050 --> 00:28:55,740
+deklariert
+اعلام کرد
+
+695
+00:28:59,520 --> 00:29:03,370
+komm nutze ich das auf
+بفرمایید من از اون استفاده می‌کنم
+
+696
+00:29:03,370 --> 00:29:05,710
+deklariert das ist ein say something
+اعلام کرد که چیزی بگو
+
+697
+00:29:05,710 --> 00:29:09,100
+service ist
+خدمات است
+
+698
+00:29:09,730 --> 00:29:11,990
+das ganze einfach wie noch wie gewohnt
+همه چیز مثل همیشه
+
+699
+00:29:11,990 --> 00:29:14,900
+in eine variable bei java und gibt jetzt
+به یک متغیر در جاوا تبدیل می‌کنیم و اکنون نتیجه می‌دهیم
+
+700
+00:29:14,900 --> 00:29:17,770
+hier was zurück
+اینجا چیزی برگشته است
+
+701
+00:29:18,670 --> 00:29:20,900
+wenn ich jetzt mein programm noch mal
+اگر الان دوباره برنامه‌ام را اجرا کنم
+
+702
+00:29:20,900 --> 00:29:23,290
+starte
+شروع
+
+703
+00:29:24,790 --> 00:29:28,630
+sind wir hier das wir von unserem rest
+ما اینجا هستیم که از استراحت خود
+
+704
+00:29:28,630 --> 00:29:30,800
+des controller goodbye brücke
+پل خداحافظی کنترلر
+
+705
+00:29:30,800 --> 00:29:33,130
+zurückbekommen auf unsere anfrage
+بنا به درخواست ما پس گرفته شد
+
+706
+00:29:33,130 --> 00:29:35,510
+und hier unten die konsolen ausgabe
+و اینجا زیر خروجی کنسول
+
+707
+00:29:35,510 --> 00:29:37,030
+wieder verschwunden ist
+دوباره ناپدید شده است
+
+708
+00:29:37,030 --> 00:29:39,290
+jetzt kann es aber sein dass ich zum
+حالا شاید من
+
+709
+00:29:39,290 --> 00:29:42,950
+beispiel jetzt anderen service will das
+به عنوان مثال، اکنون سرویس دیگری آن را می‌خواهد
+
+710
+00:29:42,950 --> 00:29:45,200
+auch nicht so oft passiert ist man vom
+همچنین اغلب اتفاق نمی‌افتد
+
+711
+00:29:45,200 --> 00:29:47,360
+reichen service ein interface
+سرویس غنی، یک رابط
+
+712
+00:29:47,360 --> 00:29:49,190
+implementiert und in diesem konflikt hat
+اجرا شده و در این درگیری
+
+713
+00:29:49,190 --> 00:29:52,480
+aber kann natürlich häufiger passieren
+اما البته می‌تواند بیشتر اوقات اتفاق بیفتد
+
+714
+00:29:52,480 --> 00:29:55,700
+und in dem fall haben wir natürlich noch
+و در آن صورت ما هنوز داریم
+
+715
+00:29:55,700 --> 00:29:57,710
+ein weiteres tool womit wir noch etwas
+ابزار دیگری که می‌توانیم با آن
+
+716
+00:29:57,710 --> 00:29:59,270
+genauer an sagen können welche genaue
+میشه دقیق تر بگید کدوم قسمتش
+
+717
+00:29:59,270 --> 00:30:01,910
+bienen wieder rein wollen dass wir da
+زنبورها می‌خواهند برگردند، بنابراین ما
+
+718
+00:30:01,910 --> 00:30:03,220
+einmal der qualifier
+یک بار در مرحله مقدماتی
+
+719
+00:30:03,220 --> 00:30:06,110
+qualifier location da braucht man
+مکان واجد شرایط مورد نیاز شما
+
+720
+00:30:06,110 --> 00:30:08,000
+einfach nur eine id hier angeben die
+فقط یک شناسه اینجا وارد کنید
+
+721
+00:30:08,000 --> 00:30:10,190
+kann irgendwas beliebiges sein ich
+میتونه هر چیزی باشه من
+
+722
+00:30:10,190 --> 00:30:11,540
+glaube bei die frau das ist einfach nur
+به نظر من زن فقط
+
+723
+00:30:11,540 --> 00:30:13,540
+der name
+نام
+
+724
+00:30:13,540 --> 00:30:16,070
+der jeweiligen klasse mit einem anfang
+از کلاس مربوطه با شروع
+
+725
+00:30:16,070 --> 00:30:18,350
+also klein geschrieben also genau wie es
+با حروف کوچک نوشته شده، دقیقاً همانطور که هست
+
+726
+00:30:18,350 --> 00:30:19,390
+hier habe
+اینجا من دارم
+
+727
+00:30:19,390 --> 00:30:21,290
+aber ich will das jetzt einfach mal hier
+اما فقط می‌خواهم اینجا بگویم
+
+728
+00:30:21,290 --> 00:30:23,240
+nochmal deklarieren das heißt wenn ich
+دوباره اعلام کنید یعنی اگر من
+
+729
+00:30:23,240 --> 00:30:25,790
+in diesem qualifying station wird der
+در این ایستگاه مقدماتی
+
+730
+00:30:25,790 --> 00:30:28,930
+die feier finde jeweilige bienen
+جشن، زنبورهای مربوطه را پیدا می‌کند
+
+731
+00:30:28,930 --> 00:30:31,100
+überschrieben das ist dann die idee mit
+این ایده با این بازنویسی شده است
+
+732
+00:30:31,100 --> 00:30:32,960
+der wir die bienen aus dem kontext holen
+جایی که زنبورها را از متن خارج می‌کنیم
+
+733
+00:30:32,960 --> 00:30:35,090
+und wenn wir das dann zum beispiel unter
+و اگر ما، برای مثال،
+
+734
+00:30:35,090 --> 00:30:37,790
+unserer ad autobahn sitzen sagen wir
+ما می‌گوییم بزرگراه تبلیغاتی ما نشسته است
+
+735
+00:30:37,790 --> 00:30:40,340
+spring noch mal dass wir genau diese
+دوباره بپر که دقیقاً این را داریم
+
+736
+00:30:40,340 --> 00:30:41,380
+been here
+اینجا بوده
+
+737
+00:30:41,380 --> 00:30:45,550
+kontext bekommen wollen unserer klasse
+می‌خواهیم محتوای کلاس خود را دریافت کنیم
+
+738
+00:30:49,750 --> 00:30:51,760
+und es hat funktioniert
+و کار کرد
+
+739
+00:30:51,760 --> 00:30:54,260
+in diesem teil des kurses werden wir uns
+در این بخش از دوره، ما
+
+740
+00:30:54,260 --> 00:30:56,120
+mit springboard data auseinandersetzen
+با داده‌های تخته فنری سر و کار داشته باشید
+
+741
+00:30:56,120 --> 00:30:58,180
+und wie wir mit unserer datenbank
+و نحوه استفاده از پایگاه داده خود
+
+742
+00:30:58,180 --> 00:31:00,110
+informationen abrufen können und
+می‌تواند اطلاعات را بازیابی کند و
+
+743
+00:31:00,110 --> 00:31:02,770
+speichern können mit dem punkt gut
+می‌تواند با امتیاز خوب صرفه‌جویی کند
+
+744
+00:31:02,770 --> 00:31:04,670
+voraussetzungen sind jetzt wenn du
+الزامات اکنون اگر شما
+
+745
+00:31:04,670 --> 00:31:05,870
+gerade einschaltet ist nur für diesen
+فقط برای همین روشن شده است
+
+746
+00:31:05,870 --> 00:31:07,820
+teil des kurses dass du dich schon ein
+بخشی از دوره‌ای که از قبل دارید
+
+747
+00:31:07,820 --> 00:31:09,890
+bisschen mit spring gut auskennt und vor
+کمی از بهار می‌داند و
+
+748
+00:31:09,890 --> 00:31:12,110
+allem die themen wiens und die pens
+به خصوص مباحث وین و قلم‌ها
+
+749
+00:31:12,110 --> 00:31:13,930
+injection finde ich kein neuland sind
+فکر نمی‌کنم تزریق، قلمرو جدیدی باشد
+
+750
+00:31:13,930 --> 00:31:16,790
+und du dich mit relationalen datenbank
+و شما با پایگاه داده رابطه‌ای آشنا هستید
+
+751
+00:31:16,790 --> 00:31:18,800
+auskennst und siegte also wenn du dich
+بدانید و برنده شوید، بنابراین اگر شما
+
+752
+00:31:18,800 --> 00:31:20,240
+mit den themen noch gar nicht auskennst
+شما با مباحث آشنا نیستید
+
+753
+00:31:20,240 --> 00:31:21,560
+würdest du dich außerhalb des kurses
+آیا شما خارج از دوره خواهید بود؟
+
+754
+00:31:21,560 --> 00:31:24,550
+darüber nochmal informieren
+دوباره در موردش اطلاع رسانی کنید
+
+755
+00:31:24,550 --> 00:31:27,770
+springboard data gp ist die bibliothek
+اسپرینگ‌بورد دیتا جی‌پی (springboard data gp) یک کتابخانه است.
+
+756
+00:31:27,770 --> 00:31:29,480
+mit dem wir uns heute auseinandersetzen
+که امروز به آن می پردازیم
+
+757
+00:31:29,480 --> 00:31:31,700
+aber das sind eigentlich drei
+اما در واقع سه تاست
+
+758
+00:31:31,700 --> 00:31:34,280
+bibliotheken oder themen die hier
+کتابخانه‌ها یا موضوعاتی که
+
+759
+00:31:34,280 --> 00:31:36,700
+gebündelt sind mit dem wir uns noch mal
+همراه با آن که ما یک بار دیگر
+
+760
+00:31:36,700 --> 00:31:38,540
+auseinandersetzen müssen bevor wir das
+باید قبل از اینکه با آن روبرو شویم، با آن مقابله کنیم
+
+761
+00:31:38,540 --> 00:31:43,190
+tun weil wir mal cbc steht für java
+انجامش بده چون ما سی‌بی‌سی مخفف جاوا هستیم
+
+762
+00:31:43,190 --> 00:31:44,740
+database connectivity
+قابلیت اتصال به پایگاه داده
+
+763
+00:31:44,740 --> 00:31:47,060
+und ist ein standard mit dem sich
+و استانداردی است که با آن
+
+764
+00:31:47,060 --> 00:31:51,340
+datenbanken mit java verbinden können
+اتصال پایگاه‌های داده با جاوا
+
+765
+00:31:51,340 --> 00:31:55,790
+und java kann man mit jackie sql
+و جاوا را می‌توان با جکی اس‌کیو‌ال استفاده کرد
+
+766
+00:31:55,790 --> 00:31:58,870
+abfragen von der datenbank abrufen
+بازیابی کوئری‌ها از پایگاه داده
+
+767
+00:31:58,870 --> 00:32:03,050
+das problem ist allerdings wenn wir java
+مشکل این است که، با این حال، وقتی از جاوا استفاده می‌کنیم
+
+768
+00:32:03,050 --> 00:32:05,240
+programmieren möchten wir vielleicht
+شاید بخواهیم برنامه نویسی کنیم
+
+769
+00:32:05,240 --> 00:32:07,850
+nicht zwei sprachen unserem coach also
+نه دو نفر با مربی ما صحبت کردند، بنابراین
+
+770
+00:32:07,850 --> 00:32:12,110
+aber sql und java und dafür habe wurde
+اما sql و java و برای همین من بودم
+
+771
+00:32:12,110 --> 00:32:15,410
+dann das gps standard konzipiert das
+سپس استاندارد GPS طراحی شد
+
+772
+00:32:15,410 --> 00:32:17,710
+steht für java persistence api
+مخفف Java Persistence API است.
+
+773
+00:32:17,710 --> 00:32:20,290
+und hat ist entstanden mit dem man
+و با کدام یک خلق شده است؟
+
+774
+00:32:20,290 --> 00:32:23,180
+definiert hat wie eigentlich alle
+به عنوان همه چیز تعریف شده است
+
+775
+00:32:23,180 --> 00:32:25,340
+datenkommunikation mit java verlaufen
+ارتباط داده با جاوا
+
+776
+00:32:25,340 --> 00:32:28,610
+sollte über objekte da war immer nur das
+باید درباره اشیاء باشد، همیشه فقط همین بوده است
+
+777
+00:32:28,610 --> 00:32:31,700
+object relational mapping wo man sagt
+نگاشت رابطه‌ای شیء که در آن گفته می‌شود
+
+778
+00:32:31,700 --> 00:32:34,430
+dass tabellen in java code einfach nur
+که جداول در کد جاوا به سادگی
+
+779
+00:32:34,430 --> 00:32:36,080
+über klassen definiert werden können das
+می‌تواند از طریق کلاس‌هایی تعریف شود که
+
+780
+00:32:36,080 --> 00:32:38,090
+heißt das sehen wir hier unten wir
+یعنی ما اینجا پایین می‌بینیم
+
+781
+00:32:38,090 --> 00:32:40,730
+erzeugen hier neue tabelle das würde man
+یک جدول جدید اینجا ایجاد کنید، که
+
+782
+00:32:40,730 --> 00:32:42,860
+vielleicht mit ihnen sql machen aber in
+شاید با آنها sql انجام دهم اما در
+
+783
+00:32:42,860 --> 00:32:44,480
+java sollen wir dann halt einfach nur
+جاوا، ما فقط باید
+
+784
+00:32:44,480 --> 00:32:46,520
+eine klasse definieren und die sollte
+یک کلاس تعریف کنید و باید
+
+785
+00:32:46,520 --> 00:32:48,679
+dann automatisch zu einer tablette
+سپس به طور خودکار به یک تبلت
+
+786
+00:32:48,679 --> 00:32:50,289
+erzeugt werden
+تولید شود
+
+787
+00:32:50,289 --> 00:32:52,850
+ähnlich auch mit sql abfragen
+به طور مشابه با sql پرس و جو کنید
+
+788
+00:32:52,850 --> 00:32:56,390
+mit jockey wurde halt gesagt dass man in
+با سوارکار اسب دوانی گفته شد که در
+
+789
+00:32:56,390 --> 00:32:58,900
+java code einfach nur eine methoden
+کد جاوا فقط یک متد است
+
+790
+00:32:58,900 --> 00:33:02,419
+namen deklarieren sollte und dann
+نام باید اعلام شود و سپس
+
+791
+00:33:02,419 --> 00:33:05,090
+implizit ein sql query daraus entstehen
+به طور ضمنی یک کوئری sql از این ناشی می‌شود
+
+792
+00:33:05,090 --> 00:33:07,010
+soll das heißt zb hier haben wir einfach
+یعنی، برای مثال، در اینجا داریم:
+
+793
+00:33:07,010 --> 00:33:09,770
+nur ein feind bei first nehmen und im
+فقط یک دشمن در ابتدا و در
+
+794
+00:33:09,770 --> 00:33:11,770
+hintergrund soll dann die
+پس زمینه باید باشد
+
+795
+00:33:11,770 --> 00:33:14,409
+libri.de diesen standard implementiert
+libri.de این استاندارد را پیاده‌سازی می‌کند
+
+796
+00:33:14,409 --> 00:33:16,820
+daraus dann einen select statement
+سپس یک دستور select ایجاد کنید
+
+797
+00:33:16,820 --> 00:33:19,029
+machen zum beispiel
+برای مثال درست کردن
+
+798
+00:33:19,029 --> 00:33:21,740
+und hibernate ist dann die library in
+و hibernate کتابخانه‌ای است که در
+
+799
+00:33:21,740 --> 00:33:23,779
+diesem fall die das zdf stand für uns
+در این مورد، ZDF طرفدار ما بود.
+
+800
+00:33:23,779 --> 00:33:25,159
+implementiert und ist auch eine der
+اجرا شده و همچنین یکی از
+
+801
+00:33:25,159 --> 00:33:26,929
+häufig benutzten bei brice dieser art
+اغلب توسط brice از این نوع استفاده می‌شود
+
+802
+00:33:26,929 --> 00:33:28,549
+damit man sich das ganze nochmal
+تا بتوانید دوباره همه چیز را ببینید
+
+803
+00:33:28,549 --> 00:33:31,220
+visualisieren kann wir haben unsere
+می‌توانیم تجسم کنیم که ما داریم
+
+804
+00:33:31,220 --> 00:33:34,279
+spring gut anwendungen die über die gps
+کاربردهای چاه فنری که از GPS استفاده می‌کنند
+
+805
+00:33:34,279 --> 00:33:37,220
+standard mit dem halben laib die
+استاندارد با نصف نان
+
+806
+00:33:37,220 --> 00:33:39,760
+datenbank informationen abruft und
+اطلاعات پایگاه داده را بازیابی می‌کند و
+
+807
+00:33:39,760 --> 00:33:43,750
+speichert das highlight
+هایلایت را ذخیره می‌کند
+
+808
+00:33:43,750 --> 00:33:46,279
+stellt dann aus unserem zweiten unseren
+سپس دومی ما را ایجاد می‌کند
+
+809
+00:33:46,279 --> 00:33:49,640
+klassen dann sql und das ganze verbindet
+کلاس‌ها، سپس sql و کل ماجرا به هم متصل می‌شوند
+
+810
+00:33:49,640 --> 00:33:51,230
+sich damit unsere eigentlichen datenbank
+پایگاه داده واقعی ما
+
+811
+00:33:51,230 --> 00:33:53,710
+über den jb driver
+درباره راننده جی بی
+
+812
+00:33:53,710 --> 00:33:56,270
+wir werden unsere datenbank dann durch
+سپس پایگاه داده خود را با آن به‌روزرسانی خواهیم کرد
+
+813
+00:33:56,270 --> 00:33:57,370
+sogenannte
+به اصطلاح
+
+814
+00:33:57,370 --> 00:34:00,190
+repository im java code aufrufen
+فراخوانی مخزن در کد جاوا
+
+815
+00:34:00,190 --> 00:34:02,179
+repository sind einfach nur spezielle
+مخزن به سادگی خاص است
+
+816
+00:34:02,179 --> 00:34:04,159
+interfaces die im hintergrund von uns
+رابط‌هایی که در پس‌زمینه ما هستند
+
+817
+00:34:04,159 --> 00:34:05,260
+von halver nicht
+از نصف نه
+
+818
+00:34:05,260 --> 00:34:08,179
+automatisch in eine implementation oder
+به طور خودکار به یک پیاده سازی تبدیل می شود یا
+
+819
+00:34:08,179 --> 00:34:09,619
+man könnte sagen und implementation wird
+می‌توان گفت و اجرا خواهد شد
+
+820
+00:34:09,619 --> 00:34:12,080
+automatisch von hibernate generiert für
+به طور خودکار توسط hibernate برای ... تولید می‌شود
+
+821
+00:34:12,080 --> 00:34:14,240
+uns die datenbank ab ruft im hintergrund
+پایگاه داده در پس زمینه فراخوانی می‌شود
+
+822
+00:34:14,240 --> 00:34:15,919
+kommt grund aus bietet uns das
+از دلیلی می‌آید که به ما ارائه می‌دهد
+
+823
+00:34:15,919 --> 00:34:17,830
+repository so ein bisschen die
+مخزن کمی شبیه
+
+824
+00:34:17,830 --> 00:34:21,800
+fundamentalen quad operation create ried
+عملیات اساسی چهارگانه ایجاد شده
+
+825
+00:34:21,800 --> 00:34:24,550
+update wie durch verschiedene methoden
+از طریق روش‌های مختلف به‌روزرسانی کنید
+
+826
+00:34:24,550 --> 00:34:27,530
+und gibt uns auch zugriff auf eine query
+و همچنین به ما امکان دسترسی به یک پرس و جو را می‌دهد
+
+827
+00:34:27,530 --> 00:34:29,440
+language die ich so sehr im java spiele
+زبانی که من خیلی باهاش کار می‌کنم جاوا هست
+
+828
+00:34:29,440 --> 00:34:31,790
+uns definieren lässt was für daten wie
+به ما اجازه می‌دهد تعریف کنیم که چه نوع داده‌هایی مانند
+
+829
+00:34:31,790 --> 00:34:33,740
+von dem repository brauchen und habe
+از مخزن و داشته باشید
+
+830
+00:34:33,740 --> 00:34:37,330
+nicht übersetzt das ganze dann in sql
+کلش رو به sql ترجمه نکرده
+
+831
+00:34:37,330 --> 00:34:40,520
+damit dem tutorial auch als vereins
+به طوری که این آموزش همچنین می‌تواند به عنوان یک باشگاه مورد استفاده قرار گیرد
+
+832
+00:34:40,520 --> 00:34:41,869
+folgen können wenn ihr wollt wenn ich
+اگر بخواهی می‌توانم دنبالت کنم، اگر من
+
+833
+00:34:41,869 --> 00:34:42,889
+mich zeigen wie ich meine
+منظورم را به من نشان بده
+
+834
+00:34:42,889 --> 00:34:45,139
+entwicklungsumgebung bzw eine datenbank
+محیط توسعه یا پایگاه داده
+
+835
+00:34:45,139 --> 00:34:47,050
+mit drucker einrichten
+با چاپگر تنظیم کنید
+
+836
+00:34:47,050 --> 00:34:49,280
+das ist natürlich jetzt kein ersatz für
+البته این جایگزین نیست
+
+837
+00:34:49,280 --> 00:34:50,750
+ein richtiges dollar tutoring weil ich
+یک تدریس خصوصی با هزینه واقعی چون من
+
+838
+00:34:50,750 --> 00:34:52,730
+hier alles einfach überfliegen werde und
+من فقط از همه چیز اینجا سرسری رد می‌شوم و
+
+839
+00:34:52,730 --> 00:34:54,230
+welche nur zeige wie ich das ganze jetzt
+که فقط نشان می‌دهد که من الان چطور این کار را انجام می‌دهم
+
+840
+00:34:54,230 --> 00:34:56,899
+hier auf setzte das erste was ihr machen
+اینجا روی صحنه، اولین کاری که می‌کنی
+
+841
+00:34:56,899 --> 00:34:59,869
+muss ist die location installieren wenn
+اگر باید مکان را نصب کنید
+
+842
+00:34:59,869 --> 00:35:01,720
+es noch nicht habt oder desktop version
+هنوز نسخه دسکتاپ یا نسخه آزمایشی آن را ندارم
+
+843
+00:35:01,720 --> 00:35:05,049
+mit einer gummi aber die engine mehrfach
+با یک لاستیک اما موتور چندین بار
+
+844
+00:35:05,049 --> 00:35:07,960
+benutzen und das ganze kommt überprüfen
+استفاده کنید و همه چیز بررسی می‌شود
+
+845
+00:35:07,960 --> 00:35:10,329
+indem hier in erzählte schreibt locker
+با گفتن اینجا به صورت آزاد می نویسد
+
+846
+00:35:10,329 --> 00:35:12,910
+bin strich wünschen und da sieht man
+من یه آرزو دارم و اونجا می‌تونی ببینی
+
+847
+00:35:12,910 --> 00:35:15,309
+dass die version die ich benutze die 20
+نسخه‌ای که من استفاده می‌کنم نسخه ۲۰ است
+
+848
+00:35:15,309 --> 00:35:17,069
+10 7 ist
+۱۰ ۷ است
+
+849
+00:35:17,069 --> 00:35:19,900
+also ist es gleich auf das offizielle
+بنابراین بلافاصله در سایت رسمی قرار دارد
+
+850
+00:35:19,900 --> 00:35:23,859
+poster es image und werde diesen pool
+تصویر پوستر و این استخر
+
+851
+00:35:23,859 --> 00:35:25,980
+kommando
+فرمان
+
+852
+00:35:25,980 --> 00:35:29,410
+kopieren und hier reinpassen und wie
+اینجا کپی و جاگذاری کنید و چگونه
+
+853
+00:35:29,410 --> 00:35:32,530
+sieht hab ich auch schon poss als talker
+من از قبل به عنوان گوینده موقعیت دارم
+
+854
+00:35:32,530 --> 00:35:35,170
+image installiert das heißt es gibt man
+تصویر نصب شده است که به معنی وجود دارد
+
+855
+00:35:35,170 --> 00:35:36,730
+jetzt schneller als bei euch wenn ihr
+حالا سریع‌تر از وقتی که با تو هستم اگر
+
+856
+00:35:36,730 --> 00:35:39,339
+das zum ersten mal war unheimlich mir zu
+که برای اولین بار برای من ترسناک بود
+
+857
+00:35:39,339 --> 00:35:41,280
+guter letzt noch
+آخرش خوب
+
+858
+00:35:41,280 --> 00:35:44,670
+das kommando hier unten von
+دستور از اینجا
+
+859
+00:35:44,670 --> 00:35:46,740
+posco pieren
+پوسکو پیرن
+
+860
+00:35:46,740 --> 00:35:49,359
+zum starten des des containers
+برای شروع کانتینر
+
+861
+00:35:49,359 --> 00:35:51,760
+beziehungsweise der datenbank werden
+یا پایگاه داده
+
+862
+00:35:51,760 --> 00:35:53,520
+noch bin ich nicht bei
+من هنوز به اینجا نرسیده‌ام
+
+863
+00:35:53,520 --> 00:35:56,500
+5432 fünf vier drei zwei eins meins ort
+۵۴۳۲ پنج چهار سه دو یک ماین پلیس
+
+864
+00:35:56,500 --> 00:35:57,930
+eingeben
+ورودی
+
+865
+00:35:57,930 --> 00:36:00,869
+und das ganze mal laufen lassen
+و بگذار همه چیز به خوبی پیش برود
+
+866
+00:36:00,869 --> 00:36:04,119
+und jetzt werde ich die bücher öffnen
+و حالا کتاب‌ها را باز می‌کنم
+
+867
+00:36:04,119 --> 00:36:06,369
+die biva ist einfach einen datenbank
+بیوا صرفاً یک پایگاه داده است
+
+868
+00:36:06,369 --> 00:36:07,809
+management programm womit man aus einer
+برنامه مدیریتی که با آن می‌توانید
+
+869
+00:36:07,809 --> 00:36:09,819
+datenbank zugreifen kann und da rein
+پایگاه داده و وارد شدن به آن
+
+870
+00:36:09,819 --> 00:36:12,220
+gucken kann was ist da gespeichert und
+می‌تواند ببیند چه چیزی در آنجا ذخیره شده است و
+
+871
+00:36:12,220 --> 00:36:14,770
+queries ausführen kann mit my sql zum
+کوئری‌ها را می‌توان با sql من اجرا کرد تا
+
+872
+00:36:14,770 --> 00:36:16,319
+beispiel
+مثال
+
+873
+00:36:16,319 --> 00:36:18,849
+und werde jetzt hier auf wieder post
+و حالا دوباره اینجا پست خواهم گذاشت
+
+874
+00:36:18,849 --> 00:36:21,760
+kress angeben war dass man die datenbank
+کرس اظهار داشت که پایگاه داده
+
+875
+00:36:21,760 --> 00:36:23,760
+ist
+است
+
+876
+00:36:23,760 --> 00:36:27,490
+das passwort was ich hier ein kommando
+رمز عبوری که اینجا دارم یک دستور است
+
+877
+00:36:27,490 --> 00:36:29,160
+gesetzt habe
+تنظیم کرده‌ام.
+
+878
+00:36:29,160 --> 00:36:32,160
+kopieren
+کپی
+
+879
+00:36:32,369 --> 00:36:35,220
+mit copy
+با کپی
+
+880
+00:36:35,220 --> 00:36:37,750
+die verbindung testen die hat es
+اتصال آن را آزمایش کنید
+
+881
+00:36:37,750 --> 00:36:39,450
+geklappt
+موفق شد
+
+882
+00:36:39,450 --> 00:36:42,460
+abschließen und schon haben wir unsere
+کامل شده و ما داریم
+
+883
+00:36:42,460 --> 00:36:44,170
+datenbank verbindung auf die viva
+اتصال پایگاه داده به viva
+
+884
+00:36:44,170 --> 00:36:46,059
+könnten die daten anschauen da ist jetzt
+می‌توانست به داده‌های موجود در حال حاضر نگاه کند
+
+885
+00:36:46,059 --> 00:36:48,150
+noch nicht wirklich viel und
+واقعاً زیاد نیست و
+
+886
+00:36:48,150 --> 00:36:50,230
+jetzt kommen auch schon den java code
+حالا کد جاوا میاد
+
+887
+00:36:50,230 --> 00:36:51,750
+wechseln
+تغییر
+
+888
+00:36:51,750 --> 00:36:53,980
+hier ist hier wieder ein neues spring
+این هم یک بهار جدید دیگر
+
+889
+00:36:53,980 --> 00:36:55,450
+gut in den schleuser projekt mit dem
+در پروژه قاچاقچی با [موضوع] خوب است
+
+890
+00:36:55,450 --> 00:36:57,640
+start ab ich will jetzt aber zeigen wie
+از الان شروع کن، می‌خوام نشونت بدم چطور
+
+891
+00:36:57,640 --> 00:37:00,160
+wir hier das ganze mit unserer datenbank
+ما همه چیز را با پایگاه داده خود انجام می‌دهیم
+
+892
+00:37:00,160 --> 00:37:01,809
+verbinden können indem wir ein paar
+با ایجاد چند مورد، ارتباط برقرار کنید
+
+893
+00:37:01,809 --> 00:37:03,730
+dependence hinzufügen das heißt ich gehe
+وابستگی را اضافه کنید، یعنی من می‌روم
+
+894
+00:37:03,730 --> 00:37:06,130
+ja mal auf maven repository wo man die
+بله، در مخزن maven که می‌توانید آن را پیدا کنید.
+
+895
+00:37:06,130 --> 00:37:08,440
+pens hieß so hier einfach kopieren kann
+قلم‌ها نامیده می‌شدند، بنابراین می‌توانید به سادگی اینجا کپی کنید
+
+896
+00:37:08,440 --> 00:37:10,270
+da würde ich mir erst mal den spring
+اول به بهار نگاه می‌کردم
+
+897
+00:37:10,270 --> 00:37:11,279
+booster
+تقویت کننده
+
+898
+00:37:11,279 --> 00:37:15,510
+dpa der haupt springt dann unsere
+پرش‌های اصلی dpa و سپس پرش‌های ما
+
+899
+00:37:15,510 --> 00:37:17,680
+reporter tories werden es vielleicht mal
+شاید روزنامه نگاران
+
+900
+00:37:17,680 --> 00:37:20,710
+angucken hier hinzuzufügen die dann auch
+به اضافه کردن اینجا نگاه کنید که در آن صورت نیز
+
+901
+00:37:20,710 --> 00:37:23,500
+aber nicht implementiert werden und wir
+اما اجرا نشده و ما
+
+902
+00:37:23,500 --> 00:37:26,049
+können uns hier den postgresql die
+می‌تواند postgresql را اینجا به ما بدهد
+
+903
+00:37:26,049 --> 00:37:28,890
+treffer für unsere datenbank verbindung
+تعداد بازدیدها برای اتصال به پایگاه داده ما
+
+904
+00:37:28,890 --> 00:37:30,460
+einfügen wenn ihr jetzt eine andere
+اگر اکنون مورد دیگری دارید، وارد کنید
+
+905
+00:37:30,460 --> 00:37:33,130
+datenbank sollte ich einen anderen gdp
+آیا باید از یک پایگاه داده gdp متفاوت استفاده کنم؟
+
+906
+00:37:33,130 --> 00:37:35,730
+sieht aber natürlich holen
+اما البته خوب به نظر می‌رسد
+
+907
+00:37:35,730 --> 00:37:38,410
+damit das ganze jetzt auch richtig
+به طوری که الان همه چیز درست است
+
+908
+00:37:38,410 --> 00:37:40,480
+konfiguriert ist also springen weiß man
+پیکربندی شده، بنابراین پرش کنید، می دانید
+
+909
+00:37:40,480 --> 00:37:42,520
+sich damit verbinden soll werden wir
+برای ارتباط با آن، ما
+
+910
+00:37:42,520 --> 00:37:43,619
+jetzt ja einmal
+حالا یک بار
+
+911
+00:37:43,619 --> 00:37:47,200
+folgende konfiguration reinsten wirklich
+پیکربندی زیر واقعاً ناب‌ترین است
+
+912
+00:37:47,200 --> 00:37:49,180
+einmal diktate source plattform an und
+یک بار پلتفرم منبع را دیکته کنید و
+
+913
+00:37:49,180 --> 00:37:50,740
+dem fall post crest das ist ja unsere
+نشان پست کیس که نشان ماست
+
+914
+00:37:50,740 --> 00:37:54,039
+datenbank dann muss ich hier wieder mal
+پایگاه داده، پس باید دوباره به اینجا بروم
+
+915
+00:37:54,039 --> 00:37:57,279
+die nwd driver angeben damit spring weiß
+درایورهای nw را مشخص کنید تا بهار بداند
+
+916
+00:37:57,279 --> 00:38:00,430
+wie man sich hier verbindet dann die die
+چگونه اینجا وصل شویم، سپس
+
+917
+00:38:00,430 --> 00:38:03,039
+adresse von soldaten bank also logo host
+آدرس بانک سربازان همچنین میزبان لوگو
+
+918
+00:38:03,039 --> 00:38:07,000
+port 5 4 3 2 und ist lächelt orie hast
+پورت ۵ ۴ ۳ ۲ و داره لبخند میزنه، اوری هست
+
+919
+00:38:07,000 --> 00:38:09,930
+einfach der name unserer datenbank
+به سادگی نام پایگاه داده ما
+
+920
+00:38:09,930 --> 00:38:12,160
+hier in die wiese habe ich mir eine
+اینجا در چمنزار، من یک
+
+921
+00:38:12,160 --> 00:38:14,230
+datenbank angelegt die heißt das gleiche
+پایگاه داده ایجاد شده است که به همین نام خوانده می‌شود
+
+922
+00:38:14,230 --> 00:38:15,789
+tun darauf muss man hier einfach auf
+برای انجام این کار، فقط باید اینجا کلیک کنید
+
+923
+00:38:15,789 --> 00:38:18,520
+rechtsklick gehen und dann create und
+کلیک راست کنید و سپس ایجاد کنید و
+
+924
+00:38:18,520 --> 00:38:20,940
+database
+پایگاه داده
+
+925
+00:38:21,660 --> 00:38:24,220
+wir haben hier den default postgres
+ما postgres پیش‌فرض را داریم
+
+926
+00:38:24,220 --> 00:38:27,010
+username ist einfach postpress passwort
+نام کاربری به سادگی رمز عبور postpress است
+
+927
+00:38:27,010 --> 00:38:28,569
+habe ich hier beim einrichten von docker
+من هنگام تنظیم داکر اینجا را دارم
+
+928
+00:38:28,569 --> 00:38:30,670
+falls euch erinnert auch myspace wird
+اگر به خاطر داشته باشید، myspace نیز
+
+929
+00:38:30,670 --> 00:38:32,079
+als das passwort für die datenbank
+به عنوان رمز عبور پایگاه داده
+
+930
+00:38:32,079 --> 00:38:35,799
+eingeben und hier habe ich noch ein
+وارد شوید و اینجا یکی دیگر دارم
+
+931
+00:38:35,799 --> 00:38:39,099
+setting das gbl auto das update was hier
+تنظیم خودکار gbl، به‌روزرسانی چیست؟
+
+932
+00:38:39,099 --> 00:38:41,079
+steht heißt normalerweise das spring
+معمولاً به این معنی است که بهار
+
+933
+00:38:41,079 --> 00:38:43,650
+beim starten der applikation jetzt
+هنگام شروع برنامه در حال حاضر
+
+934
+00:38:43,650 --> 00:38:46,480
+nichts keine veränderungen zum thema was
+هیچ چیز، هیچ تغییری در موضوع ایجاد نمی‌کند، چه چیزی
+
+935
+00:38:46,480 --> 00:38:48,279
+zum beispiel ich werde das ganze einmal
+برای مثال، من کل کار را یک بار انجام خواهم داد
+
+936
+00:38:48,279 --> 00:38:53,130
+zu ändern zu create drop das heißt dass
+تغییر دادن برای ایجاد افت، به این معنی است که
+
+937
+00:38:53,130 --> 00:38:57,609
+beim starten der applikation einmal die
+هنگام شروع برنامه پس از
+
+938
+00:38:57,609 --> 00:38:59,710
+das ganze tabellen scanner für uns
+اسکنر کل میز برای ما
+
+939
+00:38:59,710 --> 00:39:01,950
+erzeugt und dann wenn wir die
+تولید شده و سپس وقتی که ما
+
+940
+00:39:01,950 --> 00:39:05,200
+applikation wieder stoppen wie der drops
+دوباره مثل قطره‌ها استفاده را متوقف کنید
+
+941
+00:39:05,200 --> 00:39:06,930
+also wieder löscht
+پس دوباره حذف کن
+
+942
+00:39:06,930 --> 00:39:09,099
+da möchte jetzt einmal anfangen und das
+من دوست دارم از همین الان شروع کنم و
+
+943
+00:39:09,099 --> 00:39:10,900
+klima zu erzeugen ich mache einfach nur
+برای ایجاد آب و هوا، من فقط این کار را انجام می‌دهم
+
+944
+00:39:10,900 --> 00:39:12,520
+eine tabelle und zwar die tabelle
+یک میز، یعنی میز
+
+945
+00:39:12,520 --> 00:39:15,520
+unserem datenbank modell hier fehlt
+مدل پایگاه داده ما در اینجا وجود ندارد
+
+946
+00:39:15,520 --> 00:39:17,319
+jetzt muss das an sie hat einmal alle
+حالا باید انجام شود، او همه چیز دارد
+
+947
+00:39:17,319 --> 00:39:20,069
+tieren mit eternity
+حیواناتی با ابدیت
+
+948
+00:39:20,069 --> 00:39:22,720
+jetzt weiß aber nicht was ist daraus ein
+حالا من نمی‌دانم چیست
+
+949
+00:39:22,720 --> 00:39:24,770
+paar bilder erzeugen soll wir können
+ما باید بتوانیم چند تصویر ایجاد کنیم
+
+950
+00:39:24,770 --> 00:39:26,630
+noch definieren wie diese tabelle heißt
+هنوز هم این جدول را تعریف کنید
+
+951
+00:39:26,630 --> 00:39:30,730
+mit dem ätna station
+با ایستگاه اتنا
+
+952
+00:39:33,520 --> 00:39:35,750
+jetzt wollen wir unseren cities auch
+حالا می‌خواهیم به شهرهایمان بدهیم
+
+953
+00:39:35,750 --> 00:39:37,580
+noch ein index ihm also dass kanzler
+شاخص دیگری برای او به طوری که صدراعظم
+
+954
+00:39:37,580 --> 00:39:39,590
+schüssel geben und dafür welches aber
+کاسه و برای آن چیزی که اما
+
+955
+00:39:39,590 --> 00:39:41,950
+das education benutzen
+از آموزش و پرورش استفاده کنید
+
+956
+00:39:41,950 --> 00:39:44,960
+und das generating value einen zwischen
+و ارزش تولیدی بین
+
+957
+00:39:44,960 --> 00:39:47,210
+hinzufügen damit wir nicht jedes mal die
+اضافه کنیم تا مجبور نباشیم
+
+958
+00:39:47,210 --> 00:39:48,770
+neu definieren müssen und was zu
+باید دوباره تعریف کنم و چه چیزی را
+
+959
+00:39:48,770 --> 00:39:51,670
+speichern neben fertig die strategy
+ذخیره بعدی برای پایان دادن به استراتژی
+
+960
+00:39:51,670 --> 00:39:55,820
+generated auto benutzen was heißt das
+استفاده خودکار تولید شده یعنی چه؟
+
+961
+00:39:55,820 --> 00:39:58,640
+mieter aber nicht jedes mal die idee
+مستاجران اما نه همیشه این ایده
+
+962
+00:39:58,640 --> 00:40:00,050
+instrumentieren wird möchte ein neues
+ساز جدیدی خواهد زد
+
+963
+00:40:00,050 --> 00:40:03,590
+objekt in die tabelle rein tun das ganze
+شیء را داخل جدول قرار دادن کل
+
+964
+00:40:03,590 --> 00:40:06,020
+werde ich dann einen blauen machen das
+من سپس یک رنگ آبی درست می کنم که
+
+965
+00:40:06,020 --> 00:40:09,730
+ganze dienen dann gebe ich meine
+کل خدمت را پس می دهم
+
+966
+00:40:09,730 --> 00:40:12,530
+city modell hier noch zwei attribute
+مدل شهر در اینجا دو ویژگی دیگر دارد
+
+967
+00:40:12,530 --> 00:40:16,090
+aber den namen
+اما نام
+
+968
+00:40:17,410 --> 00:40:19,810
+und noch ein bully
+و یک قلدر دیگر
+
+969
+00:40:19,810 --> 00:40:23,030
+und alt shift einfügen werde ich hier
+و alt shift را اینجا وارد می‌کنم
+
+970
+00:40:23,030 --> 00:40:28,930
+einmal gitter und setter generieren
+یک بار شبکه و تنظیم کننده ایجاد کنید
+
+971
+00:40:28,930 --> 00:40:32,300
+jetzt wechselt zum repository über damit
+حالا به مخزن بروید تا
+
+972
+00:40:32,300 --> 00:40:37,000
+wir dann unsere datenbank abrufen werden
+سپس پایگاه داده خود را بازیابی خواهیم کرد
+
+973
+00:40:40,210 --> 00:40:43,420
+die muss dann extension existenten von
+که در این صورت باید یک امتداد موجود از
+
+974
+00:40:43,420 --> 00:40:48,620
+dem springkraut repository und das ganze
+مخزن گیاهان هیمالیا و کل
+
+975
+00:40:48,620 --> 00:40:50,840
+wird dann einmal erstes angehen das ist
+سپس به اولین چیزی که هست رسیدگی خواهد کرد
+
+976
+00:40:50,840 --> 00:40:52,790
+für die repositories für die city
+برای مخازن شهر
+
+977
+00:40:52,790 --> 00:40:55,540
+tabelle ist also von cities abruft und
+بنابراین جدول از شهرها بازیابی می‌شود و
+
+978
+00:40:55,540 --> 00:40:58,480
+dass sie zum schlüssel an long benutzen
+که برای مدت طولانی از آن استفاده می‌کنید
+
+979
+00:40:58,480 --> 00:41:01,370
+das ganze mit repository an notieren
+به همه چیز با مخزن روشن توجه کنید
+
+980
+00:41:01,370 --> 00:41:04,340
+damit springt uns dafür daraus eine
+این به ما می‌دهد
+
+981
+00:41:04,340 --> 00:41:06,320
+biene zeug die wir dann in unseren
+مواد زنبور عسل که سپس در ظرف خود قرار می‌دهیم
+
+982
+00:41:06,320 --> 00:41:08,870
+kontext rein tun können oder auto wahlen
+متن می‌تواند وارد شود یا به صورت خودکار انتخاب شود
+
+983
+00:41:08,870 --> 00:41:10,330
+können
+می‌تواند
+
+984
+00:41:10,330 --> 00:41:12,560
+das müsste jetzt auch mal alles testen
+که باید همه چیز را الان آزمایش کند
+
+985
+00:41:12,560 --> 00:41:15,050
+ich werde jetzt einmal das repositories
+الان مخازن رو بررسی می‌کنم
+
+986
+00:41:15,050 --> 00:41:17,210
+und im kontext nehmen und zwei städte
+و زمینه و دو شهر را در نظر بگیرید
+
+987
+00:41:17,210 --> 00:41:20,770
+hier unsere datenbank speichern
+پایگاه داده ما را اینجا ذخیره کنید
+
+988
+00:41:41,460 --> 00:41:43,660
+jetzt möchte das kanzleramt
+حالا صدراعظم می‌خواهد
+
+989
+00:41:43,660 --> 00:41:45,640
+staaten wie
+ایالت‌هایی مانند
+
+990
+00:41:45,640 --> 00:41:49,010
+wir sehen haben wir jetzt hier berlin
+می‌بینیم که حالا برلین را اینجا داریم
+
+991
+00:41:49,010 --> 00:41:50,960
+und düsseldorf als städte unserer
+و دوسلدورف به عنوان شهرهای ما
+
+992
+00:41:50,960 --> 00:41:52,960
+datenbank drin
+پایگاه داده داخل
+
+993
+00:41:52,960 --> 00:41:55,130
+das hat das ganze hat funktioniert
+که کلی کار کرد
+
+994
+00:41:55,130 --> 00:41:57,650
+möchte ich jetzt zeigen wie wir das
+حالا می‌خواهم نشان دهم که چگونه ما
+
+995
+00:41:57,650 --> 00:41:59,390
+andere das ganze nochmal benutzen können
+دیگران می‌توانند دوباره از آن استفاده کنند
+
+996
+00:41:59,390 --> 00:42:03,790
+indem wir städte durch den namen finden
+با پیدا کردن شهرها بر اساس نام
+
+997
+00:42:03,970 --> 00:42:07,190
+und zwar hat gpda eine besondere query
+یعنی gpda یک کوئری خاص دارد
+
+998
+00:42:07,190 --> 00:42:10,490
+language die ist relativ intuitiv und
+زبانی که نسبتاً شهودی است و
+
+999
+00:42:10,490 --> 00:42:13,510
+zwar müssen wir dafür nur
+اگرچه ما فقط باید
+
+1000
+00:42:13,510 --> 00:42:16,670
+feind bei also das ist ein keyword in
+دشمن در ... بنابراین این یک کلمه کلیدی است
+
+1001
+00:42:16,670 --> 00:42:19,280
+dieser kategorie language in dem fall
+این دسته از زبان‌ها در این مورد
+
+1002
+00:42:19,280 --> 00:42:22,580
+gebe ich nahm an weil wir haben dieses
+من فرض کردم چون این را داریم
+
+1003
+00:42:22,580 --> 00:42:26,440
+attribut nehmen in unserer city
+ویژگی را در شهر ما بگیرید
+
+1004
+00:42:26,440 --> 00:42:29,210
+und erwarte dass wir ein parameter
+و انتظار داریم که یک پارامتر داشته باشیم
+
+1005
+00:42:29,210 --> 00:42:31,460
+angeben der da mit diesem typen von
+یکی را با این نوع مشخص کنید
+
+1006
+00:42:31,460 --> 00:42:34,910
+diesem attribut aus unserer city modell
+این ویژگی از مدل شهر ما
+
+1007
+00:42:34,910 --> 00:42:37,040
+korreliert also ist ein string das nicht
+همبسته است، بنابراین رشته‌ای که نیست
+
+1008
+00:42:37,040 --> 00:42:39,860
+dann auch nehmen damit das klar ist und
+سپس آن را بگیرید تا شفاف و
+
+1009
+00:42:39,860 --> 00:42:42,110
+jetzt wird mir tatsächlich haben die
+حالا من واقعاً آن را خواهم داشت
+
+1010
+00:42:42,110 --> 00:42:44,080
+hintergrund irgendwas
+چیزی پس زمینه
+
+1011
+00:42:44,080 --> 00:42:47,080
+generieren
+تولید کردن
+
+1012
+00:42:49,270 --> 00:42:51,350
+das ist
+یعنی
+
+1013
+00:42:51,350 --> 00:42:52,970
+aber nicht im hintergrund dann für uns
+اما نه در پس زمینه برای ما
+
+1014
+00:42:52,970 --> 00:42:54,680
+generiert werden wir einfach diesen
+ما به سادگی این را تولید خواهیم کرد
+
+1015
+00:42:54,680 --> 00:42:56,990
+methoden namen angeben das ist ziemlich
+نام متدها را به گونه‌ای مشخص کنید که کاملاً
+
+1016
+00:42:56,990 --> 00:42:59,840
+ziemlich cool das ganze einmal testen
+خیلی باحاله که همه چی رو امتحان کردی
+
+1017
+00:42:59,840 --> 00:43:02,770
+indem ich hier zeigen werde wie wir
+با نشان دادن اینکه چگونه ما
+
+1018
+00:43:02,770 --> 00:43:06,110
+diese reduzieren können nur eine
+اینها فقط با این روش قابل کاهش هستند
+
+1019
+00:43:06,110 --> 00:43:08,000
+beliebige bienen also ich werde wieder
+هر زنبور عسلی، پس دوباره این کار را خواهم کرد
+
+1020
+00:43:08,000 --> 00:43:12,070
+ein rest controller sagen
+یک کنترل کننده استراحت می گوید
+
+1021
+00:43:50,400 --> 00:43:52,420
+ich will es einmal einfach ein rest
+فقط میخوام یه مدت ترکش کنم
+
+1022
+00:43:52,420 --> 00:43:54,220
+controller mit zwei betten links erzeugt
+کنترلر با دو تخت باقی مانده تولید شده
+
+1023
+00:43:54,220 --> 00:43:58,440
+und hoffe jetzt dass mir dieser
+و حالا امیدواریم که این
+
+1024
+00:43:58,440 --> 00:44:00,820
+controller den ich hier erzeugt habe
+کنترلری که من اینجا ایجاد کردم
+
+1025
+00:44:00,820 --> 00:44:03,760
+dann gleich mit find beinamen meine
+سپس بلافاصله با پیدا کردن نام مستعار من
+
+1026
+00:44:03,760 --> 00:44:07,320
+jeweiligen städte zurück gibt
+شهرهای مربوطه
+
+1027
+00:44:23,850 --> 00:44:26,430
+das hat schon trainiert das ist super
+که قبلاً آموزش داده شده است، عالی است
+
+1028
+00:44:26,430 --> 00:44:29,990
+und ich mal düsseldorf probieren
+و من دوسلدورف را امتحان خواهم کرد
+
+1029
+00:44:30,589 --> 00:44:33,630
+super wir sind ein teil des kurs
+عالیه، ما هم جزو دوره هستیم
+
+1030
+00:44:33,630 --> 00:44:34,920
+angelangt wo wir uns auf unser
+جایی که مشتاقانه منتظر دیدارمان هستیم
+
+1031
+00:44:34,920 --> 00:44:37,560
+abschlussprojekt fokussieren können wir
+پروژه نهایی که می‌توانیم روی آن تمرکز کنیم
+
+1032
+00:44:37,560 --> 00:44:39,770
+werden ja einmal eine quad ip
+روزی یک چهار آی پی خواهد داشت
+
+1033
+00:44:39,770 --> 00:44:42,329
+implementieren mit rest springt
+با پرش‌های استراحتی اجرا کنید
+
+1034
+00:44:42,329 --> 00:44:44,609
+controller das heißt wir machen die
+کنترل کننده یعنی ما می سازیم
+
+1035
+00:44:44,609 --> 00:44:46,710
+ganzen operation die üblicherweise auch
+کل عملیات که معمولاً نیز
+
+1036
+00:44:46,710 --> 00:44:49,500
+so ein spring bootbag in microserver
+چنین کیف بوت فنری در میکروسرور
+
+1037
+00:44:49,500 --> 00:44:52,400
+implementiert werden sachen wie create
+چیزهایی مانند create پیاده‌سازی شده‌اند
+
+1038
+00:44:52,400 --> 00:44:54,380
+updated
+به‌روزرسانی‌شده
+
+1039
+00:44:54,380 --> 00:44:55,910
+und
+و
+
+1040
+00:44:55,910 --> 00:44:57,869
+dafür brauchen wir heute unser ganzes
+برای این کار به تمام وجودمان نیاز داریم
+
+1041
+00:44:57,869 --> 00:45:00,119
+feuriges wissen aus dem kurs wir werden
+دانش آتشین از دوره ای که خواهیم داشت
+
+1042
+00:45:00,119 --> 00:45:01,800
+zu bringen data gp benutzung mit der
+برای استفاده از داده های gp با
+
+1043
+00:45:01,800 --> 00:45:03,780
+datenbank zu integrieren wir werden die
+پایگاه داده برای ادغام ما
+
+1044
+00:45:03,780 --> 00:45:06,300
+pension jackson benutzen und
+استفاده از حقوق بازنشستگی جکسون و
+
+1045
+00:45:06,300 --> 00:45:07,619
+entsprechend postest du halt auch und
+بر این اساس شما پست می کنید و
+
+1046
+00:45:07,619 --> 00:45:09,900
+datenbank setter bei dir ähnlich wie das
+تنظیم‌کننده پایگاه داده مشابه
+
+1047
+00:45:09,900 --> 00:45:11,880
+im vorherigen teil des kurses gemacht
+در بخش قبلی دوره
+
+1048
+00:45:11,880 --> 00:45:12,920
+haben
+داشته باشند
+
+1049
+00:45:12,920 --> 00:45:16,190
+und wie immer wenn ich kein fan davon
+و مثل همیشه اگر طرفدارش نباشم
+
+1050
+00:45:16,190 --> 00:45:19,470
+themen schnell 12 liegen im rest und
+موضوعات به سرعت 12 در بقیه هستند و
+
+1051
+00:45:19,470 --> 00:45:20,819
+http haben jetzt nicht explizit
+http به صراحت ندارد
+
+1052
+00:45:20,819 --> 00:45:22,680
+irgendwas mitzubringen zu tun deshalb
+برای انجام کاری آوردن
+
+1053
+00:45:22,680 --> 00:45:24,210
+wichtig bitten damit zu dem tutorial
+مهمه لطفا به آموزش برید
+
+1054
+00:45:24,210 --> 00:45:26,430
+effektiv wollen kannst dich darüber
+به طور مؤثر می‌خواهید بتوانید
+
+1055
+00:45:26,430 --> 00:45:29,220
+außerhalb dieses bestimmten tutorials zu
+خارج از این آموزش خاص
+
+1056
+00:45:29,220 --> 00:45:31,530
+informieren falls du da noch ein
+اگر دارید اطلاع دهید
+
+1057
+00:45:31,530 --> 00:45:34,250
+bisschen mehr wissen brauchst
+باید کمی بیشتر بدانیم
+
+1058
+00:45:34,250 --> 00:45:36,180
+starten auch wieder mit dem springen die
+دوباره با پریدن شروع کن
+
+1059
+00:45:36,180 --> 00:45:37,200
+schleuser diesmal durch euch den ganzen
+قاچاقچیان این بار از طریق شما کل
+
+1060
+00:45:37,200 --> 00:45:39,630
+prozess zeigen weil wir diesmal das
+فرآیند زیرا این بار ما
+
+1061
+00:45:39,630 --> 00:45:41,849
+spring data was wir im letzten teil des
+داده‌های بهاری که در بخش آخر مورد بحث قرار دادیم
+
+1062
+00:45:41,849 --> 00:45:43,890
+kurses manuell hinzugefügt haben jetzt
+البته به صورت دستی اضافه شد الان
+
+1063
+00:45:43,890 --> 00:45:46,800
+direkt unser projekt integrieren wird
+مستقیماً پروژه ما را ادغام خواهد کرد
+
+1064
+00:45:46,800 --> 00:45:49,410
+wieder java 8 auswählen das nahm nämlich
+دوباره جاوا ۸ را انتخاب کنید چون زمان برد
+
+1065
+00:45:49,410 --> 00:45:53,900
+die vestia tutorial das
+آموزش وستیا
+
+1066
+00:45:53,900 --> 00:45:57,000
+kannst du auch als rat gefragt hier
+اینجا هم میتونید درخواست مشاوره بدید
+
+1067
+00:45:57,000 --> 00:46:01,080
+und bis jetzt einmal wieder spring web
+و تاکنون یک بار دیگر وب بهاری
+
+1068
+00:46:01,080 --> 00:46:02,630
+auswählen
+انتخاب کنید
+
+1069
+00:46:02,630 --> 00:46:06,410
+dann spring day job
+سپس شغل روزانه بهاری
+
+1070
+00:46:06,410 --> 00:46:08,840
+und postpress
+و پس از چاپ
+
+1071
+00:46:08,840 --> 00:46:11,220
+dass mir das ganze einmal generieren von
+که بتوانم کل آن را یک بار از آن تولید کنم
+
+1072
+00:46:11,220 --> 00:46:14,000
+spanish leather ich würde wieder ein
+چرم اسپانیایی، دوباره می‌خرم
+
+1073
+00:46:14,000 --> 00:46:16,050
+intelligenter um eine datenbank im
+هوشمندانه‌تر برای ایجاد یک پایگاه داده در
+
+1074
+00:46:16,050 --> 00:46:17,370
+hintergrund am laufen so wie im
+پس‌زمینه مانند این اجرا می‌شود
+
+1075
+00:46:17,370 --> 00:46:20,400
+vorherigen tutorial und werde das ganze
+آموزش قبلی و کل را تکمیل خواهد کرد
+
+1076
+00:46:20,400 --> 00:46:23,040
+auch einfach überspringen bzw das setup
+همچنین به سادگی از تنظیمات صرف نظر کنید
+
+1077
+00:46:23,040 --> 00:46:25,560
+jetzt nicht noch mal erklären also komme
+حالا دوباره توضیح نمیدم پس بیا
+
+1078
+00:46:25,560 --> 00:46:27,840
+ich jetzt einfach hier mein settings
+الان فقط تنظیماتم رو تغییر میدم
+
+1079
+00:46:27,840 --> 00:46:30,350
+rein wie im letzten
+خالص مثل گذشته
+
+1080
+00:46:30,350 --> 00:46:33,350
+und wird jetzt hier
+و حالا اینجاست
+
+1081
+00:46:33,350 --> 00:46:37,710
+anfang mai neu zu definieren dafür
+برای تعریف مجدد در ابتدای ماه مه
+
+1082
+00:46:37,710 --> 00:46:39,180
+brauche ich erstmal ein neues package
+من اول به یک بسته جدید نیاز دارم
+
+1083
+00:46:39,180 --> 00:46:41,870
+und das kannst du products
+و شما می‌توانید محصولات
+
+1084
+00:46:41,870 --> 00:46:44,250
+und wollte meinen daten objekt nur mit
+و شیء داده‌ام را فقط با ... می‌خواستم
+
+1085
+00:46:44,250 --> 00:46:48,200
+sich dass die produkte abbilden möchte
+که محصولات مایل به تصویر کشیدن آن هستند
+
+1086
+00:46:49,160 --> 00:46:51,060
+das ganze möchte ich meine daten
+من اطلاعاتم را می‌خواهم
+
+1087
+00:46:51,060 --> 00:46:52,680
+gespeichert also gebe ich ist dementi
+نجات یافته، پس من انکار می‌کنم
+
+1088
+00:46:52,680 --> 00:46:57,110
+tag und definiert table
+برچسب گذاری و تعریف جدول
+
+1089
+00:47:23,189 --> 00:47:26,349
+das ganze generiert jetzt möchte ich
+کل چیزی که الان تولید شده رو می‌خوام
+
+1090
+00:47:26,349 --> 00:47:30,119
+meine repository erzeugen
+مخزن من را ایجاد کنید
+
+1091
+00:47:52,380 --> 00:47:54,689
+zu guter letzt
+آخرین اما نه کم‌اهمیت‌ترین
+
+1092
+00:47:54,689 --> 00:47:56,400
+meinen
+معنی
+
+1093
+00:47:56,400 --> 00:47:59,400
+controller
+کنترل کننده
+
+1094
+00:48:01,310 --> 00:48:03,780
+möchten ist unser vest control hier
+می خواهید کنترل جلیقه ما اینجا باشد
+
+1095
+00:48:03,780 --> 00:48:05,300
+definieren
+تعریف کردن
+
+1096
+00:48:05,300 --> 00:48:08,930
+ich fange mit einem rating
+با رتبه بندی شروع می کنم
+
+1097
+00:48:08,930 --> 00:48:12,390
+wird das ganze auf platz das setzt dann
+همه چیز در جای خود قرار می‌گیرد و سپس ثابت می‌شود
+
+1098
+00:48:12,390 --> 00:48:15,720
+dieses / pollacks als ruth fahrt für
+این / پولاک در نقش روث تریپ برای
+
+1099
+00:48:15,720 --> 00:48:17,040
+diesen ganzen controller und alle
+کل این کنترلر و همه چیز
+
+1100
+00:48:17,040 --> 00:48:21,240
+anderen darin befindenden mappings dann
+نگاشت‌های دیگر موجود در آن،
+
+1101
+00:48:21,240 --> 00:48:23,130
+möchte ich hier auf meinen datenbank für
+من می خواهم از پایگاه داده خودم برای
+
+1102
+00:48:23,130 --> 00:48:26,810
+- ein baum also mein repository
+- یک درخت، مخزن من
+
+1103
+00:48:26,810 --> 00:48:29,940
+und fangen auch an mit dem kosten epping
+و همچنین با محاسبه هزینه شروع کنید
+
+1104
+00:48:29,940 --> 00:48:31,890
+des benutzten werden um unsere datenbank
+از موارد استفاده شده در پایگاه داده ما
+
+1105
+00:48:31,890 --> 00:48:34,280
+reinzuschreiben
+برای نوشتن در
+
+1106
+00:48:38,510 --> 00:48:41,839
+was wir springen jetzt hier sagen ist
+چیزی که الان می‌خواهیم بگوییم این است که
+
+1107
+00:48:41,839 --> 00:48:44,220
+jetzt habe ich hier ein hosting haben
+حالا من اینجا یک هاستینگ دارم
+
+1108
+00:48:44,220 --> 00:48:46,290
+also diese methode aufgerufen wird wenn
+بنابراین این متد زمانی فراخوانی می‌شود که
+
+1109
+00:48:46,290 --> 00:48:48,800
+wir mit post eine anfrage machen
+ما از طریق پست درخواست می‌دهیم
+
+1110
+00:48:48,800 --> 00:48:52,710
+das spring da in den body lenkungen soll
+فنر موجود در بدنه فرمان باید
+
+1111
+00:48:52,710 --> 00:48:55,619
+und post mapping oder post an fragen
+و ارسال نقشه یا ارسال به سوالات
+
+1112
+00:48:55,619 --> 00:48:56,609
+haben wir generell irgendwelche
+ما عموماً هر چیزی داریم
+
+1113
+00:48:56,609 --> 00:48:59,130
+informationen im body also irgendwann
+اطلاعات موجود در بدن، بنابراین در مقطعی
+
+1114
+00:48:59,130 --> 00:49:01,020
+formular was ein nutzer hochgeladen hat
+فرمی که کاربر آپلود کرده است
+
+1115
+00:49:01,020 --> 00:49:03,480
+also was sehr hart in dem fall bei rest
+بنابراین آنچه در این مورد با استراحت بسیار سخت بود
+
+1116
+00:49:03,480 --> 00:49:06,300
+schnittstelle ist es ja dann im json
+رابط در json است
+
+1117
+00:49:06,300 --> 00:49:07,339
+format
+قالب
+
+1118
+00:49:07,339 --> 00:49:09,780
+und springt sei daher guckt in den
+و می‌پرد و بنابراین به داخل نگاه می‌کند
+
+1119
+00:49:09,780 --> 00:49:11,460
+requests die rein und versuche das ganze
+درخواست‌ها را بررسی کنید و کل را امتحان کنید
+
+1120
+00:49:11,460 --> 00:49:12,650
+dann
+سپس
+
+1121
+00:49:12,650 --> 00:49:15,420
+fordert also in diesem fall eines
+بنابراین در این مورد، یکی
+
+1122
+00:49:15,420 --> 00:49:17,520
+unserer decke zu konvertieren und zieht
+سقف و کشش ما
+
+1123
+00:49:17,520 --> 00:49:19,230
+das ganze dann unsere methode hier rein
+کل روش ما در اینجا
+
+1124
+00:49:19,230 --> 00:49:21,780
+und wir speichern das ganze also das
+و ما همه چیز را ذخیره می‌کنیم تا
+
+1125
+00:49:21,780 --> 00:49:24,080
+resultat von dieser serialisierung
+نتیجه این سریال سازی
+
+1126
+00:49:24,080 --> 00:49:25,890
+bevor wir das ganze jetzt ja einmal
+قبل از اینکه کل کار را انجام دهیم
+
+1127
+00:49:25,890 --> 00:49:27,089
+starten müssen wir noch eine änderung
+ما هنوز نیاز به تغییر داریم
+
+1128
+00:49:27,089 --> 00:49:28,710
+machen unser application properties und
+ویژگی‌های برنامه خود را ایجاد کنید و
+
+1129
+00:49:28,710 --> 00:49:31,680
+es war ich habe hier letzte tory craig
+آخرین باری که اینجا بودم، کریگ بود
+
+1130
+00:49:31,680 --> 00:49:35,550
+drop angeben für dieses ddl auto hier
+مشخصات این ماشین ddl را اینجا بنویسید
+
+1131
+00:49:35,550 --> 00:49:37,410
+möchten wir es nur create angeben damit
+ما فقط می‌خواهیم create را مشخص کنیم تا
+
+1132
+00:49:37,410 --> 00:49:39,589
+uns
+ما
+
+1133
+00:49:39,589 --> 00:49:42,780
+aber nicht einmal unsere datenbank
+اما حتی پایگاه داده ما هم نه
+
+1134
+00:49:42,780 --> 00:49:44,250
+einrichten aber danach wenn wir die
+راه اندازی شد اما بعد از آن وقتی که ما
+
+1135
+00:49:44,250 --> 00:49:45,570
+anwendung stoppen nicht unsere daten
+برنامه، داده‌های ما را متوقف نمی‌کند
+
+1136
+00:49:45,570 --> 00:49:47,609
+wieder gelöscht weil wenn wir hier noch
+دوباره حذف شد زیرا اگر هنوز
+
+1137
+00:49:47,609 --> 00:49:49,290
+zum beispiel geht und sowas ausführen
+مثلاً برو و فلان کار را بکن
+
+1138
+00:49:49,290 --> 00:49:50,580
+möchten dann wollen wir nicht jedes mal
+هر بار می‌خواهیم، پس نمی‌خواهیم
+
+1139
+00:49:50,580 --> 00:49:52,560
+vorher noch nicht was unsere datenbank
+نه قبل از اینکه پایگاه داده ما چه باشد
+
+1140
+00:49:52,560 --> 00:49:54,200
+schreiben müssen
+باید بنویسند
+
+1141
+00:49:54,200 --> 00:49:57,680
+erst einmal unsere datenbank rein
+اول از همه پایگاه داده ما
+
+1142
+00:49:57,680 --> 00:50:01,789
+das ganze ist einmal refresh
+کل ماجرا یک بار تازه می‌شود
+
+1143
+00:50:01,789 --> 00:50:04,109
+jetzt haben wir hier unser unserer parag
+حالا ما پاراگ خودمان را داریم
+
+1144
+00:50:04,109 --> 00:50:05,839
+table drin
+میز داخل
+
+1145
+00:50:05,839 --> 00:50:08,819
+und als nächstes werde ich post an
+و در ادامه پست خواهم گذاشت برای
+
+1146
+00:50:08,819 --> 00:50:11,190
+benutzen portland ist einfach eine
+استفاده از پورتلند به سادگی یک
+
+1147
+00:50:11,190 --> 00:50:12,660
+grafische oberfläche mit der wir unsere
+رابط گرافیکی که با آن کار می‌کنیم
+
+1148
+00:50:12,660 --> 00:50:15,119
+quer requests definieren können so sieht
+می‌تواند درخواست‌های کوئری را تعریف کند، بنابراین به نظر می‌رسد
+
+1149
+00:50:15,119 --> 00:50:16,470
+das ganze dann aus ist kostenlos
+کل ماجرا رایگان است
+
+1150
+00:50:16,470 --> 00:50:18,839
+verfügbar im internet ich hab jetzt hier
+در اینترنت موجود است، من الان اینجا هستم
+
+1151
+00:50:18,839 --> 00:50:21,089
+auf new geklickt oben links und werde
+روی بالا سمت چپ جدید کلیک کنید و
+
+1152
+00:50:21,089 --> 00:50:21,920
+jetzt
+الان
+
+1153
+00:50:21,920 --> 00:50:24,770
+klicken
+کلیک
+
+1154
+00:50:24,770 --> 00:50:29,720
+und dann prost auswählen
+و سپس prost را انتخاب کنید
+
+1155
+00:50:29,720 --> 00:50:32,660
+dann auf local losgehen
+سپس به محلی بروید
+
+1156
+00:50:32,660 --> 00:50:35,609
+fördert ist unser rückfahrt für das
+سفر برگشت ما را تبلیغ می‌کند
+
+1157
+00:50:35,609 --> 00:50:38,760
+ganze das heißt darüber sollten wir das
+کل این یعنی ما باید
+
+1158
+00:50:38,760 --> 00:50:41,069
+eigentlich erreichen das müssen wir noch
+در واقع به چیزی دست پیدا می‌کنیم که هنوز باید به آن برسیم
+
+1159
+00:50:41,069 --> 00:50:44,039
+einen body angeben jeden fall kriegt mir
+در هر صورت، یک بدن را مشخص کنید، من را جذب می‌کند
+
+1160
+00:50:44,039 --> 00:50:44,900
+hierbei
+اینجا
+
+1161
+00:50:44,900 --> 00:50:47,119
+posten
+پست
+
+1162
+00:50:47,119 --> 00:50:50,970
+im dropdown jason aus jetzt müssen wir
+در منوی کشویی جیسون از الان به بعد باید
+
+1163
+00:50:50,970 --> 00:50:54,059
+uns in jason überlegen was ja irgendwie
+به این فکر کنید که جیسون به نوعی چیست
+
+1164
+00:50:54,059 --> 00:50:58,319
+unser produkt in java abbildet haben wir
+محصول ما به زبان جاوا است.
+
+1165
+00:50:58,319 --> 00:51:02,150
+einmal das neben als attribut
+یک بار بعدی به عنوان ویژگی
+
+1166
+00:51:09,230 --> 00:51:12,529
+und es kostete
+و هزینه داشت
+
+1167
+00:51:12,529 --> 00:51:17,089
+23 und wie das ganze mal zu verschicken
+۲۳ و نحوه ارسال کل آن
+
+1168
+00:51:17,089 --> 00:51:21,109
+ich habe jetzt den status okay bekommen
+الان وضعیتم اوکی شده
+
+1169
+00:51:21,109 --> 00:51:23,279
+und daten mal gucken und das ganze
+و به داده‌ها و کل نگاه کنید
+
+1170
+00:51:23,279 --> 00:51:25,400
+nochmal refresh
+دوباره تازه کردن
+
+1171
+00:51:25,400 --> 00:51:27,420
+sehen wir hier wurde was die daten
+ما اینجا می‌بینیم که داده‌ها چه هستند
+
+1172
+00:51:27,420 --> 00:51:30,380
+geschrieben das heißt hat funktioniert
+نوشته شده یعنی کار کرده
+
+1173
+00:51:30,380 --> 00:51:33,059
+jetzt finden wir uns das kidnapping
+حالا آدم‌ربایی را پیدا می‌کنیم
+
+1174
+00:51:33,059 --> 00:51:35,569
+kümmern
+مراقبت کردن
+
+1175
+00:51:54,010 --> 00:51:56,990
+diesem geld mapping habe ich einmal
+من یه بار از این نقشه برداری پول استفاده کردم
+
+1176
+00:51:56,990 --> 00:51:58,730
+einen / und dann innerhalb dieser
+یک / و سپس درون این
+
+1177
+00:51:58,730 --> 00:51:59,920
+brackets
+براکت ها
+
+1178
+00:51:59,920 --> 00:52:02,630
+ein wert angegeben und dieser wert
+یک مقدار مشخص شده است و این مقدار
+
+1179
+00:52:02,630 --> 00:52:06,410
+korrigiert nicht ohne grund mit dem
+بدون دلیل با آن اصلاح نمی‌کند
+
+1180
+00:52:06,410 --> 00:52:08,710
+namen dieses dieses
+نام این این
+
+1181
+00:52:08,710 --> 00:52:12,020
+variable hier für unsere methode und
+متغیر اینجا برای روش ما و
+
+1182
+00:52:12,020 --> 00:52:13,600
+zwar mit diesem etwas
+با این چیزی
+
+1183
+00:52:13,600 --> 00:52:16,070
+sagen wir spring das ist in unserem
+بیایید بگوییم بهاری که در ماست
+
+1184
+00:52:16,070 --> 00:52:18,800
+fahrt nach gucken soll wo das hier
+رانندگی کن تا ببینی اینجا کجاست
+
+1185
+00:52:18,800 --> 00:52:21,470
+gemacht wird mit diesen brackets und was
+با این براکت ها انجام می شود و چه چیزی
+
+1186
+00:52:21,470 --> 00:52:23,750
+hier quasi innerhalb der brackets für
+اینجا عملاً داخل پرانتز برای
+
+1187
+00:52:23,750 --> 00:52:26,360
+den wert drin wäre der wird dann hier
+ارزش آن اینجا خواهد بود
+
+1188
+00:52:26,360 --> 00:52:29,030
+als wirtin diese variable in unserer
+به عنوان یک صاحبخانه، این متغیر در ما
+
+1189
+00:52:29,030 --> 00:52:30,860
+methode auf eingeführt wenn das eine
+روشی که وقتی یکی معرفی شد
+
+1190
+00:52:30,860 --> 00:52:32,770
+ganze aufgerufen wird
+کل نامیده می‌شود
+
+1191
+00:52:32,770 --> 00:52:34,760
+dann rufen wir hier mit diesem charakter
+سپس ما با این کاراکتر اینجا را فراخوانی می‌کنیم
+
+1192
+00:52:34,760 --> 00:52:36,500
+idee dass für ihn bekommen durch unsere
+ایده‌ای که برای او از طریق ما عبور می‌کند
+
+1193
+00:52:36,500 --> 00:52:40,280
+url das repository ma ab nachdem produkt
+آدرس مخزن ma بعد از محصول
+
+1194
+00:52:40,280 --> 00:52:41,410
+das versuchen
+امتحان کن که
+
+1195
+00:52:41,410 --> 00:52:43,430
+überprüfen dass es da ist und ging es
+بررسی کنید که آنجاست و آن را انجام دادید
+
+1196
+00:52:43,430 --> 00:52:45,830
+dann zurück springen wird das natürlich
+سپس به عقب بپرید که البته این اتفاق خواهد افتاد
+
+1197
+00:52:45,830 --> 00:52:47,420
+das ganze dann automatisch im
+سپس کل ماجرا به طور خودکار در
+
+1198
+00:52:47,420 --> 00:52:50,300
+hintergrund in jason umwandeln und wir
+پیشینه جیسون و ما
+
+1199
+00:52:50,300 --> 00:52:51,680
+das nicht finden geben wir einfach ganz
+اگر نتوانیم آن را پیدا کنیم، به سادگی تسلیم می‌شویم
+
+1200
+00:52:51,680 --> 00:52:55,100
+klassischen 44 04 zurück also sagen den
+کلاسیک ۴۴ ۰۴ برگشت، پس بگو
+
+1201
+00:52:55,100 --> 00:52:57,260
+entwicklern die den usa konsumieren dass
+توسعه‌دهندگانی که ایالات متحده را مصرف می‌کنند
+
+1202
+00:52:57,260 --> 00:53:00,440
+wir da kein produkt gefunden haben mich
+ما محصولی پیدا نکرده‌ایم
+
+1203
+00:53:00,440 --> 00:53:01,700
+das ganze jetzt einmal testen da
+الان همه چیز را آزمایش کنید
+
+1204
+00:53:01,700 --> 00:53:03,700
+verstehe ich die neu
+جدید را می‌فهمم
+
+1205
+00:53:03,700 --> 00:53:06,470
+aber bevor ich das tue ich selbst fast
+اما قبل از اینکه این کار را بکنم، خودم تقریباً
+
+1206
+00:53:06,470 --> 00:53:08,630
+vergessen möchte ich dass sie jetzt
+می‌خواهم فراموش کنم که آنها اکنون
+
+1207
+00:53:08,630 --> 00:53:11,420
+einfach auf updates setzen und das heißt
+به سادگی به به‌روزرسانی‌ها تکیه کنید و این یعنی
+
+1208
+00:53:11,420 --> 00:53:13,340
+dass wir haben es sagen das ist jetzt
+که ما آن را داریم، می گویند که اکنون
+
+1209
+00:53:13,340 --> 00:53:14,690
+gar nichts mehr mit der mit der
+دیگر هیچ ربطی به با
+
+1210
+00:53:14,690 --> 00:53:15,740
+datenbank machen soll dies jetzt
+پایگاه داده باید این کار را اکنون انجام دهد
+
+1211
+00:53:15,740 --> 00:53:18,260
+initialisiert wir möchten jetzt keinen
+مقداردهی اولیه نشده، ما نمی‌خواهیم
+
+1212
+00:53:18,260 --> 00:53:20,330
+keinen anderen create oder sowas mehr
+دیگر هیچ چیز دیگری یا چیزی شبیه به آن وجود ندارد
+
+1213
+00:53:20,330 --> 00:53:21,650
+aufrufen damit wir auch nichts mit den
+تماس بگیرید تا با هم مشکلی نداشته باشیم
+
+1214
+00:53:21,650 --> 00:53:24,880
+werten unserer datenbank tun
+مقادیر پایگاه داده ما
+
+1215
+00:53:26,180 --> 00:53:31,520
+6 jetzt gibt es ein paar variabel ein
+6 اکنون چند متغیر وجود دارد
+
+1216
+00:53:31,520 --> 00:53:35,869
+unserer datenbank ist da die id
+پایگاه داده ما id است
+
+1217
+00:53:35,869 --> 00:53:39,349
+1 für unsere schuhe
+یکی برای کفش‌هایمان
+
+1218
+00:53:39,349 --> 00:53:41,579
+und wenn ich das jetzt mal abrufe
+و اگر الان این را فراخوانی کنم
+
+1219
+00:53:41,579 --> 00:53:43,559
+bekommen wir hier in jason was eure
+ما به اینجا در جیسون می‌رسیم، منظور شما چیست؟
+
+1220
+00:53:43,559 --> 00:53:45,000
+unsere formation informationen über
+اطلاعات تشکیل ما در مورد
+
+1221
+00:53:45,000 --> 00:53:46,700
+unsere schule hat
+مدرسه ما دارد
+
+1222
+00:53:46,700 --> 00:53:50,930
+und welche zum beispiel die zwei angeber
+و کدام، برای مثال، آن دو خودنمایی
+
+1223
+00:53:50,930 --> 00:53:53,400
+kriegen wir hier in vorne vor nord
+ما به اینجا، روبروی شمال می‌رسیم
+
+1224
+00:53:53,400 --> 00:53:55,980
+fahren ok das hat jetzt auch geklappt
+رانندگی خوب بود، الان هم کار کرد
+
+1225
+00:53:55,980 --> 00:53:58,530
+sehr gut wir möchten wir jetzt ein
+خیلی خوب، ما الان دوست داریم
+
+1226
+00:53:58,530 --> 00:54:00,390
+update machen das würde ich das put
+به‌روزرسانی که من آن را قرار می‌دادم
+
+1227
+00:54:00,390 --> 00:54:03,109
+mapping benutzen
+استفاده از نقشه برداری
+
+1228
+00:54:25,380 --> 00:54:28,809
+hier haben wir schon zwei methoden
+در اینجا ما از قبل دو روش داریم
+
+1229
+00:54:28,809 --> 00:54:31,329
+benutzten oder ein technisch benutzte
+استفاده شده یا از نظر فنی استفاده شده
+
+1230
+00:54:31,329 --> 00:54:33,400
+wir schon kennen wieder suchen die nach
+ما دوباره می‌دانیم که آنها به دنبال آن هستند
+
+1231
+00:54:33,400 --> 00:54:36,130
+der partei die in unserem pfad und im
+مهمانی که در مسیر ما و در
+
+1232
+00:54:36,130 --> 00:54:38,559
+ried des body haben wir dann wie führt
+از بدن جدا شده‌ایم، پس داریم که چگونه منجر می‌شود
+
+1233
+00:54:38,559 --> 00:54:42,400
+üblich dass das die update informationen
+معمولاً اطلاعات به‌روزرسانی می‌شوند
+
+1234
+00:54:42,400 --> 00:54:43,779
+die wir weitergeben möchten ich geb dir
+که ما دوست داریم به شما منتقل کنیم، به شما می‌دهم
+
+1235
+00:54:43,779 --> 00:54:46,480
+einfach wieder ein product rein wenn wir
+به سادگی وقتی محصول دیگری را وارد می‌کنیم
+
+1236
+00:54:46,480 --> 00:54:48,369
+das paket gefunden haben und das projekt
+بسته و پروژه را پیدا کردم
+
+1237
+00:54:48,369 --> 00:54:50,230
+schon unsere daten ein präsent ist
+داده‌های ما از قبل موجود است
+
+1238
+00:54:50,230 --> 00:54:53,109
+können wir ein update durchführen das
+آیا می‌توانیم به‌روزرسانی‌ای انجام دهیم که
+
+1239
+00:54:53,109 --> 00:54:54,670
+ist jetzt jetzt hier die werte von der
+حالا مقادیر اینها هستند
+
+1240
+00:54:54,670 --> 00:54:58,299
+aus der datenbank geholten kontakt und
+اطلاعات تماس بازیابی شده از پایگاه داده و
+
+1241
+00:54:58,299 --> 00:55:00,490
+setzt dir einfach durch mein charakter
+به سادگی شخصیتم را از طریق تو نشان دهم
+
+1242
+00:55:00,490 --> 00:55:01,980
+hier initiiert wird
+اینجا راه اندازی شده است
+
+1243
+00:55:01,980 --> 00:55:04,150
+und spreche dann das product wieder in
+و سپس دوباره محصول را به زبان مورد نظر بگویید
+
+1244
+00:55:04,150 --> 00:55:07,660
+der datenbank raus wichtig was wir hier
+پایگاه داده، آنچه را که ما اینجا مهم می‌دانیم، مشخص می‌کند
+
+1245
+00:55:07,660 --> 00:55:09,809
+speicher mit dem safe
+انبار با گاوصندوق
+
+1246
+00:55:09,809 --> 00:55:12,309
+muss auch das produkt die projekt
+محصول همچنین باید پروژه باشد
+
+1247
+00:55:12,309 --> 00:55:14,140
+instanz sein die wir hier aus der
+مثالی که ما اینجا از
+
+1248
+00:55:14,140 --> 00:55:15,490
+datenbank holen weil ich habe nicht
+پایگاه داده را دریافت کنید زیرا من ندارم
+
+1249
+00:55:15,490 --> 00:55:17,260
+dadurch quasi eine referenz speichert
+در نتیجه یک مرجع ذخیره می‌شود
+
+1250
+00:55:17,260 --> 00:55:19,269
+und wenn wir das nicht tun zum beispiel
+و اگر مثلاً این کار را نکنیم
+
+1251
+00:55:19,269 --> 00:55:21,460
+hier als als safe das projekt update
+به‌روزرسانی پروژه به عنوان یک به‌روزرسانی امن در اینجا قرار دارد.
+
+1252
+00:55:21,460 --> 00:55:24,130
+hier antun dann wird aber nicht eine
+این کار را اینجا انجام دهید، آنگاه دیگر نخواهد بود
+
+1253
+00:55:24,130 --> 00:55:26,740
+neue instanz in unserer tabelle einfügen
+نمونه جدیدی را در جدول ما وارد کنید
+
+1254
+00:55:26,740 --> 00:55:28,359
+das wollen wir nicht wir wollen einfach
+ما این را نمی‌خواهیم، فقط می‌خواهیم
+
+1255
+00:55:28,359 --> 00:55:31,119
+nur die existierenden verband tabellen
+فقط جداول انجمن موجود
+
+1256
+00:55:31,119 --> 00:55:34,349
+zahlen da abdecken
+پرداخت برای پوشش دادن
+
+1257
+00:55:48,210 --> 00:55:51,340
+ich werde jetzt hier im quatsch wert
+حالا قراره اینجا تو این مزخرفات باشم
+
+1258
+00:55:51,340 --> 00:55:53,680
+angeben das verwundert wenn das
+اظهار کنید که اگر تعجب آور باشد
+
+1259
+00:55:53,680 --> 00:55:56,040
+vielleicht zum
+شاید به
+
+1260
+00:56:03,000 --> 00:56:07,230
+sowas nennt hier bis 200 zurückbekommen
+به همچین چیزی میگن برگشت به ۲۰۰
+
+1261
+00:56:07,230 --> 00:56:10,800
+gucken unsere datenbank
+به پایگاه داده ما نگاه کنید
+
+1262
+00:56:10,800 --> 00:56:14,020
+machen refresh und sehen dass dieses
+رفرش کنید و ببینید که این
+
+1263
+00:56:14,020 --> 00:56:15,760
+gucci shirt jetzt in unserer datenbank
+پیراهن گوچی اکنون در پایگاه داده ما موجود است
+
+1264
+00:56:15,760 --> 00:56:17,400
+drin ist
+داخل است
+
+1265
+00:56:17,400 --> 00:56:19,840
+und zu guter letzt werden wir dass die
+و در آخر، اما نه کم‌اهمیت‌تر، ما این کار را خواهیم کرد
+
+1266
+00:56:19,840 --> 00:56:23,370
+lead durchführt
+سرب انجام می‌دهد
+
+1267
+00:56:30,730 --> 00:56:33,580
+er sollte eigentlich mehr oder
+او در واقع باید بیشتر یا
+
+1268
+00:56:33,580 --> 00:56:35,370
+ständig seien haben sie es wieder öfter
+آنها دائماً آن را دوباره و بیشتر اوقات تجربه می‌کنند
+
+1269
+00:56:35,370 --> 00:56:37,240
+wiederholt aber wir holen uns wieder die
+تکرار می‌شود اما ما دریافت می‌کنیم
+
+1270
+00:56:37,240 --> 00:56:41,380
+aus dem fahrrad hier raus nur dass wir
+از دوچرخه فقط اینجا که ما
+
+1271
+00:56:41,380 --> 00:56:43,600
+diesmal halt ein produkt anhand der idee
+این بار محصولی مبتنی بر ایده
+
+1272
+00:56:43,600 --> 00:56:45,580
+löschen wenn es in unserer datenbank ist
+اگر در پایگاه داده ما وجود دارد، آن را حذف کنید
+
+1273
+00:56:45,580 --> 00:56:48,010
+das möchten jetzt auch zum letzten mal
+ما می‌خواهیم این کار را برای آخرین بار انجام دهیم
+
+1274
+00:56:48,010 --> 00:56:50,790
+über testen
+درباره آزمایش
+
+1275
+00:57:10,830 --> 00:57:14,759
+wir sehen unsere datenbank leer wir
+می‌بینیم که پایگاه داده ما خالی است.
+
+1276
+00:57:14,759 --> 00:57:16,339
+möchten jetzt auf unser volk
+اکنون به مردم ما خوش آمد می‌گویم
+
+1277
+00:57:16,339 --> 00:57:19,049
+projekt aufbauen das kannste mal testen
+یک پروژه بسازید که بتوانید آن را آزمایش کنید
+
+1278
+00:57:19,049 --> 00:57:21,779
+das heißt wenn ihr jetzt keine springt
+یعنی اگه الان نپری
+
+1279
+00:57:21,779 --> 00:57:23,700
+zur verfügung hat zum testen solltet ihr
+برای آزمایش در دسترس است، شما باید
+
+1280
+00:57:23,700 --> 00:57:26,519
+das wissen dann für diesen teil des
+دانش سپس برای این بخش از
+
+1281
+00:57:26,519 --> 00:57:28,650
+kurses mitbringen damit ihr entspricht
+البته به طوری که شما مطابقت داشته باشید
+
+1282
+00:57:28,650 --> 00:57:30,960
+noch alles nach stellen könnt das erste
+شما هنوز هم می‌توانید همه چیز را از اول تنظیم کنید
+
+1283
+00:57:30,960 --> 00:57:32,579
+soll ich noch mal erklären kurz was
+دوباره مختصر توضیح بدم چی شده؟
+
+1284
+00:57:32,579 --> 00:57:35,749
+einen test ist uns jetzt einfach nur
+اکنون به سادگی یک آزمون وجود دارد
+
+1285
+00:57:35,749 --> 00:57:37,890
+kopien wir schreiben um unseren anderen
+نسخه‌هایی که برای دیگری می‌نویسیم
+
+1286
+00:57:37,890 --> 00:57:41,220
+coach zu überprüfen zu testen das ganze
+مربی برای بررسی و آزمایش کل
+
+1287
+00:57:41,220 --> 00:57:42,539
+vorstellen zum beispiel ich habe jetzt
+مثلاً تصور کنید که من الان دارم
+
+1288
+00:57:42,539 --> 00:57:44,009
+wahrscheinlich irgendeine methode
+احتمالاً روشی
+
+1289
+00:57:44,009 --> 00:57:45,420
+geschrieben irgendwie ich habe eine
+به نحوی نوشته شده که من دارم
+
+1290
+00:57:45,420 --> 00:57:48,359
+methode die zu einer zahl immer +1 hinzu
+روشی که همیشه عدد +1 را به عدد اضافه می‌کند
+
+1291
+00:57:48,359 --> 00:57:50,339
+gibt dann weiß ich dass zum beispiel
+پس من می‌دانم که مثلاً
+
+1292
+00:57:50,339 --> 00:57:54,239
+diese methode ein 1 1 gäbe dass ich dann
+این روش a 1 1 به من می‌دهد که پس من
+
+1293
+00:57:54,239 --> 00:57:56,460
+zwei zurück bekomme und das prinzip von
+دو تا را پس بگیرید و اصل
+
+1294
+00:57:56,460 --> 00:57:57,869
+waters ist quasi die sich den haufen
+آب اساساً همان توده است
+
+1295
+00:57:57,869 --> 00:58:00,690
+test schreibe also die mich dann quasi
+تست کن، پس اساساً منو بنویس
+
+1296
+00:58:00,690 --> 00:58:03,480
+vergewissern dass ich bei der methode
+مطمئن شوید که من از این روش استفاده می‌کنم
+
+1297
+00:58:03,480 --> 00:58:05,460
+wenn ich die aufrufe und verschiedene
+وقتی بهشون زنگ میزنم و متفاوت میشم
+
+1298
+00:58:05,460 --> 00:58:08,069
+parameter rein gebe und so weiter das
+پارامترها و غیره
+
+1299
+00:58:08,069 --> 00:58:10,650
+resultat zurück bekomme was ich auch
+نتیجه را پس بگیرید که من هم
+
+1300
+00:58:10,650 --> 00:58:12,630
+erwartet und das hat den vorteil das
+مورد انتظار است و این مزیت را دارد که
+
+1301
+00:58:12,630 --> 00:58:13,920
+sind wir unseren code schreiben und
+ما در حال نوشتن کد خود هستیم و
+
+1302
+00:58:13,920 --> 00:58:15,989
+verändern wir dann aufmerksam werden
+تغییر می‌کنیم، آنگاه آگاه می‌شویم
+
+1303
+00:58:15,989 --> 00:58:18,089
+wenn hat einen dieser service nennt sich
+اگر یکی از آنها را دارید، به این سرویس گفته می‌شود
+
+1304
+00:58:18,089 --> 00:58:20,390
+das fehlschlägt
+که شکست می‌خورد
+
+1305
+00:58:20,390 --> 00:58:23,430
+da haben für haben wir halt in java das
+ما در جاوا داریم
+
+1306
+00:58:23,430 --> 00:58:26,579
+g unit framework das gibt uns diese
+چارچوب واحد g که این را به ما می‌دهد
+
+1307
+00:58:26,579 --> 00:58:28,789
+recherchen methoden mit denen wir diese
+روش‌های تحقیقی که با آنها کار می‌کنیم
+
+1308
+00:58:28,789 --> 00:58:31,049
+vergewisserung machen können zb ich
+می‌تواند مطمئن شود، مثلاً من
+
+1309
+00:58:31,049 --> 00:58:33,029
+möchte vielleicht im juni testern
+شاید بهتر باشد در خرداد ماه آزمایش بدهم
+
+1310
+00:58:33,029 --> 00:58:34,710
+vergewissern dass irgendwas crew ist am
+مطمئن شوید که خدمه مشغول انجام کاری هستند
+
+1311
+00:58:34,710 --> 00:58:38,130
+ende oder nicht null ist oder als
+پایان یا نه صفر یا به عنوان
+
+1312
+00:58:38,130 --> 00:58:39,839
+wirkliche kann man ja da vergleichen den
+شما واقعاً می‌توانید مقایسه کنید
+
+1313
+00:58:39,839 --> 00:58:43,470
+code und wir haben auch ein paar tools
+کد و ما همچنین ابزارهایی داریم
+
+1314
+00:58:43,470 --> 00:58:44,999
+und zweiter die uns helfen unsere test
+و دوم اینکه، که به ما در آزمونمان کمک می‌کنند
+
+1315
+00:58:44,999 --> 00:58:46,499
+vorzubereiten das heißt vielleicht habe
+آماده کردن یعنی شاید من داشته باشم
+
+1316
+00:58:46,499 --> 00:58:49,460
+ich irgendwie bestimmte
+یه جورایی مصمم شدم
+
+1317
+00:58:49,460 --> 00:58:51,630
+umgebung und so weiter die simulieren
+محیط و غیره که شبیه‌سازی می‌کنند
+
+1318
+00:58:51,630 --> 00:58:54,029
+möchte und das ganze dann für jeden
+می خواهم و سپس همه چیز برای همه
+
+1319
+00:58:54,029 --> 00:58:55,559
+meiner tests in einem bestimmten unitis
+آزمایش‌های من در یک واحد خاص
+
+1320
+00:58:55,559 --> 00:58:57,420
+klasse habe dann zum beispiel das app
+کلاس، سپس برای مثال، برنامه را داشته باشید
+
+1321
+00:58:57,420 --> 00:58:59,190
+bevor er sich vorher irgendwelche
+قبل از اینکه او چیزی داشته باشد
+
+1322
+00:58:59,190 --> 00:59:01,160
+konfigurationen durchführen kann und
+می‌تواند تنظیمات را انجام دهد و
+
+1323
+00:59:01,160 --> 00:59:03,480
+erst oder mich nach dem test noch mal
+اول یا من دوباره بعد از آزمون
+
+1324
+00:59:03,480 --> 00:59:07,099
+irgendwelche sessions man kann aber auch
+هر جلسه‌ای، اما شما همچنین می‌توانید
+
+1325
+00:59:07,099 --> 00:59:09,739
+irgendwelche sachen die ich vorher
+هر چیزی که قبلاً
+
+1326
+00:59:09,739 --> 00:59:11,660
+deklariert habe im bevor wieder
+قبلاً دوباره اعلام شده است
+
+1327
+00:59:11,660 --> 00:59:12,829
+vielleicht rückgängig machen kann damit
+شاید بتواند آن را خنثی کند
+
+1328
+00:59:12,829 --> 00:59:14,269
+die für den nächsten test wieder gleich
+که برای آزمون بعدی هم همینطور خواهد بود
+
+1329
+00:59:14,269 --> 00:59:16,269
+sind
+هستند
+
+1330
+00:59:16,269 --> 00:59:19,430
+wir haben dann auch das springboard test
+ما همچنین آزمون فنربندی داریم
+
+1331
+00:59:19,430 --> 00:59:22,099
+framework das und springt mit gibt was
+چارچوبی که با آن می‌پرد و آنچه را که ارائه می‌دهد
+
+1332
+00:59:22,099 --> 00:59:24,739
+uns das erlaubt ist da wir in spring bot
+ما مجاز به انجام این کار هستیم زیرا در ربات بهاری هستیم
+
+1333
+00:59:24,739 --> 00:59:26,599
+den application kontext haben der auch
+زمینه برنامه را نیز داشته باشید
+
+1334
+00:59:26,599 --> 00:59:28,190
+relativ komplex ist müssen wir halt
+نسبتاً پیچیده است، ما فقط باید
+
+1335
+00:59:28,190 --> 00:59:30,710
+unsere anwendungen mit diesem kontext
+برنامه‌های ما با این زمینه
+
+1336
+00:59:30,710 --> 00:59:32,450
+starten damit wir auch am besten
+شروع کنیم تا بتوانیم به بهترین شکل
+
+1337
+00:59:32,450 --> 00:59:34,729
+effektive juni test schreiben können das
+آزمون مؤثر ژوئن می‌تواند بنویسد که
+
+1338
+00:59:34,729 --> 00:59:35,720
+ist nicht immer der fall aber
+همیشه اینطور نیست اما
+
+1339
+00:59:35,720 --> 00:59:37,339
+normalerweise so dass wir zum beispiel
+معمولاً برای اینکه بتوانیم، مثلاً،
+
+1340
+00:59:37,339 --> 00:59:39,589
+da irgendwelche beans haben die wir
+چون ما مقداری لوبیا داریم
+
+1341
+00:59:39,589 --> 00:59:41,569
+initiieren oder irgendwelche race
+آغاز یا هر مسابقه‌ای
+
+1342
+00:59:41,569 --> 00:59:43,279
+control die auf anfragen warten
+کنترل انتظار برای درخواست‌ها
+
+1343
+00:59:43,279 --> 00:59:45,950
+entsprechend ist es halt sehr gut die
+بر این اساس، بسیار خوب است که
+
+1344
+00:59:45,950 --> 00:59:47,630
+möglichkeit zu haben dafür auch den
+امکان داشتن
+
+1345
+00:59:47,630 --> 00:59:50,779
+application kontext zu verwenden und das
+زمینه برنامه و
+
+1346
+00:59:50,779 --> 00:59:52,720
+ist was uns springboard es als framework
+چیزی است که تخته پرش به عنوان یک چارچوب به ما می‌دهد
+
+1347
+00:59:52,720 --> 00:59:54,309
+ermöglicht
+قادر می‌سازد
+
+1348
+00:59:54,309 --> 00:59:56,509
+euch mal zeigen das ganze geht aber
+به شما نشان می‌دهد که همه چیز چگونه کار می‌کند
+
+1349
+00:59:56,509 --> 00:59:57,890
+vorher müssen wir noch eine dependence
+قبل از آن باید یک وابستگی ایجاد کنیم
+
+1350
+00:59:57,890 --> 00:59:59,680
+sie installieren
+نصب می‌کنند.
+
+1351
+00:59:59,680 --> 01:00:02,809
+so werden wir hier in tutorials surgeons
+بنابراین ما در اینجا در آموزش‌های جراحان خواهیم بود
+
+1352
+01:00:02,809 --> 01:00:06,339
+machen dafür brauchen wir
+برای این کار نیاز داریم
+
+1353
+01:00:10,299 --> 01:00:14,529
+das würde installieren
+که نصب می‌شد
+
+1354
+01:00:15,210 --> 01:00:18,610
+als nächstes warum wir um unsere
+بعدی چرا به خودمان اهمیت می‌دهیم
+
+1355
+01:00:18,610 --> 01:00:20,020
+entwicklungsumgebung zu simulieren ja
+برای شبیه‌سازی محیط توسعه بله
+
+1356
+01:00:20,020 --> 01:00:22,800
+auch unsere datenbankanbindung
+همچنین اتصال پایگاه داده ما
+
+1357
+01:00:22,800 --> 01:00:26,010
+und wir schon gesehen hat in unserer
+و ما قبلاً در خودمان دیده‌ایم
+
+1358
+01:00:26,010 --> 01:00:28,690
+mako base haben wir halt dieses diesem
+پایه ماکو ما این را داریم
+
+1359
+01:00:28,690 --> 01:00:30,880
+resources folder sind dann normalerweise
+پوشه منابع معمولاً
+
+1360
+01:00:30,880 --> 01:00:32,890
+die properties trainer andere statischen
+مربی ویژگی‌ها، سایر استاتیک‌ها
+
+1361
+01:00:32,890 --> 01:00:34,720
+dateien die wir benötigen vor unseres
+فایل‌هایی که قبل از ما نیاز داریم
+
+1362
+01:00:34,720 --> 01:00:37,390
+gut anwendung für das ganze aber einfach
+برنامه خوبی برای همه است اما ساده است
+
+1363
+01:00:37,390 --> 01:00:40,140
+meinen test ordner darüber kopieren
+پوشه تست من را روی آن کپی کنید
+
+1364
+01:00:40,140 --> 01:00:43,650
+mit dem einen unterschied dass ich
+با یک تفاوت که من
+
+1365
+01:00:43,650 --> 01:00:48,160
+dieses ddl otto einfach auf create drop
+این ddl otto به سادگی روی create drop قرار دارد
+
+1366
+01:00:48,160 --> 01:00:50,170
+wieder setzte damit nach meinen tests
+بعد از آزمایش‌هایم دوباره آن را تنظیم کردم
+
+1367
+01:00:50,170 --> 01:00:53,700
+wieder die testdaten wackelig wird
+داده‌های آزمایش دوباره متزلزل می‌شوند
+
+1368
+01:00:53,700 --> 01:00:55,600
+und hier werde ich jetzt wiederum auch
+و حالا دوباره اینجا خواهم بود
+
+1369
+01:00:55,600 --> 01:01:00,150
+eine test tutorial datenbank erstellen
+ایجاد یک پایگاه داده آموزش آزمایشی
+
+1370
+01:01:00,150 --> 01:01:02,610
+also in die biva dann
+بنابراین به بیوا بروید
+
+1371
+01:01:02,610 --> 01:01:06,060
+creator breas
+خالق بریس
+
+1372
+01:01:06,270 --> 01:01:09,130
+tutorial damit ich das ganze so ein
+آموزش تا بتوانم کل کار را انجام دهم
+
+1373
+01:01:09,130 --> 01:01:10,980
+bisschen auseinander halten kann
+می‌تواند کمی از هم تشخیص دهد
+
+1374
+01:01:10,980 --> 01:01:13,420
+es jetzt nicht die eleganteste lösung da
+این شیک‌ترین راه حل نیست
+
+1375
+01:01:13,420 --> 01:01:14,680
+gibt es auch möglichkeiten bisschen
+همچنین امکانات کمی وجود دارد
+
+1376
+01:01:14,680 --> 01:01:16,840
+genauer zu sein zum beispiel die gehe
+به طور دقیق‌تر، برای مثال،
+
+1377
+01:01:16,840 --> 01:01:18,610
+ich ein properties aus dem hauptprojekt
+من یک ملک از پروژه اصلی دارم
+
+1378
+01:01:18,610 --> 01:01:20,530
+zu übernehmen und da einfach andere zu
+به دست گرفتن و به سادگی
+
+1379
+01:01:20,530 --> 01:01:21,840
+überschreiben wenn man es benötigt aber
+اگر به آن نیاز دارید، آن را بازنویسی کنید، اما
+
+1380
+01:01:21,840 --> 01:01:24,040
+für dieses beispiel glaube ich rechts
+برای این مثال فکر می‌کنم درست باشد
+
+1381
+01:01:24,040 --> 01:01:25,410
+dann erstmal
+سپس ابتدا
+
+1382
+01:01:25,410 --> 01:01:28,630
+und ja unser haupt bringt test
+و بله، سر ما آزمایش می‌آورد
+
+1383
+01:01:28,630 --> 01:01:30,310
+allocation waren wie jetzt einmal unsere
+تخصیص مثل الان ما بود
+
+1384
+01:01:30,310 --> 01:01:33,090
+rest testen
+بقیه را تست کنید
+
+1385
+01:01:33,090 --> 01:01:36,360
+dafür werden wir jetzt einmal
+برای این کار، اکنون
+
+1386
+01:01:36,360 --> 01:01:38,340
+anfassen
+لمس کردن
+
+1387
+01:01:38,340 --> 01:01:41,600
+und zwar wenig hier web und war mit
+و کمی اینجا وب بود و با
+
+1388
+01:01:41,600 --> 01:01:43,780
+angeben
+نشان دادن
+
+1389
+01:01:43,780 --> 01:01:50,360
+und dann web environment design fort das
+و سپس طراحی محیط وب ادامه می‌یابد
+
+1390
+01:01:50,360 --> 01:01:52,850
+heißt dass uns springt test und
+یعنی ما تست پرشی انجام می‌دهیم و
+
+1391
+01:01:52,850 --> 01:01:55,120
+application kontext startet und dabei
+زمینه برنامه شروع می‌شود و
+
+1392
+01:01:55,120 --> 01:01:57,410
+und salat etwa mit also unsere
+و سالاد با ما
+
+1393
+01:01:57,410 --> 01:01:59,540
+controller und so ein dispatcher server
+کنترل‌کننده و یک سرور توزیع‌کننده
+
+1394
+01:01:59,540 --> 01:02:00,490
+etc
+و غیره
+
+1395
+01:02:00,490 --> 01:02:02,300
+bereitstellen wird auf dem von uns
+ارائه خواهد شد در تاریخ
+
+1396
+01:02:02,300 --> 01:02:04,040
+definierten port und dem fall also dem
+پورت تعریف شده و در این مورد
+
+1397
+01:02:04,040 --> 01:02:06,820
+tomcat port dem 80 80
+تامکت پورت دم ۸۰ ۸۰
+
+1398
+01:02:06,820 --> 01:02:10,790
+und ich werde auch noch einmal with hier
+و من دوباره اینجا خواهم بود
+
+1399
+01:02:10,790 --> 01:02:14,290
+aus führen für jay unit
+سرب خروجی برای واحد جی
+
+1400
+01:02:14,440 --> 01:02:19,780
+und wird den springreiter benutzen hier
+و در اینجا از show jumper استفاده خواهم کرد
+
+1401
+01:02:19,780 --> 01:02:21,920
+schadet ist wie gesagt schon das test
+همانطور که قبلاً گفته شد، آزمایش مضر است
+
+1402
+01:02:21,920 --> 01:02:23,110
+framework
+چارچوب
+
+1403
+01:02:23,110 --> 01:02:25,640
+und jetzt geht auch schon anfang ein
+و اکنون آغاز از راه رسیده است
+
+1404
+01:02:25,640 --> 01:02:27,980
+paar sachen zu feiern über eine sache
+چند نکته برای جشن گرفتن در مورد یک چیز
+
+1405
+01:02:27,980 --> 01:02:29,860
+das weiß dass das
+که می‌داند که
+
+1406
+01:02:29,860 --> 01:02:33,670
+fordert repository
+مخزن درخواست‌ها
+
+1407
+01:02:34,750 --> 01:02:38,980
+und am anfang von jedem test
+و در ابتدای هر آزمون
+
+1408
+01:02:38,980 --> 01:02:42,110
+möchte ich jetzt dass ich was rein
+الان دوست دارم یه چیزی بذارم
+
+1409
+01:02:42,110 --> 01:02:43,670
+stellen die gartenbank will ich das
+می‌خواهم نیمکت باغ را بگذارم
+
+1410
+01:02:43,670 --> 01:02:46,210
+abrufen kann
+می‌تواند بازیابی کند
+
+1411
+01:02:56,880 --> 01:02:58,789
+und nachdem
+و بعد از
+
+1412
+01:02:58,789 --> 01:03:01,359
+ich halte
+من نگه می‌دارم
+
+1413
+01:03:02,079 --> 01:03:06,069
+die datenbank wieder löschen
+دوباره پایگاه داده را حذف کنید
+
+1414
+01:03:15,789 --> 01:03:19,519
+somit jetzt einfach die einen zyklus
+بنابراین اکنون فقط یک چرخه
+
+1415
+01:03:19,519 --> 01:03:20,920
+erschaffen dass ich jedes mal eine
+ایجاد شده که هر بار که من یک
+
+1416
+01:03:20,920 --> 01:03:22,630
+produktdatenbanken hier reinschreiben
+پایگاه‌های داده محصول را اینجا وارد کنید
+
+1417
+01:03:22,630 --> 01:03:24,799
+und dann alles wieder löschen nächsten
+و سپس دوباره همه چیز را حذف کنید
+
+1418
+01:03:24,799 --> 01:03:26,289
+test damit ich jedes mal
+طوری آزمایش کنید که هر بار
+
+1419
+01:03:26,289 --> 01:03:28,700
+den gleichen gleich datenkabel wenn ich
+اگر من همان کابل داده را داشته باشم
+
+1420
+01:03:28,700 --> 01:03:31,509
+meinen test anfangen
+شروع آزمون من
+
+1421
+01:03:31,809 --> 01:03:34,099
+ich möchte auch noch eine sache machen
+یه کار دیگه هم میخوام بکنم
+
+1422
+01:03:34,099 --> 01:03:36,490
+und zwar
+یعنی
+
+1423
+01:03:36,910 --> 01:03:38,769
+ich möchte
+من می خواهم
+
+1424
+01:03:38,769 --> 01:03:41,890
+den tag nehmen als
+روز را به عنوان
+
+1425
+01:03:41,890 --> 01:03:44,450
+konstante hier hinzufügen für mich
+برای من اینجا ثابت اضافه کنید
+
+1426
+01:03:44,450 --> 01:03:46,609
+gleich vergleichen gab das produkt was
+بلافاصله محصول را مقایسه کنید، چه چیزی ارائه داد
+
+1427
+01:03:46,609 --> 01:03:48,890
+ich aus meiner rest bekommen wenn ich
+وقتی از حالت استراحت خارج می‌شوم
+
+1428
+01:03:48,890 --> 01:03:52,240
+die gäste das gleiche ist
+مهمان‌ها هم همینطورند
+
+1429
+01:03:54,789 --> 01:03:57,200
+das erste was wir brauchen zum testen
+اولین چیزی که باید آزمایش کنیم
+
+1430
+01:03:57,200 --> 01:04:01,519
+unseres epi ist ein festkleid oder in
+اپی ما یک لباس مهمانی یا ... است
+
+1431
+01:04:01,519 --> 01:04:03,859
+diesem fall das rest template bei spring
+در این حالت، الگوی استراحت در بهار
+
+1432
+01:04:03,859 --> 01:04:06,890
+gut das bringt eine methode geben die
+خب، این روشی را ارائه می‌دهد که
+
+1433
+01:04:06,890 --> 01:04:12,099
+heißt test rest template
+الگوی استراحت آزمون نامیده می‌شود
+
+1434
+01:04:13,480 --> 01:04:15,589
+damit haben wir methoden mit denen wir
+این به ما روش‌هایی می‌دهد که با آنها می‌توانیم
+
+1435
+01:04:15,589 --> 01:04:18,499
+dann halt unser unsere ep abrufen können
+سپس می‌توانیم به فایل ep خود دسترسی پیدا کنیم.
+
+1436
+01:04:18,499 --> 01:04:22,809
+das template punkt geht verlässt
+نقطه الگو برگ‌ها را ترک می‌کند
+
+1437
+01:04:22,809 --> 01:04:26,380
+geht vor ntt
+قبل از ntt می رود
+
+1438
+01:04:27,130 --> 01:04:31,059
+hier den protokoll an
+در اینجا پروتکل
+
+1439
+01:04:35,890 --> 01:04:38,630
+so ähnlich wie vorher unsere unsere
+مشابه قبلی ما
+
+1440
+01:04:38,630 --> 01:04:41,499
+produkt unser produkt abgerufen haben
+محصول محصول ما بازیابی شده است
+
+1441
+01:04:41,499 --> 01:04:43,089
+und
+و
+
+1442
+01:04:43,089 --> 01:04:46,480
+hier müssen wir noch
+اینجا ما هنوز مجبوریم
+
+1443
+01:04:46,480 --> 01:04:49,880
+die klasse angeben denn die das ganze
+کلاس را مشخص کنید زیرا کل
+
+1444
+01:04:49,880 --> 01:04:52,430
+dann umgewandelt werden soll verzichtet
+سپس تبدیل شود
+
+1445
+01:04:52,430 --> 01:04:53,480
+die bekommen wir jetzt hier schossen
+الان داریم میاریمشون اینجا
+
+1446
+01:04:53,480 --> 01:04:55,720
+zurück
+برگشت
+
+1447
+01:04:58,600 --> 01:05:00,340
+sagt
+می‌گوید
+
+1448
+01:05:00,340 --> 01:05:03,340
+entity
+نهاد
+
+1449
+01:05:04,120 --> 01:05:06,380
+erstes werde ich gucken ob diese product
+اول بررسی می‌کنم که آیا این محصول
+
+1450
+01:05:06,380 --> 01:05:07,660
+entity
+نهاد
+
+1451
+01:05:07,660 --> 01:05:11,840
+auch wirklich uns also nicht mal ist
+همچنین واقعاً ما، بنابراین حتی اینطور نیست
+
+1452
+01:05:11,840 --> 01:05:14,890
+also welche dann einfach
+بنابراین، که پس از آن به سادگی
+
+1453
+01:05:27,760 --> 01:05:29,690
+dann wären wir hier stehen dass der
+آنگاه ما اینجا ایستاده بودیم که
+
+1454
+01:05:29,690 --> 01:05:32,450
+status quo wie wir für unsere sponsoring
+وضعیت موجود چگونه ما برای حمایت مالی خود
+
+1455
+01:05:32,450 --> 01:05:36,110
+zu bekommen wii sports enthält einfach
+برای دریافت ورزش‌های wii به سادگی شامل موارد زیر است:
+
+1456
+01:05:36,110 --> 01:05:38,470
+nur
+فقط
+
+1457
+01:05:40,510 --> 01:05:44,090
+ja unsere ganzen informationen über den
+بله، تمام اطلاعات ما در مورد
+
+1458
+01:05:44,090 --> 01:05:46,370
+über den request also das spiel ob der
+در مورد درخواست، بنابراین بازی چه باشد
+
+1459
+01:05:46,370 --> 01:05:50,260
+status ok verlief
+وضعیت خوب رفت
+
+1460
+01:05:50,860 --> 01:05:54,760
+das bringt hier sagt
+که اینجا را به اینجا می آورد می گوید
+
+1461
+01:05:56,080 --> 01:06:01,750
+okay und den vorspann und
+باشه و تیتراژ آغازین و
+
+1462
+01:06:01,870 --> 01:06:04,010
+zu guter letzt wollen wir sicherstellen
+در نهایت، ما می‌خواهیم مطمئن شویم که
+
+1463
+01:06:04,010 --> 01:06:05,470
+dass
+که
+
+1464
+01:06:05,470 --> 01:06:09,670
+unser produkt was wir bekommen
+محصول ما، آنچه دریافت می‌کنیم
+
+1465
+01:06:12,340 --> 01:06:15,910
+auch wirklich
+واقعاً
+
+1466
+01:06:18,570 --> 01:06:20,580
+das gleiche ist wie das was für den
+همان چیزی که برای
+
+1467
+01:06:20,580 --> 01:06:23,300
+damen menge spaß
+خانم ها خیلی خوش گذشت
+
+1468
+01:06:45,119 --> 01:06:48,790
+so sollte fti und bevor ich nicht bevor
+پس fti و قبل از من نه قبل از
+
+1469
+01:06:48,790 --> 01:06:51,720
+all heißen
+همه داغ
+
+1470
+01:06:52,290 --> 01:06:54,100
+hoffentlich wenn wir jetzt hier grün
+امیدوارم اگر الان اینجا سبز داشته باشیم
+
+1471
+01:06:54,100 --> 01:06:56,910
+sehen dass all unsere sessions hier
+ببینید که تمام جلسات ما اینجا هستند
+
+1472
+01:06:56,910 --> 01:06:59,580
+wahr geworden sind
+به حقیقت پیوسته اند
+
+1473
+01:06:59,580 --> 01:07:03,570
+und ja hat funktioniert
+و بله کار کرد
+
+1474
+01:07:03,570 --> 01:07:06,520
+das waren die rot lagen von spring ich
+آن لایه‌های قرمز بهار بودند من
+
+1475
+01:07:06,520 --> 01:07:08,250
+hoffe du hast einiges gelernt
+امیدوارم چیزی یاد گرفته باشید
+
+1476
+01:07:08,250 --> 01:07:11,050
+ich würde mich freuen wenn du einen like
+خوشحال میشم اگه دوست داشته باشی
+
+1477
+01:07:11,050 --> 01:07:13,320
+kommentar oder abo unter last und
+نظر یا اشتراک تحت بار و
+
+1478
+01:07:13,320 --> 01:07:15,220
+wünsche dir noch viel erfolg bei der
+برای شما آرزوی موفقیت فراوان دارم
+
+1479
+01:07:15,220 --> 01:07:19,050
+jobsuche oder deinem projekt
+جستجوی شغل یا پروژه شما

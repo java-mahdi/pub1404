@@ -1,0 +1,155 @@
+package com.kh.eurekaWeb.service;
+import org.springframework.stereotype.Service;
+import org.springframework.web.reactive.function.client.WebClient;
+
+import com.kh.eurekaWeb.model.Order;
+import com.kh.eurekaWeb.model.Product;
+import com.kh.eurekaWeb.model.User;
+
+import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
+
+@Service
+public class WebClientHelper {
+
+    private final WebClient webClient;
+
+    // Base URLs for microservices
+    private final String USER_SERVICE_URL = "http://userService";
+    private final String PRODUCT_SERVICE_URL = "http://productService";
+    private final String ORDER_SERVICE_URL = "http://orderService";
+
+    public WebClientHelper(WebClient.Builder webClientBuilder) {
+        this.webClient = webClientBuilder.build();
+    }
+
+    // ========================
+    // USER SERVICE METHODS
+    // ========================
+
+    public Mono<User> getUserById(Long id) {
+        return webClient.get()
+                .uri(USER_SERVICE_URL + "/users/{id}", id)
+                .retrieve()
+                .bodyToMono(User.class);
+    }
+
+    public Mono<User> createUser(User user) {
+        return webClient.post()
+                .uri(USER_SERVICE_URL + "/users")
+                .bodyValue(user)
+                .retrieve()
+                .bodyToMono(User.class);
+    }
+
+    public Mono<Void> updateUser(Long id, User user) {
+        return webClient.put()
+                .uri(USER_SERVICE_URL + "/users/{id}", id)
+                .bodyValue(user)
+                .retrieve()
+                .bodyToMono(Void.class);
+    }
+
+    public Mono<Void> deleteUser(Long id) {
+        return webClient.delete()
+                .uri(USER_SERVICE_URL + "/users/{id}", id)
+                .retrieve()
+                .bodyToMono(Void.class);
+    }
+
+    public Flux<User> getAllUsers() {
+        return webClient.get()
+                .uri(USER_SERVICE_URL + "/users")
+                .retrieve()
+                .bodyToFlux(User.class);
+    }
+
+    // ============================
+    // PRODUCT SERVICE METHODS
+    // ============================
+
+    public Mono<Product> getProductById(Long id) {
+        return webClient.get()
+                .uri(PRODUCT_SERVICE_URL + "/products/{id}", id)
+                .retrieve()
+                .bodyToMono(Product.class);
+    }
+
+    public Mono<Product> createProduct(Product product) {
+        return webClient.post()
+                .uri(PRODUCT_SERVICE_URL + "/products")
+                .bodyValue(product)
+                .retrieve()
+                .bodyToMono(Product.class);
+    }
+
+    public Mono<Void> updateProduct(Long id, Product product) {
+        return webClient.put()
+                .uri(PRODUCT_SERVICE_URL + "/products/{id}", id)
+                .bodyValue(product)
+                .retrieve()
+                .bodyToMono(Void.class);
+    }
+
+    public Mono<Void> deleteProduct(Long id) {
+        return webClient.delete()
+                .uri(PRODUCT_SERVICE_URL + "/products/{id}", id)
+                .retrieve()
+                .bodyToMono(Void.class);
+    }
+
+    public Flux<Product> getAllProducts() {
+        return webClient.get()
+                .uri(PRODUCT_SERVICE_URL + "/products")
+                .retrieve()
+                .bodyToFlux(Product.class);
+    }
+
+    // ============================
+    // ORDER SERVICE METHODS
+    // ============================
+
+    public Mono<Order> getOrderById(Long id) {
+        return webClient.get()
+                .uri(ORDER_SERVICE_URL + "/orders/{id}", id)
+                .retrieve()
+                .bodyToMono(Order.class);
+    }
+
+    public Mono<Order> createOrder(Order order) {
+        return webClient.post()
+                .uri(ORDER_SERVICE_URL + "/orders")
+                .bodyValue(order)
+                .retrieve()
+                .bodyToMono(Order.class);
+    }
+
+    public Mono<Void> updateOrder(Long id, Order order) {
+        return webClient.put()
+                .uri(ORDER_SERVICE_URL + "/orders/{id}", id)
+                .bodyValue(order)
+                .retrieve()
+                .bodyToMono(Void.class);
+    }
+
+    public Mono<Void> deleteOrder(Long id) {
+        return webClient.delete()
+                .uri(ORDER_SERVICE_URL + "/orders/{id}", id)
+                .retrieve()
+                .bodyToMono(Void.class);
+    }
+
+    public Flux<Order> getOrdersByUserId(Long userId) {
+        return webClient.get()
+                .uri(ORDER_SERVICE_URL + "/orders/user/{userId}", userId)
+                .retrieve()
+                .bodyToFlux(Order.class);
+    }
+
+    public Flux<Order> getAllOrders() {
+        return webClient.get()
+                .uri(ORDER_SERVICE_URL + "/orders")
+                .retrieve()
+                .bodyToFlux(Order.class);
+    }
+}

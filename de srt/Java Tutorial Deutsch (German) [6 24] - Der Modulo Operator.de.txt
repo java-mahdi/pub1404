@@ -1,0 +1,334 @@
+1
+00:00:00,000 --> 00:00:04,700
+hallo und herzlich willkommen auf dem
+youtube-kanal von programmieren -
+
+3
+00:00:04,710 --> 00:00:10,640
+starten punkt.de mein name ist hendrik
+und das hier ist der sechste teil des
+
+5
+00:00:10,650 --> 00:00:14,749
+java crash kursus und auch hier siehst
+du wieder im hintergrund die überschrift
+
+7
+00:00:14,759 --> 00:00:19,370
+in diesem video geht es um den
+sogenannten module operator sehen wir
+
+9
+00:00:19,380 --> 00:00:22,090
+uns mal an was wir in diesem video
+lernen werden
+
+11
+00:00:22,100 --> 00:00:26,480
+zunächst werden wir uns den module
+operator in einer kleinen übersicht
+
+13
+00:00:26,490 --> 00:00:30,609
+ansehen damit ich dir schon mal grob
+erklären kann wie dieser funktioniert
+
+15
+00:00:30,619 --> 00:00:35,299
+und was man damit bewirken kann und
+danach werden wir in die
+
+17
+00:00:35,309 --> 00:00:39,680
+entwicklungsumgebung wechseln und uns
+das ganze mal kurz in der praxis ansehen
+
+19
+00:00:39,690 --> 00:00:43,610
+und dann wirst du gefragt seien das
+ganze solltest du dann nämlich selbst
+
+21
+00:00:43,620 --> 00:00:48,080
+etwas umsetzen und üben so dass du das
+ganze vertiefen kannst verlieren wir
+
+23
+00:00:48,090 --> 00:00:52,610
+also keine zeit und starten direkt
+einmal mit der übersicht wie du sehen
+
+25
+00:00:52,620 --> 00:00:57,350
+kannst wird der module operator durch
+einen prozentzeichen dargestellt und der
+
+27
+00:00:57,360 --> 00:01:01,459
+mobile operator den kann man auch als
+sogenannten restwert operator bezeichnen
+
+29
+00:01:01,469 --> 00:01:05,479
+und das beschreibt viel besser was er
+tut denn man verwendet diese module
+
+31
+00:01:05,489 --> 00:01:10,190
+operator einfach anstatt der hat dass
+die vision des zeichens also anstatt des
+
+33
+00:01:10,200 --> 00:01:13,700
+life und dann wird wieder diese geteilt
+rechnung durchgeführt
+
+35
+00:01:13,710 --> 00:01:18,289
+nur diesmal wird eben nicht das ergebnis
+ausgegeben was bei der geteilt rechnung
+
+37
+00:01:18,299 --> 00:01:22,700
+rauskommt sondern es wird der rest
+ausgegeben der übrig bleibt bei der
+
+39
+00:01:22,710 --> 00:01:26,030
+division sehen wir uns das hier mal in
+diesem kleinen beispiel rechts an
+
+41
+00:01:26,040 --> 00:01:32,450
+da sehen wir 32 modolo 3 wenn wir das
+machen dann müssen wir uns überlegen wie
+
+43
+00:01:32,460 --> 00:01:40,130
+oft die drei in die 32 reinpasst dessen
+ja insgesamt zehn mal so dann rechnen
+
+45
+00:01:40,140 --> 00:01:42,920
+wir dreimal diese zehn dann haben wir
+den wert 30
+
+47
+00:01:42,930 --> 00:01:49,370
+und dann rechnen wir jetzt diese 32 30
+das ergibt 2 dadurch erhalten wir eben
+
+49
+00:01:49,380 --> 00:01:53,389
+den rest ja für den es nicht mehr
+gereicht hat um eine ganze teilung
+
+51
+00:01:53,399 --> 00:01:56,719
+sozusagen durchzuführen klingt
+vielleicht noch ein bisschen verwirrend
+
+53
+00:01:56,729 --> 00:02:00,830
+sehen wir uns das ganze mal schnell in
+der praxis an ich deklariere auch hier
+
+55
+00:02:00,840 --> 00:02:05,690
+wieder vom typ intel mal schnell eine
+variable den ähnlich number one und
+
+57
+00:02:05,700 --> 00:02:12,199
+jetzt sage ich einfach mal zwei und drei
+modul 3 vielleicht machen wir es erstmal
+
+59
+00:02:12,209 --> 00:02:16,240
+mit dem geteilten dann sollte es
+vielleicht noch klarer werden
+
+61
+00:02:16,250 --> 00:02:21,140
+jetzt geben wir den wert der hier raus
+kommt aus ich führe das ganze programm
+
+63
+00:02:21,150 --> 00:02:26,720
+mal aus und hier sehen wir es kommt zehn
+raus weil es kommt ja jetzt zehn kommen
+
+65
+00:02:26,730 --> 00:02:31,070
+wir irgendwas raus es wird in diesem
+ganz zahl datentyp gespeichert deshalb
+
+67
+00:02:31,080 --> 00:02:34,100
+werden die nachkommastellen hier unten
+einfach abgeschnitten und die zehen
+
+69
+00:02:34,110 --> 00:02:38,809
+bleibt übrig und jetzt setzen wir hier
+den modul operator 1
+
+71
+00:02:38,819 --> 00:02:43,699
+und jetzt sind wir eben nicht an der
+teilung interessiert sondern was für ein
+
+73
+00:02:43,709 --> 00:02:47,780
+rest übrig bleibt und wenn wir das ganze
+jetzt hier aus führen dann haben wir sie
+
+75
+00:02:47,790 --> 00:02:52,160
+am beispiel zur forschung gesehen jetzt
+kommt die zwei raus jetzt verändern wir
+
+77
+00:02:52,170 --> 00:02:57,380
+das mal in die 1 und jetzt sehen will
+kommt die ein tross und wenn wir das
+
+79
+00:02:57,390 --> 00:03:02,900
+ganze in die drei ende dann kommt die
+null raus woran liegt es jetzt wenn wir
+
+81
+00:03:02,910 --> 00:03:08,120
+33 durch drei teilen dann wissen wir
+schon das geht genau auf weil die drei
+
+83
+00:03:08,130 --> 00:03:13,729
+passt genau elf mal in die 33
+deswegen haben wir auch keinen rest bei
+
+85
+00:03:13,739 --> 00:03:18,979
+der 32 hingegen na ja da haben wir ein
+rest von zwei weil die drei passt nur
+
+87
+00:03:18,989 --> 00:03:25,340
+nur so dass es aufgeht zehnmal in die 30
+und dann bleibt diese zweite noch übrig
+
+89
+00:03:25,350 --> 00:03:29,390
+deswegen wird dann eben die zwei
+ausgegeben wenn wir es ausführen sehen
+
+91
+00:03:29,400 --> 00:03:32,870
+wir es wieder hier
+wir könnten auch mal 37 eingeben oder
+
+93
+00:03:32,880 --> 00:03:37,520
+besser gesagt meine kleinere zahl sieben
+führen das ganze aus und jetzt kommt
+
+95
+00:03:37,530 --> 00:03:42,500
+wieder die 1 raus wieso die drei passt
+genau zweimal ganz in die 7
+
+97
+00:03:42,510 --> 00:03:46,729
+damit sind wir beim wert 6 und 1 bleibt
+eben noch übrig da passt die drei nicht
+
+99
+00:03:46,739 --> 00:03:50,150
+mehr rein
+deswegen ist eins der restwert und das
+
+101
+00:03:50,160 --> 00:03:53,300
+ist im prinzip schon alles was ich dir
+in diesem video mitgeben wollte
+
+103
+00:03:53,310 --> 00:03:57,530
+vielleicht noch zur info dieser module
+operator der funktioniert logischerweise
+
+105
+00:03:57,540 --> 00:04:02,270
+nur bei ganz zahlen weil bei comma
+zahlen ist es ja erlaubten rest übrig
+
+107
+00:04:02,280 --> 00:04:06,559
+bleibt da kann man den eben schlecht
+anwenden also einfach merken der
+
+109
+00:04:06,569 --> 00:04:10,520
+funktioniert wirklich nur bei ganz
+zahlen und ansonsten gibt es hierzu
+
+111
+00:04:10,530 --> 00:04:13,520
+eigentlich nichts mehr zu sagen auch
+hier solltest du jetzt natürlich wieder
+
+113
+00:04:13,530 --> 00:04:16,319
+etwas üben und dann kriegst du sehr
+schnell
+
+115
+00:04:16,329 --> 00:04:20,550
+ein gefühl dafür das war es von diesem
+video es war heute etwas kürzer ich
+
+117
+00:04:20,560 --> 00:04:24,029
+hoffe es hat er dennoch gefallen
+falls ja gebt uns gerne einen daumen
+
+119
+00:04:24,039 --> 00:04:28,050
+nach oben und falls du den kanal noch
+nicht abonniert haben solltest dann
+
+121
+00:04:28,060 --> 00:04:31,890
+abonniere den kanal jetzt dann wirst du
+in zukunft kein video mehr von uns
+
+123
+00:04:31,900 --> 00:04:35,580
+verpassen und wir haben auch einen
+mehrwert davon wir sehen nämlich dass
+
+125
+00:04:35,590 --> 00:04:39,659
+der kanal wächst dass leute interesse an
+den videos haben und deswegen werden wir
+
+127
+00:04:39,669 --> 00:04:42,179
+dann natürlich weiterhin videos
+produzieren
+
+129
+00:04:42,189 --> 00:04:45,480
+ich wünsche dir noch einen schönen tag
+und dann sehen wir uns wieder im
+
+131
+00:04:45,490 --> 00:04:49,229
+nächsten video
+bis dann
+
+132
+00:04:46,780 --> 00:04:49,229
+bis dann
+

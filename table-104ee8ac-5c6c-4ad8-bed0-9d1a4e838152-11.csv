@@ -1,0 +1,9 @@
+﻿Resource Type,Example Command
+`pod` (or pods),kubectl port-forward pod/my-pod 8080:80
+`service` (or svc),kubectl port-forward svc/my-service 8080:80
+`deployment` (or deploy),kubectl port-forward deploy/my-deploy 8080:80
+`replicaset` (or rs),kubectl port-forward rs/my-rs 8080:80
+`statefulset` (or sts),kubectl port-forward sts/my-sts 8080:80
+`daemonset` (or ds),kubectl port-forward ds/my-ds 8080:80
+`job`,kubectl port-forward job/my-job 8080:80 (only if Pod is still running)
+`replicationcontroller` (or rc),kubectl port-forward rc/my-rc 8080:80

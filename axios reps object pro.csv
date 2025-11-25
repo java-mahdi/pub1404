@@ -1,0 +1,7 @@
+﻿Property,Type,Description
+data,any,The response payload (automatically parsed if JSON)
+status,number,"HTTP status code (e.g., 200, 404, 500)"
+statusText,string,"HTTP status message (e.g., ""OK"", ""Not Found"")"
+headers,Object,Response headers (all keys lowercase)
+config,Object,The original request configuration
+request,XMLHttpRequest or ClientRequest,The underlying request object

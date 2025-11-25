@@ -1,0 +1,8 @@
+﻿Property,Description
+jqXHR.status,"HTTP status code (e.g., "200", "404)
+jqXHR.statusText,"Status text (e.g., """"OK"""", """"Not Found""")
+jqXHR.responseText,Raw response as string (before parsing)
+jqXHR.responseJSON,Parsed JSON response (if response is JSON)
+jqXHR.getAllResponseHeaders(),Returns all response headers as a string
+jqXHR.getResponseHeader(name),"Get a specific header (e.g., "'Content-Type')
+jqXHR.readyState,"Current state of request (e.g., "4 = complete)

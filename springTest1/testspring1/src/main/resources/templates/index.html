@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8" />
+    <title th:text="${@environment.getProperty('spring.application.name')} ?: 'Application'">Application</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <style>
+        .submnu {
+            display: none;
+        }
+    </style>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header>
+        <h1 th:text="${@environment.getProperty('spring.application.name')} ?: 'Application'">Application</h1>
+    </header>
+
+    <main>
+        <section>
+            <p th:if="${message}" th:text="${message}">Welcome to the application.</p>
+            <p th:if="${message == null}">Welcome — no message provided.</p>
+        </section>
+
+        <section th:if="${items}">
+            <h2>Items</h2>
+            <ul>
+                <li th:each="item : ${items}" th:text="${item}">Sample item</li>
+            </ul>
+        </section>
+
+        <form th:action="@{/postNames}" method="post">
+            <div th:each="name : ${names}">
+                <input th:name="${'name' }" type="radio"
+                    th:checked="${selected_names.contains(name.key)}" > 
+              <i class="fa fa-home"></i>
+            </input>
+                <label th:text="${name.value}"> </label>
+            </div>
+            <button type="submit">submitt</button>
+        </form>
+        <br />
+        <form th:action="@{/postName}" method="post">
+            <label for="selected_option">select name</label>
+            <select id="selected_option" name="selected_option">
+                <option th:each="name : ${names}" th:value="${name.key}" th:text="${name.value}"
+                    th:selected="${selected_name.equals(name.value)}"></option>
+            </select>
+            <button type="submit">submitt</button>
+        </form>
+        <br />
+        <label th:text="'selected names =' + ${selected_names}"></label>
+        <br />
+        <label th:text="'selected name =' + ${selected_name}"></label>
+
+
+        <br />
+        <ul>
+            <li class="mnu">file
+                <ul class="submnu">
+                    <li>open</li>
+                    <li class="mnu">save
+                        <ul class="submnu">
+                            <li>save as</li>
+                            <li>save all</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+
+
+
+        <p><a th:href="@{/}">Home</a></p>
+    </main>
+
+    <footer>
+        <script>
+            function init_mnus() {
+
+                $(".mnu").hover(
+                    function () {
+
+                        $(this).delay(1000).children().css("display", "block");
+                    },
+                    function () {
+                        $(this).delay(1000).children().css("display", "none");
+                    }
+                );
+            }
+
+            init_mnus();
+        </script>
+        <small>&copy; <span th:text="${T(java.time.Year).now().value}">2025</span></small>
+    </footer>
+</body>
+
+</html>

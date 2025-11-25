@@ -1,0 +1,864 @@
+1
+00:00:00,000 --> 00:00:04,700
+hallo und herzlich willkommen auf dem
+youtube-kanal von programmieren -
+
+3
+00:00:04,710 --> 00:00:10,250
+starten punkt.de mein name ist hendrik
+und wir befinden uns mittlerweile im
+
+5
+00:00:10,260 --> 00:00:15,259
+dreizehnten video von diesem cover
+crashkurs du kannst es schon auf der
+
+7
+00:00:15,269 --> 00:00:20,300
+folie sehen in diesem video geht es nun
+um so genannte airways sehen wir uns
+
+9
+00:00:20,310 --> 00:00:23,420
+zunächst mal an was wir in diesem video
+lernen werden
+
+11
+00:00:23,430 --> 00:00:28,490
+zunächst werden wir der frage auf den
+grund gehen was ein harry ist wir werden
+
+13
+00:00:28,500 --> 00:00:32,450
+uns also in der theorie ein überblick
+darüber verschaffen und ich werde eine
+
+15
+00:00:32,460 --> 00:00:36,560
+kleine einführung geben damit du dann
+schon mal im grunde verstehst was man
+
+17
+00:00:36,570 --> 00:00:40,910
+darunter versteht und im zweiten teil
+des videos werden wir uns dann airways
+
+19
+00:00:40,920 --> 00:00:44,959
+in der praxis ansehen und das ganze
+wissen was wir in der theorie sozusagen
+
+21
+00:00:44,969 --> 00:00:49,940
+erlernt haben direkt in der praxis
+anwenden verlieren wir also keine zeit
+
+23
+00:00:49,950 --> 00:00:56,090
+und starten direkt mit der frage was ist
+ein re 1 re ist nichts anderes als eine
+
+25
+00:00:56,100 --> 00:01:00,500
+sogenannte datenstruktur und eine
+datenstruktur kann man sich vorstellen
+
+27
+00:01:00,510 --> 00:01:05,570
+wie eine datensammlung im programm zuvor
+haben wir bereits einfache variablen
+
+29
+00:01:05,580 --> 00:01:09,890
+benutzt und in diesen einfachen
+variablen haben wir werte gespeichert
+
+31
+00:01:09,900 --> 00:01:12,950
+und diese werte die wir darin
+gespeichert haben waren im prinzip
+
+33
+00:01:12,960 --> 00:01:19,190
+nichts anderes als daten und air race
+sind jetzt im prinzip wie variablen nur
+
+35
+00:01:19,200 --> 00:01:24,230
+der unterschied liegt darin dass wir in
+airways mehrere werte speichern können
+
+37
+00:01:24,240 --> 00:01:29,120
+das heißt in einer normalen variable vom
+typ intel konnten wir beispielsweise die
+
+39
+00:01:29,130 --> 00:01:34,569
+zahl 10 speicher in einem interview
+können wir hingegen beliebig viele
+
+41
+00:01:34,579 --> 00:01:38,840
+integer werte speichern
+je nachdem wie groß für das erheben
+
+43
+00:01:38,850 --> 00:01:42,830
+machen das werden wir aber dann gleich
+noch in der praxis sehen und dass ich
+
+45
+00:01:42,840 --> 00:01:47,450
+jetzt alle werte zusammen in eine mary
+befinden und jedes re hat ja auch nur
+
+47
+00:01:47,460 --> 00:01:51,350
+einen namen müssen wir irgendwie regeln
+können wie wir auf diese verschiedenen
+
+49
+00:01:51,360 --> 00:01:55,999
+werte zu greifen und der zugriff
+erfolgte zu über einen sogenannten index
+
+51
+00:01:56,009 --> 00:02:00,950
+mit dem index können wir dann im airrail
+die einzelnen elemente so nennt man die
+
+53
+00:02:00,960 --> 00:02:05,399
+teilnehmer sozusagen die in einem
+harry vorhanden sind die kann man über
+
+55
+00:02:05,409 --> 00:02:08,790
+den index ansprechen
+das klingt vielleicht alles noch ein
+
+57
+00:02:08,800 --> 00:02:13,229
+bisschen verwirrend deswegen springen
+wir jetzt direkt mal in die praxis und
+
+59
+00:02:13,239 --> 00:02:15,900
+sehen uns das ganze anhand eines
+beispiels an
+
+61
+00:02:15,910 --> 00:02:19,110
+zunächst möchte ich jetzt mal eine
+variable deklarieren in der wir einen
+
+63
+00:02:19,120 --> 00:02:22,979
+string speichern
+ich benutze also den typ string nennt
+
+65
+00:02:22,989 --> 00:02:28,259
+diese variable test und sagt hier
+speicher ich jetzt mal hendrik drin also
+
+67
+00:02:28,269 --> 00:02:31,140
+meinen namen
+wir sehen wir haben hier eine ganz
+
+69
+00:02:31,150 --> 00:02:35,220
+normale variable aber wir haben jetzt
+wie gesagt das problem wie könnt ihr nur
+
+71
+00:02:35,230 --> 00:02:38,910
+einen wert reinstecken
+wir können jetzt hier nicht sagen steckt
+
+73
+00:02:38,920 --> 00:02:44,070
+doch bitte auch noch paul rein weil die
+variable nimmt wie gesagt nur einen
+
+75
+00:02:44,080 --> 00:02:48,030
+einzigen wert entgegen
+und dafür gibt es jetzt eine lösung und
+
+77
+00:02:48,040 --> 00:02:53,460
+das sind eben so genannte air race ich
+lasse jetzt alles noch mal weg lassen
+
+79
+00:02:53,470 --> 00:02:57,210
+wir das mal stehen
+der unterschied liegt jetzt darin dass
+
+81
+00:02:57,220 --> 00:03:02,250
+man bei einem re nachdem daten typ 2
+eckige klammern macht also einmal eine
+
+83
+00:03:02,260 --> 00:03:06,360
+geöffnete eckige klammer dann eine
+geschlossene eckige klammer und dann
+
+85
+00:03:06,370 --> 00:03:10,080
+schreibt man wie gewohnt wieder den
+bezeichne also den namen des arrays hin
+
+87
+00:03:10,090 --> 00:03:14,490
+ich möchte in diesem stringer jetzt mal
+mehrere namen speichern
+
+89
+00:03:14,500 --> 00:03:19,710
+deswegen nenne ich dieses namens häufig
+ist es übrigens so dass man bei air race
+
+91
+00:03:19,720 --> 00:03:24,180
+die variable im plural benennt also in
+der mehrzahl damit man gleich sieht okay
+
+93
+00:03:24,190 --> 00:03:27,900
+hierbei handelt es sich um eine rein und
+es ist ja auch logisch wir sind ja auch
+
+95
+00:03:27,910 --> 00:03:31,259
+mehrere namen jetzt gleich drin
+und damit haben wir jetzt im prinzip
+
+97
+00:03:31,269 --> 00:03:35,670
+schon die variable angelegt in der wir
+das ehren speichern also der einzige
+
+99
+00:03:35,680 --> 00:03:39,240
+unterschied besteht darin dass wir hier
+noch diese eckigen klammern machen
+
+101
+00:03:39,250 --> 00:03:43,470
+müssen und zwar immer nach dem datentyp
+und vor dem bezeichnen als nächstes
+
+103
+00:03:43,480 --> 00:03:50,520
+kommt jetzt etwas neues und zwar müssen
+wir schreiben new string dann nochmal
+
+105
+00:03:50,530 --> 00:03:53,849
+diese eckigen klammern und hier in die
+eckigen klammern schreiben wird es einen
+
+107
+00:03:53,859 --> 00:03:58,110
+integer wert rein was habe ich hier mit
+jetzt gemacht zunächst mal kommt das
+
+109
+00:03:58,120 --> 00:04:02,430
+schlüsselwort new der schlüssel wird new
+ist was ganz was neues davon hast du
+
+111
+00:04:02,440 --> 00:04:05,540
+noch nichts mitbekommen
+und das liegt ganz einfach daran
+
+113
+00:04:05,550 --> 00:04:09,530
+dass sich dieses schlüsselwort na ja das
+wird erst wichtig wenn wir uns mit dem
+
+115
+00:04:09,540 --> 00:04:14,180
+thema objektorientierung beschäftigen
+hier müssen wir uns für ein area ein
+
+117
+00:04:14,190 --> 00:04:18,770
+objekt vom typ string erstellen
+deshalb benötigen wir hier jetzt schon
+
+119
+00:04:18,780 --> 00:04:23,180
+das schlüsselwort new du merkst du
+einfach wenn du ein erstellen möchtest
+
+121
+00:04:23,190 --> 00:04:27,380
+schreibst du nach diesem ist gleich new
+dann schreibst du den typen von dem des
+
+123
+00:04:27,390 --> 00:04:30,500
+re sein soll das muss immer der gleiche
+sein wie er auch hier vorne steht und
+
+125
+00:04:30,510 --> 00:04:34,010
+dann machst du eben diese eckigen
+klammern und in dieser eckigen klammern
+
+127
+00:04:34,020 --> 00:04:38,690
+schreibst du jetzt rein eine integere
+zahlen und diese zahl gibt an wie viele
+
+129
+00:04:38,700 --> 00:04:43,370
+werte du letztendlich in diesem
+speichern möchtest dhabi hier die drei
+
+131
+00:04:43,380 --> 00:04:47,420
+hingeschrieben haben bedeutet es dass
+wir am ende auch drei namen in diese
+
+133
+00:04:47,430 --> 00:04:50,510
+mary speichern möchten
+das heißt wenn wir vier werte rein
+
+135
+00:04:50,520 --> 00:04:54,740
+speichern wollten dann geht es nicht
+weil das area eine feste länge hat mit
+
+137
+00:04:54,750 --> 00:04:58,910
+drei die wir hier bei der
+initialisierung festgelegt haben und das
+
+139
+00:04:58,920 --> 00:05:02,060
+ist auch ein ganz wichtiger punkt den
+ich hier mal eben notieren möchte und
+
+141
+00:05:02,070 --> 00:05:12,620
+zwar die größe eines arrays wird immer
+bei der initialisierung festgelegt das
+
+143
+00:05:12,630 --> 00:05:17,900
+heißt wenn wir eine initiative ihren
+müssen wir immer sofort sagen wie lang
+
+145
+00:05:17,910 --> 00:05:22,310
+sollst du sein
+das ist eben wichtig zu verstehen und
+
+147
+00:05:22,320 --> 00:05:27,200
+damit haben wir jetzt eine rail mit der
+größe von drei elementen definiert gebe
+
+149
+00:05:27,210 --> 00:05:30,770
+es also noch mal durch wir schreiben
+einfach wie gewohnt den datentyp und den
+
+151
+00:05:30,780 --> 00:05:35,390
+name sozusagen vom nur dass wir hierzu
+die besonderheit haben dass wir hier auf
+
+153
+00:05:35,400 --> 00:05:38,090
+diese eckigen klammern hin machen damit
+der computer erkennt
+
+155
+00:05:38,100 --> 00:05:42,530
+hierbei handelt es sich um einen erreger
+stecken also mehrere werte drin und dann
+
+157
+00:05:42,540 --> 00:05:46,659
+müssen wir eine objekt erstellen in
+diesem fall ein objekt vom typ string
+
+159
+00:05:46,669 --> 00:05:51,320
+das machen wir mit dem schlüsselwort new
+dann schreiben wir einfach den typ noch
+
+161
+00:05:51,330 --> 00:05:55,610
+mal hin den smi hat in diesem fall
+string dann kommen die eckigen klammern
+
+163
+00:05:55,620 --> 00:05:59,960
+nochmal aber diesmal schreiben wir eben
+einen zahlenwert rein der festlegt wie
+
+165
+00:05:59,970 --> 00:06:04,970
+groß das sein soll und das ist alles wie
+gesagt diesen teil merkst du dir einfach
+
+167
+00:06:04,980 --> 00:06:09,080
+wenn wir dann zu objektorientierung
+kommen wirst du verstehen was wir hier
+
+169
+00:06:09,090 --> 00:06:14,240
+im detail machen damit haben wir seine
+initialisiert die sache ist nur die des
+
+171
+00:06:14,250 --> 00:06:18,650
+r&b inhalte jetzt noch keine
+hatte jetzt habe ich vorhin gesagt dass
+
+173
+00:06:18,660 --> 00:06:22,760
+wir auf die einzelnen elemente eines
+arrays also als element bezeichnet man
+
+175
+00:06:22,770 --> 00:06:27,050
+jeden wert der in einem raid drin ist
+über den kann man über ein index
+
+177
+00:06:27,060 --> 00:06:31,310
+zugreifen und das funktioniert jetzt
+folgendermaßen ich möchte jetzt zb mal
+
+179
+00:06:31,320 --> 00:06:36,770
+sagen namens jedoch bitte an die stelle
+vom index 1 deswegen schreibe ich hier
+
+181
+00:06:36,780 --> 00:06:45,260
+eine null hin und dann weise hierzu den
+string hendrik mit dieser zeile sage ich
+
+183
+00:06:45,270 --> 00:06:50,960
+jetzt an die erste stelle des arrays von
+drei möglichen stellen soll jetzt der
+
+185
+00:06:50,970 --> 00:06:54,620
+string hendrik gespeichert werden
+vielleicht wunderst du dich wieso ich
+
+187
+00:06:54,630 --> 00:06:58,070
+jetzt hier null hin schreibt und nicht 1
+weil ich möchte ja auf die erste stelle
+
+189
+00:06:58,080 --> 00:07:01,760
+zu greifen
+das liegt ganz einfach daran dass er es
+
+191
+00:07:01,770 --> 00:07:05,600
+immer bei null starten in der
+programmierung fängt man nämlich immer
+
+193
+00:07:05,610 --> 00:07:09,710
+bei der null an zu zählen
+und ja eben nicht bei der einst das ist
+
+195
+00:07:09,720 --> 00:07:13,730
+historisch bedingt deswegen musst du dir
+das einfach merken man fängt immer bei
+
+197
+00:07:13,740 --> 00:07:17,510
+null an zu zählen so und jetzt können
+wir die anderen zwei werte natürlich
+
+199
+00:07:17,520 --> 00:07:21,620
+auch noch belegen ich schreibe also
+nochmal namens dann kommt wieder dieser
+
+201
+00:07:21,630 --> 00:07:26,060
+eckige klammer diesmal möchte ich auf
+den auf die zweite stelle im re
+
+203
+00:07:26,070 --> 00:07:31,250
+zugreifen als auf das zweite element und
+hier gebe ich ein paul
+
+205
+00:07:31,260 --> 00:07:37,790
+und da machen wir uns noch eine dritte
+stelle hoppla das zeichen comeback da
+
+207
+00:07:37,800 --> 00:07:44,540
+gebe ich die 2 1
+und hier gebe ich ein fabian damit haben
+
+209
+00:07:44,550 --> 00:07:48,230
+wir jetzt insgesamt drei namen hier rein
+gespeichert und des area hat auch eine
+
+211
+00:07:48,240 --> 00:07:51,500
+größe von 3
+das heißt das passt wir könnten auch
+
+213
+00:07:51,510 --> 00:07:55,040
+weniger namen rein speichern
+aber wir könnten auf keinen fall mehr
+
+215
+00:07:55,050 --> 00:07:58,010
+namen rein speichern
+das ist nicht möglich weil wir eben die
+
+217
+00:07:58,020 --> 00:08:02,930
+maximale länge hier festgelegt haben und
+das ist auch wirklich verbindlich so und
+
+219
+00:08:02,940 --> 00:08:06,050
+wir können jetzt überprüfen ob das ganze
+funktioniert hat indem wir jetzt einfach
+
+221
+00:08:06,060 --> 00:08:10,670
+mal eine print allen methode schreiben
+und uns den wert sagen wir mal den
+
+223
+00:08:10,680 --> 00:08:14,990
+zweiten wert in diesem fall paul
+ausgeben lassen indem wir sagen namens
+
+225
+00:08:15,000 --> 00:08:20,060
+und auch hier greifen wir jetzt eben
+einfach wieder mit dem index operator
+
+227
+00:08:20,070 --> 00:08:24,260
+sozusagen in diesen eckigen klammern auf
+den jeweiligen index zu in diesem fall
+
+229
+00:08:24,270 --> 00:08:28,200
+index 1 weil 1 jahr auf die zweite
+stelle im ärmel
+
+231
+00:08:28,210 --> 00:08:32,909
+differenziert dann speichern wir das
+ganze für das aus und wir sehen paul
+
+233
+00:08:32,919 --> 00:08:38,279
+wird auf der konsole ausgegeben wie du
+siehst im prinzip ganz einfach und das
+
+235
+00:08:38,289 --> 00:08:41,250
+können wir jetzt mit allen möglichen
+typen machen hier wird mit string
+
+237
+00:08:41,260 --> 00:08:45,420
+gemacht wir könnten natürlich auch das
+gleiche mit integer machen das gleiche
+
+239
+00:08:45,430 --> 00:08:49,470
+mädels machen usw
+mit allen möglichen typen und später
+
+241
+00:08:49,480 --> 00:08:54,480
+auch mit allen möglichen klassen typen
+aber die werden wir später da noch
+
+243
+00:08:54,490 --> 00:08:57,000
+kennenlernen
+abschließend möchte ich dir jetzt noch
+
+245
+00:08:57,010 --> 00:09:00,449
+zeigen wie du dieses wissen in
+verbindung mit einer vor schleife
+
+247
+00:09:00,459 --> 00:09:05,070
+benutzen kannst ich kommentiert ist
+jetzt hier einfach mal aus damit wir das
+
+249
+00:09:05,080 --> 00:09:08,970
+gleich als vergleichbar haben und jetzt
+haben wir gerade gesehen wir können uns
+
+251
+00:09:08,980 --> 00:09:14,070
+über die print allen methode über den
+index hier immer den jeweiligen wert
+
+253
+00:09:14,080 --> 00:09:17,430
+ausgeben lassen
+und da wir hier mit einem index arbeiten
+
+255
+00:09:17,440 --> 00:09:22,380
+also mit einer zahl könnte man jetzt
+natürlich auf die idee kommen ja das
+
+257
+00:09:22,390 --> 00:09:25,949
+ganze in einer vor schleife durchlaufen
+zu lassen und das ist auch möglich wir
+
+259
+00:09:25,959 --> 00:09:30,389
+können jetzt sagen integer es gleich
+null wir starten also bei null dann
+
+261
+00:09:30,399 --> 00:09:35,010
+sagen wie kleiner und hier geben wir
+jetzt der name vom eray an
+
+263
+00:09:35,020 --> 00:09:38,990
+und jetzt kommt eine weitere
+besonderheit beschreiben punkt längst
+
+265
+00:09:39,000 --> 00:09:46,139
+was das bedeutet erkläre ich dir gleich
+und danni plus plus und jetzt können wir
+
+267
+00:09:46,149 --> 00:09:49,740
+hier einfach eine print ln methode
+machen und jetzt zum beispiel sagen
+
+269
+00:09:49,750 --> 00:09:54,300
+nails und hier in die eckigen klammern
+standen im index eine feste zahl
+
+271
+00:09:54,310 --> 00:09:58,800
+reinzuschreiben schreiben wird ihr ein
+weil dieses quasi in jedem schleifen
+
+273
+00:09:58,810 --> 00:10:03,660
+durchlauf eine andere zahl so und welche
+zahl ist es im ersten schleifen
+
+275
+00:10:03,670 --> 00:10:07,319
+durchlauf die null weil wir ihm mit der
+null initialisiert haben im zweiten
+
+277
+00:10:07,329 --> 00:10:13,440
+schleifen durchlauf die einst im dritten
+schleifen durchlauf die 2 und dann sind
+
+279
+00:10:13,450 --> 00:10:17,850
+wir am ende angelangt und die schleife
+ist vorbei wieso weil wir hier jetzt
+
+281
+00:10:17,860 --> 00:10:22,829
+eben angegeben haben namens punkt lenkt
+und dieses punkt längst damit sprechen
+
+283
+00:10:22,839 --> 00:10:25,110
+wir ein attribut an
+das hat auch wieder was mit
+
+285
+00:10:25,120 --> 00:10:30,630
+objektorientierung zu tun dass es quasi
+ein attribut von string und das gibt uns
+
+287
+00:10:30,640 --> 00:10:35,430
+eben ja die maximale länge aus die
+dieses erika der hat wir haben hier 3
+
+289
+00:10:35,440 --> 00:10:39,870
+angegeben deswegen steht hier auch
+automatisch dann quasi die 3
+
+291
+00:10:39,880 --> 00:10:43,290
+und das hat eben den vorteil wenn wir
+das so machen anstatt hier drei hin zu
+
+293
+00:10:43,300 --> 00:10:48,630
+schreiben dass wir das hier einfach
+ändern können und dann hat ist der code
+
+295
+00:10:48,640 --> 00:10:52,170
+hier immer noch valide sozusagen und wir
+müssen nicht hier auch noch die 3 die
+
+297
+00:10:52,180 --> 00:10:55,920
+vier wieder ändern und so weiter das
+macht das ganze also leichter warte
+
+299
+00:10:55,930 --> 00:11:00,540
+jetzt finden wir das programm aber mal
+so aus und jetzt sehen wir es wird hier
+
+301
+00:11:00,550 --> 00:11:06,090
+dreimal x ausgegeben ist einfach ein
+wert der wird immer zugewiesen wenn du
+
+303
+00:11:06,100 --> 00:11:09,840
+selbst nichts zugewiesen hast bei
+objekten aber auch das werden wir uns im
+
+305
+00:11:09,850 --> 00:11:13,980
+bereich der objektorientierung noch
+genauer ansehen märkte einfach mal raus
+
+307
+00:11:13,990 --> 00:11:16,320
+kommt dann hast du eben nichts
+zugewiesen
+
+309
+00:11:16,330 --> 00:11:19,770
+deswegen kommentiere ich das jetzt mal
+wieder aus und man setzt den kommentar
+
+311
+00:11:19,780 --> 00:11:24,000
+weiter runter das wird das hier
+zugewiesen haben jetzt führe ich das
+
+313
+00:11:24,010 --> 00:11:28,380
+ganze aus und besehen hendrik paul und
+verwehren werden ausgegeben und damit
+
+315
+00:11:28,390 --> 00:11:31,890
+haben wir es jetzt eben geschafft über
+diese vorschläge
+
+317
+00:11:31,900 --> 00:11:36,030
+naja in kombination mit dem re zu
+verwenden und wie gesagt wenn wir jetzt
+
+319
+00:11:36,040 --> 00:11:39,180
+hier die vier hinschreiben dann können
+wir das programm einfach wieder
+
+321
+00:11:39,190 --> 00:11:41,610
+ausführen dann hat das area eine größe
+von 4
+
+323
+00:11:41,620 --> 00:11:45,210
+der letzte wert wurde nicht belegt
+deswegen steht hier und das ist jetzt
+
+325
+00:11:45,220 --> 00:11:49,740
+eben das schöne an diesem teil hier wo
+wir sagen nails punkt längst da wird
+
+327
+00:11:49,750 --> 00:11:53,610
+eben automatisch immer die länge
+eingefügt vom eray und wir müssten jetzt
+
+329
+00:11:53,620 --> 00:11:57,900
+hier nicht drei auf vier ändern
+und ja umso größer die programme werden
+
+331
+00:11:57,910 --> 00:12:01,680
+umso praktischer ist es eben wenn man so
+programmiert das war jetzt eine kleine
+
+333
+00:12:01,690 --> 00:12:05,760
+einführung in die thematik der ace falls
+du das gefühl hast dass ich dir das
+
+335
+00:12:05,770 --> 00:12:09,570
+ganze gut erklärt habe dann geht man es
+noch gerne einen daumen nach oben las
+
+337
+00:12:09,580 --> 00:12:12,870
+einen kommentar da und falls du diesen
+kanal noch nicht abonniert haben
+
+339
+00:12:12,880 --> 00:12:16,320
+solltest dann holt das jetzt unbedingt
+nach denn dann wirst du in zukunft
+
+341
+00:12:16,330 --> 00:12:20,310
+nichts mehr von uns verpassen
+das war's ich freue mich dich im
+
+343
+00:12:20,320 --> 00:12:24,840
+nächsten video wieder begrüßen zu dürfen
+bis dahin
+
+344
+00:12:22,300 --> 00:12:24,840
+bis dahin
+

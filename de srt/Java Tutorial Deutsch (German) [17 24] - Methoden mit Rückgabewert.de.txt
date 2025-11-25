@@ -1,0 +1,569 @@
+1
+00:00:00,000 --> 00:00:04,940
+hallo und herzlich willkommen auf dem
+youtube-kanal von programmieren -
+
+3
+00:00:04,950 --> 00:00:10,759
+starten punkt.de mein name ist hendrik
+und wir befinden uns momentan schon im
+
+5
+00:00:10,769 --> 00:00:16,060
+siebzehnten video unseres java crash
+kursus und heute soll es um das thema
+
+7
+00:00:16,070 --> 00:00:21,080
+methoden mit rückgabe wert gehen im
+letzten video haben wir bereits mit dem
+
+9
+00:00:21,090 --> 00:00:24,710
+thema methoden begonnen doch in diesem
+video möchten wir das noch etwas
+
+11
+00:00:24,720 --> 00:00:28,400
+vertiefen und etwas weiter in die
+materie eintauchen
+
+13
+00:00:28,410 --> 00:00:33,500
+bleibt also unbedingt daran falls du
+darauf lust hast wie immer sehen wir uns
+
+15
+00:00:33,510 --> 00:00:37,040
+zunächst mal an was wir in diesem video
+überhaupt lernen werden
+
+17
+00:00:37,050 --> 00:00:41,810
+zunächst werden wir uns ansehen was ist
+ein rückgabe wert wir werden also
+
+19
+00:00:41,820 --> 00:00:45,799
+erstmal diesen begriff definieren damit
+du verstehst was ich überhaupt damit
+
+21
+00:00:45,809 --> 00:00:48,049
+meine
+und danach werden wir keine zeit
+
+23
+00:00:48,059 --> 00:00:53,600
+verlieren und uns methoden mit rückgabe
+wert direkt in der praxis ansehen
+
+25
+00:00:53,610 --> 00:00:58,130
+beginnen wir also zunächst mal mit der
+frage was ist ein rückgabe wert ein
+
+27
+00:00:58,140 --> 00:01:03,349
+rückgabe wert ist nichts anderes als ein
+wert den eine methode an ihren aufruf
+
+29
+00:01:03,359 --> 00:01:09,320
+zurückgibt man kann diesen rückgabe wert
+also als ergebnis der methode ansehen
+
+31
+00:01:09,330 --> 00:01:14,060
+das bedeutet eine methode hat jetzt zum
+beispiel einen methoden block in diesen
+
+33
+00:01:14,070 --> 00:01:19,370
+methoden blog wird irgendetwas
+ausgeführt und das was dann da drin zum
+
+35
+00:01:19,380 --> 00:01:25,160
+beispiel berechnet wird oder an strings
+zusammengesetzt wird usw kann dann als
+
+37
+00:01:25,170 --> 00:01:30,679
+rückgabe wert zurück gegeben werden an
+den aufruf der methode klingt natürlich
+
+39
+00:01:30,689 --> 00:01:35,660
+etwas abstrakt sehen wir uns das ganze
+also direkt in der praxis an
+
+41
+00:01:35,670 --> 00:01:39,260
+hier sehen wir jetzt noch das programm
+aus dem vorherigen video
+
+43
+00:01:39,270 --> 00:01:44,240
+wir haben also hier noch unsere methode
+die heißt do something wir haben hier
+
+45
+00:01:44,250 --> 00:01:48,319
+keinen rückgabe wert das sieht man hier
+an diesem ort steht er eben für keine
+
+47
+00:01:48,329 --> 00:01:52,880
+rückgabe wert dieser methode übergeben
+wir zwei parameter vom typ integer
+
+49
+00:01:52,890 --> 00:01:57,530
+die werden dann hier in die variablen
+geladen dann wird wenn die werte von den
+
+51
+00:01:57,540 --> 00:02:02,120
+variablen zusammengerechnet in recyc
+gespeichert und dann wird das ganze noch
+
+53
+00:02:02,130 --> 00:02:06,410
+ausgegeben auf der konsole zunächst mal
+wir möchten das ganze hier jetzt noch
+
+55
+00:02:06,420 --> 00:02:09,650
+etwas verkürzen
+wie kriegen wir hier die werte number
+
+57
+00:02:09,660 --> 00:02:12,210
+one & numbers
+puh da kriegen wir direkt die werte
+
+59
+00:02:12,220 --> 00:02:17,000
+eingeladen in diesem fall 2020 das heißt
+wir müssen die jetzt hier nicht
+
+61
+00:02:17,010 --> 00:02:22,350
+zwischenspeichern enix wir können das
+ganze weg löschen und stattdessen zb das
+
+63
+00:02:22,360 --> 00:02:29,069
+ixs durch number one ersetzen und das y
+durch number two ersetzen damit sparen
+
+65
+00:02:29,079 --> 00:02:32,309
+wir uns schon mal eine zeile code
+alternativ könnten wir jetzt natürlich
+
+67
+00:02:32,319 --> 00:02:35,789
+auch dieses number one number two direkt
+hier rein kopieren
+
+69
+00:02:35,799 --> 00:02:39,750
+anstatt das ganze in riesa zu speichern
+dann bräuchten wir wirklich nur eine
+
+71
+00:02:39,760 --> 00:02:43,530
+zeile code um das ganze auszuführen
+wir lassen es aber jetzt mal so stehen
+
+73
+00:02:43,540 --> 00:02:47,849
+wie es ist und was hier momentan der
+fall ist ist folgendes wir übergeben die
+
+75
+00:02:47,859 --> 00:02:53,550
+werte das ergebnis wird ausgerechnet und
+innerhalb der methode wird dann dafür
+
+77
+00:02:53,560 --> 00:02:57,229
+gesorgt dass das ganze auf der konsole
+ausgegeben wird
+
+79
+00:02:57,239 --> 00:03:02,520
+was es aber jetzt wenn wir zum beispiel
+das ergebnis dass diese methode hier
+
+81
+00:03:02,530 --> 00:03:07,740
+liefert in dieser methode noch mal
+brauchen also berufen es hier auf diese
+
+83
+00:03:07,750 --> 00:03:11,490
+methode jetzt soll ein ergebnis
+zurückgegeben werden und jetzt möchten
+
+85
+00:03:11,500 --> 00:03:15,599
+wir hier an dieser stelle im code mit
+diesem ergebnis weiter arbeiten und wenn
+
+87
+00:03:15,609 --> 00:03:21,089
+man das vorhat dann muss man eben mit
+rückgabe werten arbeiten und im prinzip
+
+89
+00:03:21,099 --> 00:03:23,970
+ist es gar nicht schwer was wir jetzt
+hier für noch ergänzen müssen
+
+91
+00:03:23,980 --> 00:03:29,099
+das erste was wir machen ist dieses
+votum ändern und zwar in den datentyp
+
+93
+00:03:29,109 --> 00:03:32,670
+der letztendlich von dieser methode
+zurückgegeben werden soll
+
+95
+00:03:32,680 --> 00:03:37,589
+wir rechnen hier zwei integer werden
+zusammen und momentan ring geben wir
+
+97
+00:03:37,599 --> 00:03:41,729
+quasi das ergebnis result auf der
+konsole aus wir möchten jetzt das
+
+99
+00:03:41,739 --> 00:03:46,409
+ergebnis result von der methode
+zurückgeben und das ist ja ein integer
+
+101
+00:03:46,419 --> 00:03:51,629
+wert deswegen schreiben wir hier in und
+damit weiß der computer jetzt okay diese
+
+103
+00:03:51,639 --> 00:03:56,159
+methode wird ein rückgabe wert vom typ
+intel return
+
+105
+00:03:56,169 --> 00:04:00,300
+jetzt sehen wir dass wir hier momentan
+noch eine fehlermeldung haben das liegt
+
+107
+00:04:00,310 --> 00:04:04,800
+daran dass wir eben noch nichts
+zurückgeben und wir löschen jetzt
+
+109
+00:04:04,810 --> 00:04:08,550
+einfach mal diese zeitliche weg und
+stattdessen möchten wir jetzt von dieser
+
+111
+00:04:08,560 --> 00:04:13,640
+methode den wert von result zurückgeben
+und dazu verwenden wir das schlüsselwort
+
+113
+00:04:13,650 --> 00:04:17,279
+return
+damit geben wir eben was zurück jetzt
+
+115
+00:04:17,289 --> 00:04:21,069
+schreiben wir result
+und da haben wird ist die fehlermeldung
+
+117
+00:04:21,079 --> 00:04:24,700
+weg und jetzt wird eben der wert result
+zurückgegeben
+
+119
+00:04:24,710 --> 00:04:28,240
+wir führen das programm mal aus und wie
+wir sehen wir sehen jetzt erstmal gar
+
+121
+00:04:28,250 --> 00:04:33,580
+nichts woran liegt s bzw was passiert
+jetzt überhaupt wir rufen diese methode
+
+123
+00:04:33,590 --> 00:04:38,770
+do something auf übergeben 2020 die
+werden in number one and numbers tour
+
+125
+00:04:38,780 --> 00:04:42,219
+eingeladen
+wir rechnen diese zwei werte zusammen
+
+127
+00:04:42,229 --> 00:04:47,560
+speicherns im resort & return result
+dadurch dass bis jetzt return ist quasi
+
+129
+00:04:47,570 --> 00:04:49,960
+hier im programm wo wir die methode
+aufrufen
+
+131
+00:04:49,970 --> 00:04:54,100
+da kommt jetzt das ergebnis an was in
+result gespeichert ist
+
+133
+00:04:54,110 --> 00:04:58,690
+doch momentan verarbeiten wir dieses
+ergebnis noch gar nicht das heißt es
+
+135
+00:04:58,700 --> 00:05:02,469
+kommt zu welche gerade an aber wir
+machen ja nichts damit das heißt wir
+
+137
+00:05:02,479 --> 00:05:06,580
+könnten das jetzt ganz jetzt noch mal um
+schreiben und stattdessen eben eine
+
+139
+00:05:06,590 --> 00:05:11,440
+print ln methode schreiben und innerhalb
+der print ln methode diese methode
+
+141
+00:05:11,450 --> 00:05:14,860
+aufrufen dann müssen wir hier noch das
+silikon oder am ende weg löschen
+
+143
+00:05:14,870 --> 00:05:18,820
+das geht nämlich auch wir können
+innerhalb der printer methode eine
+
+145
+00:05:18,830 --> 00:05:23,320
+weitere methode aufrufen denn hier
+kriegen wir jetzt einen wert
+
+147
+00:05:23,330 --> 00:05:27,820
+zurückgeliefert nämlich ein wert vom typ
+intel und ein wertvoller tipp integer
+
+149
+00:05:27,830 --> 00:05:31,600
+kann natürlich auf der konsole
+ausgegeben werden deswegen können wir
+
+151
+00:05:31,610 --> 00:05:35,230
+den auch hier übergeben
+und wenn wir das ganze jetzt nochmal
+
+153
+00:05:35,240 --> 00:05:39,850
+speichern und ausführen dann sehen wir
+das ergebnis wird jetzt auf der konsole
+
+155
+00:05:39,860 --> 00:05:45,339
+ausgegeben was auch sehr häufig der fall
+ist ist folgendes dass man quasi den
+
+157
+00:05:45,349 --> 00:05:51,370
+wert den wir hier zurückbekommen durch
+die methode zusammenhängen nicht direkt
+
+159
+00:05:51,380 --> 00:05:56,469
+ausgeben wollen auf der konsole sondern
+wir möchten den dauerhaft speichern in
+
+161
+00:05:56,479 --> 00:06:02,830
+unserer methode und hierzu legt man
+jetzt einfach eine variable an results
+
+163
+00:06:02,840 --> 00:06:10,390
+from method do something so nenne ich
+diese variable jetzt einfach und der
+
+165
+00:06:10,400 --> 00:06:14,170
+können wir jetzt quasi den wert zu
+weisen den wir eben zurückkriegen von
+
+167
+00:06:14,180 --> 00:06:19,360
+der methode indem wir jetzt schreiben do
+something und also einfach die methode
+
+169
+00:06:19,370 --> 00:06:21,879
+aufrufen
+jetzt müssen wir hier noch werte über
+
+171
+00:06:21,889 --> 00:06:27,790
+geben zb 30 und 50 und jetzt kriegen wir
+den wert zurück gegeben das heißt wir
+
+173
+00:06:27,800 --> 00:06:31,150
+rufen die methode aus 30 und 50 wird
+zusammengerechnet ergibt
+
+175
+00:06:31,160 --> 00:06:37,480
+80 und diese 80 werden jetzt in diese
+variable ich hier ja zugewiesen und
+
+177
+00:06:37,490 --> 00:06:40,600
+jetzt können wir weiterhin mit dieser
+variable arbeiten
+
+179
+00:06:40,610 --> 00:06:44,680
+wir könnten also jetzt das ganze
+beispielsweise wieder auf der konsole
+
+181
+00:06:44,690 --> 00:06:51,550
+ausgeben lassen das ganze einmal
+speichern und ausführen und wir sehen es
+
+183
+00:06:51,560 --> 00:06:54,400
+wird 80 ausgegeben
+man kann aber jetzt natürlich auch wie
+
+185
+00:06:54,410 --> 00:07:00,190
+gewohnt mit dieser variable innerhalb
+dieses blogs hier weiterarbeiten und das
+
+187
+00:07:00,200 --> 00:07:04,360
+was wir jetzt hier mit dem typ inter
+gemacht haben können wir jetzt mit jedem
+
+189
+00:07:04,370 --> 00:07:07,330
+datentyp machen
+wir können hier also auch double
+
+191
+00:07:07,340 --> 00:07:11,710
+hinschreiben wir können hier auch string
+hinschreiben usw
+
+193
+00:07:11,720 --> 00:07:15,640
+wir müssen halt dann nur dementsprechend
+die methode anpassen damit hierbei
+
+195
+00:07:15,650 --> 00:07:19,570
+return aus sichergestellte ist es
+tatsächlich was zurückgegeben wird wo
+
+197
+00:07:19,580 --> 00:07:24,550
+eben der wert des jeweiligen daten typs
+auch drin steckt und was ich hier jetzt
+
+199
+00:07:24,560 --> 00:07:27,850
+noch sagen möchte ist folgendes wir
+können das ganze noch mal verkürzt
+
+201
+00:07:27,860 --> 00:07:31,210
+schreiben dass wir es nicht hier result
+zwischenspeichern wir geben es ja
+
+203
+00:07:31,220 --> 00:07:35,620
+sowieso zurück wir können also
+stattdessen auch direkt hier den
+
+205
+00:07:35,630 --> 00:07:41,620
+ausdruck bei return schreiben was eben
+zufolge hat wir können direkt ausdrücke
+
+207
+00:07:41,630 --> 00:07:44,260
+return
+das heißt hier wird immer zuerst der
+
+209
+00:07:44,270 --> 00:07:48,520
+ausdruck ausgewertet da kommt dann das
+ergebnis raus und das ergebnis bitter
+
+211
+00:07:48,530 --> 00:07:52,840
+returned wenn wir das speichern und
+ausführen sehen wir das komplett gleiche
+
+213
+00:07:52,850 --> 00:07:57,070
+kommt raus das war jetzt alles was ich
+dir zum thema methoden innerhalb dieses
+
+215
+00:07:57,080 --> 00:08:01,810
+crash kursus mitgeben wollte ich hoffe
+du etwas gelernt falls ja dann gebt uns
+
+217
+00:08:01,820 --> 00:08:05,440
+doch gerne einen daumen nach oben auf
+dieses video das einen kommentar
+
+219
+00:08:05,450 --> 00:08:09,670
+und falls es noch nicht getan hast dann
+abonniere auf jeden fall diesen kanal
+
+221
+00:08:09,680 --> 00:08:14,740
+denn in zukunft wird es noch viel viel
+weiteren content auf diesem kanal geben
+
+223
+00:08:14,750 --> 00:08:17,560
+und glaubt mir den möchtest du nicht
+verpassen
+
+225
+00:08:17,570 --> 00:08:21,040
+ich wünsche dir auf jeden fall noch
+einen schönen tag und dann sehen wir uns
+
+227
+00:08:21,050 --> 00:08:24,730
+im nächsten video wieder bis dahin
+

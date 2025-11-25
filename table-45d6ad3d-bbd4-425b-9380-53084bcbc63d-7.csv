@@ -1,0 +1,4 @@
+﻿Value,Description,Creates
+Always (default),Always restart the container if it stops.,Deployment
+OnFailure,Restart only if the container exits with a non-zero status.,Job
+Never,Never restart the container.,Pod

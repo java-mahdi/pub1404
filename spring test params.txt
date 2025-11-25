@@ -1,0 +1,24 @@
+spring mvc:
+
+jpa > attention:  @enableJpaRepositories
+--
+all mapping Form methods > get, post, put, delete
+---
+in method
+@nullable @pathVar @requestParam  @modelAttribute
+--
+@requestBody
+@responseBody
+
+--
+in method > it is not annotation:
+ HttpSession , HttpServletResponse , HttpServletRequest
+--
+return to navigate:
+return:/ , forward:/ , home
+
+
+	<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+		</dependency>

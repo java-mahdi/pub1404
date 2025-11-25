@@ -1,0 +1,28 @@
+<html>
+
+
+
+<h1>login</h1>
+
+<select  onchange="shw()" multiple="multiple" type="checkbox" size="2" >
+<option value="1" >1</option>
+<option value="2" >2</option>
+<option value="3" >3</option>
+</select> 
+
+<script>
+function shw(){
+// پیدا کردن تمام optionهایی که انتخاب شده‌اند (در هر select ای که selected داشته باشه)
+const selectedOptions = document.querySelectorAll('select option:checked');
+
+// تبدیل به آرایه و نمایش اطلاعات در کنسول
+const result = Array.from(selectedOptions).map(option => ({
+  value: option.value,
+  text: option.text,
+  parentSelect: option.closest('select').id || 'بدون ID'
+}));
+
+console.log('گزینه‌های انتخاب‌شده:', result);
+}
+</script>
+</html>

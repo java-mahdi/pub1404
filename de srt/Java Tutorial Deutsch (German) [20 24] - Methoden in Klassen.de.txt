@@ -1,0 +1,499 @@
+1
+00:00:00,000 --> 00:00:04,700
+hallo und herzlich willkommen auf dem
+youtube-kanal von programmieren -
+
+3
+00:00:04,710 --> 00:00:10,520
+staaten punkt.de mein name ist hendrik
+und wir befinden uns mitten im cover
+
+5
+00:00:10,530 --> 00:00:14,600
+crashkurs und hier befinden wir uns
+mitten in der objektorientierung
+
+7
+00:00:14,610 --> 00:00:18,950
+momentan und in diesem video werden wir
+uns jetzt die so genannten methoden in
+
+9
+00:00:18,960 --> 00:00:23,210
+klassen ansehen kommen wir zunächst mal
+darauf zu sprechen was wir in diesem
+
+11
+00:00:23,220 --> 00:00:26,960
+video genau lernen werden
+zunächst werden wir uns mal ansehen wie
+
+13
+00:00:26,970 --> 00:00:29,689
+definiert man eine methode in einer
+klasse
+
+15
+00:00:29,699 --> 00:00:33,170
+da werden wir einen theoretischen teil
+haben und dann werden wir aber auch
+
+17
+00:00:33,180 --> 00:00:37,970
+direkt in die praxis gehen und uns das
+ganze dort ansehen und im zweiten teil
+
+19
+00:00:37,980 --> 00:00:42,979
+werden wir dann uns ansehen wie man
+methoden letztendlich aufrufen kann
+
+21
+00:00:42,989 --> 00:00:47,450
+die wir in klassen definiert haben
+verlieren wir also keine zeit und
+
+23
+00:00:47,460 --> 00:00:51,350
+starten direkt mit der frage wie
+definiert man eine methode in einer
+
+25
+00:00:51,360 --> 00:00:56,479
+klasse zunächst mal ist es wichtig zu
+verstehen dass jede methode in einer
+
+27
+00:00:56,489 --> 00:01:00,110
+klasse definiert wird
+wir haben hier in diesem crash kurs auch
+
+29
+00:01:00,120 --> 00:01:03,889
+schon videos gehabt in denen wir über
+die definition von methoden gesprochen
+
+31
+00:01:03,899 --> 00:01:09,800
+haben aber eben noch nicht im kontext
+mit klassen und da war es eben so dass
+
+33
+00:01:09,810 --> 00:01:14,090
+wir diese methoden zuvor immer statisch
+programmiert haben
+
+35
+00:01:14,100 --> 00:01:19,100
+das bedeutet wir haben das schlüsselwort
+static noch in der definition der
+
+37
+00:01:19,110 --> 00:01:23,359
+methode verwendet und dadurch ist es
+eben eine statische methode so eine
+
+39
+00:01:23,369 --> 00:01:26,660
+statische methode habe ich jetzt hier
+auf dem bild noch mal eingeblendet da
+
+41
+00:01:26,670 --> 00:01:30,410
+sehen wir wir haben einmal die klasse
+programm und in dieser klasse programm
+
+43
+00:01:30,420 --> 00:01:35,539
+sind jetzt zwei methoden definiert
+einmal nämlich die statische methode das
+
+45
+00:01:35,549 --> 00:01:40,069
+ist hier die haupt methode von unserem
+programm und darunter eben die methode
+
+47
+00:01:40,079 --> 00:01:43,819
+multiplay die solle neben zwei zahlen
+die übergeben werden miteinander
+
+49
+00:01:43,829 --> 00:01:46,850
+multiplizieren
+und dann gibt sie das ergebnis zurück
+
+51
+00:01:46,860 --> 00:01:51,469
+und in der mine methode fangen wir das
+ergebnis in eine variable auf und geben
+
+53
+00:01:51,479 --> 00:01:55,539
+es dann auf der konsole aus wie gerade
+schon erwähnt sind diese methoden
+
+55
+00:01:55,549 --> 00:02:00,469
+statisch statisch deshalb weil hier
+einmal static als schlüsselwort mit
+
+57
+00:02:00,479 --> 00:02:04,370
+angegeben ist jetzt ist natürlich die
+frage was bedeutet dieses stetig und das
+
+59
+00:02:04,380 --> 00:02:09,499
+möchte ich jetzt mal aufklären static
+bedeutet die methode ist statisch was
+
+61
+00:02:09,509 --> 00:02:12,590
+wiederum bedeutet die methode ist nicht
+an
+
+63
+00:02:12,600 --> 00:02:17,630
+objekt einer klasse gebunden das heißt
+jetzt wird definieren diese methode und
+
+65
+00:02:17,640 --> 00:02:23,150
+wir können die methode jetzt aufrufen
+ohne zuvor ein objekt die zu definieren
+
+67
+00:02:23,160 --> 00:02:28,130
+beziehungsweise zu instanz ihren welches
+eben von dieser klasse ist also noch mal
+
+69
+00:02:28,140 --> 00:02:32,090
+wir definieren die methode
+wir können sie einfach aufrufen obwohl
+
+71
+00:02:32,100 --> 00:02:36,560
+wir noch kein objekt in diesem fall von
+der klasse programm instanziert haben
+
+73
+00:02:36,570 --> 00:02:41,000
+und das ganze funktioniert und die
+entwicklungsumgebung zeigt uns dass auch
+
+75
+00:02:41,010 --> 00:02:45,410
+schon an dass die methode statisch ist
+weil wir sehen beim methoden aufruf wenn
+
+77
+00:02:45,420 --> 00:02:49,700
+wir schreiben multiple und die zwei
+parameter übergeben der methoden name
+
+79
+00:02:49,710 --> 00:02:54,080
+ist kursiv geschrieben und das deutet
+eben immer an dass es sich hierbei um
+
+81
+00:02:54,090 --> 00:02:58,100
+eine statische methode handelt und da
+braucht man eben kein objekt von der
+
+83
+00:02:58,110 --> 00:03:02,030
+klasse um die methode letztendlich
+aufrufen zu können jetzt fragst du dich
+
+85
+00:03:02,040 --> 00:03:06,440
+mit sicherheit und wann braucht man denn
+dann objekt naja eben genau im anderen
+
+87
+00:03:06,450 --> 00:03:11,120
+fall und zwar wenn wir eine normale
+methode definieren innerhalb einer
+
+89
+00:03:11,130 --> 00:03:14,750
+klasse und das möchten wir uns jetzt in
+diesem video mal ansehen
+
+91
+00:03:14,760 --> 00:03:18,290
+ich habe hier gerade noch das beispiel
+von zuvor geöffnet da haben wir uns ja
+
+93
+00:03:18,300 --> 00:03:22,970
+eine klasse definiert und zwar die
+klassiker die haben wir ein paar tribute
+
+95
+00:03:22,980 --> 00:03:27,200
+gegeben und bereits eine methode und
+dann haben wir uns hier mal eine instanz
+
+97
+00:03:27,210 --> 00:03:32,930
+davon erzeugt schon jetzt sehen wir hier
+schon unter methoden wir haben bereits
+
+99
+00:03:32,940 --> 00:03:36,890
+eine methodische drin definiert und so
+sieht jetzt auch im prinzip die
+
+101
+00:03:36,900 --> 00:03:40,010
+definition einer methode innerhalb einer
+klasse aus
+
+103
+00:03:40,020 --> 00:03:44,120
+wir haben also zunächst wieder das
+schlüsselwort public dass es wieder der
+
+105
+00:03:44,130 --> 00:03:47,750
+sichtbarkeit modifizierung auf den werde
+ich im nächsten video noch genauer zu
+
+107
+00:03:47,760 --> 00:03:51,560
+sprechen kommen und dann haben wir einen
+rückgabe typ der es in diesem fall weit
+
+109
+00:03:51,570 --> 00:03:56,210
+und der name der es eben drive was hier
+jetzt auffällt wir haben jetzt hier
+
+111
+00:03:56,220 --> 00:04:00,830
+nicht das schlüsselwort static angegeben
+das haben wir einfach weggelassen und
+
+113
+00:04:00,840 --> 00:04:05,660
+dadurch handelt es sich bei dieser
+methode jetzt nicht um eine statische
+
+115
+00:04:05,670 --> 00:04:09,860
+methode also wie du siehst im prinzip
+ist das definieren von methoden in einer
+
+117
+00:04:09,870 --> 00:04:14,180
+klasse ganz einfach man macht es genauso
+wie wir es gelernt haben man lässt es
+
+119
+00:04:14,190 --> 00:04:18,260
+stetig einfach weg und dann schreibt man
+den entsprechenden code und beim
+
+121
+00:04:18,270 --> 00:04:22,010
+methoden die wir in einer klasse
+definieren das ist eben immer wichtig
+
+123
+00:04:22,020 --> 00:04:27,600
+dass die funktionalität bereitstellen
+die eben zur klasse auto passt das heißt
+
+125
+00:04:27,610 --> 00:04:31,290
+hier wird die methode drive und jedes
+auto kann ja fahren
+
+127
+00:04:31,300 --> 00:04:35,279
+deswegen ist es sinnvoll diese klasse
+hier drin zu definieren hier sollten wir
+
+129
+00:04:35,289 --> 00:04:40,080
+aber jetzt nicht eine methode definieren
+haus bauen zum beispiel das habt ihr
+
+131
+00:04:40,090 --> 00:04:44,100
+nichts mit der klassik art zu tun
+deswegen wird diese methode auch nicht
+
+133
+00:04:44,110 --> 00:04:48,150
+hier definiert sondern vielleicht in der
+klasse haus wenn wir uns zu einer noch
+
+135
+00:04:48,160 --> 00:04:53,070
+bauen aber eben nicht hier drin also
+wichtig in einer klasse da kapsel tma
+
+137
+00:04:53,080 --> 00:04:58,020
+neben alle dinge drin die auch wichtig
+für das jeweilige für die jeweilige
+
+139
+00:04:58,030 --> 00:05:02,249
+klasse sind und für die jeweiligen
+objekte die man davon erzeugt in diesem
+
+141
+00:05:02,259 --> 00:05:06,629
+fall also alles was mit autos zu tun hat
+so und jetzt möchten wir diese methode
+
+143
+00:05:06,639 --> 00:05:10,379
+mal aufrufen
+wir haben uns hierzu bereits ein objekt
+
+145
+00:05:10,389 --> 00:05:14,370
+erstellt von der klasse k
+und jetzt haben wir gelernt wir können
+
+147
+00:05:14,380 --> 00:05:19,379
+diese methode hier jetzt nicht einfach
+so auf rufen denn dass es jetzt eine
+
+149
+00:05:19,389 --> 00:05:23,700
+normale methode die sich auf diese
+klasse k hier bezieht deshalb können wir
+
+151
+00:05:23,710 --> 00:05:28,770
+diese methode nur aufrufen wenn wir
+bereits eine instanz von dieser klasse
+
+153
+00:05:28,780 --> 00:05:34,140
+haben mit karbon haben wir bereits eine
+instanz und jetzt ruft man das ganze
+
+155
+00:05:34,150 --> 00:05:39,089
+folgendermaßen auf man sagt karbon also
+den bezeichnungen der jeweiligen instanz
+
+157
+00:05:39,099 --> 00:05:45,120
+beziehungsweise des objekts da macht man
+einen punkt und nach dem punkt da sehen
+
+159
+00:05:45,130 --> 00:05:47,730
+wir schon da werden wir uns jetzt ein
+paar methoden vorgeschlagen
+
+161
+00:05:47,740 --> 00:05:52,890
+unter anderem diese drive methode die
+wir definiert haben und die bild man
+
+163
+00:05:52,900 --> 00:05:57,450
+jetzt einfach aus oder schreibt selber
+hin und dann sehen wir so kann man die
+
+165
+00:05:57,460 --> 00:06:01,950
+methode aufrufen uns wird ja kein fehler
+angezeigt jetzt können wir das ganze mal
+
+167
+00:06:01,960 --> 00:06:06,990
+speichern und ausführen und dann sehen
+wir das auto fährt und damit haben wir
+
+169
+00:06:07,000 --> 00:06:10,499
+eigentlich schon alles gelernt was ich
+dir in diesem video zeigen wollte
+
+171
+00:06:10,509 --> 00:06:15,629
+wir haben also jetzt die möglichkeit in
+klassen methoden zu definieren die sich
+
+173
+00:06:15,639 --> 00:06:20,640
+eben auf den zweck der klasse beziehen
+in diesem fall auf den zweck von k ein
+
+175
+00:06:20,650 --> 00:06:24,029
+auto kann fahren deswegen macht diese
+drive methode auf jeden fall sinn hier
+
+177
+00:06:24,039 --> 00:06:28,499
+drin und hier lassen wir eben das static
+weg weil diese methode bezieht sich
+
+179
+00:06:28,509 --> 00:06:33,450
+wirklich auf einzelne objekte von dieser
+klasse weil jedes objekt für sich kann
+
+181
+00:06:33,460 --> 00:06:36,999
+ja fahren und dann ruft man es einfach
+auf indem man einen star
+
+183
+00:06:37,009 --> 00:06:42,670
+von dieser klasse bildet bzw ein objekt
+in unserem fall karbon und dann macht
+
+185
+00:06:42,680 --> 00:06:46,779
+man einfach diesem punkt operator und
+dann kann man die methode der wahl
+
+187
+00:06:46,789 --> 00:06:52,269
+aufrufen und das war alles was ich dir
+in diesem video zeigen wollte falls ihr
+
+189
+00:06:52,279 --> 00:06:56,799
+das video gefallen hat dann liegt das
+video doch lasst uns gerne ein kommentar
+
+191
+00:06:56,809 --> 00:07:00,549
+darüber feedback freuen wir uns immer
+und falls wir diesen kanal noch nicht
+
+193
+00:07:00,559 --> 00:07:04,389
+abonniert haben solltest dann holt es
+jetzt unbedingt nach indem du unter
+
+195
+00:07:04,399 --> 00:07:08,170
+diesem video auf den abonnieren -button
+klickt das war's ich wünsche dir noch
+
+197
+00:07:08,180 --> 00:07:13,509
+einen schönen tag und dann sehen wir uns
+im nächsten video bis dahin
+
+198
+00:07:09,889 --> 00:07:13,509
+im nächsten video bis dahin
+

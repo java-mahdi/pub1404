@@ -1,0 +1,859 @@
+1
+00:00:00,000 --> 00:00:04,910
+hallo und herzlich willkommen auf dem
+youtube-kanal von programmieren -
+
+3
+00:00:04,920 --> 00:00:10,700
+starten punkt.de mein name ist hendrik
+und mittlerweile befinden wir uns schon
+
+5
+00:00:10,710 --> 00:00:15,200
+im fünfzehnten teil des java crash
+kursus und heute sollte es um die
+
+7
+00:00:15,210 --> 00:00:18,140
+sogenannten mehrdimensionalen airways
+gehen
+
+9
+00:00:18,150 --> 00:00:22,910
+sehen wir uns wie immer zunächst mal an
+was wir in diesem video lernen werden
+
+11
+00:00:22,920 --> 00:00:27,890
+zunächst werden wir darauf eingehen was
+ist ein mehrdimensionales array wir
+
+13
+00:00:27,900 --> 00:00:31,600
+werden also kurz das ganze besprechen
+und mit den normalen airways vergleichen
+
+15
+00:00:31,610 --> 00:00:36,590
+und dann werden wir uns das ganze in der
+praxis ansehen und auch selbst mal so
+
+17
+00:00:36,600 --> 00:00:40,190
+ein mehrdimensionales array
+programmieren beginnen wir also zunächst
+
+19
+00:00:40,200 --> 00:00:45,319
+mal mit der frage was ist ein
+mehrdimensionales er genauso wie normale
+
+21
+00:00:45,329 --> 00:00:49,430
+race auch handelt es sich bei
+mehrdimensionalen airways ebenfalls um
+
+23
+00:00:49,440 --> 00:00:53,450
+eine datenstruktur also um eine
+datensammlung das prinzip von
+
+25
+00:00:53,460 --> 00:00:57,560
+mehrdimensionalen air race ist das
+gleiche wie hinter normalen rs welche
+
+27
+00:00:57,570 --> 00:01:01,819
+man im übrigen auch als eindimensionale
+race bezeichnet nur dass wir jetzt bei
+
+29
+00:01:01,829 --> 00:01:06,230
+den mehrdimensionalen air race eben
+mehrere dimensionen verwenden können
+
+31
+00:01:06,240 --> 00:01:09,649
+machen wir uns das vielleicht mal hier
+in einer kleinen skizze bewusst hier
+
+33
+00:01:09,659 --> 00:01:13,609
+sehen wir jetzt mal ein normales array
+das kann man sich vorstellen wie so eine
+
+35
+00:01:13,619 --> 00:01:17,630
+liste die eine gewisse reihenfolge hat
+hier sehen wir einmal in klammern die
+
+37
+00:01:17,640 --> 00:01:21,230
+null deshalb quasi das feld
+repräsentieren wo ein wert darin
+
+39
+00:01:21,240 --> 00:01:26,179
+gespeichert wird und zwar welche man
+über den index 0 ansprechen kann also
+
+41
+00:01:26,189 --> 00:01:31,219
+sozusagen das erste element des arrays
+dann kommt der index 1 damit können wir
+
+43
+00:01:31,229 --> 00:01:36,260
+das zweite element des arrays ansprechen
+der index 2 für das dritte element und
+
+45
+00:01:36,270 --> 00:01:39,980
+so weiter bei mehrdimensionalen air race
+ist es jetzt im prinzip genau das
+
+47
+00:01:39,990 --> 00:01:44,120
+gleiche nur das jetzt hier eben mehr
+dimensionen gibt veranschaulichen wir
+
+49
+00:01:44,130 --> 00:01:48,830
+uns diesmal anhand einer skizze mit
+einem zweidimensionalen da sehen wir
+
+51
+00:01:48,840 --> 00:01:52,969
+jetzt das ganze ist jetzt keine reihe
+mehr so wie bei eindimensionalen air
+
+53
+00:01:52,979 --> 00:01:57,200
+race sondern jetzt handelt es sich um
+eine tabelle und folglich haben wir
+
+55
+00:01:57,210 --> 00:02:01,370
+jetzt auch zwei indizes damit wir ein
+element sicher identifizieren können
+
+57
+00:02:01,380 --> 00:02:05,270
+sehen wir es uns mal ganz oben links in
+der ecke an da sehen wir in klammern 0
+
+59
+00:02:05,280 --> 00:02:09,469
+und 0
+die orange 0 ist jetzt der index mit dem
+
+61
+00:02:09,479 --> 00:02:12,480
+wir quasi sagen in welcher zeile wir uns
+von der tabelle
+
+63
+00:02:12,490 --> 00:02:15,960
+finden auch hier fangen wir natürlich
+wieder bei null an zu zählen
+
+65
+00:02:15,970 --> 00:02:21,540
+die erste zeile hat also den index 0 und
+die zweite 0 die in weiß die gibt jetzt
+
+67
+00:02:21,550 --> 00:02:25,800
+an in welcher spalte der tabelle wir uns
+befinden und auch hier fangen wir bei
+
+69
+00:02:25,810 --> 00:02:29,630
+null zu zählen an und wir befinden uns
+hier mit gerade in der ersten spalte
+
+71
+00:02:29,640 --> 00:02:33,480
+einfällt daneben befinden wir uns
+natürlich immer noch in der ersten zeile
+
+73
+00:02:33,490 --> 00:02:39,330
+weshalb hier als index die null steht
+und als zweiter zahl steht die einst
+
+75
+00:02:39,340 --> 00:02:43,440
+weil wir uns jetzt in der zweiten spalte
+befinden und so zieht sich das jetzt
+
+77
+00:02:43,450 --> 00:02:47,160
+durch diese ganze tabelle durch wenn wir
+jetzt beispielsweise das element
+
+79
+00:02:47,170 --> 00:02:51,240
+ansprechen möchten welches sich in der
+dritten zeile befindet und in der
+
+81
+00:02:51,250 --> 00:02:54,210
+dritten spalte
+dann müssen wir einfach in die dritte
+
+83
+00:02:54,220 --> 00:02:59,460
+zeile gehen das sehen wir immer hand des
+orangen index 2 der gibt ja an in
+
+85
+00:02:59,470 --> 00:03:03,330
+welcher zeile wir uns befinden also in
+der dritten und dann müssen wir noch in
+
+87
+00:03:03,340 --> 00:03:07,170
+die dritte spalte also auch bei der
+spalt beim spalten index suchen wir die
+
+89
+00:03:07,180 --> 00:03:11,760
+zahl zwei die es hier in der mitte unten
+und damit haben wir jetzt das element
+
+91
+00:03:11,770 --> 00:03:16,250
+gefunden und mit mehreren dimensionen
+verhält es sich dann im prinzip genauso
+
+93
+00:03:16,260 --> 00:03:20,010
+beispielsweise drei dimensionen da haben
+wir dann eben nicht mehr die form einer
+
+95
+00:03:20,020 --> 00:03:24,060
+tabelle sondern da haben wir jetzt die
+form von einem würfel also ein
+
+97
+00:03:24,070 --> 00:03:28,290
+dreidimensionaler würfel und vier
+dimensional fünf dimensional ist es
+
+99
+00:03:28,300 --> 00:03:31,860
+alles möglich dass im programm
+umzusetzen nur das problem ist natürlich
+
+101
+00:03:31,870 --> 00:03:34,830
+wir menschen können uns das nicht mehr
+vorstellen
+
+103
+00:03:34,840 --> 00:03:38,670
+bei wie möchten wir uns jetzt zum
+beispiel vier dimensionen vorstellen es
+
+105
+00:03:38,680 --> 00:03:42,690
+wird einfach schwierig und in der regel
+ist es auch so dass du höchstens mit
+
+107
+00:03:42,700 --> 00:03:47,160
+zweidimensionalen air race arbeitest
+solltest du sehr naturwissenschaftliche
+
+109
+00:03:47,170 --> 00:03:50,280
+programme schreiben dann kann es
+natürlich sein desto mehrere dimensionen
+
+111
+00:03:50,290 --> 00:03:53,550
+benötigst als nur zwei dimensionen oder
+eine dimension
+
+113
+00:03:53,560 --> 00:03:57,900
+aber wie gesagt der regelfall ist
+eigentlich der dass du höchstens mit
+
+115
+00:03:57,910 --> 00:04:01,680
+zwei dimensionen arbeitest und genau
+deshalb möchten wir uns jetzt im
+
+117
+00:04:01,690 --> 00:04:05,690
+praxisteil dieses videos darauf
+beschränken dass wir einfach mal ein
+
+119
+00:04:05,700 --> 00:04:10,040
+zweidimensionales re programmieren und
+analog dazu kann man dann auch
+
+121
+00:04:10,050 --> 00:04:13,110
+mehrdimensionale race als es zum
+beispiel drei dimensionen vier
+
+123
+00:04:13,120 --> 00:04:17,430
+dimensionen usw programmieren sehen wir
+uns das ganze jetzt also hier mal in der
+
+125
+00:04:17,440 --> 00:04:21,479
+praxis an und zwar anhand einer tabelle
+wir möchten jetzt also ein
+
+127
+00:04:21,489 --> 00:04:26,400
+zweidimensionales re programmieren
+und diese zweidimensionalen eray möchten
+
+129
+00:04:26,410 --> 00:04:31,650
+wir logisch zueinander gehörende vor und
+nachnamen speichern das heißt unsere
+
+131
+00:04:31,660 --> 00:04:35,640
+tabelle wird zum beispiel sagen wir mal
+fünf zeilen haben und die tabelle mit
+
+133
+00:04:35,650 --> 00:04:40,200
+zwei spalten haben die erste spalte
+immer für den vornahme einer person und
+
+135
+00:04:40,210 --> 00:04:42,719
+die zweite spalte für den nachnamen
+einer person
+
+137
+00:04:42,729 --> 00:04:46,260
+es ist glaube ich klar wir benötigen
+jetzt einfach mal den datentyp string
+
+139
+00:04:46,270 --> 00:04:51,330
+wir möchten ja immerhin nahmen speichern
+und beim eindimensionalen airways ja zu
+
+141
+00:04:51,340 --> 00:04:55,439
+dass wir hier jetzt ein eckiges klammer
+paar hinschreiben mussten wenn wir uns
+
+143
+00:04:55,449 --> 00:04:59,520
+so anstellen wollten beim
+zweidimensionalen er ist es hier zu da
+
+145
+00:04:59,530 --> 00:05:03,510
+wir jetzt noch einen zusätzlichen index
+benötigen dass wir jetzt hier zwei
+
+147
+00:05:03,520 --> 00:05:08,159
+eckige klammer paare brauchen dann kommt
+wie gewohnt der bezeichnung von diesem
+
+149
+00:05:08,169 --> 00:05:14,700
+eray ich nenne das jetzt einfach mal
+first and last nehmen dann sage ich ist
+
+151
+00:05:14,710 --> 00:05:18,629
+gleich new string und auch hier brauchen
+wir jetzt natürlich zweimal die ecke
+
+153
+00:05:18,639 --> 00:05:23,670
+klammer dann das semikolon und hier
+geben wir jetzt direkt die größe an weil
+
+155
+00:05:23,680 --> 00:05:27,779
+auch mehrdimensionale rays haben immer
+eine feste größe die wir zu beginn
+
+157
+00:05:27,789 --> 00:05:32,670
+festlegen müssen und wir haben ja gesagt
+wir möchten jetzt fünf zeilen der erste
+
+159
+00:05:32,680 --> 00:05:37,110
+index also die erste eckige klammer
+steht ja immer für die zeilen und die
+
+161
+00:05:37,120 --> 00:05:41,250
+zweite für die spalten wir möchten zwei
+spalten eine für den vor und eine für
+
+163
+00:05:41,260 --> 00:05:45,420
+den nachnamen so und jetzt können wir
+einfach mal in der ersten zeile den
+
+165
+00:05:45,430 --> 00:05:48,839
+ersten name speichern
+das funktioniert es wie gewohnt von den
+
+167
+00:05:48,849 --> 00:05:54,029
+normalen rs auch wir schreiben first and
+last nehmen also einmal den namen des
+
+169
+00:05:54,039 --> 00:05:57,240
+air race und wenn wir jetzt ein
+spezielles element an einer bestimmten
+
+171
+00:05:57,250 --> 00:06:01,110
+position ansprechen möchten dann machen
+wir eben jetzt nicht nur eine eckige
+
+173
+00:06:01,120 --> 00:06:05,850
+klammer sondern zwei nämlich für die
+erste zeile also die 0 und dann für die
+
+175
+00:06:05,860 --> 00:06:09,240
+erste spalte auch die null
+und hier speichern wir jetzt einen wert
+
+177
+00:06:09,250 --> 00:06:15,659
+rhein zum beispiel franz wir kopieren
+uns das ganze einmal in die nächste
+
+179
+00:06:15,669 --> 00:06:19,770
+zeile und jetzt möchten wir eben die
+spalte zwei von der ersten zeile noch
+
+181
+00:06:19,780 --> 00:06:23,730
+ansprechen also machen wir hier beim
+spalten index eine eins rein und jetzt
+
+183
+00:06:23,740 --> 00:06:28,560
+speichern wir noch den nachnamen reihen
+den nennen wir es einfach mal bauer und
+
+185
+00:06:28,570 --> 00:06:31,529
+das ganze machen wir jetzt auch für die
+anderen zwei zeilen ich guck dir das
+
+187
+00:06:31,539 --> 00:06:36,110
+ganze also mal hier müssen wir jetzt
+natürlich nur den zeilen indexende
+
+189
+00:06:36,120 --> 00:06:40,129
+jetzt befinden wir uns in der zweiten
+zeile deswegen hier zweimal der index 1
+
+191
+00:06:40,139 --> 00:06:46,510
+und jetzt speichern wir hier einfach
+andere namen rein zum beispiel felix
+
+193
+00:06:46,520 --> 00:06:55,430
+huber und dann auch noch für die zweite
+zeile zum beispiel für die dritte zeile
+
+195
+00:06:55,440 --> 00:07:00,129
+entschuldigung dann nehmen wir den index
+2 und da speichern bereit
+
+197
+00:07:00,139 --> 00:07:07,969
+fritz meier und sf machen wir noch groß
+damit einheitlich ist so und jetzt
+
+199
+00:07:07,979 --> 00:07:11,659
+möchten wir uns das ganze natürlich noch
+auf der konsole ausgeben lassen damit
+
+201
+00:07:11,669 --> 00:07:15,110
+wir sehen ob es geklappt hat
+und hierzu benutze ich jetzt wieder vor
+
+203
+00:07:15,120 --> 00:07:19,159
+schleifen damit wir uns dass er in einem
+wisch auf der konsole ausgeben lassen
+
+205
+00:07:19,169 --> 00:07:24,050
+können und bei diesen vorschlag werde
+ich jetzt zu machen dass wir einmal eine
+
+207
+00:07:24,060 --> 00:07:27,080
+vor schleife haben eine äußere vor
+schleife das schreibe ich jetzt hier
+
+209
+00:07:27,090 --> 00:07:32,450
+gleich mal hin äußere vor schleife die
+bezieht sich immer auf den zeilen index
+
+211
+00:07:32,460 --> 00:07:36,379
+und der soll eben ii sein
+und jetzt gibt es auch noch eine innere
+
+213
+00:07:36,389 --> 00:07:43,460
+vor schleife die bezieht sich immer auf
+den spalten index und diese nennen wir
+
+215
+00:07:43,470 --> 00:07:48,589
+einfach mal j das ganze setzen wir zum
+gesang forint chery ist gleich null
+
+217
+00:07:48,599 --> 00:07:54,560
+die kleiner als und jetzt sage ich eben
+auch hier wieder wie gewohnt first and
+
+219
+00:07:54,570 --> 00:08:04,550
+last name längst plus plus und jetzt
+kommt die zweite vor schleife integriert
+
+221
+00:08:04,560 --> 00:08:11,180
+ist gleich null
+j kleiner first and last name ich
+
+223
+00:08:11,190 --> 00:08:14,060
+schreib das jetzt einfach mehr hin und
+erklärt gleich was ich hier gemacht habe
+
+225
+00:08:14,070 --> 00:08:20,300
+hier sage ich jetzt in eckigen klammern
+i-punkt plenk und dann j plus plus und
+
+227
+00:08:20,310 --> 00:08:23,270
+jetzt können wir uns das ganze ausgeben
+lassen wenn wir eben immer den zeilen
+
+229
+00:08:23,280 --> 00:08:28,070
+und spalten index haben
+da sage ich einfach print ln und jetzt
+
+231
+00:08:28,080 --> 00:08:34,130
+nämlich den namen des air race first and
+last name macht die zwei spalten und ihs
+
+233
+00:08:34,140 --> 00:08:38,839
+der zeilen index js der spalten index
+deswegen können wir jetzt hier so drüber
+
+235
+00:08:38,849 --> 00:08:44,690
+laufen und uns das ganze ausgeben lassen
+so jetzt möchte ich zunächst mal
+
+237
+00:08:44,700 --> 00:08:47,470
+erklären wie ich hier diese grenzen
+festgelegt
+
+239
+00:08:47,480 --> 00:08:51,730
+nämlich mit first and last eight lenkt
+und first and last name in klammern
+
+241
+00:08:51,740 --> 00:08:55,810
+i-punkt length du weißt ja hier müssen
+wir immer die grenze festlegen damit mit
+
+243
+00:08:55,820 --> 00:08:59,620
+dass er also die grenze des airways
+nicht überschreiten und bei 1
+
+245
+00:08:59,630 --> 00:09:02,410
+dimensionalen airways haben wir es immer
+so gemacht wenn man den re name
+
+247
+00:09:02,420 --> 00:09:06,310
+hingeschrieben dann einen punkt und dann
+lenkt und damit hatten wir dann quasi
+
+249
+00:09:06,320 --> 00:09:12,879
+die maximale länge des race automatisch
+hier geschrieben und jetzt ist es bei
+
+251
+00:09:12,889 --> 00:09:18,370
+mehrdimensionalen er ist natürlich auch
+so dass wir einmal die index reihe für
+
+253
+00:09:18,380 --> 00:09:23,379
+die zeilen haben und die index reihe für
+die spalten und auch bei den spalten
+
+255
+00:09:23,389 --> 00:09:28,120
+können wir jetzt quasi uns die maximale
+spalten anzahl ausgeben lassen indem wir
+
+257
+00:09:28,130 --> 00:09:31,930
+einfach hinschreiben first and last
+nehmen dann kommt den eckigen klammern
+
+259
+00:09:31,940 --> 00:09:36,280
+das schreiben wir jetzt eine zahl rhein
+wieder ein integer zahl und zwar in
+
+261
+00:09:36,290 --> 00:09:40,900
+welcher zeile wir uns befinden und dann
+mit punkt length die maximale anzahl der
+
+263
+00:09:40,910 --> 00:09:45,040
+spalten die sich in dieser zeile
+befindet unter wird mit ihm über die
+
+265
+00:09:45,050 --> 00:09:48,550
+zeilen drüberlaufen schreiben wir hier
+einfach ihr ein
+
+267
+00:09:48,560 --> 00:09:52,750
+ich würde es ganz normal aus damit es
+gleich besser verstehen wirst das
+
+269
+00:09:52,760 --> 00:09:56,350
+programm läuft also und jetzt sehen wir
+hier ist wurde ausgeben franz bauer
+
+271
+00:09:56,360 --> 00:10:00,670
+felix huber fritzmeier das sind genau
+die werte die wir hier rein gespeichert
+
+273
+00:10:00,680 --> 00:10:05,139
+haben die ersten zeilen und spalten und
+dann noch viermal weil wir eben noch
+
+275
+00:10:05,149 --> 00:10:09,009
+zwei weitere zeilen haben mit jeweils
+zwei spalten und da haben wir nichts
+
+277
+00:10:09,019 --> 00:10:12,670
+reingeschrieben das sieht jetzt noch ein
+bisschen unübersichtlich aus und zeigt
+
+279
+00:10:12,680 --> 00:10:16,569
+nicht die form des air race wie ja wie
+auf dem bild zuvor
+
+281
+00:10:16,579 --> 00:10:20,800
+deswegen können wir das ganze zumal
+anpassen indem wir sagen hier soll kein
+
+283
+00:10:20,810 --> 00:10:24,850
+zeilenumbruch stattfinden wenn wir die
+unterschiedlichen elemente der
+
+285
+00:10:24,860 --> 00:10:29,559
+verschiedenen spalten ausgeben und wir
+führen noch eine leerzeile hinten an
+
+287
+00:10:29,569 --> 00:10:34,300
+damit das ganze nicht zusammenklebt und
+dann soll es jedes mal ein zeilenumbruch
+
+289
+00:10:34,310 --> 00:10:39,250
+geben wenn quasi eine zeile komplett
+gesprintet würde
+
+291
+00:10:39,260 --> 00:10:42,490
+wir führen das ganze noch mal aus und
+jetzt sehen wir hier schön diese
+
+293
+00:10:42,500 --> 00:10:47,680
+struktur dieses zweidimensionalen rs wir
+haben insgesamt fünf zeilen wir haben
+
+295
+00:10:47,690 --> 00:10:52,329
+insgesamt zwei spalten und das ganze
+wird sauber auf der konsole ausgegeben
+
+297
+00:10:52,339 --> 00:10:55,259
+wie gesagt wenn du mit diesem
+mehrdimensionalen airways arbeitet
+
+299
+00:10:55,269 --> 00:10:58,769
+insbesondere wirst du eigentlich
+höchstens mal mit dem zweidimensionalen
+
+301
+00:10:58,779 --> 00:11:02,130
+erarbeiten müssen
+dann kannst du das ganze eben mit hilfe
+
+303
+00:11:02,140 --> 00:11:06,780
+der vorschläge aus geben und zwar musste
+dann einfach hier diese konstruktion
+
+305
+00:11:06,790 --> 00:11:09,510
+beachten
+bei der äußeren vor schleife sagst du
+
+307
+00:11:09,520 --> 00:11:14,130
+eben first and last name also eray name
+punkt length und beim zweiten musst du
+
+309
+00:11:14,140 --> 00:11:19,139
+eben hier noch ein eckiges klammer paar
+angeben um eben die ja die zeile zu
+
+311
+00:11:19,149 --> 00:11:23,850
+spezifizieren von welcher du jetzt die
+spalten anzahl ausgegeben haben möchtest
+
+313
+00:11:23,860 --> 00:11:27,210
+und sonst gibt es hier eigentlich nichts
+weiteres zu sagen man kann genauso
+
+315
+00:11:27,220 --> 00:11:31,889
+arbeiten wie mit normalen rs nur dass
+man jetzt eben hier zwei eckige klammern
+
+317
+00:11:31,899 --> 00:11:36,090
+braucht und solltest du zb ein
+dreidimensionales re haben wollen dann
+
+319
+00:11:36,100 --> 00:11:40,050
+machst du eben hier statt 23 eckige
+klammern hin
+
+321
+00:11:40,060 --> 00:11:44,220
+und so verhält dieses analog zu allen
+dimensionen die sind also keine grenzen
+
+323
+00:11:44,230 --> 00:11:48,030
+gesetzt bei den dimensionen du musst
+einfach nur darauf achten dass du auch
+
+325
+00:11:48,040 --> 00:11:51,360
+genügend speicher hass und vor allem
+dass du irgendwas sinnvoll ist damit
+
+327
+00:11:51,370 --> 00:11:54,060
+machen kannst
+ich hoffe du hast alles verstanden was
+
+329
+00:11:54,070 --> 00:11:58,110
+ich dir in diesem video erklärt habe und
+falls ihr das video gefallen hat dann
+
+331
+00:11:58,120 --> 00:12:01,620
+würde ich mich wahnsinnig darüber freuen
+wenn du einen kommentar hinterlässt
+
+333
+00:12:01,630 --> 00:12:05,519
+einen daumen nach oben gibst und falls
+du diesen kanal noch nicht abonniert
+
+335
+00:12:05,529 --> 00:12:08,340
+haben solltest dann kannst du das jetzt
+nachholen
+
+337
+00:12:08,350 --> 00:12:11,940
+indem du einfach unter diesem video auf
+den abonnieren button klicken
+
+339
+00:12:11,950 --> 00:12:15,090
+ich wünschte jetzt noch einen schönen
+morgen einen schönen mittag einen
+
+341
+00:12:15,100 --> 00:12:18,780
+schönen abend je nachdem wie viel uhr es
+gerade bei dir ist und dann sehen wir
+
+343
+00:12:18,790 --> 00:12:22,620
+uns im nächsten video wieder bis dahin
+

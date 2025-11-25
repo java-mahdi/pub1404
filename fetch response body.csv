@@ -1,0 +1,6 @@
+﻿Method,Returns,Use For
+response.json(),Promise → parsed JSON,"{ ""name"": ""Ali"" }"
+response.text(),Promise → plain text,"HTML, logs, raw text"
+response.blob(),"Promise → binary (e.g., image, file)","Images, PDFs"
+response.formData(),Promise → FormData,Form submissions
+response.arrayBuffer(),Promise → low-level binary,"Audio, video, etc."

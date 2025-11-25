@@ -1,0 +1,17 @@
+﻿Option,Type,Description
+url,string,Request URL (required)
+method,string,HTTP method (GET", "POST", etc.)"
+baseURL,string,Prepended to url (useful for API base)
+headers,Object,"Custom headers (e.g., "Authorization", "Content-Type)
+params,Object,"URL parameters (query string, e.g., "?id=1&name=John)
+data,Object", "string", "FormData", "ArrayBuffer", etc.",Request body (used for POST", "PUT", "PATCH)
+timeout,number,Timeout in milliseconds (default: 0 = no timeout)
+withCredentials,boolean,Send cookies/auth with cross-origin requests (for CORS)
+responseType,string,Expected response type: 'json'", "'text'", "'blob'", "'arraybuffer'", "'document'", "'stream'
+auth,"{ username, password }",Basic HTTP auth
+onUploadProgress,function,Callback for upload progress
+onDownloadProgress,function,Callback for download progress
+transformRequest,Array<Function>,Modify request data before sending
+transformResponse,Array<Function>,Modify response data before resolving
+cancelToken,CancelToken,Token to cancel request (deprecated in favor of AbortController)
+signal,AbortSignal,Use AbortController to cancel request (modern way)

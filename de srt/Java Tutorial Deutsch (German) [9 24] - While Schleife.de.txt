@@ -1,0 +1,949 @@
+1
+00:00:00,000 --> 00:00:04,880
+hallo und herzlich willkommen auf dem
+youtube-kanal von programmieren -
+
+3
+00:00:04,890 --> 00:00:11,450
+starten punkt.de mein name ist hendrik
+und in diesem neuen teil des java crash
+
+5
+00:00:11,460 --> 00:00:15,110
+kursus soll es nun um die sogenannte
+weil schleife gehen
+
+7
+00:00:15,120 --> 00:00:19,490
+zunächst sehen wir uns mal wieder an was
+wir in diesem video denn insgesamt alles
+
+9
+00:00:19,500 --> 00:00:22,550
+lernen werden
+wir werden zunächst mal darauf eingehen
+
+11
+00:00:22,560 --> 00:00:27,019
+was eine schleife denn überhaupt ist
+dann werden wir die verschiedenen
+
+13
+00:00:27,029 --> 00:00:31,189
+schleifen arten kennenlernen es gibt
+nämlich mehrere variationen also neben
+
+15
+00:00:31,199 --> 00:00:35,060
+derweil schleife noch viele andere arten
+von schleifen und dann werden wir
+
+17
+00:00:35,070 --> 00:00:37,459
+spezifisch auf die weil schleife
+eingehen
+
+19
+00:00:37,469 --> 00:00:41,180
+keine sorge auf die anderen schleifen
+arten werden wird dann noch in weiteren
+
+21
+00:00:41,190 --> 00:00:44,299
+videos eingehen
+und zu guter letzt werden wir uns die
+
+23
+00:00:44,309 --> 00:00:48,590
+wahl schleife dann noch in der praxis
+ansehen kommen wir nun zum ersten teil
+
+25
+00:00:48,600 --> 00:00:54,319
+was ist eine schleife schleifen
+ermöglichen das wiederholte ausführen
+
+27
+00:00:54,329 --> 00:00:59,330
+von code blöcken was ein kurt block ist
+das weist wir inzwischen nämlich alles
+
+29
+00:00:59,340 --> 00:01:03,560
+was zwischen geschweißten klammern steht
+wir haben das bereits bei den fachfragen
+
+31
+00:01:03,570 --> 00:01:07,940
+kennengelernt da hat man immer eine
+geöffnete geschäfte klammer irgendwann
+
+33
+00:01:07,950 --> 00:01:13,160
+eine geschlossene geschäfte klammern und
+dazwischen stehen eben anweisungen und
+
+35
+00:01:13,170 --> 00:01:16,820
+all diese anweisungen die zwischen
+diesen geschäften klammer paaren stehen
+
+37
+00:01:16,830 --> 00:01:21,380
+sind eben gebündelt ein sogenannter cold
+block und mit schleifen kann man diese
+
+39
+00:01:21,390 --> 00:01:25,609
+code blöcke nun wiederholt ausführen das
+heißt sie werden nicht einmal
+
+41
+00:01:25,619 --> 00:01:30,499
+abgearbeitet dann geht's weiter im code
+sondern wir können diese code blöcke ja
+
+43
+00:01:30,509 --> 00:01:34,880
+mehrmals hintereinander direkt ausführen
+ohne dass wir sie aber immer wieder
+
+45
+00:01:34,890 --> 00:01:39,170
+nacheinander hinschreiben müssen jetzt
+stellt sich natürlich die frage wie lang
+
+47
+00:01:39,180 --> 00:01:42,410
+sollte man den kot denn wiederholt
+ausführen lassen
+
+49
+00:01:42,420 --> 00:01:46,399
+und die frage ist eigentlich relativ
+schnell beantwortet nämlich bis das
+
+51
+00:01:46,409 --> 00:01:51,170
+gewünschte ergebnis erreicht wird was
+man darunter genau versteht das wirst du
+
+53
+00:01:51,180 --> 00:01:56,450
+dann aber noch verstehen lernen wenn wir
+dann wirklich in der praxis sind und was
+
+55
+00:01:56,460 --> 00:02:01,069
+man auch machen kann ist man kann mit
+schleifen datenstrukturen befüllen zum
+
+57
+00:02:01,079 --> 00:02:06,560
+beispiel airways listen etc
+aber das hast du alles bisher noch nicht
+
+59
+00:02:06,570 --> 00:02:09,199
+kennengelernt das werden wir auch noch
+im weiteren verlauf des kurses
+
+61
+00:02:09,209 --> 00:02:12,460
+kennenlernen
+machte darum also keine sorgen kommen
+
+63
+00:02:12,470 --> 00:02:15,490
+wir nun zum punkt die verschiedenen
+schleifen arten
+
+65
+00:02:15,500 --> 00:02:19,900
+ich hatte es bereits erwähnt es gibt
+mehrere arten von schleifen die erste
+
+67
+00:02:19,910 --> 00:02:23,380
+artist die weil schleife das ist auch
+die art von schleife die wir uns in
+
+69
+00:02:23,390 --> 00:02:27,699
+diesem video im detail ansehen werden
+dann gibt es aber noch die duh weil
+
+71
+00:02:27,709 --> 00:02:31,000
+schleife die werden wir uns dann im
+nächsten video ansehen
+
+73
+00:02:31,010 --> 00:02:35,229
+es gibt die vor schleife die werden wir
+uns auch in einem extra video ansehen
+
+75
+00:02:35,239 --> 00:02:40,240
+und es gibt auch noch die sogenannte for
+its schleife das ist nichts anderes als
+
+77
+00:02:40,250 --> 00:02:45,460
+eine besondere form der vor schleife und
+damit kann man über datenstrukturen
+
+79
+00:02:45,470 --> 00:02:50,949
+integrieren was sich damit genau meint
+wirst du dann auch ja später im kurs da
+
+81
+00:02:50,959 --> 00:02:54,070
+noch kennenlernen
+kommen wir zum punkt was ist eine wahl
+
+83
+00:02:54,080 --> 00:02:59,350
+schleife eine weil schleife ähnelt sehr
+der sogenannten f ab frage die wir
+
+85
+00:02:59,360 --> 00:03:04,000
+bereits schon kennengelernt haben
+denn man wiederholt den code blog einer
+
+87
+00:03:04,010 --> 00:03:09,009
+weil schleife so lange so lange eine
+bedingung erfüllt wird genau so wie bei
+
+89
+00:03:09,019 --> 00:03:13,600
+der ivf frage wir haben es ja schon bei
+den fachfragen gesehen da wurden
+
+91
+00:03:13,610 --> 00:03:17,800
+bedingungen mit hilfe eines bullischen
+ausdrucks gebildet und bei der wahl
+
+93
+00:03:17,810 --> 00:03:21,370
+schleife werden diese bedingungen
+ebenfalls mit hilfe eines bullischen
+
+95
+00:03:21,380 --> 00:03:25,990
+ausdrucks gebildet das klingt alles noch
+sehr abstrakt deswegen springen wird
+
+97
+00:03:26,000 --> 00:03:30,910
+direkt mal in die praxis und sehen uns
+das ganze anhand eines kleinen beispiels
+
+99
+00:03:30,920 --> 00:03:35,259
+an das erste was ich für dieses beispiel
+mal machen werde ist ich deklariere eine
+
+101
+00:03:35,269 --> 00:03:40,780
+variable und die initialisierung ich
+direkt mal mit der 1 und was wir jetzt
+
+103
+00:03:40,790 --> 00:03:45,580
+machen möchten wir möchten ein programm
+schreiben was die zahlen eins bis fünf
+
+105
+00:03:45,590 --> 00:03:50,020
+nacheinander auf der konsole aus gibt
+jetzt könnten wir natürlich sagen wird
+
+107
+00:03:50,030 --> 00:03:55,030
+deklarieren und fünf variablen jeder
+variablen geben wir einen wert und dann
+
+109
+00:03:55,040 --> 00:03:59,080
+machen wir immer diese print allen
+methoden nacheinander und geben das
+
+111
+00:03:59,090 --> 00:04:03,190
+ganze aus ich könnte also oder wir
+machen es direkt so dass wir einfach
+
+113
+00:04:03,200 --> 00:04:10,740
+hier schreiben print ln und dann hat
+sage ich zum beispiel 1 und diese zeile
+
+115
+00:04:10,750 --> 00:04:16,779
+kopiere ich jetzt ganz oft nämlich fünf
+mal und hier gebe ich jetzt eben die
+
+117
+00:04:16,789 --> 00:04:21,399
+zwei aus hier die drei hier die vier
+hier die fünf ich speicher das ganze und
+
+119
+00:04:21,409 --> 00:04:26,050
+für das aus
+und wie wir sehen 12345 wird auf der
+
+121
+00:04:26,060 --> 00:04:29,770
+konsole ausgegeben
+jetzt ist es natürlich so in diesem
+
+123
+00:04:29,780 --> 00:04:31,780
+beispiel können wir das noch so
+handhaben
+
+125
+00:04:31,790 --> 00:04:34,720
+aber es ist eher mal unpraktisch weil
+wir sehen wir haben hier sehr
+
+127
+00:04:34,730 --> 00:04:38,830
+redundanten kurt denn der chor
+wiederholt sich hier wir haben fünf mal
+
+129
+00:04:38,840 --> 00:04:42,400
+die gleiche anweisung und das einzigste
+was sich im prinzip verändert ist hier
+
+131
+00:04:42,410 --> 00:04:46,540
+drin der wert das sieht also alles nicht
+so sauber aus und mit hilfe von
+
+133
+00:04:46,550 --> 00:04:50,830
+schleifen kann man das viel eleganter
+lösen was man auch dazusagen muss ist
+
+135
+00:04:50,840 --> 00:04:55,450
+das wenn du zum beispiel weil die zahlen
+von 1 bis 10.000 ausgeben muss da
+
+137
+00:04:55,460 --> 00:04:59,710
+müsstest du eben naja 10.000 mal diese
+methode hintereinander schreiben
+
+139
+00:04:59,720 --> 00:05:02,920
+und ja das macht dann irgendwann einfach
+keinen sinn mehr
+
+141
+00:05:02,930 --> 00:05:06,430
+und genau deshalb kommen jetzt eben die
+sogenannten schleifen ins spiel
+
+143
+00:05:06,440 --> 00:05:11,830
+ich lösche dass diesmal alles weg und
+jetzt möchten wir uns mal so eine weiße
+
+145
+00:05:11,840 --> 00:05:14,380
+schleife bauen
+hier müssen wir zunächst das
+
+147
+00:05:14,390 --> 00:05:17,950
+schlüsselwort weil schreiben das leitet
+die weiße schleife ein
+
+149
+00:05:17,960 --> 00:05:22,000
+dann kommt ein rundes klammer paar in
+diesem klammer paar steht dann gleich
+
+151
+00:05:22,010 --> 00:05:26,380
+die bedingung und dann kommt eben das
+schleifen blog eingegrenzt hier durch
+
+153
+00:05:26,390 --> 00:05:29,620
+diese geschweißten klammern
+auch hier ist es im prinzip egal ob die
+
+155
+00:05:29,630 --> 00:05:34,120
+die geschäfte klammer hierhin schreibst
+oder ob du sie so hin schreibt das hat
+
+157
+00:05:34,130 --> 00:05:40,360
+keine bedeutung für den computer und was
+wir jetzt machen ist dass wir hier drin
+
+159
+00:05:40,370 --> 00:05:45,040
+den schleifen blog definieren und alles
+was hier drin steht alle anweisungen die
+
+161
+00:05:45,050 --> 00:05:50,200
+wir gleich rein programmieren die werden
+dann so lange ausgeführt so lange diese
+
+163
+00:05:50,210 --> 00:05:54,580
+bedingungen die wir hier oben rein
+schreiben war ist und diese bedingung
+
+165
+00:05:54,590 --> 00:05:58,750
+muss ja eben ein bullisher ausdruck sein
+wir arbeiten hier also wieder mit den
+
+167
+00:05:58,760 --> 00:06:04,570
+vergleichs operatoren fangen wir mal an
+wir möchten ja dass die zahlen 5 x
+
+169
+00:06:04,580 --> 00:06:07,510
+ausgegeben werden also 1 bis 5 auf der
+konsole
+
+171
+00:06:07,520 --> 00:06:13,630
+ich habe mir deshalb hier diese variable
+definiert ja da ist direkter werte 1
+
+173
+00:06:13,640 --> 00:06:16,770
+drin
+und jetzt sagen wir einfach number
+
+175
+00:06:16,780 --> 00:06:23,290
+kleiner gleich fünf das ist die
+bedingung und zwar wird diese schleife
+
+177
+00:06:23,300 --> 00:06:28,030
+jetzt so oft ausgeführt solange der wert
+der in hamm bei steht kleiner gleich
+
+179
+00:06:28,040 --> 00:06:32,800
+fünf ist so und was machen wir jetzt wir
+geben einmal das ganze auf der konsole
+
+181
+00:06:32,810 --> 00:06:38,110
+aus und zwar den wert
+und damit der wert von number jetzt
+
+183
+00:06:38,120 --> 00:06:42,100
+nicht immer gleich bleibt erhöhen wir
+diesen jetzt in jedem durchlauf das
+
+185
+00:06:42,110 --> 00:06:48,490
+bedeutet ich schreibe numbers ist gleich
+number +1 das heißt in jedem durchlauf
+
+187
+00:06:48,500 --> 00:06:52,839
+wird der wert von amber und 1 erhöht und
+jetzt führen wir das ganze mal aus und
+
+189
+00:06:52,849 --> 00:06:57,279
+sehen uns zunächst mal an was denn
+passiert und wie wir sehen wir haben mit
+
+191
+00:06:57,289 --> 00:06:59,499
+diesem code die gleiche ausgabe wie
+zuvor
+
+193
+00:06:59,509 --> 00:07:03,730
+es wird nämlich eins bis fünf
+nacheinander auf der konsole ausgegeben
+
+195
+00:07:03,740 --> 00:07:07,600
+gehen wir vielleicht noch mal durch was
+jetzt hier im detail gemacht haben wie
+
+197
+00:07:07,610 --> 00:07:12,850
+gesagt zunächst wird diese variable
+initialisiert mit dem wert 1 dann kommt
+
+199
+00:07:12,860 --> 00:07:18,879
+die weil schleife weil bedeute übersetzt
+während oder so lange und so lange diese
+
+201
+00:07:18,889 --> 00:07:23,890
+bedingung erfüllt ist wird dieser code
+immer wieder ausgeführt
+
+203
+00:07:23,900 --> 00:07:28,330
+und was haben wir jetzt hier wir sehen
+number kleiner gleich fünf numbers hat
+
+205
+00:07:28,340 --> 00:07:33,610
+momentan den wert 1 deshalb wird dieser
+code blog jetzt einmal ausgeführt was
+
+207
+00:07:33,620 --> 00:07:37,450
+passiert der aktuelle wert von amber
+wird ausgegeben da haben wir momentan
+
+209
+00:07:37,460 --> 00:07:42,430
+die 1 und dann wird der wert von number
+erhöht und zwar exakt um den wert 1
+
+211
+00:07:42,440 --> 00:07:45,899
+sodass jetzt in numbers quasi der wert 2
+drin entsteht
+
+213
+00:07:45,909 --> 00:07:50,649
+jetzt gehen wir hier wieder die
+bedingungen 2 ist kleiner gleich fünf
+
+215
+00:07:50,659 --> 00:07:55,149
+was dazu führt dass dieser schleifen
+blog hier erneut ausgeführt wird und das
+
+217
+00:07:55,159 --> 00:07:59,140
+geht eben so lange weiter bis diese
+bedingungen hier oben nicht mehr erfüllt
+
+219
+00:07:59,150 --> 00:08:02,740
+ist wenn wir hier zum beispiel das ist
+gleich weg machen dann wird das ganze
+
+221
+00:08:02,750 --> 00:08:05,680
+jetzt logischerweise nur eins bis vier
+mal ausgegeben
+
+223
+00:08:05,690 --> 00:08:09,519
+wenn wir das ist gleich wieder hin
+machen wieder eins bis fünf mal genauso
+
+225
+00:08:09,529 --> 00:08:12,309
+könnten jetzt hier die sechs
+hinschreiben usw
+
+227
+00:08:12,319 --> 00:08:16,300
+du kannst hier zu ein bisschen rum
+spielen und das ganze trainieren auch in
+
+229
+00:08:16,310 --> 00:08:21,369
+dem du zb diese variable ersten auf 3
+setzt dann geht startet es eben hier bei
+
+231
+00:08:21,379 --> 00:08:28,420
+3 dann können wir uns ansehen jetzt wird
+ausgegeben 3456 so und so läuft es jetzt
+
+233
+00:08:28,430 --> 00:08:32,529
+eben mit dieser weil schleife ab was ist
+jetzt ist gefährliche an dieser weil
+
+235
+00:08:32,539 --> 00:08:36,089
+schleife das gefährliche ist es kann
+schnell zu einer sogenannten
+
+237
+00:08:36,099 --> 00:08:39,730
+endlosschleife kommen und zwar wie in
+dem wir hier
+
+239
+00:08:39,740 --> 00:08:44,110
+diese anweisung jetzt mal aus
+kommentieren kurz wo wir eben den wert
+
+241
+00:08:44,120 --> 00:08:48,050
+von amber erhöhen
+weil jetzt siehst du schon number wird
+
+243
+00:08:48,060 --> 00:08:52,340
+jetzt für immer den wert 1 behalten weil
+es ja nirgends volieren der schleife
+
+245
+00:08:52,350 --> 00:08:54,860
+erhöht wird
+das heißt diese schleife wird jetzt an
+
+247
+00:08:54,870 --> 00:09:00,889
+endlich mal ausgeführt wenn wir das
+jetzt mal machen dann sehen wir hier ist
+
+249
+00:09:00,899 --> 00:09:04,670
+läuft die ganze zeit weiter das wird
+jetzt unendlich lange laufen deswegen
+
+251
+00:09:04,680 --> 00:09:08,269
+klicke ich jetzt hier mal auf diesen
+roten stopp button damit das ganze
+
+253
+00:09:08,279 --> 00:09:13,490
+terminiert und abgebrochen wird weil das
+hat ja relativ wenig sinn und das musst
+
+255
+00:09:13,500 --> 00:09:17,179
+du eben immer beachten wenn du diese
+weil schleifen verwendest dass du eben
+
+257
+00:09:17,189 --> 00:09:22,579
+guckst dass der schleifen zähler das ist
+jetzt im prinzip dieses number hier also
+
+259
+00:09:22,589 --> 00:09:26,990
+daran woran die bedingung letztendlich
+gekoppelt ist das dass es im verlauf der
+
+261
+00:09:27,000 --> 00:09:31,550
+schleife auch wirklich irgendwie erhöht
+wird oder am ende dann so aussieht dass
+
+263
+00:09:31,560 --> 00:09:34,999
+eben diese bedingung irgendwann nicht
+mehr erfüllt ist so und diese
+
+265
+00:09:35,009 --> 00:09:38,269
+bedingungen kommentieren wird and
+kommentieren wird es mal wieder damit
+
+267
+00:09:38,279 --> 00:09:41,420
+wir sie wieder haben dann sehen wir das
+ganze funktioniert wieder
+
+269
+00:09:41,430 --> 00:09:44,929
+und was sich der an dieser stelle auch
+noch kurz bei bringen möchte ist die
+
+271
+00:09:44,939 --> 00:09:48,829
+kurz schreibweise von dieser zeile hier
+das haben wir bisher nämlich noch nicht
+
+273
+00:09:48,839 --> 00:09:52,999
+gemacht wir sehen hier
+wir haben hier den aktuellen wert von
+
+275
+00:09:53,009 --> 00:09:57,559
+number der wird um 1 erhöht das wird
+dann number zugewiesen mit der ganzen
+
+277
+00:09:57,569 --> 00:10:01,910
+zeile sagen wir also im prinzip einfach
+nur erhöhen den wert von number der
+
+279
+00:10:01,920 --> 00:10:08,900
+momentan 1 ist um den wert plus 1 das
+kann man jetzt schneller schreiben weil
+
+281
+00:10:08,910 --> 00:10:13,309
+es eine relativ lange anweisung für
+diesen zu recht simplen befehl und
+
+283
+00:10:13,319 --> 00:10:16,280
+schneller kann man das schreiben in dem
+man hier das ganze mal weglässt und
+
+285
+00:10:16,290 --> 00:10:22,069
+stattdessen schreibt plus ist gleich das
+ist jetzt ein sogenannter kombinierter
+
+287
+00:10:22,079 --> 00:10:27,379
+zuweisung operator und das ist jetzt die
+schnell also die kurz schreibweise von
+
+289
+00:10:27,389 --> 00:10:31,749
+genau dem was wir hier gerade da stehen
+hatten nämlich diesem hier
+
+291
+00:10:31,759 --> 00:10:36,230
+wir sparen uns also einfach einmal hier
+dieses numbers und stattdessen schreiben
+
+293
+00:10:36,240 --> 00:10:40,910
+wird dieses plus hier vor den zuweisung
+operator und dann ist das ganze
+
+295
+00:10:40,920 --> 00:10:44,329
+schneller wenn wir das ganze jetzt
+ausführen dann sehen wir es kommt immer
+
+297
+00:10:44,339 --> 00:10:48,079
+noch das gleiche ergebnis heraus
+also das ist schon mal so ein kleiner
+
+299
+00:10:48,089 --> 00:10:52,460
+trick wie du die anweisung verkürzen
+kannst jetzt gibt es aber die
+
+301
+00:10:52,470 --> 00:10:55,460
+möglichkeit gerade wenn du den wert um 1
+erhöht
+
+303
+00:10:55,470 --> 00:10:59,030
+das geht wirklich
+nur für den wert 1 dass du das ganze
+
+305
+00:10:59,040 --> 00:11:05,510
+noch kürzer schreibst und zwar ich
+schreibe das jetzt hier mal hin number +
+
+307
+00:11:05,520 --> 00:11:12,170
++ ich kommentiere das ab hier nochmal
+aus dass hier was wir hier geschrieben
+
+309
+00:11:12,180 --> 00:11:16,970
+haben hat jetzt die ganz gleiche wirkung
+wie das hier speicher das ganze erst mal
+
+311
+00:11:16,980 --> 00:11:21,460
+aus um das tier zu beweisen wir sehen 1
+bis 5 es wird immer noch hoch gezielt
+
+313
+00:11:21,470 --> 00:11:25,970
+diese schreibweise hier geht aber
+wirklich nur mit diesem plus plus wenn
+
+315
+00:11:25,980 --> 00:11:31,070
+wir den wert um exakt 1 erhöhen möchten
+was wir hier dieser stelle machen
+
+317
+00:11:31,080 --> 00:11:33,620
+möchten
+wenn wir jetzt hier zum beispiel stehen
+
+319
+00:11:33,630 --> 00:11:37,430
+hätten plus ist gleich zwei also ich
+hier und hier auch dieses plus ist
+
+321
+00:11:37,440 --> 00:11:40,910
+gleich zwei dann würde diese
+schreibweise nicht mehr gehen weil das
+
+323
+00:11:40,920 --> 00:11:44,630
+ist wirklich nur diese mega schnelle
+schreibweise wenn man den wert um 1
+
+325
+00:11:44,640 --> 00:11:48,520
+erhöhen möchte das wollte ich dir an
+dieser stelle jetzt auch noch mitteilen
+
+327
+00:11:48,530 --> 00:11:53,450
+und was jetzt diese weil schleife von
+den anderen weil schleifen unterscheidet
+
+329
+00:11:53,460 --> 00:11:57,740
+das würde dann klar werden sobald wir
+die anderen schleifen behandelt haben
+
+331
+00:11:57,750 --> 00:12:00,740
+fakt ist und das möchte ich dir an
+dieser stelle jetzt auch direkt nochmal
+
+333
+00:12:00,750 --> 00:12:06,880
+zeigen diese weil schleife ist eine so
+genannte kopfgesteuert schleife
+
+335
+00:12:06,890 --> 00:12:13,520
+kopfgesteuert schleife das bedeutet
+nichts anderes als es wird immer erst
+
+337
+00:12:13,530 --> 00:12:16,880
+der kopf hier ausgewertet das ist
+nämlich der sogenannte schleifen kopf
+
+339
+00:12:16,890 --> 00:12:22,040
+und dann kommen den schleifen körper bei
+kopf gesteuerten schleifen erfolgt also
+
+341
+00:12:22,050 --> 00:12:26,630
+zunächst die auswertung das bedeutet wir
+haben hier
+
+343
+00:12:26,640 --> 00:12:31,160
+diese bedingung die wird geprüft und in
+nur wenn diese bedingungen erfüllt ist
+
+345
+00:12:31,170 --> 00:12:36,170
+wird dieser blog auch ausgeführt und das
+mit dem kopf besteuert bezieht sich auf
+
+347
+00:12:36,180 --> 00:12:40,550
+die erste ausführung vor allem denn wenn
+wir jetzt hier von vornherein sagen der
+
+349
+00:12:40,560 --> 00:12:45,830
+wert von number ist sixx das heißt hier
+entspricht es nicht der bedingung diese
+
+351
+00:12:45,840 --> 00:12:49,700
+bedingung ist falls dann sehen wir die
+schleife wird kein einziges mal
+
+353
+00:12:49,710 --> 00:12:54,440
+ausgeführt und das ist der unterschied
+zur du weil schleife die wir jetzt dann
+
+355
+00:12:54,450 --> 00:12:58,079
+im nächsten video kennenlernen
+denn die duval schleife ist fuß
+
+357
+00:12:58,089 --> 00:13:02,460
+gesteuert das würde nämlich bedeuten
+auch wenn wir hier zunächst die
+
+359
+00:13:02,470 --> 00:13:05,850
+bedingungen nicht erfüllt haben wird
+diese schleife dann trotzdem mindestens
+
+361
+00:13:05,860 --> 00:13:09,749
+einmal ausgeführt
+aber wie das sich genau verhält das
+
+363
+00:13:09,759 --> 00:13:12,150
+wirst du im detail im nächsten video
+erfahren
+
+365
+00:13:12,160 --> 00:13:15,780
+ich freue mich dass du so lange dran
+geblieben bist du zu gehört hast
+
+367
+00:13:15,790 --> 00:13:20,220
+ich hoffe du hast alles verstanden und
+falls dir dieses video gefallen hat dann
+
+369
+00:13:20,230 --> 00:13:24,150
+lass uns doch gerne einen kommentar und
+ein leichter und falls du es natürlich
+
+371
+00:13:24,160 --> 00:13:28,619
+noch nicht getan hast dann abonniere
+diesen kanal denn es werden dich viel
+
+373
+00:13:28,629 --> 00:13:32,369
+viel viel weitere tutorials erwarten die
+dir
+
+375
+00:13:32,379 --> 00:13:35,609
+naja verschiedenste programmiersprachen
+beibringen werden
+
+377
+00:13:35,619 --> 00:13:39,600
+bleibt also unbedingt dabei ich freue
+mich auf dich und dann sehen wir uns im
+
+379
+00:13:39,610 --> 00:13:43,829
+nächsten video wieder biss dann schau
+

@@ -1,0 +1,647 @@
+die Variable
+Datenbehälter
+Wert
+Textwert
+Hochgestellte doppelte Anführungsstriche
+der Datentyp
+Ganzzahl
+Fließkommazahl
+der String
+der Bezeichner
+Name der Variable
+Arbeitsspeicher
+Sprechend benennen
+Englisch
+die Entwicklungsumgebung
+Hallo Welt Programm
+Ausgabe
+die Anweisung
+Löschen
+der Code
+Schriftgröße
+Erzeugen
+der Zuweisungsoperator
+Semikolon
+Speichern
+Initialisierung
+Deklaration
+der Compiler
+Bekannt machen
+Zugriff
+Default-Wert
+Ausführen
+Konsole ausgeben
+Verändern
+der Kommentar
+Notizen
+Programme
+Zuordnen
+Vorbelegen
+Programmierstil
+das Projekt
+Kryptisch
+Zahlenkombinationen
+die Adresse
+Auf der Konsole ausgeben
+Variable erzeugen
+Variable deklarieren
+Variable initialisieren
+Variable zuweisen
+Einen Wert speichern
+Eine Variable benennen
+Mit einer Variable arbeiten
+Den Inhalt einer Variable ausgeben
+Einen Wert verändern
+
+hallo welt
+system.out.println
+public static void main
+die Klasse
+die Methode
+die Entwicklungsumgebung
+das Projekt
+der Code
+der Compiler
+der Debugger
+das Dokumentationswerkzeug
+der Workspace
+Java Development Kit (JDK)
+integrierte Entwicklungsumgebung (IDE)
+die Eclipse
+Package Explorer
+Java Projekt
+src-Ordner
+Klasse erstellen
+Programm
+public class Programm
+main-Methode
+System.out.println
+der String
+die Anweisung
+Semikolon
+print-ln-Methode
+der Zuweisungsoperator
+der Datentyp
+Ganzzahl
+Fließkommazahl
+Variable deklarieren
+Variable initialisieren
+Variable zuweisen
+der Bezeichner
+Sprechend benennen
+Englisch
+Zahlenkombinationen
+die Adresse
+Arbeitsspeicher
+Kryptisch
+Notizen
+der Kommentar
+Default-Wert
+Zugriff
+Initialisierung
+Deklaration
+Zuweisung
+Programmausführung
+Konsolenausgabe
+Fehlermeldung
+der Parameter
+Programmierstil
+die Variable
+Datenbehälter
+Wert
+Textwert
+Hochgestellte doppelte Anführungsstriche
+der Datentyp
+Ganzzahl
+Fließkommazahl
+der String
+der Bezeichner
+Name der Variable
+Arbeitsspeicher
+Sprechend benennen
+Englisch
+die Entwicklungsumgebung
+Hallo Welt Programm
+Ausgabe
+die Anweisung
+Löschen
+der Code
+Schriftgröße
+Erzeugen
+der Zuweisungsoperator
+Semikolon
+Speichern
+Initialisierung
+Deklaration
+der Compiler
+Bekannt machen
+Zugriff
+Default-Wert
+Ausführen
+Konsole ausgeben
+Verändern
+der Kommentar
+Notizen
+Programme
+Zuordnen
+Vorbelegen
+Programmierstil
+das Projekt
+Kryptisch
+Zahlenkombinationen
+die Adresse
+Auf der Konsole ausgeben
+Variable erzeugen
+Variable deklarieren
+Variable initialisieren
+Variable zuweisen
+Einen Wert speichern
+Eine Variable benennen
+Mit einer Variable arbeiten
+Den Inhalt einer Variable ausgeben
+Einen Wert verändern
+hallo welt
+public static void main
+die Klasse
+die Methode
+die Entwicklungsumgebung
+das Projekt
+der Code
+der Compiler
+der Debugger
+das Dokumentationswerkzeug
+der Workspace
+Java Development Kit (JDK)
+integrierte Entwicklungsumgebung (IDE)
+die Eclipse
+Package Explorer
+Java Projekt
+src-Ordner
+Klasse erstellen
+Programm
+public class Programm
+main-Methode
+System.out.println
+der String
+die Anweisung
+Semikolon
+print-ln-Methode
+der Zuweisungsoperator
+der Datentyp
+Ganzzahl
+Fließkommazahl
+Variable deklarieren
+Variable initialisieren
+Variable zuweisen
+der Bezeichner
+Sprechend benennen
+Englisch
+Zahlenkombinationen
+die Adresse
+Arbeitsspeicher
+Kryptisch
+Notizen
+der Kommentar
+Default-Wert
+Zugriff
+Initialisierung
+Deklaration
+Zuweisung
+Programmausführung
+Konsolenausgabe
+Fehlermeldung
+der Parameter
+Programmierstil
+boolean Ausdruck
+Vergleich
+wahr/falsch
+Bedingung
+if-Abfrage
+else-Block
+logische Operatoren
+Vergleichsoperatoren
+arithmetische Operatoren
+Modulo-Operator
+Restwert
+Zusammengesetzte Operatoren
+String-Klasse
+Text
+Zeichenkette
+Konkatenation
+Escape-Zeichen
+Switch-Case Abfrage
+while-Schleife
+do-while-Schleife
+for-Schleife
+verschachtelte Schleifen
+die Schleife
+Bedingung
+boolean Ausdruck
+true / false
+Vergleichsoperator
+logischer Operator
+Schleifenblock
+der Zähler
+Laufvariable
+Iteration
+Inkrementierung
+Dekrementierung
+Schleifenabbruch
+break
+continue
+endlose Schleife
+Schleifenbedingung
+Schleifenkopf
+Schleifenkörper
+Verschachtelung
+Verschachtelte Schleifen
+Matrix
+print
+println
+ln in print
+Zeilenumbruch
+Case
+default
+Break im Switch
+Fall-through
+Konsolenausgabe
+Variable deklarieren
+Variable initialisieren
+der Datentyp
+int
+der String
+Zahl speichern
+Monat
+switch-case-Struktur
+Ausgabe auf der Konsole
+Wert prüfen
+Switch mit String
+case 1
+case 2
+case 3
+case 4
+default-Ausgabe
+Fall ohne break
+Code wiederverwenden
+innere Schleife
+äußere Schleife
+3x3-Matrix
+Tic-Tac-Toe-Feld
+mehrdimensionale Struktur
+verschachtelte for-Schleife
+Zähler i
+Zähler j
+Schleifendurchlauf
+Schleifenvariable
+Wiederholung
+mehrmalige Ausgabe
+Print ohne Zeilenumbruch
+Leerzeichen
+X ausgeben
+innere Schleife ausführen
+äußere Schleife ausführen
+Schleifenbedingung erfüllt
+Schleife verlassen
+das Array
+mehrdimensionale Arrays
+eindimensionales Array
+zweidimensionales Array
+der Index
+das Element
+Initialisierung
+Länge
+for-Schleife
+foreach-Schleife
+durchlaufen
+kopieren
+mehrere Dimensionen
+Tabelle
+Zeile
+Spalte
+Matrix
+Wert speichern
+Array deklarieren
+Array initialisieren
+die Variable
+der Datentyp
+der String
+Ganzzahl
+Fließkommazahl
+der Bezeichner
+Sprechend benennen
+die Methode
+Methoden
+Rückgabewert
+void
+public
+static
+main-Methode
+der Parameter
+Aufruf
+programmablauf
+ausführen
+definieren
+zurückgeben
+boolean
+TRUE
+FALSE
+if-Abfrage
+else
+logische Operatoren
+Vergleichsoperator
+die Schleife
+while-Schleife
+do-while-Schleife
+Verschachtelung
+verschachtelte Schleifen
+Arbeitsspeicher
+die Adresse
+Konsolenausgabe
+der Code
+der Compiler
+die Entwicklungsumgebung
+das Projekt
+Variable deklarieren
+Variable initialisieren
+Variable zuweisen
+der Kommentar
+Notizen
+Programm
+Ausgabe
+die Anweisung
+Semikolon
+Speichern
+Löschen
+Schriftgröße
+die Eclipse
+Package Explorer
+src-Ordner
+Java Projekt
+die Klasse
+Erzeugen
+Deklaration
+Zuweisung
+Default-Wert
+Zugriff
+Initialisierung
+Verändern
+Zuordnen
+Vorbelegen
+Programmierstil
+Kryptisch
+Zahlenkombinationen
+die Adresse
+Textwert
+Hochgestellte doppelte Anführungsstriche
+Objektorientierung
+die Klasse
+das Objekt
+Bauplan
+die Instanz
+Instanziieren
+Mensch
+Stift
+Papier
+Zusammenarbeit
+Attribut
+Eigenschaft
+die Methode
+Kapselung
+Datenkapselung
+Sichtbarkeit
+öffentlich (public)
+privat (private)
+der Konstruktor
+Standardkonstruktor
+Parameterkonstruktor
+Initialisierung
+Zustand
+das Verhalten
+Datenstruktur
+Instanzvariable
+Klassenvariable
+statisch (static)
+Getter-Methode
+Setter-Methode
+Getter und Setter
+this-Referenz
+this Schlüsselwort
+Konsolenausgabe
+main-Methode
+main(String[] args)
+Referenzvariable
+new Schlüsselwort
+Objekt erzeugen
+Instanz erstellen
+Objektinstanz
+Datenmodellierung
+das Modell
+die Anwendung
+Softwarearchitektur
+das Design
+die Struktur
+Zusammenhang
+das Ziel
+Entwicklungsprinzip
+Wiederverwendbarkeit
+Erweiterbarkeit
+Lesbarkeit
+Dokumentation
+der Kommentar
+Kodierstandard
+Programmierstil
+Namenskonvention
+der Bezeichner
+Sprechender Bezeichner
+Variablenname
+Methodenname
+Klassenname
+Konsolenausgabe
+System.out.println
+der Datentyp
+der String
+int
+boolean
+TRUE
+FALSE
+if-Abfrage
+else
+while-Schleife
+for-Schleife
+das Array
+der Index
+Länge
+das Element
+Variable deklarieren
+Variable initialisieren
+Wert zuweisen
+der Zuweisungsoperator
+Rückgabewert
+void
+der Parameter
+Aufruf
+Programmausführung
+Fehlermeldung
+der Debugger
+die Entwicklungsumgebung
+die Eclipse
+der Workspace
+das Projekt
+src-Ordner
+Package Explorer
+Java Projekt
+Klasse erstellen
+Klasse definieren
+Objekt erstellen
+Objekt initialisieren
+Zugriffsmodifikator
+public
+private
+protected
+default
+Methodenparameter
+Rückgabetyp
+Methodensignatur
+Methodenüberladung
+Overloading
+this()
+this als Parameter
+Methoden überladen
+Überladen
+gleicher Name
+unterschiedliche Parameter
+Signatur
+der Datentyp
+Anzahl der Parameter
+Reihenfolge
+Klassenname
+main-Methode
+Aufruf
+Rückgabewert
+void
+boolean
+TRUE
+FALSE
+if-Abfrage
+else
+Vergleichsoperator
+logische Operatoren
+while-Schleife
+for-Schleife
+das Array
+der Index
+Länge
+das Element
+Variable deklarieren
+Variable initialisieren
+Wert zuweisen
+der Zuweisungsoperator
+die Instanz
+das Objekt
+Bauplan
+die Klasse
+Instanziieren
+public
+static
+this-Referenz
+this Schlüsselwort
+Konsolenausgabe
+main(String[] args)
+Referenzvariable
+new Schlüsselwort
+Objekt erzeugen
+Instanz erstellen
+Objektinstanz
+Datenmodellierung
+das Modell
+die Anwendung
+Softwarearchitektur
+das Design
+die Struktur
+Zusammenhang
+das Ziel
+Entwicklungsprinzip
+Wiederverwendbarkeit
+Erweiterbarkeit
+Lesbarkeit
+Dokumentation
+der Kommentar
+Kodierstandard
+Programmierstil
+Namenskonvention
+der Bezeichner
+Sprechender Bezeichner
+Variablenname
+Methodenname
+Klassenname
+Konsolenausgabe
+System.out.println
+der Datentyp
+der String
+int
+boolean
+TRUE
+FALSE
+if-Abfrage
+else
+while-Schleife
+for-Schleife
+das Array
+der Index
+Länge
+das Element
+Variable deklarieren
+Variable initialisieren
+Wert zuweisen
+der Zuweisungsoperator
+Rückgabewert
+void
+der Parameter
+Aufruf
+Programmausführung
+Fehlermeldung
+der Debugger
+die Entwicklungsumgebung
+die Eclipse
+der Workspace
+das Projekt
+src-Ordner
+Package Explorer
+Java Projekt
+Klasse erstellen
+Klasse definieren
+Objekt erstellen
+Objekt initialisieren
+Zugriffsmodifikator
+public
+private
+protected
+default
+Methodenparameter
+Rückgabetyp
+Methodensignatur
+Methodenüberladung
+Overloading
+this()
+this als Parameter
+Vererbung
+Elternklasse
+Unterklasse
+Basisklasse
+abgeleitete Klasse
+extends
+Superklasse
+Unterklasse
+Basisklasse
+abgeleitete Klasse
+extends
+Superklasse
+Unterklasse
+Basisklasse
+abgeleitete Klasse
+extends
+Superklasse
+Unterklasse
+Basisklasse
+abgeleitete Klasse
+extends

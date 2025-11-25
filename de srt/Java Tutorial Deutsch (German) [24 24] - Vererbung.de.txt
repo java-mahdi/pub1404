@@ -1,0 +1,1094 @@
+1
+00:00:00,050 --> 00:00:04,970
+hallo und herzlich willkommen auf dem
+youtube-kanal von programmieren -
+
+3
+00:00:04,980 --> 00:00:11,360
+staaten punkt.de mein name ist hendrik
+und in diesem heutigen video soll es um
+
+5
+00:00:11,370 --> 00:00:15,670
+das thema vererbung in java gehen wir
+befinden uns mittlerweile im
+
+7
+00:00:15,680 --> 00:00:20,210
+vierundzwanzigster video des java crash
+kursus und ich werde auch gleich an
+
+9
+00:00:20,220 --> 00:00:25,250
+dieser stelle schon mal vorweg nehmen
+dass dies das vorerst letzte video zum
+
+11
+00:00:25,260 --> 00:00:28,310
+thema jarvis
+das soll jetzt natürlich nicht heißen
+
+13
+00:00:28,320 --> 00:00:31,519
+dass wir in zukunft nichts mehr zum
+thema java bringen werden
+
+15
+00:00:31,529 --> 00:00:36,410
+aber wir schließen diesen crashkurs hier
+ab der ja einfach nur den sinn hat dass
+
+17
+00:00:36,420 --> 00:00:41,209
+man einem einsteiger der noch nie etwas
+von java gehört hat einen einstieg gibt
+
+19
+00:00:41,219 --> 00:00:46,819
+eine möglichkeit gibt sich eben hier mal
+die grundkonzepte von java anzugucken
+
+21
+00:00:46,829 --> 00:00:50,510
+und dann eben darauf basierend die
+entscheidung zu treffen ob er sich
+
+23
+00:00:50,520 --> 00:00:55,340
+tiefer in die materie einarbeiten möchte
+oder eben nicht und mit all dem was du
+
+25
+00:00:55,350 --> 00:00:58,970
+hier in diesen crashkurs lernst
+beziehungsweise gelernt hast falls du
+
+27
+00:00:58,980 --> 00:01:03,439
+die anderen videos angesehen hast bist
+du bereits in der lage erst der eigene
+
+29
+00:01:03,449 --> 00:01:07,219
+kleinere programme zu schreiben
+du kannst also nach diesem crash kurs
+
+31
+00:01:07,229 --> 00:01:10,850
+auf einfach schon mal damit beginnen zu
+üben alle sachen die du hier gelernt
+
+33
+00:01:10,860 --> 00:01:14,810
+hast in der praxis anzuwenden und dann
+wirst du eben noch mal deutlich deine
+
+35
+00:01:14,820 --> 00:01:18,980
+fähigkeiten steigern
+und wie gesagt es ist nicht das ende
+
+37
+00:01:18,990 --> 00:01:23,810
+keine sorge es wird noch weiteren java
+content geben aber wir werden jetzt dann
+
+39
+00:01:23,820 --> 00:01:27,800
+auch mal wieder andere serien zunächst
+mal produzieren sage ich mal
+
+41
+00:01:27,810 --> 00:01:32,179
+damit wir eben auch ein bisschen
+abwechslung auf diesem kanal haben umso
+
+43
+00:01:32,189 --> 00:01:36,679
+jeden befriedigen zu können und auch für
+dich werden sehr spannende themen kommen
+
+45
+00:01:36,689 --> 00:01:41,179
+besonders wenn du aber entwickler bist
+bleibt also auch in zukunft unbedingt
+
+47
+00:01:41,189 --> 00:01:45,740
+dabei und bleibt unser abonnent das wird
+jetzt auf jeden fall sehr freuen
+
+49
+00:01:45,750 --> 00:01:49,580
+jetzt verlieren wir aber keine weitere
+zeit und deswegen sehen wir uns zunächst
+
+51
+00:01:49,590 --> 00:01:53,600
+mal an was wir jetzt in diesem
+abschließenden video in diesem crash
+
+53
+00:01:53,610 --> 00:01:57,109
+kurs noch lernen werden
+zunächst werden wir uns mal ansehen was
+
+55
+00:01:57,119 --> 00:02:00,410
+ist verboten
+also was versteht man überhaupt darunter
+
+57
+00:02:00,420 --> 00:02:04,190
+wir werden also in der theorie auf
+dieses thema eingehen
+
+59
+00:02:04,200 --> 00:02:08,919
+danach kommt der praxisteil da werden
+wir uns ansehen wie man die vererbung
+
+61
+00:02:08,929 --> 00:02:13,050
+letztendlich im
+realisiert und ich werde das auch direkt
+
+63
+00:02:13,060 --> 00:02:18,240
+anhand eines beispiels zeigen so dass du
+direkt verstehst wieso vererbung
+
+65
+00:02:18,250 --> 00:02:24,150
+sinnvoll ist beginnen wir also mit dem
+theorie teil was ist vererbung vererbung
+
+67
+00:02:24,160 --> 00:02:29,309
+ermöglicht das erweitern von klassen
+ohne diese direkt zu verändern
+
+69
+00:02:29,319 --> 00:02:33,750
+das bedeutet also du hast eine klasse
+die hast du irgendwann mal programmiert
+
+71
+00:02:33,760 --> 00:02:37,710
+jetzt möchtest du sie beispielsweise
+erweitern das heißt du möchtest zum
+
+73
+00:02:37,720 --> 00:02:43,080
+beispiel neue attribute hinzufügen oder
+du möchtest neue methoden hinzufügen und
+
+75
+00:02:43,090 --> 00:02:47,009
+das kannst du jetzt eben in zukunft
+machen ohne dass du diese klasse die du
+
+77
+00:02:47,019 --> 00:02:51,509
+bereits hast noch mal verändern muss das
+hat den hintergrund dass wenn du
+
+79
+00:02:51,519 --> 00:02:55,590
+beispielsweise die klasse schon voll
+umfänglich getestet hast und sie schon
+
+81
+00:02:55,600 --> 00:02:59,670
+im betrieb eingesetzt wird sozusagen
+dann macht es ist natürlich ärgerlich
+
+83
+00:02:59,680 --> 00:03:03,990
+wenn du wegen einer kleinen änderung
+oder mehreren kleinen änderungen die
+
+85
+00:03:04,000 --> 00:03:08,039
+ganze klasse erneut testen muss und
+genau deswegen kann man beispielsweise
+
+87
+00:03:08,049 --> 00:03:13,860
+vererbung verwenden um eben sich das
+ganze zu sparen damit man ja seine
+
+89
+00:03:13,870 --> 00:03:17,610
+programme auch wenn sie schon mal
+programmiert fertig programmiert wurden
+
+91
+00:03:17,620 --> 00:03:22,050
+nachträglich noch erweitern zu können
+aber da gibt es auch noch ganz weit in
+
+93
+00:03:22,060 --> 00:03:25,380
+die materie reihen des thema software
+design
+
+95
+00:03:25,390 --> 00:03:30,300
+da werden wir auf diesem kanal auch noch
+darauf zu sprechen kommen wie gesagt wir
+
+97
+00:03:30,310 --> 00:03:33,599
+sind jetzt aber bei der vererbung du
+musst dir einfach nur merken die
+
+99
+00:03:33,609 --> 00:03:37,560
+vererbung ermöglicht das erweitern von
+klassen was ist also das grundprinzip
+
+101
+00:03:37,570 --> 00:03:41,610
+das eben hinter dieser bewerbung steckt
+das grundprinzip ist man erstellt
+
+103
+00:03:41,620 --> 00:03:46,259
+einfach eine neue klasse und diese
+klasse soll daneben eine bestehende
+
+105
+00:03:46,269 --> 00:03:51,180
+klasse erweitern und das macht sie indem
+sie quasi alle attribute und methoden
+
+107
+00:03:51,190 --> 00:03:56,039
+von der klasse erbt die erweitert werden
+soll und dann programmiert man eben hier
+
+109
+00:03:56,049 --> 00:04:01,349
+noch zusätzliche funktionalitäten hinzu
+also in diese neue klasse oder eben
+
+111
+00:04:01,359 --> 00:04:05,640
+attribute und das ist eigentlich schon
+das ganze konzept hinter dieser
+
+113
+00:04:05,650 --> 00:04:09,930
+vererbung das klingt jetzt in diesem
+moment hier noch sehr abstrakt für dich
+
+115
+00:04:09,940 --> 00:04:13,650
+nehme ich jetzt mal an für mich klang
+das damals auch selbst trakt als ich das
+
+117
+00:04:13,660 --> 00:04:17,670
+zum ersten mal gelernt habt aber ich
+habe ein gutes beispiel vorbereitet
+
+119
+00:04:17,680 --> 00:04:21,779
+welches wir uns jetzt direkt mann der
+praxis ansehen möchten und zwar habe ich
+
+121
+00:04:21,789 --> 00:04:25,700
+jetzt in diesem beispiel
+ein neues projekt angelegt und in diesem
+
+123
+00:04:25,710 --> 00:04:29,719
+beispiel habe ich jetzt drei klassen
+definiert einmal die klasse programm die
+
+125
+00:04:29,729 --> 00:04:34,790
+enthält wie gewohnt die methode und
+jetzt noch zwei weitere klassen einmal
+
+127
+00:04:34,800 --> 00:04:39,170
+die klasse dorf und einmal die klasse
+geht also eine klasse die ein hund
+
+129
+00:04:39,180 --> 00:04:43,730
+repräsentiert und eine klasse die eine
+katze repräsentiert wir sehen hier in
+
+131
+00:04:43,740 --> 00:04:48,350
+der klasse dort wir haben zwei attribute
+einmaleins für den namen weil jeder hund
+
+133
+00:04:48,360 --> 00:04:53,240
+hat ja irgendwie einen namen und ein mal
+das attribut age was eben das alter
+
+135
+00:04:53,250 --> 00:04:58,400
+eines hundes repräsentiert da jeder hund
+ein gewisses alter hat zudem gibt es
+
+137
+00:04:58,410 --> 00:05:02,570
+jetzt hier eine methode nämlich die
+methode sleep die sorgt dafür dass der
+
+139
+00:05:02,580 --> 00:05:07,100
+hund schlafen kann und dazu gebe ich
+einfach auf der konsole schlafen aus um
+
+141
+00:05:07,110 --> 00:05:12,740
+das ganze ja beispielhaft darzustellen
+und ein hund kann natürlich auch bellen
+
+143
+00:05:12,750 --> 00:05:17,029
+und deswegen gibt es hier die methode
+park und da gebe ich auf der konsole
+
+145
+00:05:17,039 --> 00:05:21,890
+einfach bow wow aus jetzt werden wir mal
+ein blick auf die klasse geht und hier
+
+147
+00:05:21,900 --> 00:05:27,320
+sehen wir auch hier wäre ein name und
+ein attribut für age also für das alter
+
+149
+00:05:27,330 --> 00:05:31,670
+der katze auch hier gibt es eine methode
+sleep die macht auch genau das gleiche
+
+151
+00:05:31,680 --> 00:05:36,320
+wie die methode von der klasse dort
+nämlich schlafen punkt punkt punkt auf
+
+153
+00:05:36,330 --> 00:05:39,980
+der konsole ausgeben
+und hier gibt es jetzt noch eine methode
+
+155
+00:05:39,990 --> 00:05:45,560
+per und diese methode sorgt dafür dass
+die katze schnurrt weil die welt eben
+
+157
+00:05:45,570 --> 00:05:49,339
+nicht eine katze schnurrt bekanntlich so
+und jetzt solltet ihr vielleicht schon
+
+159
+00:05:49,349 --> 00:05:54,950
+auffallen dass das ganze hier nicht so
+optimal gelöst ist wieso weil wir sehr
+
+161
+00:05:54,960 --> 00:05:59,060
+viel redundanz im kot haben
+redundanz ist nie gut das ist
+
+163
+00:05:59,070 --> 00:06:04,040
+fehleranfällig und naja das zeigt uns
+eigentlich schon dass wir es irgendwie
+
+165
+00:06:04,050 --> 00:06:07,339
+besser lösen könnten
+und zwar können wir es mit vererbung
+
+167
+00:06:07,349 --> 00:06:11,330
+besser lösen und genau um das soll es
+jetzt in diesem beispiel gehen
+
+169
+00:06:11,340 --> 00:06:16,550
+machen wir uns mal klar was alles in
+diesen beiden klassen gleich ist einmal
+
+171
+00:06:16,560 --> 00:06:21,290
+die attribute string nahm und in touch
+weil sowohl die klasse dort hat sich
+
+173
+00:06:21,300 --> 00:06:26,510
+hier als auch die klasse geht das ist
+vollkommen identisch und somit redundant
+
+175
+00:06:26,520 --> 00:06:32,089
+und natürlich die methode sleep weil ein
+hund kann schlafen und eine katze kann
+
+177
+00:06:32,099 --> 00:06:35,330
+genauso schlafen
+die einzigen spezifischen
+
+179
+00:06:35,340 --> 00:06:39,379
+methoden die sich wirklich naja
+unterscheiden von diesen beiden klassen
+
+181
+00:06:39,389 --> 00:06:43,189
+das ist einmal diese methode ich hier
+die dafür sorgt dass die katzen
+
+183
+00:06:43,199 --> 00:06:47,480
+schnurren kann und es ist diese methode
+hier die dafür sorgt dass der hund
+
+185
+00:06:47,490 --> 00:06:51,770
+bellen kann und das möchten wir jetzt
+wie gesagt mit färbung besser lösen
+
+187
+00:06:51,780 --> 00:06:55,969
+damit wir hier nicht so einen
+redundanten code haben und hier zu bauen
+
+189
+00:06:55,979 --> 00:06:59,719
+wir uns jetzt mal eine weitere klasse
+und diese klasse die hat jetzt einen
+
+191
+00:06:59,729 --> 00:07:05,420
+allgemeineren namen nämlich sie hat den
+titel animal und wir wissen ja jeder
+
+193
+00:07:05,430 --> 00:07:10,700
+hund ist ein animal weil jeder hund ist
+ein tier und jede katze ist auch ein
+
+195
+00:07:10,710 --> 00:07:16,159
+animal weil jede katze ist auch ein tier
+und das zeigt uns schon diese klasse n m
+
+197
+00:07:16,169 --> 00:07:22,460
+die ist wohl allgemeiner gehalten als
+diese klasse dort und cat oder anders
+
+199
+00:07:22,470 --> 00:07:27,800
+herum gesagt die klassen dog und kate
+sind spezifischer als diese klasse
+
+201
+00:07:27,810 --> 00:07:32,540
+animal weil sie dann eben das tier noch
+mal genauer beschreiben und man in
+
+203
+00:07:32,550 --> 00:07:36,129
+dieser klasse dort schon weiß okay es
+ist ein hund und nicht ein x-beliebiges
+
+205
+00:07:36,139 --> 00:07:41,900
+anderes tier so dass der sinn von der
+vererbung ist jetzt folgender wir können
+
+207
+00:07:41,910 --> 00:07:46,279
+jetzt alle attribute und methoden die in
+beiden klassen gleich sind einmal
+
+209
+00:07:46,289 --> 00:07:52,010
+kopieren und hier raus löschen
+und in diese klasse nr 1 kopieren
+
+211
+00:07:52,020 --> 00:07:56,960
+das bedeutet die klasse animal hat jetzt
+eben die attribute nahm und age weil
+
+213
+00:07:56,970 --> 00:08:02,150
+jedes tier hat einen namen jedes tier
+hat ein alter und jedes tier kann
+
+215
+00:08:02,160 --> 00:08:06,920
+schlafen wie so wie hier diese methode
+sleep implementiert haben so und der
+
+217
+00:08:06,930 --> 00:08:11,560
+dort wiederum das einzigste was
+spezifische was der jetzt noch kann
+
+219
+00:08:11,570 --> 00:08:18,230
+neben diesen ganzen dingen ist eben zu
+wählen und diese methode die können wir
+
+221
+00:08:18,240 --> 00:08:21,890
+jetzt natürlich nicht hier bei animal
+rein programmieren das würde keinen sinn
+
+223
+00:08:21,900 --> 00:08:26,500
+machen denn nicht jedes animal also
+nicht jedes tier kann bällen
+
+225
+00:08:26,510 --> 00:08:31,370
+das ist eben in dieser allgemeinen
+klasse da passt das ganze noch nicht da
+
+227
+00:08:31,380 --> 00:08:33,680
+können wir das einfach nicht rein
+programmieren
+
+229
+00:08:33,690 --> 00:08:37,790
+das gehört einfach in die klasse doch so
+und jetzt möchten wir mal die vererbung
+
+231
+00:08:37,800 --> 00:08:40,550
+herstellen
+ich habe ja gesagt mit der vererbung
+
+233
+00:08:40,560 --> 00:08:47,430
+kann man eine klasse erweitern und zwar
+möchten wir jetzt eben diese klasse m 11
+
+235
+00:08:47,440 --> 00:08:51,720
+das ist ja genau das was wir tun möchten
+animal hat ihre attribute und dieses
+
+237
+00:08:51,730 --> 00:08:54,990
+lied methode
+wir möchten sie aber jetzt speziell auf
+
+239
+00:08:55,000 --> 00:09:00,510
+den hund bezogen erweitern und zwar um
+die methode bällen war dein hund ja auch
+
+241
+00:09:00,520 --> 00:09:06,000
+bellen kann und dadurch bietet sich
+jetzt eben an dass wir die klasse hund
+
+243
+00:09:06,010 --> 00:09:11,160
+von der klasse animal erben lassen und
+das realisiert man ganz simpel wir gehen
+
+245
+00:09:11,170 --> 00:09:16,740
+hier oben neben den klassen nahmen dort
+machen ein leerzeichen schreiben extens
+
+247
+00:09:16,750 --> 00:09:20,370
+das ist eben das schlüsselwort dass wir
+für die vererbung benötigen
+
+249
+00:09:20,380 --> 00:09:24,750
+und jetzt schreiben wir den namen der
+klasse hin von der diese klasse dort
+
+251
+00:09:24,760 --> 00:09:29,130
+geht's erben soll und in unserem fall
+ist das eben von der klasse animal und
+
+253
+00:09:29,140 --> 00:09:34,050
+dann speichern wir das ganze so und
+damit haben wir bewirkt dass diese
+
+255
+00:09:34,060 --> 00:09:40,830
+klasse dort jetzt eben alle attribute
+von animal erbt und auch die methoden
+
+257
+00:09:40,840 --> 00:09:46,260
+von animal erbt die sind jetzt quasi
+auch alle hier verfügbar sozusagen
+
+259
+00:09:46,270 --> 00:09:51,030
+und dann gibt es eben noch die methode
+park die wird zusätzlich hier auch noch
+
+261
+00:09:51,040 --> 00:09:54,930
+definiert so und jetzt kann ich zum
+beispiel mal ein objekt vom typ dort
+
+263
+00:09:54,940 --> 00:10:01,110
+erstellen ich nenne es doch dort ist
+gleich new york der standard konstrukte
+
+265
+00:10:01,120 --> 00:10:05,700
+wird jeden ausgeführt und jetzt sage ich
+dort punkt sleep und wir sehen keine
+
+267
+00:10:05,710 --> 00:10:10,320
+fehlermeldung und wenn ich das programm
+aus für schlafen punkt punkt punkt das
+
+269
+00:10:10,330 --> 00:10:14,490
+ganze funktioniert also ich rufe also
+auf dem objekt vom typ dort die sleep
+
+271
+00:10:14,500 --> 00:10:18,150
+methode auf aber die sleep methode wurde
+ich hier gar nicht definiert
+
+273
+00:10:18,160 --> 00:10:23,730
+hier haben wir nur die bark methode aber
+die klasse dort erbt von der klasse m
+
+275
+00:10:23,740 --> 00:10:27,840
+und hier ist eben diese methode
+enthalten deshalb können wir sie auch
+
+277
+00:10:27,850 --> 00:10:30,840
+aufrufen
+und das ist im prinzip dieses ganze
+
+279
+00:10:30,850 --> 00:10:35,760
+konzept hinter der vererbung bei was man
+jetzt hier noch aufpassen muss und das
+
+281
+00:10:35,770 --> 00:10:39,510
+ist auch schon wieder eher
+fortgeschrittenes thema ist eben hier
+
+283
+00:10:39,520 --> 00:10:43,740
+wieder mit den sichtbarkeit modifizieren
+wir haben hier nämlich dieser als privat
+
+285
+00:10:43,750 --> 00:10:49,890
+deklariert das heißt wir müssten jetzt
+hier die götter und setter hinzufügen
+
+287
+00:10:49,900 --> 00:10:56,130
+source generate getty centers das haben
+wir schon gelernt für die beiden
+
+289
+00:10:56,140 --> 00:11:00,090
+attribute in n m
+und da diese guetta und wetter wieder
+
+291
+00:11:00,100 --> 00:11:04,620
+public sind werden die jetzt auch hier
+wieder sauber vererbt an die klasse dort
+
+293
+00:11:04,630 --> 00:11:07,170
+und wir können halt von außen darauf
+zugreifen
+
+295
+00:11:07,180 --> 00:11:13,410
+das heißt jetzt können wir auch von hier
+außen wieder sagen zum beispiel nehmen
+
+297
+00:11:13,420 --> 00:11:18,990
+und dann können wir dem rund einen namen
+geben zum beispiel bello und dann können
+
+299
+00:11:19,000 --> 00:11:23,160
+wir sagen gebt das ganze gibt den namen
+doch mal auf der konsole aus indem man
+
+301
+00:11:23,170 --> 00:11:28,740
+sagt dort punkt geht nehme man wenn wir
+es jetzt ausführen dann wird eben der
+
+303
+00:11:28,750 --> 00:11:33,210
+name bello ausgegeben also auch bei der
+vererbung bleiben eben hier diese
+
+305
+00:11:33,220 --> 00:11:36,930
+sichtbarkeit modifizierte aktiv das
+heißt da muss man wieder drauf achten
+
+307
+00:11:36,940 --> 00:11:41,370
+aber da gibt es jetzt auch noch mehrere
+sichtbarkeit modifizieren nämlich zum
+
+309
+00:11:41,380 --> 00:11:45,380
+beispiel den sichtbarkeit modifiziere
+protected aber das sind alles
+
+311
+00:11:45,390 --> 00:11:48,630
+fortgeschrittene themen die ich jetzt
+hier in diesem video noch nicht
+
+313
+00:11:48,640 --> 00:11:53,940
+behandeln möchte weil sie eben ja wie
+gesagt eher zu überforderung führen am
+
+315
+00:11:53,950 --> 00:11:56,280
+anfang
+hier soll es nur darum gehen dass du das
+
+317
+00:11:56,290 --> 00:12:00,240
+prinzip der vererbung jetzt zunächst mal
+verstehst und wie gesagt wir haben jetzt
+
+319
+00:12:00,250 --> 00:12:04,230
+hier einfach alles von der klasse m l an
+die klasse doch vererbt und jetzt können
+
+321
+00:12:04,240 --> 00:12:08,670
+wir die klasse gehen hier können wir das
+jetzt auch alles raus löschen weil auch
+
+323
+00:12:08,680 --> 00:12:14,360
+eine katze ist natürlich ein tier und
+deswegen können wir sagen cat extension
+
+325
+00:12:14,370 --> 00:12:20,760
+immel und nur die spezifische methode
+die das ganze noch erweitert also die
+
+327
+00:12:20,770 --> 00:12:26,100
+klasse m erweitert die implementieren
+wir hier in der klasse katze und jetzt
+
+329
+00:12:26,110 --> 00:12:30,300
+können wir natürlich auch wieder uns
+hier eine katze erzeugen die sleep
+
+331
+00:12:30,310 --> 00:12:34,950
+methode ausführen und so weiter und
+jetzt siehst du haben wir eine klasse
+
+333
+00:12:34,960 --> 00:12:39,330
+mehr aber das programm ist wesentlich
+besser strukturiert weil wir haben jetzt
+
+335
+00:12:39,340 --> 00:12:44,400
+hier keinen redundanten code mehr
+jeder code steht also nur einmal da das
+
+337
+00:12:44,410 --> 00:12:48,810
+heißt wir haben nicht in jeder tier
+klasse jetzt rename string entstehen und
+
+339
+00:12:48,820 --> 00:12:52,800
+auch nicht in jeder die sleep methode
+und das ist ein großer vorteil denn wenn
+
+341
+00:12:52,810 --> 00:12:58,020
+du mal bedenkt dass klassen ganz ganz
+groß werden können das heißt die klassik
+
+343
+00:12:58,030 --> 00:13:04,520
+at könnte ja zum beispiel 200 attribute
+haben und 2000 methoden und wenn das
+
+345
+00:13:04,530 --> 00:13:09,670
+diese 2000 methoden man darf von 1000
+methoden für alle tiere gelten
+
+347
+00:13:09,680 --> 00:13:13,570
+da müssen wir die natürlich jetzt nicht
+in jeder klasse schreiben sondern dann
+
+349
+00:13:13,580 --> 00:13:18,040
+definieren wir uns eben hier eine so
+genannte eltern klasse das sind auch
+
+351
+00:13:18,050 --> 00:13:21,730
+noch mal wichtige begriffe die ich hier
+einführen möchte denn die klasse animal
+
+353
+00:13:21,740 --> 00:13:26,800
+also die klasse von der letztendlich
+klassen erben die bezeichnet man immer
+
+355
+00:13:26,810 --> 00:13:30,610
+als so genannte super klasse oder eben
+eltern klasse
+
+357
+00:13:30,620 --> 00:13:33,880
+da gibt es mehrere begriffe unter
+anderem diese 24
+
+359
+00:13:33,890 --> 00:13:37,300
+da kannst du dir eigentlich aussuchen
+welchen du verwendest war meint das
+
+361
+00:13:37,310 --> 00:13:43,210
+gleiche damit und die klassen die ihm
+von einer klasse erben die nennt man so
+
+363
+00:13:43,220 --> 00:13:47,949
+klasse oder kind klasse und dieses
+prinzip mit der färbung kann man jetzt
+
+365
+00:13:47,959 --> 00:13:51,550
+immer weiter führen
+das heißt wir haben wir die klasse dort
+
+367
+00:13:51,560 --> 00:13:57,160
+wir könnten jetzt noch spezifischere
+klassen bauen zb eine klasse labrador
+
+369
+00:13:57,170 --> 00:14:01,870
+und eine klasse schäferhund und die
+erben dann wieder von der klasse dort
+
+371
+00:14:01,880 --> 00:14:07,120
+und für diese neuen klassen zb für die
+klasse labrador ist daneben die klasse
+
+373
+00:14:07,130 --> 00:14:13,660
+dort die super klasse und labrador ist
+für dort die kind klasse aber die klasse
+
+375
+00:14:13,670 --> 00:14:18,610
+dort hat gleichzeitig auch eine super
+klasse und zwar die animal klasse also
+
+377
+00:14:18,620 --> 00:14:22,630
+man kann sich das dann wie so eine
+vererbung hierarchie deswegen bezeichnet
+
+379
+00:14:22,640 --> 00:14:27,430
+man es auch so vorstellen also die man
+man hat nicht immer nur diese zwei
+
+381
+00:14:27,440 --> 00:14:31,540
+ebenen einmal eine eltern klasse eine
+kind klasse sondern das ganze kann man
+
+383
+00:14:31,550 --> 00:14:35,860
+immer immer feiner gliedern und das ist
+im prinzip wird schon mal das wichtigste
+
+385
+00:14:35,870 --> 00:14:40,720
+zur vererbung das heißt wenn du etwas
+vererben möchtest dann brauchst du dir
+
+387
+00:14:40,730 --> 00:14:44,769
+eine klasse von der geehrt werden soll
+dann brauchst du dir eine oder
+
+389
+00:14:44,779 --> 00:14:49,120
+x-beliebige weitere klassen die diese
+klasse von der geehrt werden soll
+
+391
+00:14:49,130 --> 00:14:52,810
+erweitern sollen
+in diesem fall die klasse dort eben um
+
+393
+00:14:52,820 --> 00:14:56,980
+diese methode park und dann schreibst du
+einfach nur neben den klassen nahmen das
+
+395
+00:14:56,990 --> 00:15:00,850
+schlüsselwort extens und den namen der
+klasse von der geehrt werden soll
+
+397
+00:15:00,860 --> 00:15:05,470
+und dann wird das ganze intern in java
+schon geregelt und die vererbung steht
+
+399
+00:15:05,480 --> 00:15:10,690
+und das ist ein wahnsinnig mächtiges
+feature das möchte ich unbedingt betonen
+
+401
+00:15:10,700 --> 00:15:14,829
+und natürlich geht es auch noch viel
+viel tiefer in die materie hier rein
+
+403
+00:15:14,839 --> 00:15:19,569
+man kann da ganz ganz viele coole sachen
+mitmachen aber in diesem video solltest
+
+405
+00:15:19,579 --> 00:15:24,189
+du wie gesagt das grundverständnis
+so das war alles zu diesem video was ich
+
+407
+00:15:24,199 --> 00:15:28,990
+dir jetzt hier erklären wollte und wie
+gesagt es war das letzte video des crash
+
+409
+00:15:29,000 --> 00:15:33,310
+kursus falls dir dieser crash kurs hier
+gefallen hat falls du was mitnehmen
+
+411
+00:15:33,320 --> 00:15:37,210
+konnte ist falls du das gefühl hast du
+hast was gelernt oder dich für cover
+
+413
+00:15:37,220 --> 00:15:40,720
+begeistern können im idealfall dann
+würde ich mich sehr freuen wenn du
+
+415
+00:15:40,730 --> 00:15:44,290
+vielleicht einfach unter dem video ein
+bisschen feedback da lässt biete das
+
+417
+00:15:44,300 --> 00:15:48,579
+ganze gefallen hat ob es der mehrwert
+gebracht hat mir persönlich hat es
+
+419
+00:15:48,589 --> 00:15:52,420
+ehrlich gesagt sehr sehr viel spaß
+gemacht die ich hier in die
+
+421
+00:15:52,430 --> 00:15:56,079
+programmiersprache java einzuführen und
+ich habe versucht das ganze so
+
+423
+00:15:56,089 --> 00:16:00,850
+herunterzubrechen dass du auch wirklich
+einen einfachen einstieg hast das war s
+
+425
+00:16:00,860 --> 00:16:05,230
+für dieses video und keine angst das war
+natürlich nicht das letzte video von mir
+
+427
+00:16:05,240 --> 00:16:09,069
+oder auch nicht das letzte video vom
+janneck wir werden diesen kanal
+
+429
+00:16:09,079 --> 00:16:14,230
+weiterführen und doch viele neue
+spannende serien starten einzelne videos
+
+431
+00:16:14,240 --> 00:16:18,850
+starten und dann hoffen wir dass wir
+euch wahnsinnig viel mehrwert bringen
+
+433
+00:16:18,860 --> 00:16:23,439
+und hier eine coole community aufbauen
+ich bedanke mich bei dir dass du gesehen
+
+435
+00:16:23,449 --> 00:16:28,240
+hast und dann sehen wir uns im nächsten
+video bis dahin
+
+436
+00:16:24,949 --> 00:16:28,240
+video bis dahin
+

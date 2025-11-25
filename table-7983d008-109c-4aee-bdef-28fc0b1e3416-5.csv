@@ -1,0 +1,13 @@
+﻿Purpose,Command
+Default table view,kubectl get pod pod1
+"More details (node, IPs)",kubectl get pod pod1 -o wide
+Full config in YAML,kubectl get pod pod1 -o yaml
+Full config in JSON,kubectl get pod pod1 -o json
+Just the resource name,kubectl get pod pod1 -o name
+Get pod IP only,kubectl get pod pod1 -o jsonpath='{.status.podIP}'
+"Get pod status (e.g., Running)",kubectl get pod pod1 -o jsonpath='{.status.phase}'
+Get all container names,kubectl get pod pod1 -o jsonpath='{.spec.containers[*].name}'
+Custom columns: Name + Status,"kubectl get pod pod1 -o custom-columns=NAME:.metadata.name,STATUS:.status.phase"
+Custom columns: Name + Node,"kubectl get pod pod1 -o custom-columns=NAME:.metadata.name,NODE:.spec.nodeName"
+Export to YAML file,kubectl get pod pod1 -o yaml > pod1.yaml
+Delete using `-o name`,kubectl delete $(kubectl get pod pod1 -o name)

@@ -1,0 +1,834 @@
+1
+00:00:00,000 --> 00:00:05,300
+hallo und herzlich willkommen auf dem
+youtube-kanal von programmieren -
+
+3
+00:00:05,310 --> 00:00:12,230
+starten punkt.de mein name ist hendrik
+und wir befinden uns im 22 video des
+
+5
+00:00:12,240 --> 00:00:17,930
+java crashkurs und in diesem video soll
+es um das thema konstrukteur gehen sehen
+
+7
+00:00:17,940 --> 00:00:20,960
+wir uns zunächst mal an was wir in
+diesem video lernen werden
+
+9
+00:00:20,970 --> 00:00:25,220
+zunächst werden wir uns mal in der
+theorie ansehen was ein konstrukteur
+
+11
+00:00:25,230 --> 00:00:29,269
+denn überhaupt ist was man darunter
+überhaupt versteht damit du hier für
+
+13
+00:00:29,279 --> 00:00:33,440
+mein gefühl bekommst und danach
+verlieren wir keine zeit wir springen
+
+15
+00:00:33,450 --> 00:00:38,420
+direkt in die praxis und sehen uns an
+wie man so ein konstrukteur definiert
+
+17
+00:00:38,430 --> 00:00:43,819
+beginnen wir also mal mit der frage was
+ist ein konstrukt ohr der konstrukteur
+
+19
+00:00:43,829 --> 00:00:49,220
+ist immer die erste methode die beim
+instanz ihren eines objekts aufgerufen
+
+21
+00:00:49,230 --> 00:00:53,119
+wird du siehst es ich habe das wort
+immer großgeschrieben festgeschrieben
+
+23
+00:00:53,129 --> 00:00:57,200
+dass es ganz wichtig dass du das
+verstehst es gibt immer einen
+
+25
+00:00:57,210 --> 00:01:01,430
+konstrukteur wenn man ein objekt
+instanziert jetzt fragst du dich
+
+27
+00:01:01,440 --> 00:01:04,460
+wahrscheinlich her
+wir haben doch schon instanzen erstellt
+
+29
+00:01:04,470 --> 00:01:08,149
+von objekten aber wir haben noch nie
+irgendetwas von dem konstrukteur gehört
+
+31
+00:01:08,159 --> 00:01:12,679
+das ist vollkommen richtig
+es gibt einen standort konstrukteur der
+
+33
+00:01:12,689 --> 00:01:16,130
+wird quasi immer aufgerufen wenn man
+nicht selbst expliziten in eigenen
+
+35
+00:01:16,140 --> 00:01:19,760
+konstrukteur definiert und das werden
+wir uns aber auch gleich noch in der
+
+37
+00:01:19,770 --> 00:01:24,109
+praxis ansehen was man darunter versteht
+jetzt überlegen wir uns erstmal für was
+
+39
+00:01:24,119 --> 00:01:27,770
+braucht man so ein konstrukt ohr ein
+konstrukteur wird meistens dazu
+
+41
+00:01:27,780 --> 00:01:33,770
+verwendet um attribute zu initialisieren
+das bedeutet wir haben ein objekt das
+
+43
+00:01:33,780 --> 00:01:38,690
+möchten wir instanz ihren und die klasse
+gibt ja gewisse attribute vor die dieses
+
+45
+00:01:38,700 --> 00:01:42,950
+objekt besitzt und es macht natürlich
+sehr viel sinn dass man von anfang an
+
+47
+00:01:42,960 --> 00:01:46,940
+sagt die attribute sollen einen
+bestimmten wert haben und zwar direkt
+
+49
+00:01:46,950 --> 00:01:51,410
+wenn wir eine instanz davon erstellen
+da müssen wir nicht erst mal das objekt
+
+51
+00:01:51,420 --> 00:01:55,310
+erstellen und damit denselben methoden
+die ganzen einzelnen werte setzen das
+
+53
+00:01:55,320 --> 00:01:59,450
+ist relativ aufwendig und mit dem
+konstrukteur kann man das relativ gut
+
+55
+00:01:59,460 --> 00:02:04,429
+regeln und das bedeutet im prinzip
+einfach nur der konstrukteur bereitet
+
+57
+00:02:04,439 --> 00:02:09,859
+ein objekt vor die aufgabe des
+konstrukteurs ist es also objekte zu
+
+59
+00:02:09,869 --> 00:02:12,710
+konstruieren deswegen heißt das ganze
+ding auch kunst
+
+61
+00:02:12,720 --> 00:02:17,210
+da diese methode also diese ganz
+spezielle konstrukteur methode sorgt
+
+63
+00:02:17,220 --> 00:02:22,280
+also einfach dafür dass das objekt
+konstruiert wird und wie gesagt jede
+
+65
+00:02:22,290 --> 00:02:26,720
+klasse hat einen konstrukteur ja das
+werden wir uns jetzt gleich mal in der
+
+67
+00:02:26,730 --> 00:02:30,110
+praxis ansehen ich würde sagen
+bespringen direkt mal in die
+
+69
+00:02:30,120 --> 00:02:34,310
+entwicklungsumgebung ich habe hier noch
+das beispiel geöffnet dass wir uns in
+
+71
+00:02:34,320 --> 00:02:38,900
+den videos zuvor aufgebaut haben und da
+sehen wir hier dass wir die klasse haben
+
+73
+00:02:38,910 --> 00:02:43,880
+und jetzt haben wir hier eine instanz
+von dieser klasse erstellt diese drei
+
+75
+00:02:43,890 --> 00:02:47,150
+sachen kann ich mal weg löschen
+dass wir uns jetzt hier den fokus hier
+
+77
+00:02:47,160 --> 00:02:50,900
+drauf legen wir sehen wir sehen wir
+haben zunächst eine variable erstellt
+
+79
+00:02:50,910 --> 00:02:55,820
+vom typ k die haben wir karbon genannt
+und dann haben wir eben dieses diesen
+
+81
+00:02:55,830 --> 00:02:59,390
+nur operator benutzt den man ja immer
+benutzt wenn man ein objekt erzeugen
+
+83
+00:02:59,400 --> 00:03:02,180
+möchte und dann haben wir diese methode
+hier aufgerufen
+
+85
+00:03:02,190 --> 00:03:06,290
+dass das eine methode ist das sieht man
+ja schon und zwar an diesen klammern das
+
+87
+00:03:06,300 --> 00:03:10,340
+ist ja typisch für methoden aufrufe und
+hierbei handelt es sich jetzt
+
+89
+00:03:10,350 --> 00:03:16,340
+tatsächlich um den konstrukte aufruf das
+heißt mit k also dem namen der klasse
+
+91
+00:03:16,350 --> 00:03:20,990
+und dann das glamour-paar dahinter rufen
+wir den konstrukteur der klasse k auf
+
+93
+00:03:21,000 --> 00:03:25,850
+und dadurch wird eben dieses ganze
+objekt einmal konstruiert jetzt ist es
+
+95
+00:03:25,860 --> 00:03:30,560
+so dass wenn wir jetzt hier von ein
+objekt erzeugen das natürlich wir dann
+
+97
+00:03:30,570 --> 00:03:34,130
+ein objekt haben was diese ganzen
+attribute besitzt aber sie sind alle
+
+99
+00:03:34,140 --> 00:03:39,890
+nicht vor belegt mit irgendeinem wert so
+und das ist nicht einfach daran dass wir
+
+101
+00:03:39,900 --> 00:03:42,199
+hier
+da wir hier den standard konstrukte
+
+103
+00:03:42,209 --> 00:03:47,000
+aufgerufen haben ich habe ja gesagt jede
+klasse hat automatisch ein konstrukt ohr
+
+105
+00:03:47,010 --> 00:03:50,930
+und wenn man eben kein konstrukt
+definiert dann gibt es nur den
+
+107
+00:03:50,940 --> 00:03:55,039
+sogenannten standard konstrukteur der
+wird einfach der ist quasi unsichtbar
+
+109
+00:03:55,049 --> 00:03:59,300
+aber im prinzip sieht eher so aus man
+schreibt einen sichtbarkeit modifiziere
+
+111
+00:03:59,310 --> 00:04:03,380
+beim standard konstrukt da ist das
+public dann schreibt man direkt den
+
+113
+00:04:03,390 --> 00:04:07,610
+namen der klasse und dann kommen die
+klammern und dann eben hier der blog wo
+
+115
+00:04:07,620 --> 00:04:10,880
+eben dann der code drin ausgeführt wird
+und da es sich um den standard
+
+117
+00:04:10,890 --> 00:04:15,199
+konstrukte handelt wird hier drinnen
+einfach gar nichts gemacht das heißt so
+
+119
+00:04:15,209 --> 00:04:18,650
+sieht der standard konstrukte aus das
+bedeutet jetzt haben wir hier einmal
+
+121
+00:04:18,660 --> 00:04:22,670
+explizit definiert wenn wir das programm
+jetzt ausführen da bleibt doch alles
+
+123
+00:04:22,680 --> 00:04:24,760
+beim alten wir sehen jetzt natürlich
+nicht
+
+125
+00:04:24,770 --> 00:04:29,170
+aber es ist wie gesagt alles beim alten
+geblieben weil dieser konstrukte ohnehin
+
+127
+00:04:29,180 --> 00:04:34,450
+aufgerufen wird wenn man keinen eigenen
+definiert schon jetzt habe ich ja gesagt
+
+129
+00:04:34,460 --> 00:04:39,850
+ein konstrukteur verwendet man dazu dass
+man zb attribute mit werten vor belegen
+
+131
+00:04:39,860 --> 00:04:42,399
+kann
+und genau das möchten wir jetzt mal tun
+
+133
+00:04:42,409 --> 00:04:46,059
+das heißt wir können wie das von
+methoden gewohnt sind hier jetzt
+
+135
+00:04:46,069 --> 00:04:53,589
+parameter übergeben das heißt einmal ein
+parameter vom typs trinkhalle dann einen
+
+137
+00:04:53,599 --> 00:04:58,540
+parameter vom typ string brand und ein
+parameter integer dann können wir gleich
+
+139
+00:04:58,550 --> 00:05:03,219
+direkt alle vor belegen den er nicht
+horsepower und jetzt können wir hier
+
+141
+00:05:03,229 --> 00:05:09,339
+drin schreiben color ist gleich color
+dann können wir schreiben brand ist
+
+143
+00:05:09,349 --> 00:05:13,240
+gleich brand und dann können wir
+schreiben horsepower ist gleich
+
+145
+00:05:13,250 --> 00:05:18,850
+horsepower und damit berufen wir jetzt
+quasi diesem konstrukt war auf und
+
+147
+00:05:18,860 --> 00:05:24,399
+übergeben dann direkt beim aufruf hier
+die entsprechenden parameter drin und
+
+149
+00:05:24,409 --> 00:05:28,029
+dann werden diese attribute vom objekt
+dann direkt vor belegt mit den werten
+
+151
+00:05:28,039 --> 00:05:31,390
+die wir eben hier übergeben
+jetzt siehst du es schaut ein bisschen
+
+153
+00:05:31,400 --> 00:05:35,680
+komisch aus weil einmal heißt das
+attribut color und einmal heißt der
+
+155
+00:05:35,690 --> 00:05:39,490
+parameter color und jetzt sagen
+bekannter ist gleich color woher soll
+
+157
+00:05:39,500 --> 00:05:43,450
+der computer jetzt wissen was wir meinen
+mann wird das attribut hiermit meinen
+
+159
+00:05:43,460 --> 00:05:46,959
+wir den parameter und ich stimmte auch
+der computer kann das nicht
+
+161
+00:05:46,969 --> 00:05:49,600
+unterscheiden
+das heißt wir müssen irgendwie
+
+163
+00:05:49,610 --> 00:05:54,040
+kennzeichnen bei diesem ersten color
+dass wir hier wirklich von dem objekt
+
+165
+00:05:54,050 --> 00:05:58,930
+dieses attribut main und das macht man
+mit dem schlüsselwort bis dann macht man
+
+167
+00:05:58,940 --> 00:06:04,240
+einfach bis das ist quasi eine referenz
+auf das objekt selbst deswegen heißt
+
+169
+00:06:04,250 --> 00:06:08,260
+doch was also wenn man wisse sagt da
+meint man das objekt was hier gerade
+
+171
+00:06:08,270 --> 00:06:12,640
+diesen konstrukteur selbst aufruft
+sozusagen und dann punkt kann
+
+173
+00:06:12,650 --> 00:06:17,379
+damit ist im computernetz einfach klar
+pass auf ich meine mit diesem auch mit
+
+175
+00:06:17,389 --> 00:06:22,689
+diesem aufruf hier quasi wissen color
+das attribut des objekts und mit diesen
+
+177
+00:06:22,699 --> 00:06:26,769
+normalen color meine ich tatsächlich den
+parameter den ich hier übergeben
+
+179
+00:06:26,779 --> 00:06:30,030
+bekommen und das siehst du eigentlich
+bei konstrukteuren immer
+
+181
+00:06:30,040 --> 00:06:33,600
+das heißt hier kannst du bist hier
+machen und hier kannst du auch bisschen
+
+183
+00:06:33,610 --> 00:06:38,040
+machen und es ist im übrigen auch bei
+normalen methoden so das heißt wenn du
+
+185
+00:06:38,050 --> 00:06:42,270
+hier auch mal den fall heißt das hier
+parameter übergeben werden die quasi den
+
+187
+00:06:42,280 --> 00:06:45,780
+gleichen namen haben wie die attribute
+dann kannst du natürlich auch mit wyss
+
+189
+00:06:45,790 --> 00:06:50,700
+arbeiten damit du dem computer ganz
+verständlich erklären kannst was was ist
+
+191
+00:06:50,710 --> 00:06:54,450
+damit auch wirklich das richtige tut so
+und wenn wir jetzt das ganze speichern
+
+193
+00:06:54,460 --> 00:06:57,600
+und zurück ins programm gehen dann sehen
+wir uns wird jetzt hier ein fehler
+
+195
+00:06:57,610 --> 00:07:03,330
+angezeigt und zwar steht hierbei
+constructor kristan gefeiert das ging
+
+197
+00:07:03,340 --> 00:07:07,590
+doch vorher noch na ja dadurch dass wir
+jetzt hier selbst ein konstrukteur
+
+199
+00:07:07,600 --> 00:07:12,660
+definiert haben ist der standard
+konstrukteur die man quasi einfach so
+
+201
+00:07:12,670 --> 00:07:16,950
+auf ruft hiermit diesen klammern
+automatisch nicht mehr da
+
+203
+00:07:16,960 --> 00:07:22,140
+das heißt sobald du hier einen
+konstrukteur definierst zählt dieser
+
+205
+00:07:22,150 --> 00:07:27,180
+konstrukte und der standard konstrukte
+wird nicht mehr automatisch erzeugt das
+
+207
+00:07:27,190 --> 00:07:30,780
+bedeutet wenn wir diese fehlermeldung
+weg haben wollen dann müssen wir jetzt
+
+209
+00:07:30,790 --> 00:07:34,800
+die entsprechenden parameter hierüber
+geben die eben hier vom konstrukteur
+
+211
+00:07:34,810 --> 00:07:37,140
+verlangt werden so wie wir das von
+methoden kennen
+
+213
+00:07:37,150 --> 00:07:41,280
+das heißt wir übergeben zunächst eine
+farbe ich sag mal das auto soll grün
+
+215
+00:07:41,290 --> 00:07:46,950
+sein dann übergeben wir einen brand dann
+nehmen wir einfach mal vw und jetzt
+
+217
+00:07:46,960 --> 00:07:51,900
+übergehen wenn auf eine ps anzahl da
+sagen wir 130 jetzt sehen wir das ganze
+
+219
+00:07:51,910 --> 00:07:56,850
+ist weg und wir können das ganze
+ausführen funktioniert so wir haben hier
+
+221
+00:07:56,860 --> 00:07:59,340
+noch diese get methoden definiert
+deswegen können wir gleich mal
+
+223
+00:07:59,350 --> 00:08:02,700
+überprüfen ob die werte auch tatsächlich
+zugewiesen wurden
+
+225
+00:08:02,710 --> 00:08:07,350
+das heißt ich mache meine ausgabe auf
+der konsole sagt aaron punkt geht und
+
+227
+00:08:07,360 --> 00:08:09,750
+nutzen lassen wir uns mal die farbe zum
+beispiel ausgeben
+
+229
+00:08:09,760 --> 00:08:13,620
+und wenn wir das ausführen sehen wir
+jetzt wird tatsächlich grün ausgegeben
+
+231
+00:08:13,630 --> 00:08:18,120
+weil wir es ja im konstrukteur von
+beginn an auf grün gesetzt haben und
+
+233
+00:08:18,130 --> 00:08:21,570
+jetzt wo du dieses wissen über
+konstrukteuren hast kannst du eben immer
+
+235
+00:08:21,580 --> 00:08:25,410
+einen konstrukteur definieren je nach
+wunsch wie du die objekte vorgelegt
+
+237
+00:08:25,420 --> 00:08:29,370
+haben möchtest und dann hier die ganzen
+dinge vor belegen du könntest jetzt
+
+239
+00:08:29,380 --> 00:08:34,620
+natürlich hier drin neben dem vorbild
+von attributen auch beliebige andere
+
+241
+00:08:34,630 --> 00:08:37,440
+dinge tun
+das heißt du kannst genauso methoden
+
+243
+00:08:37,450 --> 00:08:42,030
+aufrufen zum beispiel könnte es wird
+sagen bis drive das heißt ich möchte von
+
+245
+00:08:42,040 --> 00:08:45,630
+dem eigenen
+objekt die drive methode einmal aufrufen
+
+247
+00:08:45,640 --> 00:08:49,560
+wenn wir das ganze jetzt speichern und
+ausführen dann sehen wir es wird sofort
+
+249
+00:08:49,570 --> 00:08:54,270
+ausgegeben das auto fährt weil beim
+erzeugen des objekts wird dann direkt im
+
+251
+00:08:54,280 --> 00:08:58,920
+anschluss schon die methode ausgeführt
+und dann kommt eben erst diese methode
+
+253
+00:08:58,930 --> 00:09:03,090
+diese ausgabe auf der konsole wo wir
+eben die farbe ausgeben also ein
+
+255
+00:09:03,100 --> 00:09:08,490
+konstrukteur kannst du im prinzip alles
+tun was du tun möchte ist das direkt
+
+257
+00:09:08,500 --> 00:09:14,160
+passieren soll wenn du eine instanz von
+einer klasse erstellt und da ist eben
+
+259
+00:09:14,170 --> 00:09:17,880
+einfach nur ganz wichtig zu wissen wenn
+du hier keinen konstrukteur definierst
+
+261
+00:09:17,890 --> 00:09:21,570
+dann geht der standard konstrukteur also
+einfach ein lehrer konstrukteur
+
+263
+00:09:21,580 --> 00:09:25,920
+sozusagen der das objekt einfach nur
+sauber aufbaut im programm
+
+265
+00:09:25,930 --> 00:09:29,970
+da wird aber noch nichts vorgelegt und
+im prinzip nichts nützliches für dich
+
+267
+00:09:29,980 --> 00:09:34,020
+selbst jetzt getan und wenn du eben
+werte vorgelegt haben möchtest dann
+
+269
+00:09:34,030 --> 00:09:37,740
+musst du dir selber einen definieren und
+der konstrukte aufbaus immer gleich du
+
+271
+00:09:37,750 --> 00:09:41,880
+willst einen sichtbarkeit modifizieren
+in der regel ist der public damit man
+
+273
+00:09:41,890 --> 00:09:45,720
+auch von anderen klassen wir zum
+beispiel in der klasse programm aus
+
+275
+00:09:45,730 --> 00:09:48,780
+aufrufen kann
+es können aber genauso die anderen
+
+277
+00:09:48,790 --> 00:09:52,710
+sichtbarkeit modifizierte verwendet
+werden zum beispiel privat aber wie
+
+279
+00:09:52,720 --> 00:09:55,590
+gesagt dann würde das hier nicht mehr
+funktionieren weil wir jetzt in einer
+
+281
+00:09:55,600 --> 00:09:59,010
+anderen klasse sind und von da können
+bin ich hier darauf zugreifen
+
+283
+00:09:59,020 --> 00:10:03,300
+und dann wird schon wieder kritisch weil
+wie sollen wir jetzt hier drinnen objekt
+
+285
+00:10:03,310 --> 00:10:07,230
+erstellen wenn wir von nirgendwo anders
+drauf zugreifen können da gibt es auch
+
+287
+00:10:07,240 --> 00:10:11,520
+techniken aber das ist jetzt auch wieder
+fortgeschrittenes wissen was wir jetzt
+
+289
+00:10:11,530 --> 00:10:15,330
+hier mal nicht wo wir jetzt noch nicht
+mit starten möchten wir sind noch beim
+
+291
+00:10:15,340 --> 00:10:18,390
+normalen konstrukteur also wie gesagt
+den sichtbarkeit modifiziere
+
+293
+00:10:18,400 --> 00:10:23,970
+hinschreiben dann einfach nur den namen
+der klasse und das war's das ist immer
+
+295
+00:10:23,980 --> 00:10:27,660
+der gleiche aufbau dann über gibst du
+die gewünschten parameter machst einfach
+
+297
+00:10:27,670 --> 00:10:32,130
+den block auf wie wir ihn vom methoden
+kennen schreibt da alles rein und damit
+
+299
+00:10:32,140 --> 00:10:36,690
+hast du dein konstrukteur definiert das
+war alles zu diesem video damit kennst
+
+301
+00:10:36,700 --> 00:10:40,170
+du jetzt auch den konstrukteur und im
+prinzip kennst du jetzt schon den ganzen
+
+303
+00:10:40,180 --> 00:10:44,910
+aufbau von objekten und vom klassen
+sozusagen das heißt du weißt mit der
+
+305
+00:10:44,920 --> 00:10:49,050
+klasse definieren wir einen bauplan von
+dieser klasse also von diesem bauplan
+
+307
+00:10:49,060 --> 00:10:52,500
+können wir objekte erzeugen diese
+objekte bestehen einmal
+
+309
+00:10:52,510 --> 00:10:56,700
+attributen einmal bestehen sie aus
+methoden dann gibt es die sichtbarkeit
+
+311
+00:10:56,710 --> 00:11:00,630
+modifiziere wo man eben aufpassen muss
+was man von wo aufrufen kann
+
+313
+00:11:00,640 --> 00:11:04,410
+und jetzt kannst du eben auch noch den
+konstrukteur der im endeffekt dieses
+
+315
+00:11:04,420 --> 00:11:08,670
+objekt konstruiert und das war immer das
+mysterium was wir hier im aufgerufen
+
+317
+00:11:08,680 --> 00:11:12,920
+haben mit dem new und dann noch mal den
+namen von der klasse das war ja davor
+
+319
+00:11:12,930 --> 00:11:16,920
+vollkommen unklar
+das ist einfach der konstrukteur das
+
+321
+00:11:16,930 --> 00:11:20,220
+weißt du jetzt hier mit herzlichen
+glückwunsch dafür und das war es jetzt
+
+323
+00:11:20,230 --> 00:11:23,580
+auch für dieses video
+falls dir das video gefallen hat geben
+
+325
+00:11:23,590 --> 00:11:26,490
+uns gerne daumen nach oben
+wir würden uns sehr freuen über einen
+
+327
+00:11:26,500 --> 00:11:30,660
+kommentar natürlich genauso und
+abonnieren bedingt diesen kanal dann
+
+329
+00:11:30,670 --> 00:11:33,420
+wirst du in zukunft nichts mehr von uns
+verpassen
+
+331
+00:11:33,430 --> 00:11:36,810
+ich wünsche dir noch einen schönen tag
+und dann sehen wir uns im nächsten video
+
+333
+00:11:36,820 --> 00:11:39,690
+wieder bis dahin
+

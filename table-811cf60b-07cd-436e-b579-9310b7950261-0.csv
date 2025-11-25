@@ -1,0 +1,17 @@
+﻿Kompetenz,Niveau,Kompetenz,Niveau
+☕ Backend & Full-Stack Entwicklung,,,
+Fortgeschrittene Java-Programmierung,Experte,Jakarta EE,Fortgeschritten
+Spring Boot,Experte,Spring Security,Fortgeschritten
+Spring MVC / Spring Web,Fortgeschritten,Spring Data JPA,Fortgeschritten
+Microservices,Fortgeschritten,Spring Cloud,Fortgeschritten
+Eureka Service Discovery,Gut,Spring Cloud LoadBalancer,Gut
+Spring WebFlux,Gut,Spring Data R2DBC,Gut
+JPA / Hibernate,Fortgeschritten,"SQL & NoSQL (MySQL, MongoDB)",Fortgeschritten
+RESTful Web Services,Fortgeschritten,,
+🖥️ Frontend & UI,,,
+JSF,Gut,PrimeFaces,Gut
+JavaFX,Gut,Thymeleaf,Gut
+HTML / CSS,Fortgeschritten,JavaScript / TypeScript,Fortgeschritten
+🛠️ DevOps & Tools,,,
+Docker,Gut,Kubernetes,Gut
+Git,Fortgeschritten,Linux,Fortgeschritten

@@ -1,0 +1,7 @@
+﻿Format,Best For
+json / yaml,"Debugging, exporting configs"
+wide,More context in table view
+name,"Scripting (e.g., "kubectl delete $(kubectl get pods -o name))
+custom-columns,Tailored reports
+jsonpath,Extracting specific values
+go-template,Advanced custom formatting

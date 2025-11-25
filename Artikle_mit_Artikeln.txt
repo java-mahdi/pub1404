@@ -1,0 +1,646 @@
+die Variable
+die Datenbehälter
+die Wert
+die Textwert
+die Hochgestellte doppelte Anführungsstriche
+die Datentyp
+die Ganzzahl
+die Fließkommazahl
+die String
+der Bezeichner
+die Name der Variable
+die Arbeitsspeicher
+die Sprechend benennen
+die Englisch
+die Entwicklungsumgebung
+die Hallo Welt Programm
+die Ausgabe
+die Anweisung
+die Löschen
+die der Code
+die Schriftgröße
+die Erzeugen
+die Zuweisungsoperator
+die Semikolon
+die Speichern
+die Initialisierung
+die Deklaration
+der Compiler
+die Bekannt machen
+der Zugriff
+die Default-Wert
+die Ausführen
+die Konsole ausgeben
+die Verändern
+der Kommentar
+die Notizen
+die Programme
+die Zuordnen
+die Vorbelegen
+die Programmierstil
+das Projekt
+die Kryptisch
+die Zahlenkombinationen
+die Adresse
+die Auf der Konsole ausgeben
+die Variable erzeugen
+die Variable deklarieren
+die Variable initialisieren
+die Variable zuweisen
+die Einen Wert speichern
+die Eine Variable benennen
+die Mit einer Variable arbeiten
+die Den Inhalt einer Variable ausgeben
+die Einen Wert verändern
+die hallo welt
+die system.out.println
+die public static void main
+die Klasse
+die Methode
+die Entwicklungsumgebung
+das Projekt
+der Code
+der Compiler
+der Debugger
+die Dokumentationswerkzeug
+das Workspace
+die Java Development Kit (JDK)
+die integrierte Entwicklungsumgebung (IDE)
+die Eclipse
+die Package Explorer
+die Java Projekt
+die src-Ordner
+die Klasse erstellen
+das Programm
+die public class Programm
+die main-Methode
+die System.out.println
+die String
+die Anweisung
+die Semikolon
+die print-ln-Methode
+die Zuweisungsoperator
+die Datentyp
+die Ganzzahl
+die Fließkommazahl
+die Variable deklarieren
+die Variable initialisieren
+die Variable zuweisen
+der Bezeichner
+die Sprechend benennen
+die Englisch
+die Zahlenkombinationen
+die Adresse
+die Arbeitsspeicher
+die Kryptisch
+die Notizen
+der Kommentar
+die Default-Wert
+der Zugriff
+die Initialisierung
+die Deklaration
+die Zuweisung
+die Programmausführung
+die Konsolenausgabe
+der Fehlermeldung
+die Parameter
+die Programmierstil
+die Variable
+die Datenbehälter
+die Wert
+die Textwert
+die Hochgestellte doppelte Anführungsstriche
+die Datentyp
+die Ganzzahl
+die Fließkommazahl
+die String
+der Bezeichner
+die Name der Variable
+die Arbeitsspeicher
+die Sprechend benennen
+die Englisch
+die Entwicklungsumgebung
+die Hallo Welt Programm
+die Ausgabe
+die Anweisung
+die Löschen
+der Code
+die Schriftgröße
+die Erzeugen
+die Zuweisungsoperator
+die Semikolon
+die Speichern
+die Initialisierung
+die Deklaration
+der Compiler
+die Bekannt machen
+der Zugriff
+die Default-Wert
+die Ausführen
+die Konsole ausgeben
+die Verändern
+der Kommentar
+die Notizen
+die Programme
+die Zuordnen
+die Vorbelegen
+die Programmierstil
+das Projekt
+die Kryptisch
+die Zahlenkombinationen
+die Adresse
+die Auf der Konsole ausgeben
+die Variable erzeugen
+die Variable deklarieren
+die Variable initialisieren
+die Variable zuweisen
+die Einen Wert speichern
+die Eine Variable benennen
+die Mit einer Variable arbeiten
+die Den Inhalt einer Variable ausgeben
+die Einen Wert verändern
+die hallo welt
+die public static void main
+die Klasse
+die Methode
+die Entwicklungsumgebung
+das Projekt
+der Code
+der Compiler
+der Debugger
+die Dokumentationswerkzeug
+das Workspace
+die Java Development Kit (JDK)
+die integrierte Entwicklungsumgebung (IDE)
+die Eclipse
+die Package Explorer
+die Java Projekt
+die src-Ordner
+die Klasse erstellen
+das Programm
+die public class Programm
+die main-Methode
+die System.out.println
+die String
+die Anweisung
+die Semikolon
+die print-ln-Methode
+die Zuweisungsoperator
+die Datentyp
+die Ganzzahl
+die Fließkommazahl
+die Variable deklarieren
+die Variable initialisieren
+die Variable zuweisen
+der Bezeichner
+die Sprechend benennen
+die Englisch
+die Zahlenkombinationen
+die Adresse
+die Arbeitsspeicher
+die Kryptisch
+die Notizen
+der Kommentar
+die Default-Wert
+der Zugriff
+die Initialisierung
+die Deklaration
+die Zuweisung
+die Programmausführung
+die Konsolenausgabe
+der Fehlermeldung
+die Parameter
+die Programmierstil
+die boolean Ausdruck
+die Vergleich
+die wahr/falsch
+die Bedingung
+die if-Abfrage
+die else-Block
+die logische Operatoren
+die Vergleichsoperatoren
+die arithmetische Operatoren
+die Modulo-Operator
+die Restwert
+die Zusammengesetzte Operatoren
+die String-Klasse
+die Text
+die Zeichenkette
+die Konkatenation
+die Escape-Zeichen
+die Switch-Case Abfrage
+die while-Schleife
+die do-while-Schleife
+die for-Schleife
+die verschachtelte Schleifen
+die Schleife
+die Bedingung
+die boolean Ausdruck
+die true / false
+die Vergleichsoperator
+die logischer Operator
+die Schleifenblock
+die Zähler
+die Laufvariable
+die Iteration
+die Inkrementierung
+die Dekrementierung
+die Schleifenabbruch
+die break
+die continue
+die endlose Schleife
+die Schleifenbedingung
+die Schleifenkopf
+die Schleifenkörper
+die Verschachtelung
+die Verschachtelte Schleifen
+die Matrix
+die print
+die println
+die ln in print
+die Zeilenumbruch
+die Case
+die default
+die Break im Switch
+die Fall-through
+die Konsolenausgabe
+die Variable deklarieren
+die Variable initialisieren
+die Datentyp
+die int
+die String
+die Zahl speichern
+die Monat
+die switch-case-Struktur
+die Ausgabe auf der Konsole
+die Wert prüfen
+die Switch mit String
+die case 1
+die case 2
+die case 3
+die case 4
+die default-Ausgabe
+die Fall ohne break
+die Code wiederverwenden
+die innere Schleife
+die äußere Schleife
+die 3x3-Matrix
+die Tic-Tac-Toe-Feld
+die mehrdimensionale Struktur
+die verschachtelte for-Schleife
+die Zähler i
+die Zähler j
+die Schleifendurchlauf
+die Schleifenvariable
+die Wiederholung
+die mehrmalige Ausgabe
+die Print ohne Zeilenumbruch
+die Leerzeichen
+die X ausgeben
+die innere Schleife ausführen
+die äußere Schleife ausführen
+die Schleifenbedingung erfüllt
+die Schleife verlassen
+das Array
+die mehrdimensionale Arrays
+die eindimensionales Array
+die zweidimensionales Array
+der Index
+das Element
+die Initialisierung
+die Länge
+die for-Schleife
+die foreach-Schleife
+die durchlaufen
+die kopieren
+die mehrere Dimensionen
+die Tabelle
+die Zeile
+die Spalte
+die Matrix
+die Wert speichern
+die Array deklarieren
+die Array initialisieren
+die Variable
+die Datentyp
+die String
+die Ganzzahl
+die Fließkommazahl
+der Bezeichner
+die Sprechend benennen
+die Methode
+die Methoden
+die Rückgabewert
+die void
+die public
+die static
+die main-Methode
+die Parameter
+die Aufruf
+die programmablauf
+die ausführen
+die definieren
+die zurückgeben
+die boolean
+die TRUE
+die FALSE
+die if-Abfrage
+die else
+die logische Operatoren
+die Vergleichsoperator
+die Schleife
+die while-Schleife
+die do-while-Schleife
+die Verschachtelung
+die verschachtelte Schleifen
+die Arbeitsspeicher
+die Adresse
+die Konsolenausgabe
+der Code
+der Compiler
+die Entwicklungsumgebung
+das Projekt
+die Variable deklarieren
+die Variable initialisieren
+die Variable zuweisen
+der Kommentar
+die Notizen
+das Programm
+die Ausgabe
+die Anweisung
+die Semikolon
+die Speichern
+die Löschen
+die Schriftgröße
+die Eclipse
+die Package Explorer
+die src-Ordner
+die Java Projekt
+die Klasse
+die Erzeugen
+die Deklaration
+die Zuweisung
+die Default-Wert
+der Zugriff
+die Initialisierung
+die Verändern
+die Zuordnen
+die Vorbelegen
+die Programmierstil
+die Kryptisch
+die Zahlenkombinationen
+die Adresse
+die Textwert
+die Hochgestellte doppelte Anführungsstriche
+die Objektorientierung
+die Klasse
+die Objekt
+die Bauplan
+die Instanz
+die Instanziieren
+die Mensch
+die Stift
+die Papier
+die Zusammenarbeit
+die Attribut
+die Eigenschaft
+die Methode
+die Kapselung
+die Datenkapselung
+die Sichtbarkeit
+die öffentlich (public)
+die privat (private)
+die Konstruktor
+die Standardkonstruktor
+die Parameterkonstruktor
+die Initialisierung
+die Zustand
+die Verhalten
+die Datenstruktur
+die Instanzvariable
+die Klassenvariable
+die statisch (static)
+die Getter-Methode
+die Setter-Methode
+die Getter und Setter
+die this-Referenz
+die this Schlüsselwort
+die Konsolenausgabe
+die main-Methode
+die main(String[] args)
+die Referenzvariable
+die new Schlüsselwort
+die Objekt erzeugen
+die Instanz erstellen
+die Objektinstanz
+die Datenmodellierung
+das Modell
+die Anwendung
+die Softwarearchitektur
+das Design
+die Struktur
+die Zusammenhang
+die Ziel
+die Entwicklungsprinzip
+die Wiederverwendbarkeit
+die Erweiterbarkeit
+die Lesbarkeit
+die Dokumentation
+der Kommentar
+die Kodierstandard
+die Programmierstil
+die Namenskonvention
+der Bezeichner
+die Sprechender Bezeichner
+die Variablenname
+die Methodenname
+die Klassenname
+die Konsolenausgabe
+die System.out.println
+die Datentyp
+die String
+die int
+die boolean
+die TRUE
+die FALSE
+die if-Abfrage
+die else
+die while-Schleife
+die for-Schleife
+das Array
+der Index
+die Länge
+das Element
+die Variable deklarieren
+die Variable initialisieren
+die Wert zuweisen
+die Zuweisungsoperator
+die Rückgabewert
+die void
+die Parameter
+die Aufruf
+die Programmausführung
+der Fehlermeldung
+der Debugger
+die Entwicklungsumgebung
+die Eclipse
+das Workspace
+das Projekt
+die src-Ordner
+die Package Explorer
+die Java Projekt
+die Klasse erstellen
+die Klasse definieren
+die Objekt erstellen
+die Objekt initialisieren
+die Zugriffsmodifikator
+die public
+die private
+die protected
+die default
+die Methodenparameter
+die Rückgabetyp
+die Methodensignatur
+die Methodenüberladung
+die Overloading
+die this()
+die this als Parameter
+die Methoden überladen
+die Überladen
+die gleicher Name
+die unterschiedliche Parameter
+die Signatur
+die Datentyp
+die Anzahl der Parameter
+die Reihenfolge
+die Klassenname
+die main-Methode
+die Aufruf
+die Rückgabewert
+die void
+die boolean
+die TRUE
+die FALSE
+die if-Abfrage
+die else
+die Vergleichsoperator
+die logische Operatoren
+die while-Schleife
+die for-Schleife
+das Array
+der Index
+die Länge
+das Element
+die Variable deklarieren
+die Variable initialisieren
+die Wert zuweisen
+die Zuweisungsoperator
+die Instanz
+die Objekt
+die Bauplan
+die Klasse
+die Instanziieren
+die public
+die static
+die this-Referenz
+die this Schlüsselwort
+die Konsolenausgabe
+die main(String[] args)
+die Referenzvariable
+die new Schlüsselwort
+die Objekt erzeugen
+die Instanz erstellen
+die Objektinstanz
+die Datenmodellierung
+das Modell
+die Anwendung
+die Softwarearchitektur
+das Design
+die Struktur
+die Zusammenhang
+die Ziel
+die Entwicklungsprinzip
+die Wiederverwendbarkeit
+die Erweiterbarkeit
+die Lesbarkeit
+die Dokumentation
+der Kommentar
+die Kodierstandard
+die Programmierstil
+die Namenskonvention
+der Bezeichner
+die Sprechender Bezeichner
+die Variablenname
+die Methodenname
+die Klassenname
+die Konsolenausgabe
+die System.out.println
+die Datentyp
+die String
+die int
+die boolean
+die TRUE
+die FALSE
+die if-Abfrage
+die else
+die while-Schleife
+die for-Schleife
+das Array
+der Index
+die Länge
+das Element
+die Variable deklarieren
+die Variable initialisieren
+die Wert zuweisen
+die Zuweisungsoperator
+die Rückgabewert
+die void
+die Parameter
+die Aufruf
+die Programmausführung
+der Fehlermeldung
+der Debugger
+die Entwicklungsumgebung
+die Eclipse
+das Workspace
+das Projekt
+die src-Ordner
+die Package Explorer
+die Java Projekt
+die Klasse erstellen
+die Klasse definieren
+die Objekt erstellen
+die Objekt initialisieren
+die Zugriffsmodifikator
+die public
+die private
+die protected
+die default
+die Methodenparameter
+die Rückgabetyp
+die Methodensignatur
+die Methodenüberladung
+die Overloading
+die this()
+die this als Parameter
+die Vererbung
+die Elternklasse
+die Unterklasse
+die Basisklasse
+die abgeleitete Klasse
+die extends
+die Superklasse
+die Unterklasse
+die Basisklasse
+die abgeleitete Klasse
+die extends
+die Superklasse
+die Unterklasse
+die Basisklasse
+die abgeleitete Klasse
+die extends
+die Superklasse
+die Unterklasse
+die Basisklasse
+die abgeleitete Klasse
+die extends

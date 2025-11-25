@@ -1,0 +1,9 @@
+Service discovery > Eureka
+-------------------------------------
+Spring services (3) > Rest. WebClient
+-------------------------------------
+Spring Web with Thymeleaf:
+Client > Thymeleaf > ajax
+***security > auth , filter
+*** dropdown and primefaces Elements.
+*** sec: , if, each

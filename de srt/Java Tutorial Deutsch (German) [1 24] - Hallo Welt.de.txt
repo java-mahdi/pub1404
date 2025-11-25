@@ -1,0 +1,973 @@
+1
+00:00:00,140 --> 00:00:04,940
+hallo und herzlich willkommen auf dem
+youtube-kanal von programmieren -
+
+3
+00:00:04,950 --> 00:00:10,459
+staaten punkt.de mein name ist hendrik
+und dieses video ist der erste teil
+
+5
+00:00:10,469 --> 00:00:15,440
+unseres java crash kursus in welchem du
+die wichtigsten grundlagen der
+
+7
+00:00:15,450 --> 00:00:20,269
+programmiersprache java erlernen wirst
+dieses video direkt den titel dein
+
+9
+00:00:20,279 --> 00:00:24,679
+erstes programm weil du bereits in
+diesem ersten video dein erstes programm
+
+11
+00:00:24,689 --> 00:00:29,000
+schreiben wirst falls es also cool
+völlig klingt dann bleibt auf jeden fall
+
+13
+00:00:29,010 --> 00:00:33,860
+dran bevor wir starten sehen wir uns
+jetzt zunächst mal an was wir denn in
+
+15
+00:00:33,870 --> 00:00:38,030
+diesem video alles lernen werden
+die erste sache die wir tun müssen ist
+
+17
+00:00:38,040 --> 00:00:43,700
+die notwendige software downloaden und
+installieren und dazu benötigen wir zwei
+
+19
+00:00:43,710 --> 00:00:49,240
+parts nämlich einmal dass katie kate ist
+java development kit und einmal eine id
+
+21
+00:00:49,250 --> 00:00:54,680
+ausgeschrieben integrated development
+environment und im zweiten schritt
+
+23
+00:00:54,690 --> 00:00:58,279
+werden wir dann dein erstes programm
+schreiben nämlich das berühmt
+
+25
+00:00:58,289 --> 00:01:02,660
+berüchtigte hallo welt programm und
+damit weist jetzt auch schon was du von
+
+27
+00:01:02,670 --> 00:01:07,130
+diesem video erwarten kannst verlieren
+wir also überhaupt keine zeit und
+
+29
+00:01:07,140 --> 00:01:10,789
+beginnen direkt mit dem ersten punkt
+nämlich mit der installation der
+
+31
+00:01:10,799 --> 00:01:15,550
+benötigten software und wir starten
+zunächst mal mit dem sogenannten jay kay
+
+33
+00:01:15,560 --> 00:01:20,780
+zunächst mal was ist dass jay kay
+überhaupt jay kay ist die abkürzung für
+
+35
+00:01:20,790 --> 00:01:25,330
+java development kit bildhaft kannst du
+dir dieses als eine art werkzeugkasten
+
+37
+00:01:25,340 --> 00:01:29,960
+vorstellen in dem alle nötigen tools
+beziehungsweise werkzeuge enthalten sind
+
+39
+00:01:29,970 --> 00:01:34,370
+die man zum programmieren in java
+benötigt darin enthalten ist also
+
+41
+00:01:34,380 --> 00:01:40,100
+beispielsweise einen compiler debugger
+ein dokumentations- werkzeug und noch
+
+43
+00:01:40,110 --> 00:01:45,319
+einiges mehr zu und dieses tk das müssen
+wir nun herunterladen wie du vielleicht
+
+45
+00:01:45,329 --> 00:01:48,649
+schon gesehen hast arbeite ich hier
+gerade auf einem mac aber es ist
+
+47
+00:01:48,659 --> 00:01:52,609
+vollkommen egal ob deutsch auf einem mac
+arbeitest oder auf einem windows weil
+
+49
+00:01:52,619 --> 00:01:56,240
+alles was wir runterladen und
+installieren werden ist für beide
+
+51
+00:01:56,250 --> 00:02:01,310
+betriebssysteme erhältlich und es sieht
+auch gleich aus also ist beeinträchtigt
+
+53
+00:02:01,320 --> 00:02:04,940
+ich nicht in dieser serie
+wenn du auf einem windows arbeitet oder
+
+55
+00:02:04,950 --> 00:02:09,440
+auf eine merkt es ist vollkommen egal so
+und um dieses jaedicke herunterzuladen
+
+57
+00:02:09,450 --> 00:02:13,680
+gehen wir einfach
+google und geben ein tk und da sehen wir
+
+59
+00:02:13,690 --> 00:02:17,820
+schon hier dieses erste ergebnis da
+klicken wir direkt einmal drauf und wir
+
+61
+00:02:17,830 --> 00:02:21,869
+gelangen jetzt hier auf die
+downloadseite von oracle der ein oder
+
+63
+00:02:21,879 --> 00:02:25,619
+andere wird sich jetzt schon fragen
+wieso man das von der internetseite von
+
+65
+00:02:25,629 --> 00:02:28,860
+oracle herunterladen kann
+die frage ist relativ schnell geklärt
+
+67
+00:02:28,870 --> 00:02:33,839
+denn java gehört oracle
+ursprünglich wurde java zwar von sun
+
+69
+00:02:33,849 --> 00:02:39,000
+microsystems entwickelt aber im jahr
+2010 wurde sun microsystems dann von
+
+71
+00:02:39,010 --> 00:02:42,870
+oracle aufgekauft deshalb die rechte nun
+bei eur liegen
+
+73
+00:02:42,880 --> 00:02:47,100
+das aber nur mal so am rande so und hier
+geht es jetzt nur noch darum den
+
+75
+00:02:47,110 --> 00:02:51,449
+passenden download auszuwählen du siehst
+hier zwei graue kästen für uns
+
+77
+00:02:51,459 --> 00:02:55,589
+interessant ist hier dieser obere kasten
+da musst du zunächst ja einmal diese
+
+79
+00:02:55,599 --> 00:02:59,009
+nutzungsbedingungen durchlesen ich habe
+dir schon mal angesehen deswegen
+
+81
+00:02:59,019 --> 00:03:03,690
+akzeptiere ich die und sobald die
+akzeptiert hast kannst du jetzt hier für
+
+83
+00:03:03,700 --> 00:03:07,650
+dein betriebssystem den passenden
+download auswählen ich arbeite hier
+
+85
+00:03:07,660 --> 00:03:11,729
+gerade auf einem mac deswegen muss ich
+hier diesen download wählen dann wird
+
+87
+00:03:11,739 --> 00:03:15,569
+der download angestoßen das dauert jetzt
+zur zeit lang deswegen spiele ich direkt
+
+89
+00:03:15,579 --> 00:03:20,039
+mal vor so sobald der download
+abgeschlossen ist öffnest du einfach die
+
+91
+00:03:20,049 --> 00:03:25,020
+datei die du eben heruntergeladen hast
+hier macht man dann noch mal einen
+
+93
+00:03:25,030 --> 00:03:30,300
+doppelklick drauf und dann öffnet sich
+hier schon der installationsassistent da
+
+95
+00:03:30,310 --> 00:03:34,289
+kriegst du dich einfach einmal durch und
+das ganze wird installiert
+
+97
+00:03:34,299 --> 00:03:39,330
+auch das dauert ein bisschen deswegen
+spiel ist jetzt direkt mal vor so die
+
+99
+00:03:39,340 --> 00:03:43,080
+installation wurde beendet man klickt
+dann hier noch aufschließen kann das
+
+101
+00:03:43,090 --> 00:03:47,580
+ganze dann noch gleich weglegen so und
+damit haben wir jetzt auch schon das tk
+
+103
+00:03:47,590 --> 00:03:52,770
+fertig installiert das war part 1 und
+jetzt fehlen uns nur noch zwei und zwar
+
+105
+00:03:52,780 --> 00:03:57,210
+die sogenannte de steht wie bereits
+erwähnt für integrated development
+
+107
+00:03:57,220 --> 00:04:01,940
+environment und bedeutet übersetzt
+nichts anderes als entwicklungsumgebung
+
+109
+00:04:01,950 --> 00:04:06,390
+und eine entwicklungsumgebung ist
+einfach nur ein programm das uns beim
+
+111
+00:04:06,400 --> 00:04:10,559
+programmieren unterstützt
+es gibt sehr viele auf dem markt wir
+
+113
+00:04:10,569 --> 00:04:14,190
+werden uns in diesem tutorial für die
+idee eclipse entscheiden
+
+115
+00:04:14,200 --> 00:04:18,420
+eclipse gefällt mir persönlich einfach
+sehr gut und es sieht sowohl auf windows
+
+117
+00:04:18,430 --> 00:04:23,280
+als auch mac gleich aus so dass egal
+welches betriebssystem verwendet
+
+119
+00:04:23,290 --> 00:04:28,770
+diese serie sauber mitverfolgen kannst
+also ideal für diese tutorial reihe hier
+
+121
+00:04:28,780 --> 00:04:32,940
+um das zu installieren gehen wir einfach
+wieder auf google und diesmal geben wir
+
+123
+00:04:32,950 --> 00:04:36,930
+eben eclipse ein
+und dann können wir hier direkt auf
+
+125
+00:04:36,940 --> 00:04:40,980
+download gehen
+und jetzt sehen wir die clips des
+
+127
+00:04:40,990 --> 00:04:44,940
+inzwischen diesen namen der ändert sich
+natürlich je nachdem wann du das video
+
+129
+00:04:44,950 --> 00:04:48,510
+die an sie ist hier wird auf jeden fall
+immer der aktuelle download angezeigt
+
+131
+00:04:48,520 --> 00:04:52,590
+das coole ist er wird direkt für sein
+betriebssystem richtig ausgewählt du
+
+133
+00:04:52,600 --> 00:04:56,520
+musst also wirklich einfach nur auf den
+button klicken und dann gehst du hier
+
+135
+00:04:56,530 --> 00:05:00,780
+nochmal auf download und schon download
+ist du eclipse jetzt öffnet sich hier
+
+137
+00:05:00,790 --> 00:05:04,110
+noch ein fenster wo man es spenden kann
+wenn man darauf lust hat wenn man dieses
+
+139
+00:05:04,120 --> 00:05:08,160
+projekt unterstützen will
+und wenn nicht ist es auch okay dann
+
+141
+00:05:08,170 --> 00:05:12,750
+schließt du die seite einfach jetzt
+dauerte download wieder etwas ich spule
+
+143
+00:05:12,760 --> 00:05:17,490
+mal vor so der download ist fertig jetzt
+können wir auch hier wieder diese datei
+
+145
+00:05:17,500 --> 00:05:23,100
+öffnen
+heute haben wir eine clips installer den
+
+147
+00:05:23,110 --> 00:05:26,160
+öffnen wir einfach mal
+
+148
+00:05:31,160 --> 00:05:35,320
+und dann öffnet sich jetzt hier dieses
+fenster und es ist ganz wichtig zu
+
+150
+00:05:35,330 --> 00:05:38,680
+verstehen
+eclipse ist eine plattform das heißt wir
+
+152
+00:05:38,690 --> 00:05:42,220
+können hier mit mehreren
+programmiersprachen arbeiten wir wollen
+
+154
+00:05:42,230 --> 00:05:45,970
+aber programme für java entwickeln
+deswegen werden wir hier direkt das
+
+156
+00:05:45,980 --> 00:05:51,190
+erste ergebnis aus eclipse idea for java
+developer aufpassen dass wir hier nicht
+
+158
+00:05:51,200 --> 00:05:55,420
+das niveau noch dabei steht sondern wir
+wollen wirklich hier dieses normale for
+
+160
+00:05:55,430 --> 00:06:00,310
+java developer das wählen wir aus dann
+suchen wir uns einen platz aus wo es hin
+
+162
+00:06:00,320 --> 00:06:04,110
+gespeichert werden soll und dann klicken
+wir einfach nur noch auf installieren
+
+164
+00:06:04,120 --> 00:06:15,010
+wir akzeptieren die sache und schon wird
+der installationsprozess angestoßen so
+
+166
+00:06:15,020 --> 00:06:18,070
+ich habe jetzt mal wieder vorgespult
+damit wir nicht unnötig warten müssen
+
+168
+00:06:18,080 --> 00:06:22,750
+sobald der installationsprozess beendet
+ist kann man die of lounge drücken und
+
+170
+00:06:22,760 --> 00:06:27,370
+schon wird eclipse geladen
+jetzt sehen wir hier noch dass wir hier
+
+172
+00:06:27,380 --> 00:06:32,410
+einen workspace anlegen müssen
+ein workspace ist ein bereich in dem
+
+174
+00:06:32,420 --> 00:06:36,040
+alle programme abgelegt werden und
+gespeichert werden die wir darin
+
+176
+00:06:36,050 --> 00:06:40,480
+programmieren sozusagen und wir werden
+für uns für diesen kurs für diesen
+
+178
+00:06:40,490 --> 00:06:44,530
+crashkurs hier einen eigenen workspace
+anlegen und den nennen wir jetzt einfach
+
+180
+00:06:44,540 --> 00:06:54,540
+mal nennen wir ihn einfach mal aber
+crashkurs und dann laufen wir das ganze
+
+182
+00:06:54,550 --> 00:07:00,880
+und schon öffnet sich eclipse hier haben
+wir jetzt ein willkommens bildschirm den
+
+184
+00:07:00,890 --> 00:07:03,820
+können wir wegklicken in denen wir hier
+oben einfach auf das kleine kreuz
+
+186
+00:07:03,830 --> 00:07:08,890
+klicken und damit sind jetzt in dieser
+entwicklungsumgebung angekommen so und
+
+188
+00:07:08,900 --> 00:07:12,370
+damit sind wir jetzt mit dem ersten teil
+dieses videos durch wir haben alles
+
+190
+00:07:12,380 --> 00:07:16,510
+notwendige installiert und jetzt werden
+wir zum zweiten teil dieses videos
+
+192
+00:07:16,520 --> 00:07:20,080
+kommen und zwar werden wir das so
+genannte hallo welt programm schreiben
+
+194
+00:07:20,090 --> 00:07:23,800
+und wie das funktioniert werde ich dir
+jetzt mal zeigen das erste was wir
+
+196
+00:07:23,810 --> 00:07:27,730
+machen ist hier diese unnötigen fenster
+schließen die wir nicht benötigen werden
+
+198
+00:07:27,740 --> 00:07:32,830
+erstmal das heißt wir gehen hier auf
+diesen kleinen strich klicken drauf und
+
+200
+00:07:32,840 --> 00:07:35,590
+hier auch nochmal auf den strich und
+dann sind die beiden fenster
+
+202
+00:07:35,600 --> 00:07:39,430
+verschwunden und all den rest den werden
+wir benötigen
+
+204
+00:07:39,440 --> 00:07:43,300
+was wir nun machen müssen ist uns ein
+neues java projekte
+
+206
+00:07:43,310 --> 00:07:47,320
+wegen beginn als ich hier in den linken
+bereich wo package explorer steht
+
+208
+00:07:47,330 --> 00:07:51,370
+und hier machen wir einen rechtsklick
+und dann gehen wir auf new und dann auf
+
+210
+00:07:51,380 --> 00:07:56,170
+java project zu und hier müssen wir
+jetzt einen namen eingeben das nenne ich
+
+212
+00:07:56,180 --> 00:08:00,730
+jetzt einfach mal hello world
+und wenn man das gemacht hat geht man
+
+214
+00:08:00,740 --> 00:08:04,660
+rechts unten auf finnisch und jetzt
+haben wir hier dieses java projekt
+
+216
+00:08:04,670 --> 00:08:10,180
+helloworld angelegt hier sehen wir links
+pfeil da klicken wir einmal drauf und
+
+218
+00:08:10,190 --> 00:08:14,380
+dann ja es ist wie gewohnt wie im
+explorer auch man kann dann hat es hier
+
+220
+00:08:14,390 --> 00:08:18,130
+so ein dateisystem wo man sich durch
+klicken kann wo man alles öffnen kann
+
+222
+00:08:18,140 --> 00:08:21,520
+für uns interessant ist jetzt hier
+dieser src ordner
+
+224
+00:08:21,530 --> 00:08:26,290
+hier machen wir erneut einen rechtsklick
+draufgehen wieder auf new und jetzt
+
+226
+00:08:26,300 --> 00:08:31,690
+gehen wir auf klaas hiermit können wir
+jetzt eine java klasse erstellen was
+
+228
+00:08:31,700 --> 00:08:36,100
+eine klasse genau ist das werden wir
+später im tutorial noch lernen das soll
+
+230
+00:08:36,110 --> 00:08:39,310
+uns erst mal nicht interessieren aber
+wir müssen es tun sonst können wir
+
+232
+00:08:39,320 --> 00:08:41,920
+nichts programmieren
+diese klasse nenne ich jetzt mal
+
+234
+00:08:41,930 --> 00:08:45,040
+programm war da möchten wir unser
+programm reinschreiben
+
+236
+00:08:45,050 --> 00:08:49,900
+und hier ist wichtig dass wir hier noch
+public static goldman einen haken
+
+238
+00:08:49,910 --> 00:08:54,460
+hinsetzen damit uns diese methode direkt
+generiert wird und dann gehen wir rechts
+
+240
+00:08:54,470 --> 00:09:01,270
+unten auf finnisch und damit wurde uns
+jetzt hier schon diese ja diese klasse
+
+242
+00:09:01,280 --> 00:09:05,950
+erstellt diese klares programm und in
+der mitte haben wir diese so genannte
+
+244
+00:09:05,960 --> 00:09:10,590
+methode da können wir jetzt hier dieses
+grüne mal raus löschen
+
+246
+00:09:10,600 --> 00:09:13,990
+und wie du siehst es ist alles gerade
+hier noch sehr klein
+
+248
+00:09:14,000 --> 00:09:17,800
+damit es besser sie ist man nehme ich
+jetzt meine einstellung vor und
+
+250
+00:09:17,810 --> 00:09:21,880
+vergrößert die schrift ich gehe hier zu
+links oben auf eclipse dann gehe ich auf
+
+252
+00:09:21,890 --> 00:09:27,010
+einstellungen dann gehe ich auf general
+dann gehe ich auf ihr perenz dann auf
+
+254
+00:09:27,020 --> 00:09:36,460
+colors and fonds dann auf java so ein
+tier theatertext front hier gehe ich auf
+
+256
+00:09:36,470 --> 00:09:41,710
+edit und jetzt nehme ich mal eine
+größere schrift größe nämlich zum
+
+258
+00:09:41,720 --> 00:09:48,460
+beispiel ja ich nehme einfach mal 24
+dann sollte es groß genug sein jetzt
+
+260
+00:09:48,470 --> 00:09:52,180
+habe ich das ganze hier mal ja
+zugestimmt und jetzt haben wir diese
+
+262
+00:09:52,190 --> 00:09:56,590
+große schrift dar
+so was wir jetzt machen ist das hallo
+
+264
+00:09:56,600 --> 00:09:59,950
+welt programm schreiben
+sehen wir uns zunächst mal an was wir
+
+266
+00:09:59,960 --> 00:10:04,600
+hier gerade bisher schon haben wir sehen
+hier einmal public cloud programm
+
+268
+00:10:04,610 --> 00:10:09,520
+damit würde eine klasse definiert wie
+gesagt was eine klasse ist das werden
+
+270
+00:10:09,530 --> 00:10:13,300
+wir später noch lernen wir fokussieren
+uns jetzt schon auf diesen inneren teil
+
+272
+00:10:13,310 --> 00:10:19,480
+und zwar dieses public static weidmann
+diese ersten drei wörter publics tätig
+
+274
+00:10:19,490 --> 00:10:22,750
+und baut die sollen die ich jetzt auch
+erstmal nicht interessieren uns
+
+276
+00:10:22,760 --> 00:10:25,180
+interessiert hier wirklich nur das wort
+mehr
+
+278
+00:10:25,190 --> 00:10:30,190
+denn hier befinden wir uns in der mine
+methode was meine ich mit in der methode
+
+280
+00:10:30,200 --> 00:10:35,080
+alles was zwischen dieser und dieser
+geschäften klammer steht also im prinzip
+
+282
+00:10:35,090 --> 00:10:39,000
+in diesem bereich hier
+das befindet sich innerhalb dieser
+
+284
+00:10:39,010 --> 00:10:43,780
+methode und die methode ist eine ganz
+besondere methode die gibt es nämlich
+
+286
+00:10:43,790 --> 00:10:48,120
+nur einmal in einem programm und die
+gibt dem programmablauf vor
+
+288
+00:10:48,130 --> 00:10:54,010
+das bedeutet jedes mal wenn wir das
+programm starten fängt der computer hier
+
+290
+00:10:54,020 --> 00:10:58,240
+in der mine methode an einzusteigen und
+arbeitet alles was hier drinnen steht
+
+292
+00:10:58,250 --> 00:11:03,850
+von oben nach unten ab und das ist dann
+sozusagen unser programm
+
+294
+00:11:03,860 --> 00:11:07,470
+und deshalb werden wir jetzt hier auch
+unseren code reinschreiben
+
+296
+00:11:07,480 --> 00:11:12,730
+und wir möchten ja eine ausgabe machen
+auf der konsole und da sollen ausgegeben
+
+298
+00:11:12,740 --> 00:11:18,520
+werden hallo welt und das können wir mit
+einer einzigen anweisungen machen und
+
+300
+00:11:18,530 --> 00:11:25,210
+hier zu schreiben da einfach system
+punktet print ln also hier diese zeile
+
+302
+00:11:25,220 --> 00:11:28,600
+code die müssen wir dafür dazu
+hinschreiben das kannst du einfach
+
+304
+00:11:28,610 --> 00:11:34,470
+abtippen und dann klickst du hier
+innerhalb dieser klammern rein machst du
+
+306
+00:11:34,480 --> 00:11:40,090
+doppelte anführungsstriche nach oben und
+zwar ein paar und dazwischen schreibst
+
+308
+00:11:40,100 --> 00:11:43,720
+du den text den du auf der konsole
+ausgeben möchte ist in unserem fall
+
+310
+00:11:43,730 --> 00:11:50,860
+hallo welt und damit ist das programm
+jetzt auch schon fertig ich speicher das
+
+312
+00:11:50,870 --> 00:11:55,120
+ganze jetzt mal und für das aus in dem
+ich hier links oben auf diesen button
+
+314
+00:11:55,130 --> 00:11:59,500
+geht er aussieht wie so ein play button
+und das mache ich um zu überprüfen ob
+
+316
+00:11:59,510 --> 00:12:02,860
+alles funktioniert
+und jetzt sehen wir öffnet sich hier
+
+318
+00:12:02,870 --> 00:12:05,580
+unten so ein fenster und da drinsteht
+hallo welt
+
+320
+00:12:05,590 --> 00:12:10,020
+das ist quasi das konsolen fenster wo
+wir dann immer die ausgabe sehen wenn
+
+322
+00:12:10,030 --> 00:12:13,650
+wir was auf die konsole schreiben
+sowas haben wir jetzt hier eigentlich
+
+324
+00:12:13,660 --> 00:12:16,920
+gemacht vielleicht noch mal zum
+verständnis wir sind wie gesagt in
+
+326
+00:12:16,930 --> 00:12:21,120
+dieser methode wir starten das programm
+das programm fängt geht in die mine
+
+328
+00:12:21,130 --> 00:12:25,710
+methode und arbeitet alles was hier drin
+steht von oben nach unten ab was wir
+
+330
+00:12:25,720 --> 00:12:31,500
+bisher drinstehen haben ist nur diese
+einzige zeile code und das semikolon am
+
+332
+00:12:31,510 --> 00:12:36,150
+ende das was wir hier stehen haben ist
+eine anweisung jede zeile code in
+
+334
+00:12:36,160 --> 00:12:40,800
+unserem programm bezeichnet man also in
+der fachsprache als anweisung und jede
+
+336
+00:12:40,810 --> 00:12:45,330
+anweisung muss inhaber mit einem
+semikolon ja beendet werden ansonsten
+
+338
+00:12:45,340 --> 00:12:48,780
+kriegt man eine fehlermeldung das ist
+ganz wichtig also noch jede anweisung
+
+340
+00:12:48,790 --> 00:12:53,960
+ein semikolon setzen und hier bin nichts
+anderes gemacht als eine methode
+
+342
+00:12:53,970 --> 00:13:00,030
+aufgerufen mit dieser mit diesem text
+hier sozusagen was eine methode ist
+
+344
+00:13:00,040 --> 00:13:02,190
+werden wir in diesem tutorial auch noch
+lernen
+
+346
+00:13:02,200 --> 00:13:06,840
+du kannst es dir jetzt einfach mal so
+vorstellen damit rufen wir eine methode
+
+348
+00:13:06,850 --> 00:13:12,300
+auf das bedeutet irgendwo anders wird
+jetzt code ausgeführt und das was hier
+
+350
+00:13:12,310 --> 00:13:17,760
+zwischen den klammern steht das geben
+wir sozusagen mit dass es ein parameter
+
+352
+00:13:17,770 --> 00:13:24,420
+den übergeben wir an die methode und die
+methode die verwertet diesen text an und
+
+354
+00:13:24,430 --> 00:13:27,150
+in dem fall
+diese print allen methode sorgt einfach
+
+356
+00:13:27,160 --> 00:13:33,140
+dafür dass dieser text den wir hiermit
+geben auf der konsole ausgegeben wird
+
+358
+00:13:33,150 --> 00:13:37,470
+wie gesagt wahrscheinlich verstehst du
+noch nicht so wirklich was da jetzt
+
+360
+00:13:37,480 --> 00:13:41,580
+tatsächlich sache ist aber das werden
+wir in diesem tutorial noch ändern
+
+362
+00:13:41,590 --> 00:13:45,810
+hier ist es jetzt noch mal wichtig dass
+du das hier einmal up tipps einmal aus
+
+364
+00:13:45,820 --> 00:13:50,250
+fürst und schaust ob wirklich dieses
+ergebnis auf der konsole kommt weil wenn
+
+366
+00:13:50,260 --> 00:13:54,300
+das der fall ist dann können wir sicher
+sein dass du alles richtig installiert
+
+368
+00:13:54,310 --> 00:13:58,110
+hast dass du alles notwendige vor allem
+installiert hast und damit alles
+
+370
+00:13:58,120 --> 00:14:02,310
+funktioniert und dann kannst du diese
+ganze tutorial serie beruhigt
+
+372
+00:14:02,320 --> 00:14:06,120
+durcharbeiten es wird dann immer alles
+funktionieren insofern natürlich den
+
+374
+00:14:06,130 --> 00:14:08,820
+richtigen code eingibst aber das kriegen
+wir schon hin
+
+376
+00:14:08,830 --> 00:14:11,720
+und das war es jetzt erst mal für dieses
+erst
+
+378
+00:14:11,730 --> 00:14:16,129
+video falls du aus diesem video einen
+nutzen ziehen konnte ist falls es dir
+
+380
+00:14:16,139 --> 00:14:19,519
+gefallen hat dann gebt gerne einen
+daumen nach oben wir würden uns sehr
+
+382
+00:14:19,529 --> 00:14:22,160
+darüber freuen
+und falls wir den kanal noch nicht
+
+384
+00:14:22,170 --> 00:14:25,850
+abonniert hast dann tue dies gern in dem
+du unter diesem video auf den abonnieren
+
+386
+00:14:25,860 --> 00:14:30,800
+button klicken und dann sehen wir uns im
+nächsten video wieder ich freue mich auf
+
+388
+00:14:30,810 --> 00:14:33,680
+dich bis dann
+

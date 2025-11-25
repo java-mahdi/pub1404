@@ -1,0 +1,6 @@
+﻿Case,When It Happens
+status === 0,"No connection, CORS blocked, or "file:// issue
+404,URL not found
+500,Server error
+parsererror,"Server returned invalid JSON (e.g., HTML error page)"
+timeout,Request took too long

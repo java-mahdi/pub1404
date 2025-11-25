@@ -1,0 +1,809 @@
+1
+00:00:00,000 --> 00:00:04,670
+hallo und herzlich willkommen auf dem
+youtube-kanal von programmieren -
+
+3
+00:00:04,680 --> 00:00:10,129
+starten punkt.de mein name ist hendrik
+und in diesem video ist es endlich
+
+5
+00:00:10,139 --> 00:00:15,140
+soweit denn im achtzehnten video dieses
+crash kursus kommen wir nun endlich auf
+
+7
+00:00:15,150 --> 00:00:18,560
+die berühmt-berüchtigte
+objektorientierung zu sprechen
+
+9
+00:00:18,570 --> 00:00:22,429
+sehen wir uns zunächst einmal an was wir
+in diesem video genau lernen werden
+
+11
+00:00:22,439 --> 00:00:26,570
+zunächst werden wir uns mal ansehen was
+versteht man unter op
+
+13
+00:00:26,580 --> 00:00:30,950
+da werden wir uns mal erst mal diese
+definition klären op es nichts anderes
+
+15
+00:00:30,960 --> 00:00:34,610
+als objektorientierte programmierung
+also die abkürzung dafür
+
+17
+00:00:34,620 --> 00:00:38,330
+und da werden wir uns mal angucken was
+überhaupt das grundprinzip dahinter ist
+
+19
+00:00:38,340 --> 00:00:43,700
+und im anschluss daran werden wir dann
+darauf eingehen was klassen und objekte
+
+21
+00:00:43,710 --> 00:00:48,279
+sind das ist nämlich auch ganz wichtig
+für das grundverständnis um dann später
+
+23
+00:00:48,289 --> 00:00:52,520
+objektorientiert programmieren zu können
+und wie du schon sehen kannst ist jetzt
+
+25
+00:00:52,530 --> 00:00:57,110
+kein praxisteil dabei das heißt in
+diesem video werden wir jetzt anders als
+
+27
+00:00:57,120 --> 00:01:01,490
+in den bisherigen videos nicht in die
+entwicklungsumgebung springen sondern in
+
+29
+00:01:01,500 --> 00:01:05,509
+diesem video werden wir wirklich erstmal
+das konzept in der theorie kennenlernen
+
+31
+00:01:05,519 --> 00:01:11,120
+und ab dem nächsten videos werden wir
+dann diese konzepte in der praxis in der
+
+33
+00:01:11,130 --> 00:01:15,200
+entwicklungsumgebung umsetzen also
+beginnen wir mal damit was versteht man
+
+35
+00:01:15,210 --> 00:01:20,740
+unter o p o p ist nichts anderes als die
+abkürzung für objektorientierte
+
+37
+00:01:20,750 --> 00:01:24,770
+programmierung das habe ich ja eben
+schon erwähnt und darunter versteht man
+
+39
+00:01:24,780 --> 00:01:28,670
+jetzt eben einen modernen programm ihr
+stil dieser programm ihr stil ist
+
+41
+00:01:28,680 --> 00:01:33,109
+deshalb modern weil er eben sehr nah am
+menschlichen denkens liegt wenn wir uns
+
+43
+00:01:33,119 --> 00:01:37,160
+mal die begrifflichkeiten angucken
+objektorientierte programmierung da
+
+45
+00:01:37,170 --> 00:01:40,730
+sieht man ja schon das ganze zeit
+irgendwas mit objekten zu tun und wenn
+
+47
+00:01:40,740 --> 00:01:44,480
+du dich jetzt mal bei dir 'nen dagegen
+jetzt im moment um siehst dann wirst du
+
+49
+00:01:44,490 --> 00:01:48,380
+zahlreiche objekte sehen angenommen du
+siehst du dieses video gerade auf einem
+
+51
+00:01:48,390 --> 00:01:51,350
+pc bildschirm an
+dann ist der pc bildschirm nichts
+
+53
+00:01:51,360 --> 00:01:55,310
+anderes als ein objekt aber auch wenn du
+dir das video von einem handy ansiehst
+
+55
+00:01:55,320 --> 00:01:59,450
+oder zum beispiel auf einem tablet dann
+ist das auch ein objekt das tablet ist
+
+57
+00:01:59,460 --> 00:02:02,929
+ein objekt dass handys ein objekt die
+schreibtischlampe ist ein objekt ein
+
+59
+00:02:02,939 --> 00:02:07,160
+stift ist ein objekt usw
+wir menschen sind in der echten welt von
+
+61
+00:02:07,170 --> 00:02:11,839
+objekten umgeben und dieser programm ihr
+stil ist jetzt so aufgebaut damit wir
+
+63
+00:02:11,849 --> 00:02:15,290
+quasi auch mit
+sekten in unserem programm hantieren und
+
+65
+00:02:15,300 --> 00:02:18,890
+das liegt uns menschen eben sehr gut
+weil wir in der echten welt auch von
+
+67
+00:02:18,900 --> 00:02:22,730
+diesen objekten umgeben sind und der
+gegensatz zu diesem modernen programm
+
+69
+00:02:22,740 --> 00:02:27,860
+ihr stil der objektorientierung ist die
+prozedurale programmierung mit diesem
+
+71
+00:02:27,870 --> 00:02:31,460
+stil entwickelt man beispielsweise wenn
+man mit der programmiersprache c
+
+73
+00:02:31,470 --> 00:02:36,200
+arbeitet früher hat er alles diesem
+programm ihr stil und nach und nach
+
+75
+00:02:36,210 --> 00:02:38,960
+kamen daneben die objektorientierung ins
+spiel
+
+77
+00:02:38,970 --> 00:02:43,040
+man hat gemerkt das ist halt sich besser
+eigne des menschen damit besser arbeiten
+
+79
+00:02:43,050 --> 00:02:44,870
+können
+deswegen sind diese ganzen neuen
+
+81
+00:02:44,880 --> 00:02:52,070
+modernen sprachen wie java c++ und so
+weiter alle objektorientiert zu und wie
+
+83
+00:02:52,080 --> 00:02:56,000
+es gerade schon erwähnt hatte gibt es
+eben jetzt in diesem programm auch ganz
+
+85
+00:02:56,010 --> 00:02:59,990
+viele objekte sowie in echt eben auch
+und in diesem programm versteht man
+
+87
+00:03:00,000 --> 00:03:03,860
+darunter beschreibbare dinge die
+zusammenarbeiten können um zur
+
+89
+00:03:03,870 --> 00:03:08,570
+problemlösung beizutragen
+brechen wir diesen satz mal auseinander
+
+91
+00:03:08,580 --> 00:03:13,220
+und schauen uns die einzelnen teile an
+zum einen haben wir beschreibbare dinge
+
+93
+00:03:13,230 --> 00:03:16,850
+das ist wie die echten objekte auch wir
+haben zum beispiel einen stift in der
+
+95
+00:03:16,860 --> 00:03:21,710
+hand den können wir beschreiben denn der
+stift hat eine gewisse form der stift
+
+97
+00:03:21,720 --> 00:03:25,520
+hat eine gewisse farbe der stift kommt
+zum beispiel von einem gewissen
+
+99
+00:03:25,530 --> 00:03:28,760
+hersteller usw
+wir können dieses objekt also ganz genau
+
+101
+00:03:28,770 --> 00:03:32,960
+beschreiben und so machen wissen der
+programmierung auch wir bauen uns dann
+
+103
+00:03:32,970 --> 00:03:35,930
+quasi objekte und die können wir ganz
+genau beschreiben
+
+105
+00:03:35,940 --> 00:03:39,980
+dann kommt der zweite teil vom satz die
+zusammenarbeiten können
+
+107
+00:03:39,990 --> 00:03:44,210
+das bedeutet einfach so viel dass
+verschiedene objekte wie auch im echten
+
+109
+00:03:44,220 --> 00:03:48,650
+leben zusammen arbeiten beispielsweise
+du nimmst den stift in die hand und
+
+111
+00:03:48,660 --> 00:03:53,000
+möchtest etwas auf ein papier schreiben
+ein blatt papier ist ja auch nichts
+
+113
+00:03:53,010 --> 00:03:57,590
+anderes als ein objekt und der stift ist
+auch ein objekt und in dem moment wurde
+
+115
+00:03:57,600 --> 00:04:01,640
+auf das blatt papier schreibst arbeiten
+diese beiden objekte ja irgendwie
+
+117
+00:04:01,650 --> 00:04:04,580
+zusammen
+genauso wie menschen für den computer
+
+119
+00:04:04,590 --> 00:04:08,990
+sind wir menschen quasi auf objekte und
+wir halten ja den stift umzuschreiben
+
+121
+00:04:09,000 --> 00:04:14,000
+das heißt das objekt mensch arbeitet mit
+dem objekt stift zusammen und der stift
+
+123
+00:04:14,010 --> 00:04:17,990
+wiederum mit dem objektblatt papier
+so kann man sich die zusammenarbeit mal
+
+125
+00:04:18,000 --> 00:04:22,230
+vor augen führen und der letzte teil um
+zur problemlösung beizutragen
+
+127
+00:04:22,240 --> 00:04:25,980
+damit ist eben einfach nur gemeint jedes
+mal wenn du ein computerprogramm
+
+129
+00:04:25,990 --> 00:04:29,070
+schreibst dann verfolgst du ein gewisses
+ziel
+
+131
+00:04:29,080 --> 00:04:32,999
+du möchtest in der regel ein problem
+lösen selbst wenn du ein computerspiel
+
+133
+00:04:33,009 --> 00:04:37,439
+programmiert das ist vielleicht für dich
+jetzt direkt kein problem dass du löst
+
+135
+00:04:37,449 --> 00:04:43,740
+wenn du ein computerspiel schreibst aber
+im prinzip ist es das doch weil du musst
+
+137
+00:04:43,750 --> 00:04:48,240
+dir überlegen wie du etwas programmieren
+muss damit es genauso funktioniert wie
+
+139
+00:04:48,250 --> 00:04:53,010
+du es eben haben möchte ist es der
+spieler zum beispiel in der und der welt
+
+141
+00:04:53,020 --> 00:04:57,930
+ist dass die welt so und so aussieht usw
+und das ist dann im prinzip dieser ganze
+
+143
+00:04:57,940 --> 00:05:01,439
+satz es ist also einfach wichtig dass du
+dir den merkst objekte sind
+
+145
+00:05:01,449 --> 00:05:06,420
+beschreibbare dinge die zusammenarbeiten
+können um zur problemlösung beizutragen
+
+147
+00:05:06,430 --> 00:05:10,950
+das ganze jetzt noch etwas abstrakt war
+überlegen wir uns das ganze jetzt mal
+
+149
+00:05:10,960 --> 00:05:14,490
+anhand eines kleinen beispiels stell dir
+mal vor du möchtest ein videospiel
+
+151
+00:05:14,500 --> 00:05:18,120
+programmieren
+in diesem video spiel soll es zum einen
+
+153
+00:05:18,130 --> 00:05:22,350
+eine spielfigur geben die spielfigur ist
+jetzt also ein objekt und so eine
+
+155
+00:05:22,360 --> 00:05:25,260
+spielfigur
+die hat jetzt zum einen eigenschaften
+
+157
+00:05:25,270 --> 00:05:29,999
+und zum anderen methoden mit
+eigenschaften sind dinge gemeint wie die
+
+159
+00:05:30,009 --> 00:05:34,379
+spielfigur hat lebenspunkte oder die
+spielfigur hat einen namen also mit
+
+161
+00:05:34,389 --> 00:05:38,580
+eigenschaften sind immer sozusagen
+zustände gemeint du hast gerade zwei
+
+163
+00:05:38,590 --> 00:05:42,659
+leben das ist ein zustand
+du hast einen namen der heil lautet
+
+165
+00:05:42,669 --> 00:05:47,490
+hendrik das ist ein zustand und dann
+gibt es eben methoden zb kann sich
+
+167
+00:05:47,500 --> 00:05:52,140
+bewegen ein spieler kann sich bewegen
+das ist aber kein zustand wenn man sich
+
+169
+00:05:52,150 --> 00:05:58,740
+bewegt dann tut man ja gerade etwas das
+wird eben als methode gehandhabt oder
+
+171
+00:05:58,750 --> 00:06:03,480
+ein spieler kann sterben
+das wird auch als methode gehandhabt so
+
+173
+00:06:03,490 --> 00:06:06,870
+und neben dieser spielfigur gibt es
+jetzt eben noch weitere objekte
+
+175
+00:06:06,880 --> 00:06:10,290
+beispielsweise du stehst mit der
+spielfigur vor einer kiste
+
+177
+00:06:10,300 --> 00:06:13,950
+die kiste ist ja auch wieder ein objekt
+und auch diese kiste hat jetzt wieder
+
+179
+00:06:13,960 --> 00:06:18,120
+eigenschaften und methoden eine
+eigenschaft kann sein die kiste ist
+
+181
+00:06:18,130 --> 00:06:23,399
+verschlossen oder geöffnet das ist ein
+zustand sie es entweder zu oder auf da
+
+183
+00:06:23,409 --> 00:06:26,550
+gibt es nichts dazwischen in der
+programmierung könnte man das
+
+185
+00:06:26,560 --> 00:06:30,570
+beispielsweise mit einem boullion
+realisieren zb dies geschlossen dann
+
+187
+00:06:30,580 --> 00:06:34,110
+könnte man sagen das entspricht dem wert
+falls oder sie es geöffnet
+
+189
+00:06:34,120 --> 00:06:37,620
+das entspricht dem wert true dann eine
+kiste enthält dinge
+
+191
+00:06:37,630 --> 00:06:41,100
+es kann ja sein dass in der kiste sachen
+drin liegen dass es auch wieder ein
+
+193
+00:06:41,110 --> 00:06:45,840
+zustand weil die ligen da ja drin und
+das könnte man zb mit einem array
+
+195
+00:06:45,850 --> 00:06:48,840
+modellieren
+das heißt da liegt zum beispiel einen
+
+197
+00:06:48,850 --> 00:06:54,000
+schwerterin ein schild und ein helm und
+diese drei elemente kann man jetzt quasi
+
+199
+00:06:54,010 --> 00:06:57,840
+in eine ray packen und das ist dann auch
+wieder eine eigenschaft von dieser kiste
+
+201
+00:06:57,850 --> 00:07:02,310
+und dann gibt es natürlich auch methode
+eine kiste kann geöffnet werden das
+
+203
+00:07:02,320 --> 00:07:06,330
+heißt man kann hingehen mit der
+interagieren und sie öffnen oder auch
+
+205
+00:07:06,340 --> 00:07:10,140
+schließen und das wird eben wieder mit
+einer methode modelliert und dieses
+
+207
+00:07:10,150 --> 00:07:13,980
+kleine theoretische beispiel hier wollte
+ich dir jetzt nur mal vorstellen damit
+
+209
+00:07:13,990 --> 00:07:18,420
+du verstehst dass du ein computerspiel
+eben aus zahlreichen objekten besteht
+
+211
+00:07:18,430 --> 00:07:22,140
+und jedes objekt hat eigenschaften und
+jedes objekt hat methoden
+
+213
+00:07:22,150 --> 00:07:26,129
+da wir jetzt schon wissen was objekte
+sind fehlt uns nur noch ein wichtiger
+
+215
+00:07:26,139 --> 00:07:30,120
+punkt den wir verstehen müssen und zwar
+was sind klassen schauen wir uns das mal
+
+217
+00:07:30,130 --> 00:07:36,029
+an eine klasse ist nichts anderes als
+ein bauplan für ein objekt das bedeutet
+
+219
+00:07:36,039 --> 00:07:40,680
+mit einer klasse die definieren wir und
+diese nutzen wir eben dazu um ein objekt
+
+221
+00:07:40,690 --> 00:07:43,140
+zu beschreiben
+wir geben dem objekt in dem wir es
+
+223
+00:07:43,150 --> 00:07:48,060
+beschreiben also zustände bzw
+eigenschaften und wir geben dem objekt
+
+225
+00:07:48,070 --> 00:07:51,629
+methoden dass wir beschreiben
+und all das wird in einer klasse
+
+227
+00:07:51,639 --> 00:07:56,550
+festgehalten und diese fungiert jetzt
+eben als bauplan und in einem programm
+
+229
+00:07:56,560 --> 00:08:02,010
+kann man jetzt von einer klasse also von
+so einem bauplan beliebig viele objekte
+
+231
+00:08:02,020 --> 00:08:06,870
+erzeugen und jedes objekt ist dann ein
+eigenes objekt für sich und kann andere
+
+233
+00:08:06,880 --> 00:08:11,490
+werte bei den eigenschaften besitzen das
+bedeutet jetzt konkret wenn du jetzt zum
+
+235
+00:08:11,500 --> 00:08:15,089
+beispiel ein spiel programmiert und da
+möchtest du ein auto programmieren
+
+237
+00:08:15,099 --> 00:08:20,370
+dann hast du eine klasse also einen
+bauplan für dieses auto die definierst
+
+239
+00:08:20,380 --> 00:08:24,390
+du zuerst du definierst also erst die
+klasse in dieser klasse legst du gewisse
+
+241
+00:08:24,400 --> 00:08:29,219
+eigenschaften fest beispielsweise eine
+eigenschaft kann sein die klasse auto
+
+243
+00:08:29,229 --> 00:08:33,029
+hat einen hersteller
+das ist eine eigenschaft die klasse auto
+
+245
+00:08:33,039 --> 00:08:37,680
+hat eine farbe das ist eine eigenschaft
+also alle dinge mit denen du das objekt
+
+247
+00:08:37,690 --> 00:08:41,250
+letztendlich beschreiben kannst und dann
+legst du in dieser klasse auch noch die
+
+249
+00:08:41,260 --> 00:08:45,970
+methoden fest also die funktionalitäten
+die ein objekt davon ausführen können
+
+251
+00:08:45,980 --> 00:08:51,730
+und wenn du jetzt in deinem programm so
+ein objekt vom typ auto haben möchtest
+
+253
+00:08:51,740 --> 00:08:55,689
+dann erzeugt du dir ein objekt von
+dieser klasse also von diesem bauplan
+
+255
+00:08:55,699 --> 00:09:00,579
+und der bauplan ist quasi die vorlage es
+wird ein objekt davon erzeugt und jedes
+
+257
+00:09:00,589 --> 00:09:04,569
+dieser objekt ist ein einzeln für sich
+das heißt du kannst dir von dieser
+
+259
+00:09:04,579 --> 00:09:08,650
+klasse auto jetzt in deinem spiel fünf
+autos erzeugen und dann stehen auch fünf
+
+261
+00:09:08,660 --> 00:09:13,150
+autos auf dem spielfeld und nicht nur 1
+und jetzt kannst du zum beispiel sagen
+
+263
+00:09:13,160 --> 00:09:18,189
+das auto 1 soll die farbe rot haben das
+auto 2 soll die farbe blau haben und so
+
+265
+00:09:18,199 --> 00:09:20,410
+weiter
+das heißt du kannst die eigenschaften
+
+267
+00:09:20,420 --> 00:09:23,829
+von diesen einzelnen objekten
+unterschiedlich gestalten
+
+269
+00:09:23,839 --> 00:09:28,389
+aber alle haben eben den grundaufbau der
+eben durch die klasse also durch den
+
+271
+00:09:28,399 --> 00:09:31,660
+bauplan vorgegeben wird
+und das war jetzt mal das komplette
+
+273
+00:09:31,670 --> 00:09:36,340
+konzept der objektorientierung im
+schnelldurchlauf damit wir jetzt mal ein
+
+275
+00:09:36,350 --> 00:09:40,629
+ungefähres gefühl dafür hast was man
+darunter versteht und was der sinn
+
+277
+00:09:40,639 --> 00:09:43,180
+dahinter ist
+ich habe jetzt noch einen ganz wichtigen
+
+279
+00:09:43,190 --> 00:09:48,160
+rat für dich und zwar haben wir noch ein
+extra video gedreht das bezieht sich
+
+281
+00:09:48,170 --> 00:09:52,360
+jetzt nicht auf diese serie hier sondern
+das ist ein ganz allgemeines video zur
+
+283
+00:09:52,370 --> 00:09:57,069
+objektorientierten programmierung und in
+diesem video erklären wir auch noch mal
+
+285
+00:09:57,079 --> 00:10:01,840
+im detail was eben objektorientierung
+ist und da ist das ganze auch mit
+
+287
+00:10:01,850 --> 00:10:06,040
+bildern schön visuell dargestellt es
+empfiehlt sich also wirklich wenn du das
+
+289
+00:10:06,050 --> 00:10:10,120
+thema richtig verstehen willst dir
+dieses video noch anzugucken und damit
+
+291
+00:10:10,130 --> 00:10:13,750
+du dieses video nicht lange suchen musst
+habe ich dir jetzt direkt in der video
+
+293
+00:10:13,760 --> 00:10:17,740
+beschreibung verlinkt einfach auf den
+link klicken dann kommst du direkt zu
+
+295
+00:10:17,750 --> 00:10:22,180
+diesem video und des videos auch sehr
+allgemein gestaltet das heißt es bezieht
+
+297
+00:10:22,190 --> 00:10:26,019
+sich auf keine spezifische
+programmiersprache sondern du kannst
+
+299
+00:10:26,029 --> 00:10:30,699
+angucken egal welche objektorientierte
+programmiersprache du lernen möchtest du
+
+301
+00:10:30,709 --> 00:10:34,840
+wirst das konzept danach verstehen und
+auf der folie gerade kannst du es jetzt
+
+303
+00:10:34,850 --> 00:10:39,220
+schon sehen in den nächsten videos
+werden wir das thema objektorientierung
+
+305
+00:10:39,230 --> 00:10:44,079
+jetzt mal in der praxis anpacken das
+heißt wir werden ab dem nächsten video
+
+307
+00:10:44,089 --> 00:10:47,740
+wieder in die entwicklungsumgebung gehen
+und dann werden wir uns angucken wie wir
+
+309
+00:10:47,750 --> 00:10:51,160
+das ganze theorie tische was wir jetzt
+hier gelernt haben in der praxis
+
+311
+00:10:51,170 --> 00:10:55,090
+realisieren können und vor allem wie wir
+damit arbeiten können und das war es
+
+313
+00:10:55,100 --> 00:10:58,329
+jetzt für dieses video
+falls dir das video gefallen hat gebt
+
+315
+00:10:58,339 --> 00:11:01,800
+uns gerne ein
+auch nach oben lasse einen kommentar und
+
+317
+00:11:01,810 --> 00:11:04,949
+falls ihr diesen kanal noch nicht
+abonniert haben solltest dann hole es
+
+319
+00:11:04,959 --> 00:11:09,090
+jetzt unbedingt nach dann wirst du in
+zukunft nichts mehr von uns verpassen
+
+321
+00:11:09,100 --> 00:11:14,040
+ich wünsche ihnen noch einen schönen tag
+bis zum nächsten mal
+
+322
+00:11:10,750 --> 00:11:14,040
+bis zum nächsten mal
+

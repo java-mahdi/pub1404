@@ -1,0 +1,8 @@
+﻿Property/Method,Description
+response.status,"HTTP status code (e.g., "200", "404", "500)
+response.statusText,"Status message (e.g., """"OK"""", """"Not Found""")
+response.ok,true if status is 200-299", "false otherwise
+response.url,Final URL (after redirects)
+response.headers,A Headers object — use to read response headers
+response.type,Type of response (basic", "cors", "error", etc.)"
+response.redirected,true if the response is from a redirected request

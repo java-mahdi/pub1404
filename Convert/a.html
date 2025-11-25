@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add to Cart Form</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            width: 100%;
+            max-width: 450px;
+            padding: 30px;
+        }
+        
+        h1 {
+            color: #2d3748;
+            text-align: center;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        
+        .description {
+            color: #718096;
+            text-align: center;
+            margin-bottom: 30px;
+            line-height: 1.5;
+        }
+        
+        .product-card {
+            background-color: #f8fafc;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 25px;
+            border: 1px solid #e2e8f0;
+        }
+        
+        .product-title {
+            font-size: 1.4rem;
+            color: #2d3748;
+            margin-bottom: 10px;
+        }
+        
+        .product-price {
+            font-size: 1.2rem;
+            color: #38a169;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #4a5568;
+            font-weight: 500;
+        }
+        
+        input[type="text"] {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #cbd5e0;
+            border-radius: 6px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+        
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #4299e1;
+            box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.2);
+        }
+        
+        .submit-btn {
+            background-color: #4299e1;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            padding: 14px 20px;
+            font-size: 16px;
+            font-weight: 600;
+            width: 100%;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .submit-btn:hover {
+            background-color: #3182ce;
+        }
+        
+        .submit-btn:active {
+            transform: translateY(1px);
+        }
+        
+        .status {
+            text-align: center;
+            margin-top: 20px;
+            padding: 12px;
+            border-radius: 6px;
+            display: none;
+        }
+        
+        .success {
+            background-color: #c6f6d5;
+            color: #2d784c;
+            display: block;
+        }
+        
+        .error {
+            background-color: #fed7d7;
+            color: #c53030;
+            display: block;
+        }
+        
+        .debug-info {
+            margin-top: 30px;
+            padding: 15px;
+            background-color: #edf2f7;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+        
+        .debug-title {
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #2d3748;
+        }
+        
+        .debug-list {
+            list-style-type: none;
+        }
+        
+        .debug-list li {
+            margin-bottom: 8px;
+            color: #4a5568;
+        }
+        
+        .info-icon {
+            display: inline-block;
+            width: 20px;
+            text-align: center;
+            margin-right: 8px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Add Product to Cart</h1>
+        <p class="description">Submit the form to add a product to your shopping cart</p>
+        
+        <div class="product-card">
+            <h2 class="product-title">Sample Product</h2>
+            <p class="product-price">$29.99</p>
+            <p>This is a demonstration product for testing form submission.</p>
+        </div>
+        
+        <form id="cartForm" action="http://localhost:8080/cart/add" method="post">
+            <div class="form-group">
+                <label for="productId">Product ID</label>
+                <input type="text" id="productId" name="productId" value="12345" required>
+            </div>
+            
+            <button type="submit" class="submit-btn">Add to Cart</button>
+        </form>
+        
+        <div id="statusMessage" class="status"></div>
+        
+        <div class="debug-info">
+            <h3 class="debug-title">Debugging Information</h3>
+            <ul class="debug-list">
+                <li><span class="info-icon">✓</span> Form uses POST method</li>
+                <li><span class="info-icon">✓</span> Form has correct action attribute</li>
+                <li><span class="info-icon">✓</span> Input field has name attribute</li>
+                <li><span class="info-icon">!</span> Check browser console for errors</li>
+                <li><span class="info-icon">!</span> Verify server endpoint exists</li>
+                <li><span class="info-icon">!</span> Check for JavaScript errors</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('cartForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get the form data
+            const formData = new FormData(this);
+            const productId = formData.get('productId');
+            
+            // Show loading state
+            const submitBtn = this.querySelector('.submit-btn');
+            submitBtn.textContent = 'Adding...';
+            submitBtn.disabled = true;
+            
+            // Simulate form submission (in a real scenario, this would be handled by the form action)
+            setTimeout(() => {
+                const statusMessage = document.getElementById('statusMessage');
+                statusMessage.textContent = `Product ID ${productId} would be sent to server. Check network tab for actual request.`;
+                statusMessage.className = 'status success';
+                
+                // Reset button
+                submitBtn.textContent = 'Add to Cart';
+                submitBtn.disabled = false;
+                
+                // In a real scenario, you would not prevent default and let the form submit
+                // For demonstration, we're just showing a message
+                console.log('Form would submit with productId:', productId);
+                
+                // To actually submit the form, uncomment the next line
+                // this.submit();
+            }, 1500);
+        });
+    </script>
+</body>
+</html>

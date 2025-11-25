@@ -1,0 +1,5 @@
+﻿Type,Accessible From,External IP?,Use Case
+ClusterIP,Inside cluster only,❌,"Microservices, internal comms"
+NodePort,Anywhere (via node IP + high port),❌ (uses node IP),"Local dev, testing"
+LoadBalancer,Public internet,✅,Cloud production
+ExternalName,Inside cluster only,❌,Point to external services

@@ -1,0 +1,16 @@
+﻿Option,Type,Description
+url,String,The URL to send the request to
+type,String,HTTP method: 'GET'", "'POST'", "'PUT'", "'DELETE'", etc. (default: "'GET')
+method,String,Alias for type
+dataType,String,Expected data type of response: 'xml'", "'json'", "'script'", "'html'", "'text'
+data,"Object, String",Data to send to server (automatically encoded)
+contentType,String,Content-type for request (default: 'application/x-www-form-urlencoded')
+headers,Object,Custom headers to send
+async,Boolean,Whether request is asynchronous (default: true)
+cache,Boolean,Cache GET requests (default: true" for GET, "false for POST)
+timeout,Number,"Milliseconds to wait before aborting (e.g., "5000)
+username / password,String,For HTTP auth
+processData,Boolean,Whether to process data (false for FormData)
+traditional,Boolean,Use traditional param serialization (for arrays)
+context,Object,Context for this in callbacks
+xhrFields,Object,"Fields to set on native XHR object (e.g., "withCredentials: true)

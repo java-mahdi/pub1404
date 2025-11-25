@@ -1,0 +1,11 @@
+﻿روش,نوع,توضیح
+just(),Mono / Flux,ایجاد از روی مقدار(های) ثابت
+fromSupplier(),Mono / Flux,از تابعی که مقدار برمی‌گرداند
+fromCallable(),Mono / Flux,مثل Supplier اما با checked exception
+fromRunnable(),Mono,بدون خروجی، فقط side-effect
+empty(),Mono / Flux,جریان خالی با onComplete
+defer(),Mono / Flux,تأخیر در ایجاد تا زمان subscribe
+create(),Mono / Flux,کنترل دستی روی جریان
+generate(),Flux,تولید مرحله‌ای با حالت
+range(),Flux,اعداد پشت سر هم
+interval(),Flux,تولید دوره‌ای بر اساس زمان

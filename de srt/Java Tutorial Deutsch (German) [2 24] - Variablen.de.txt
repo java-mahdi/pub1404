@@ -1,0 +1,999 @@
+1
+00:00:00,000 --> 00:00:04,730
+hallo und herzlich willkommen auf dem
+youtube-kanal von programmieren -
+
+3
+00:00:04,740 --> 00:00:10,879
+starten punkt.de mein name ist hendrik
+und heute geht es weiter mit dem zweiten
+
+5
+00:00:10,889 --> 00:00:16,519
+teil von unserem cover crashkurs wie du
+es schon am titel erkennen kannst geht
+
+7
+00:00:16,529 --> 00:00:21,859
+es in diesem video um sogenannte
+variable im ersten video der serie
+
+9
+00:00:21,869 --> 00:00:26,509
+hast du ja bereits gelernt wie man hallo
+welt auf der konsole ausgeben kann
+
+11
+00:00:26,519 --> 00:00:30,589
+du hast also bereits sein allererstes
+programm geschrieben wenn wir uns aber
+
+13
+00:00:30,599 --> 00:00:34,010
+jetzt mal daran zurückerinnern
+dann war das programm noch relativ
+
+15
+00:00:34,020 --> 00:00:38,299
+statisch denn wir konnten mit der print
+allen methode lediglich etwas auf der
+
+17
+00:00:38,309 --> 00:00:42,319
+konsole ausgeben und wir mussten immer
+wieder den text den wir ausgeben wollten
+
+19
+00:00:42,329 --> 00:00:46,700
+im programm direkt ändern und da rein
+schreiben und deshalb fangen wir jetzt
+
+21
+00:00:46,710 --> 00:00:51,799
+heute mal damit an unsere programme
+variabler zu machen und das gelingt uns
+
+23
+00:00:51,809 --> 00:00:56,420
+eben mit den so genannten variablen
+bevor wir jetzt mit dem video starten
+
+25
+00:00:56,430 --> 00:01:00,020
+möchte ich dir noch kurz einen überblick
+darüber geben was wir in diesem video
+
+27
+00:01:00,030 --> 00:01:04,130
+lernen werden damit doch ganz genau weiß
+auf was du dich jetzt gleich freuen
+
+29
+00:01:04,140 --> 00:01:06,950
+kannst
+das video ist in insgesamt zwei teile
+
+31
+00:01:06,960 --> 00:01:12,380
+untergliedert im ersten teil werden wir
+uns ansehen was sind variablen wir
+
+33
+00:01:12,390 --> 00:01:16,670
+werden uns also in der theorie ansehen
+was man darunter versteht und im zweiten
+
+35
+00:01:16,680 --> 00:01:21,530
+teil werden wir dann variablen in der
+praxis erzeugen wir gehen also in die
+
+37
+00:01:21,540 --> 00:01:24,499
+entwicklungsumgebung und fangen so
+richtig das programmieren an
+
+39
+00:01:24,509 --> 00:01:28,429
+deshalb würde ich jetzt auch sagen lasst
+uns keine zeit verlieren und wir starten
+
+41
+00:01:28,439 --> 00:01:34,190
+direkt mit dem ersten teil was sind
+variablen variablen sind im prinzip
+
+43
+00:01:34,200 --> 00:01:39,440
+nichts anderes als daten behälter diese
+kann man sich bildhaft also wirklich als
+
+45
+00:01:39,450 --> 00:01:43,580
+eine art behälter vorstellen und in
+diesen behältern kann man einen wert
+
+47
+00:01:43,590 --> 00:01:47,120
+speichern
+beispielsweise könnte man den wert 20 in
+
+49
+00:01:47,130 --> 00:01:51,020
+so einer variable speichern
+aber man kann genauso auch text werte
+
+51
+00:01:51,030 --> 00:01:56,569
+drin speichern zum beispiel den namen
+tim und text werte die musst du immer so
+
+53
+00:01:56,579 --> 00:02:02,060
+angeben dass eben hochgestellte doppelte
+anführungsstriche davor und danach sind
+
+55
+00:02:02,070 --> 00:02:05,719
+die den text wert eingrenzen
+das hast du bereits im hallo welt
+
+57
+00:02:05,729 --> 00:02:10,389
+programm gesehen da haben wir hallo welt
+als text auf der konsole ausgegeben
+
+59
+00:02:10,399 --> 00:02:13,420
+da mussten wir auch diese doppelten
+hochgestellten anführungsstriche
+
+61
+00:02:13,430 --> 00:02:17,890
+verwenden damit der computer weiß okay
+hierbei handelt es sich um einen text
+
+63
+00:02:17,900 --> 00:02:22,990
+wert und den variablen kann man also
+verschiedenste werte speichern
+
+65
+00:02:23,000 --> 00:02:28,869
+es gibt jetzt insgesamt zwei wichtige
+informationen die jede variable zwingend
+
+67
+00:02:28,879 --> 00:02:33,849
+enthalten muss die erste wichtige
+information ist der sogenannte datentyp
+
+69
+00:02:33,859 --> 00:02:39,309
+der datentyp bestimmt was in der
+variable gespeichert werden darf der
+
+71
+00:02:39,319 --> 00:02:43,930
+wert den wir also in die variable legen
+muss immer in einklang mit dem datentyp
+
+73
+00:02:43,940 --> 00:02:46,899
+sein denn ansonsten kommt es zu einem
+fehler
+
+75
+00:02:46,909 --> 00:02:51,099
+es gibt beispielsweise unterschiede
+zwischen ganz zahlen und fließkomma
+
+77
+00:02:51,109 --> 00:02:54,849
+zahlen
+aber es gibt auch noch text werde wie
+
+79
+00:02:54,859 --> 00:02:58,990
+zum beispiel der wert den wir da oben
+haben diese bezeichnet man auch als
+
+81
+00:02:59,000 --> 00:03:04,149
+sogenanntes strings und es gibt einfach
+einen haufen verschiedener datentypen
+
+83
+00:03:04,159 --> 00:03:08,740
+auf die werden wir aber explizit im
+nächsten video eingehen das wird sich
+
+85
+00:03:08,750 --> 00:03:13,300
+nämlich nur um datentypen drehen bis
+hier musst du also nur verstehen dass
+
+87
+00:03:13,310 --> 00:03:17,830
+der datentyp einer variable vorgibt was
+in der variable für werte rein
+
+89
+00:03:17,840 --> 00:03:22,599
+gespeichert werden dürfen und die zweite
+wichtige information die jede variable
+
+91
+00:03:22,609 --> 00:03:27,430
+enthalten muss ist ein sogenannter
+bezeichne der bezeichnung ist nichts
+
+93
+00:03:27,440 --> 00:03:32,289
+anderes als der name der variable über
+diesen namen kann man die variable dann
+
+95
+00:03:32,299 --> 00:03:36,610
+im programm ansprechen der bezeichnung
+wurde extra eingeführt weil der
+
+97
+00:03:36,620 --> 00:03:41,860
+arbeitsspeicher alle variablen intern
+über sogenannte adressen anspricht und
+
+99
+00:03:41,870 --> 00:03:44,559
+diese adressen die seen wahnsinnig
+kryptisch aus
+
+101
+00:03:44,569 --> 00:03:48,759
+das sind also einfach nur würde
+zahlenkombinationen und für uns menschen
+
+103
+00:03:48,769 --> 00:03:52,449
+naja ganz schwer zu händeln und wir
+können uns doch nur ganz schlecht merken
+
+105
+00:03:52,459 --> 00:03:57,309
+und deswegen wurden sogenannte bezeichne
+eingeführt da können wir die variablen
+
+107
+00:03:57,319 --> 00:04:01,689
+so benennen wie wir das gerne haben und
+dann viel intuitiver damit programmieren
+
+109
+00:04:01,699 --> 00:04:05,890
+hier ist auch ganz wichtig noch
+anzumerken dass man den bezeichne eine
+
+111
+00:04:05,900 --> 00:04:10,990
+variable immer sprechend benennen sollte
+man sollte also bereits von bezeichnung
+
+113
+00:04:11,000 --> 00:04:16,060
+her herauslesen können was in der
+variable drin steckt man sollte die
+
+115
+00:04:16,070 --> 00:04:21,349
+variablen also nicht variable 1 variable
+zwei variable 3 und benennen
+
+117
+00:04:21,359 --> 00:04:25,700
+denn wenn du erst mal ein programm hast
+mit 1000 variablen dann kannst du das
+
+119
+00:04:25,710 --> 00:04:29,540
+programm überhaupt nicht mehr lesen weil
+du einfach nicht weißt was in den
+
+121
+00:04:29,550 --> 00:04:33,559
+verschiedenen variablen drinsteckt mit
+denen da programmiert wird viel besser
+
+123
+00:04:33,569 --> 00:04:38,659
+ist es also wenn du zb eine variable das
+alter von jemandem speicher ist wenn du
+
+125
+00:04:38,669 --> 00:04:44,179
+diese beispielsweise agent weil age auf
+englisch alter heißt oder wenn du den
+
+127
+00:04:44,189 --> 00:04:48,260
+namen irgendwo drin speicher ist dann
+hat nennst du die variable namen
+
+129
+00:04:48,270 --> 00:04:53,360
+generell ist es zu empfehlen deine
+programme in englisch zu schreiben damit
+
+131
+00:04:53,370 --> 00:04:57,469
+sie auch einfach jeder lesen kann
+aber wenn du darauf keine lust hast dann
+
+133
+00:04:57,479 --> 00:05:01,010
+kannst du sie natürlich auch mit
+deutschen bezeichnen benennen das ist
+
+135
+00:05:01,020 --> 00:05:03,769
+vollkommen egal
+und damit sind wir jetzt mit dem
+
+137
+00:05:03,779 --> 00:05:07,700
+theorieteil und somit mit dem ersten
+teil dieses videos fertig und jetzt
+
+139
+00:05:07,710 --> 00:05:12,170
+kommen wir zum praxisteil wir wollen
+jetzt wirklich mal variablen erzeugen
+
+141
+00:05:12,180 --> 00:05:15,499
+und wie du sehen kannst habe ich hier
+schon wieder die entwicklungsumgebung
+
+143
+00:05:15,509 --> 00:05:20,029
+eclipse geöffnet und es ist unser altes
+projekt aus dem ersten video noch
+
+145
+00:05:20,039 --> 00:05:24,409
+geöffnet und da haben wir das hallo welt
+programm geschrieben diese ausgabe die
+
+147
+00:05:24,419 --> 00:05:28,369
+wir hier programmiert haben mit dieser
+anweisung die löschen was einmal weg
+
+149
+00:05:28,379 --> 00:05:31,579
+und hier schreiben wir jetzt einfach
+unsere neuen code rein
+
+151
+00:05:31,589 --> 00:05:34,670
+falls du dich wunderst wird sodass jetzt
+hier ein bisschen anders aussieht
+
+153
+00:05:34,680 --> 00:05:37,670
+beziehungsweise eine andere schriftgröße
+hat usw
+
+155
+00:05:37,680 --> 00:05:42,350
+ich habe das noch einmal optimiert damit
+du das auf dem video gleich perfekt
+
+157
+00:05:42,360 --> 00:05:46,790
+sehen kannst weil ich da mit der ersten
+einstellung nicht so ganz zufrieden war
+
+159
+00:05:46,800 --> 00:05:51,649
+beginnen wir also mal damit wie man so
+eine variable erzeugt den ersten
+
+161
+00:05:51,659 --> 00:05:56,329
+baustein dem wir benötigen ist wie
+gesagt der daten typ und wir verwenden
+
+163
+00:05:56,339 --> 00:06:01,490
+jetzt mal den datentypen titscher den
+kürzt man ab mit in das ist quasi der
+
+165
+00:06:01,500 --> 00:06:06,980
+name davon und integer ist ein daten typ
+der nur ganz zahlen auf nimmt also
+
+167
+00:06:06,990 --> 00:06:12,649
+irgendwelche zahlen die keine komma
+zahlen sind das ist der typ intel wie
+
+169
+00:06:12,659 --> 00:06:16,429
+gesagt auf datentypen werden wir im
+nächsten video dann noch explizit
+
+171
+00:06:16,439 --> 00:06:18,619
+eingehen
+hier reicht das jetzt einfach mal zu
+
+173
+00:06:18,629 --> 00:06:21,559
+wissen im internet kann man ganz zahlen
+speichern
+
+175
+00:06:21,569 --> 00:06:25,670
+und jetzt benötigen wir noch eine
+bezeichnung für die variable und die
+
+177
+00:06:25,680 --> 00:06:30,860
+nennen wir jetzt einfach mal weil wir
+darin ein alter speichern möchten
+
+179
+00:06:30,870 --> 00:06:34,279
+wie du siehst schreibst du zunächst den
+datentypen
+
+181
+00:06:34,289 --> 00:06:38,929
+da musst du einfach eine leerzeile und
+dann schreibst du den bezeichne hin und
+
+183
+00:06:38,939 --> 00:06:43,040
+der bezeichnung ist jetzt in diesem fall
+age ich habe ihn sprechen benannt weil
+
+185
+00:06:43,050 --> 00:06:45,469
+hier drin möchten wir jetzt ein alter
+speichern
+
+187
+00:06:45,479 --> 00:06:49,999
+so und jetzt muss natürlich noch ein
+wert in diese variable gelangen und das
+
+189
+00:06:50,009 --> 00:06:54,230
+machen wir mit dem sogenannten zuweisung
+operator und das ist nichts anderes als
+
+191
+00:06:54,240 --> 00:06:58,670
+das ist gleich zeichen und dann müssen
+wir nur noch die zahl hinschreiben also
+
+193
+00:06:58,680 --> 00:07:02,089
+den wert der in die variable gespeichert
+werden soll
+
+195
+00:07:02,099 --> 00:07:06,649
+dann nehmen wir zum beispiel mal die 27
+und dann haben wir auch schon gelernt
+
+197
+00:07:06,659 --> 00:07:11,480
+dass man eine anweisung immer beendet
+mit einem semikolon also dem strich
+
+199
+00:07:11,490 --> 00:07:15,559
+punkt das machen wir jetzt auch noch und
+damit ist die anwärter die anweisung
+
+201
+00:07:15,569 --> 00:07:21,589
+komplett und hier in dieser zeile haben
+wir jetzt eine variable erzeugt wir
+
+203
+00:07:21,599 --> 00:07:25,159
+haben also nochmals wiederholung den
+datentyp angegeben den bezeichne
+
+205
+00:07:25,169 --> 00:07:28,820
+angegeben dann ein ist gleich
+geschrieben den sogenannten zuweisung
+
+207
+00:07:28,830 --> 00:07:33,559
+operator und der zuweisung operator
+arbeitet hierzu dass er alles was rechts
+
+209
+00:07:33,569 --> 00:07:39,350
+von ihm steht nimmt in diesem fall die
+27 und hier links in die variable rein
+
+211
+00:07:39,360 --> 00:07:44,869
+speichert in der variable age ist jetzt
+also der wert 27 enthalten
+
+213
+00:07:44,879 --> 00:07:49,309
+jetzt gibt es aber mehrere möglichkeiten
+wie man so eine variable erzeugen kann
+
+215
+00:07:49,319 --> 00:07:54,290
+es gibt nämlich auch diese schreibweise
+indem man sagt integer jetzt nenne ich
+
+217
+00:07:54,300 --> 00:07:58,879
+diese variable mal age 2 weil wir eine
+neue variable erzeugen wollen und
+
+219
+00:07:58,889 --> 00:08:03,079
+variablen dürfen niemals den gleichen
+namen haben sonst weiß der computer
+
+221
+00:08:03,089 --> 00:08:07,189
+nicht mehr welche variable jetzt gemeint
+ist deswegen habe ich hier noch eine 2
+
+223
+00:08:07,199 --> 00:08:11,509
+hinten angefügt und jetzt weisen wir
+nicht direkt einen wert zu sondern jetzt
+
+225
+00:08:11,519 --> 00:08:15,529
+ja belassen bis dabei und schreiben
+schon jetzt dass sie mit colon um die
+
+227
+00:08:15,539 --> 00:08:21,320
+anweisung abzuschließen und erst in der
+nächsten zeile sagen wer age 2 ist
+
+229
+00:08:21,330 --> 00:08:25,009
+gleich also wieder der zuweisung
+operator und hier weisen wir jetzt zum
+
+231
+00:08:25,019 --> 00:08:29,659
+beispiel die 29 zu und schließen das
+ganze wieder mit dem semikolon ab jetzt
+
+233
+00:08:29,669 --> 00:08:33,259
+ziehen wir hier zwei verschiedene
+schreibweisen und finde jede dieser
+
+235
+00:08:33,269 --> 00:08:37,850
+schreibweisen gibt es jetzt fachbegriffe
+die wir mal kurz klären sollten den
+
+237
+00:08:37,860 --> 00:08:41,170
+namen dieses fach begriffs schreibe ich
+jetzt mal mit hilfe eines sogenannten
+
+239
+00:08:41,180 --> 00:08:45,450
+kommentars hin und einen kommentar macht
+man indem man einfach
+
+241
+00:08:45,460 --> 00:08:50,100
+2 / macht also ein doppel / und dann
+sieht man schon wird das ganze grün
+
+243
+00:08:50,110 --> 00:08:54,750
+gefärbt und jetzt kann ich hier irgend
+einen text schreiben und das bedeutet
+
+245
+00:08:54,760 --> 00:08:58,380
+jetzt einfach hierbei handelt es hier
+zum einen kommentar also alles was nach
+
+247
+00:08:58,390 --> 00:09:03,810
+diesem doppel / bis zum ende der zeile
+kommt und kommentare sind wie notizen im
+
+249
+00:09:03,820 --> 00:09:07,980
+kot das bedeutet wir können uns hier
+eine notizen schreiben die wird aber bei
+
+251
+00:09:07,990 --> 00:09:12,390
+der programmausführung einfach gar nicht
+beachtet das ist also wirklich nur für
+
+253
+00:09:12,400 --> 00:09:15,900
+uns menschen relevant den computer
+interessiert es nicht was hinter einem
+
+255
+00:09:15,910 --> 00:09:21,360
+kommentar kommt und hierbei in dieser
+ersten zeile handelt es sich jetzt in
+
+257
+00:09:21,370 --> 00:09:27,420
+der fachsprache um die sogenannte
+initialisierung wieso initialisierung
+
+259
+00:09:27,430 --> 00:09:35,250
+wir erzeugen eine variable und dann
+geben wir dieser sofort also initial
+
+261
+00:09:35,260 --> 00:09:40,500
+deswegen auch initialisierung einen wert
+also immer wenn du eine variable hier
+
+263
+00:09:40,510 --> 00:09:43,700
+erzeugt und diese direkt einen wert gibt
+spricht man von der sogenannten
+
+265
+00:09:43,710 --> 00:09:49,650
+initialisierung in der zweiten zeile
+machen wir es anders da erzeugen wir
+
+267
+00:09:49,660 --> 00:09:54,330
+hier diese variable und geben dieser
+keinen wert und wenn man das macht dann
+
+269
+00:09:54,340 --> 00:09:58,260
+spricht man von der sogenannten
+deklaration wir sagen also in zukunft
+
+271
+00:09:58,270 --> 00:10:03,390
+nicht mehr das wir variablen erzeugen
+sondern wir sagen wir deklarieren
+
+273
+00:10:03,400 --> 00:10:08,460
+variablen und diese deklaration bedeutet
+jetzt nichts anderes als das wird die
+
+275
+00:10:08,470 --> 00:10:15,060
+variable hier einmal erzeugen und dem
+compiler bekannt machen wir sagen also
+
+277
+00:10:15,070 --> 00:10:19,680
+einfach hallo hier bin ich ich bin die
+variable age 2 ich existiere jetzt auch
+
+279
+00:10:19,690 --> 00:10:25,200
+im programm nur dass du bescheid weißt
+und das ist eben die deklaration und in
+
+281
+00:10:25,210 --> 00:10:29,570
+der nächsten zeile da spricht man
+einfach nur noch von einer sogenannten
+
+283
+00:10:29,580 --> 00:10:35,760
+zuweisung weil wir haben jetzt hier eine
+variable die ist bereits deklariert sie
+
+285
+00:10:35,770 --> 00:10:40,230
+ist also schon bekannt im programm
+und diese weisen wir jetzt einen wert zu
+
+287
+00:10:40,240 --> 00:10:44,550
+und hier sieht man auch die besonderheit
+wir brauchen bei einer zuweisung nicht
+
+289
+00:10:44,560 --> 00:10:48,390
+mehr den datentyp angeben den datentyp
+geben wir wirklich nur bei der
+
+291
+00:10:48,400 --> 00:10:53,790
+deklaration an bzw bei der
+initialisierung also nur einmal wenn wir
+
+293
+00:10:53,800 --> 00:10:57,490
+die variable bekannten
+im weiteren verlauf des programms
+
+295
+00:10:57,500 --> 00:11:01,630
+benötigen weder nur noch der bezahlt den
+bezeichnen und das ist ja auch genau der
+
+297
+00:11:01,640 --> 00:11:06,370
+sinn von bezeichnen denn über den
+bezeichne kriegen mit zugriff auf die
+
+299
+00:11:06,380 --> 00:11:11,350
+variable und sagen dem computer du
+sollst jetzt bitte die variable zweimal
+
+301
+00:11:11,360 --> 00:11:16,930
+nehmen und da sollst du jetzt in diesem
+fall den wert 29 rein speichern
+
+303
+00:11:16,940 --> 00:11:22,240
+jetzt kannst du natürlich sagen aber
+initialisierung heißt doch wir geben
+
+305
+00:11:22,250 --> 00:11:27,130
+eine variable einen initialen also einen
+ersten wert und hier machen wir das ja
+
+307
+00:11:27,140 --> 00:11:31,270
+im prinzip auch zwar erst im zweiten
+schritt aber das ist ja der erste wert
+
+309
+00:11:31,280 --> 00:11:35,860
+den wir der variable geben
+und es stimmt jetzt nicht ganz denn wenn
+
+311
+00:11:35,870 --> 00:11:41,590
+wir eine variable deklarieren
+dann wird diese sofort ein default wert
+
+313
+00:11:41,600 --> 00:11:47,680
+zugewiesen das ist in java so bei inters
+also bei ganz zahlen ist es zb die null
+
+315
+00:11:47,690 --> 00:11:51,610
+das heißt intern wird jetzt hier
+automatisch das im prinzip geschrieben
+
+317
+00:11:51,620 --> 00:11:55,210
+und deswegen spricht man hier unten dann
+auch nicht mehr von einer
+
+319
+00:11:55,220 --> 00:11:58,570
+initialisierung sondern nur noch von
+einer zuweisung weil es ist ja nicht
+
+321
+00:11:58,580 --> 00:12:04,870
+mehr der erste wert aber dieses interne
+zuweisen von dieser 0
+
+323
+00:12:04,880 --> 00:12:08,170
+also wenn man wirklich einen initialen
+wert haben möchte dann sollte man das
+
+325
+00:12:08,180 --> 00:12:11,370
+auch hin schreiben wie wir es in der
+ersten zeile gemacht haben zum beispiel
+
+327
+00:12:11,380 --> 00:12:18,610
+ist gleich 29 denn alles andere wenn man
+das so macht und davon ausgeht und sich
+
+329
+00:12:18,620 --> 00:12:22,240
+darauf verlässt dass eine null
+zugewiesen wird das ist ja allgemein
+
+331
+00:12:22,250 --> 00:12:25,810
+sehr sehr schlechter programm ihr stil
+das solltest du dir gar nicht erst
+
+333
+00:12:25,820 --> 00:12:30,310
+angehören also wenn du wirklich einen
+ersten wert haben möchtest du möchtest
+
+335
+00:12:30,320 --> 00:12:33,700
+sie mit einem wert vor belegt ist die
+variable dann immer sauber
+
+337
+00:12:33,710 --> 00:12:37,330
+initialisieren ansonsten kannst du sie
+auch einfach nur deklarieren und im
+
+339
+00:12:37,340 --> 00:12:40,930
+verlaufe des programms dann einen wert
+zu weisen und was wir jetzt noch machen
+
+341
+00:12:40,940 --> 00:12:46,180
+es mal kurz mit der variable arbeiten
+wir können diese variable den inhalt der
+
+343
+00:12:46,190 --> 00:12:50,740
+variablen jetzt nämlich auf der konsole
+ausgeben lassen hier zu schreiben wir
+
+345
+00:12:50,750 --> 00:12:58,769
+wieder system punktet print ln
+und jetzt müssen wir hier wenn wir was
+
+347
+00:12:58,779 --> 00:13:02,669
+die variable den inhalt auf die konsole
+schreiben möchten einfach nur den
+
+349
+00:13:02,679 --> 00:13:05,309
+bezeichne der jeweiligen variable
+eingeben
+
+351
+00:13:05,319 --> 00:13:10,410
+ich geb dir mal age 1 und dann sehen wir
+wenn wir das programm jetzt speichern
+
+353
+00:13:10,420 --> 00:13:15,749
+und ausführen dass auf der konsole die
+27 ausgegeben wird weil eben der
+
+355
+00:13:15,759 --> 00:13:22,439
+variable age der wert 27 ist wenn wir
+jetzt age 2 machen dann hat beziehen wir
+
+357
+00:13:22,449 --> 00:13:27,239
+uns auf diese variable da haben wir den
+wert 29 reingesteckt das heißt wenn wir
+
+359
+00:13:27,249 --> 00:13:31,979
+das programm jetzt ausführen wird die 29
+ausgegeben und im verlaufe des programms
+
+361
+00:13:31,989 --> 00:13:36,059
+kann man den wert einer variable jetzt
+natürlich nicht nur lesen die ganze zeit
+
+363
+00:13:36,069 --> 00:13:39,269
+sondern man kann ihn auch wieder
+verändern weil eine variable ist ja auch
+
+365
+00:13:39,279 --> 00:13:41,999
+variabel
+das bedeutet ich kann jetzt hier sagen
+
+367
+00:13:42,009 --> 00:13:47,160
+age 2 ist gleich 13
+oder besser gesagt machen wir es mal 30
+
+369
+00:13:47,170 --> 00:13:51,329
+die die person ist ein jahr älter
+geworden das heißt sie ist jetzt 30
+
+371
+00:13:51,339 --> 00:13:57,329
+jahre alt wenn ich jetzt diese anweisung
+hier unten nochmal schreibt und das
+
+373
+00:13:57,339 --> 00:14:02,039
+programm noch mal ausführen dann sehen
+wir zunächst wird die 29 ausgegeben dass
+
+375
+00:14:02,049 --> 00:14:06,720
+es hier diese anweisung und dem zweiten
+schritt wird die 30 ausgegeben dass es
+
+377
+00:14:06,730 --> 00:14:11,119
+dann diese anweisung weil wir hier den
+wert der variable verändert haben und
+
+379
+00:14:11,129 --> 00:14:15,989
+das war das video zu den variablen ich
+hoffe du konntest einigen mehrwert für
+
+381
+00:14:15,999 --> 00:14:18,659
+dich herausziehen
+ich hoffe auch du hast verstanden was
+
+383
+00:14:18,669 --> 00:14:22,710
+eine variable ist und im nächsten video
+werden wir dann genauer auf die
+
+385
+00:14:22,720 --> 00:14:27,359
+datentypen eingehen damit du dieses
+komplette konzept dahinter auch wirklich
+
+387
+00:14:27,369 --> 00:14:30,929
+verstanden hast
+falls dir dieses video also gefallen hat
+
+389
+00:14:30,939 --> 00:14:34,859
+gibt uns gerne einen daumen nach oben
+wir würden uns wahnsinnig darüber freuen
+
+391
+00:14:34,869 --> 00:14:38,850
+und wenn es noch nicht gemacht hast dann
+abonniere auch unseren kanal dann wirst
+
+393
+00:14:38,860 --> 00:14:42,900
+du nämlich in zukunft keines unserer
+videos mehr verpassen und das ist eben
+
+395
+00:14:42,910 --> 00:14:47,129
+eine win win situation weil unser kanal
+wächst und du erhältst immer den
+
+397
+00:14:47,139 --> 00:14:51,239
+neuesten content direkt in deine inbox
+das war's ich wünschen noch einen
+
+399
+00:14:51,249 --> 00:14:54,660
+schönen tag bis dann
+

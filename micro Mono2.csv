@@ -1,0 +1,6 @@
+﻿نوع,مثال
+String,bodyToMono(String.class) → پاسخ خام (مثلاً JSON یا HTML)
+Integer", "Long,برای APIهای عددی
+Map,bodyToMono(Map.class) → داده بدون کلاس مشخص
+Object,bodyToMono(Object.class) → برای پاسخ‌های عمومی
+کلاس‌های سفارشی,bodyToMono(Product.class)", "bodyToMono(Order.class)

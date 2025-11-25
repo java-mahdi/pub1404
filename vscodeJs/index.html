@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"  ></script>
+      <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" ></script>
+       
+        <script >
+            function get_json_by_ajax(ur_l ){
+$.ajax({
+   url: ur_l,
+   type: 'GET',
+   dataType:'json',
+   success: function (data, textStatus, jqXHR){
+    alert(JSON.stringify(data));
+   },
+   error: function(jqXHR, textStatus, errorThrown){
+    console.log(errorThrown);
+   }
+   })
+            }
+
+             function get_json_by_get(ur_l ){
+$.get({
+   url: ur_l,
+   dataType:'json',
+   success: function (data, textStatus, jqXHR){
+    alert(JSON.stringify(data));
+   },
+   error: function(jqXHR, textStatus, errorThrown){
+    console.log(errorThrown);
+   }
+   })
+            }
+
+            function get_json_by_fetch(ur_l){
+                fetch(ur_l)
+                .then(resp => {
+                    if(! resp.ok) throw new Error("err");
+                    return resp.json();
+                })
+                .then(jsn => console.log(jsn.name))
+                .catch(err => alert("this err="+err));
+            
+            }
+
+            function loadmypic(){
+                fetch("http://localhost:8080/api/test/images/2.jpg")
+                .then(resp => {
+                    if(resp.ok) return resp.blob();
+                    alert('fetch failed!!!');
+                    $("#mypic").attr("alt" , "not found!!!"); 
+                })
+                .then(blob => {
+                   if(! blob) return;
+                    var ur_l = URL.createObjectURL(blob);
+                    $("#mypic").attr("src" , ur_l);
+                })
+                .catch(err => {
+                    alert(err);   $("#mypic").attr("alt" , err);
+                });
+            }
+
+            </script>
+</head>
+<body>
+    
+
+    <button onclick="get_json_by_get('http://localhost:8080/api/test')" value="get json" >get json</button>
+   
+
+    <form  onsubmit="return false" >
+        <input  id="username" name="username" />
+        <input id="password" name="password" />
+        <input type="submit" value="login" />
+        </form>
+
+        <img id="mypic" alt="" style="width: 200px; height: 200px;" />
+        <button onclick="loadmypic()" >load my pic</button>
+</body>
+</html>

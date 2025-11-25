@@ -1,0 +1,559 @@
+1
+00:00:00,000 --> 00:00:04,789
+hallo und herzlich willkommen auf dem
+youtube-kanal von programmieren -
+
+3
+00:00:04,799 --> 00:00:10,310
+staaten punkt.de mein name ist hendrik
+und bei diesem video handelt es sich
+
+5
+00:00:10,320 --> 00:00:15,289
+bereits um das fünfte video des java
+crash kursus der titel verrät es bereits
+
+7
+00:00:15,299 --> 00:00:19,700
+in diesem video soll es jetzt um die
+sogenannten arithmetischen operatoren
+
+9
+00:00:19,710 --> 00:00:23,000
+gehen
+und bevor wir mit dem video starten
+
+11
+00:00:23,010 --> 00:00:27,230
+sehen wir uns zunächst mal wieder eine
+übersicht an was wir in diesem video
+
+13
+00:00:27,240 --> 00:00:30,710
+alles lernen werden
+dieses video untergliedert sich jetzt
+
+15
+00:00:30,720 --> 00:00:34,040
+wieder in zwei teile
+im ersten teil werden wir uns in der
+
+17
+00:00:34,050 --> 00:00:37,850
+theorie die operatoren die
+arithmetischen in einer übersicht
+
+19
+00:00:37,860 --> 00:00:41,900
+ansehen und im zweiten teil werden wir
+uns das ganze dann in der
+
+21
+00:00:41,910 --> 00:00:45,500
+entwicklungsumgebung in der praxis
+ansehen und wieder etwas programmieren
+
+23
+00:00:45,510 --> 00:00:49,610
+starten wir also direkt mit dem teil 1
+und hierfür habe ich dir eine kleine
+
+25
+00:00:49,620 --> 00:00:54,170
+tabelle vorbereitet in der wir die
+arithmetischen operatoren gut sehen
+
+27
+00:00:54,180 --> 00:00:58,670
+können und zwar sehen wir jetzt hier
+insgesamt sechs operatoren wir haben
+
+29
+00:00:58,680 --> 00:01:03,560
+einmal das - und das plus als vorzeichen
+das ist ganz normal wie du es auch aus
+
+31
+00:01:03,570 --> 00:01:07,700
+der schule kennt wenn - vor der zahl
+steht das ist eben eine - zahl und wenn
+
+33
+00:01:07,710 --> 00:01:11,960
+ein plus davor steht oder alternativ
+auch gar kein vorzeichen dann handelt es
+
+35
+00:01:11,970 --> 00:01:16,210
+sich um eine pluszahl und dann sehen wir
+hier noch vier weitere operatoren
+
+37
+00:01:16,220 --> 00:01:21,859
+nämlich wieder das pluszeichen diesmal
+aber im kontext der addition und auch
+
+39
+00:01:21,869 --> 00:01:25,999
+das funktioniert wie in der schule wenn
+wir zum beispiel schreiben 3 + 4
+
+41
+00:01:26,009 --> 00:01:31,520
+dann erhalten wir eben 7 als nächstes
+kommt das minuszeichen das ist zu
+
+43
+00:01:31,530 --> 00:01:36,230
+verstehen im kontext der subtraktion
+dass es auch wie der schule wie wir es
+
+45
+00:01:36,240 --> 00:01:39,200
+da bereits kennen
+mit diesem beispiel rechnen wir hier
+
+47
+00:01:39,210 --> 00:01:43,280
+gerade 3 -4
+das bedeutet in der variable zahl würde
+
+49
+00:01:43,290 --> 00:01:48,770
+jetzt der wert - 1 stecken
+danach kommt das wahrzeichen das ist in
+
+51
+00:01:48,780 --> 00:01:53,679
+der programmierung ja so ein stern der
+steht für die multiplikation wie gesagt
+
+53
+00:01:53,689 --> 00:01:58,609
+und wenn man drei mal vier rechnet kommt
+logischerweise 12 raus das heißt in der
+
+55
+00:01:58,619 --> 00:02:04,010
+variable zahl würde jetzt hier zwölf
+stehen und dann gibt es noch die die
+
+57
+00:02:04,020 --> 00:02:08,990
+vision dass es das geteilt rechnern
+rechnen wir zum beispiel 12 geteilt
+
+59
+00:02:09,000 --> 00:02:13,580
+durch vier dann er
+wir als ergebnis 3 und diese drei ist
+
+61
+00:02:13,590 --> 00:02:17,990
+dann eben in der variable zahl
+gespeichert das waren jetzt mal hier die
+
+63
+00:02:18,000 --> 00:02:21,890
+arithmetischen operatoren in einer
+übersicht einer fehlt noch der
+
+65
+00:02:21,900 --> 00:02:25,580
+sogenannte module operator aber den
+werden wir uns dann gesondert im
+
+67
+00:02:25,590 --> 00:02:28,580
+nächsten video ansehen
+gehen wir jetzt direkt mal in die
+
+69
+00:02:28,590 --> 00:02:33,229
+entwicklungsumgebung rein und probieren
+wir diese operatoren aus hierzu
+
+71
+00:02:33,239 --> 00:02:36,620
+deklariere ich jetzt erstmal eine
+variable vom typ integer die nennen dich
+
+73
+00:02:36,630 --> 00:02:40,699
+number one
+und dann kommt der zuweisung operator
+
+75
+00:02:40,709 --> 00:02:45,259
+ist übrigens auch ein operator den hast
+du schon kennengelernt jetzt können wir
+
+77
+00:02:45,269 --> 00:02:49,160
+eben ja mal mit dieser arithmetischen
+operatoren anwenden wir können zb
+
+79
+00:02:49,170 --> 00:02:53,630
+schreiben 3 + 4
+und hier möchte ich dir jetzt auch noch
+
+81
+00:02:53,640 --> 00:02:58,940
+gleich was ganz wichtiges erklären und
+zwar immer wenn hier rechnungen stehen
+
+83
+00:02:58,950 --> 00:03:03,170
+über operatoren dazwischen geschaltet
+sind dann bezeichnet man das ganze hier
+
+85
+00:03:03,180 --> 00:03:07,100
+was ich hier markiert habe als
+sogenannten ausdruck einer ausdruck ist
+
+87
+00:03:07,110 --> 00:03:11,059
+in der programmierung also immer eine
+rechnung die letztendlich ein ergebnis
+
+89
+00:03:11,069 --> 00:03:15,080
+zurück liefert und das ergebnis das
+zurück und liefert wird dass es dann
+
+91
+00:03:15,090 --> 00:03:18,140
+nicht mehr der ausdruck also der austrag
+ist der ausdruck ist wirklich nur die
+
+93
+00:03:18,150 --> 00:03:23,150
+rechnung die das ergebnis dann zustande
+bringen der zuweisung operator arbeitet
+
+95
+00:03:23,160 --> 00:03:28,520
+folgendermaßen immer bevor den rechten
+wert zuweist wird hier erst mal alles
+
+97
+00:03:28,530 --> 00:03:32,210
+ausgewertet
+das heißt zunächst wird mal die 3plus
+
+99
+00:03:32,220 --> 00:03:36,259
+die vier gerechnet da sollte sieben
+rauskommen und dann wird diese sieben
+
+101
+00:03:36,269 --> 00:03:40,940
+mit dem zuweisung operator an die
+variable namborn zugewiesen
+
+103
+00:03:40,950 --> 00:03:44,300
+das ganze können wir überprüfen indem
+wir das ganze ist einfach mal auf der
+
+105
+00:03:44,310 --> 00:03:49,550
+konsole ausgeben lassen number one
+wir speichern das ganze führen das
+
+107
+00:03:49,560 --> 00:03:53,780
+programm einmal aus und wie wir sehen
+wir erhalten als ergebnis die sieben
+
+109
+00:03:53,790 --> 00:03:57,349
+jetzt können wir natürlich auch noch die
+anderen rechen arten ausprobieren einmal
+
+111
+00:03:57,359 --> 00:04:01,340
+das minuszeichen
+da haben wir gesagt sollte - eins raus
+
+113
+00:04:01,350 --> 00:04:07,430
+kommen auch das funktioniert dann haben
+wir uns das mal zeichen angesehen da
+
+115
+00:04:07,440 --> 00:04:11,630
+drücken wir noch mal drauf dann haben
+wir die 12 und dann haben wir jetzt noch
+
+117
+00:04:11,640 --> 00:04:14,990
+das geteilt angesehen
+das können wir jetzt mal mit diesen zwei
+
+119
+00:04:15,000 --> 00:04:18,890
+werten hier berechnen
+und wir sehen es kommt die null raus das
+
+121
+00:04:18,900 --> 00:04:22,130
+liegt daran dreigeteilte vier das ergibt
+null komma irgendwas
+
+123
+00:04:22,140 --> 00:04:26,270
+und da wir hier mit dem datentyp in titz
+arbeiten der nur ganz zahlen aufnehmen
+
+125
+00:04:26,280 --> 00:04:30,380
+kann wird eben jetzt hier in diesem fall
+die null ausgegeben
+
+127
+00:04:30,390 --> 00:04:36,880
+das gleiche werben wir jetzt zum
+beispiel sagen fünf geteilt durch 4
+
+129
+00:04:36,890 --> 00:04:42,200
+dann kommt als ergebnis eben die eins
+raus also das wären 1 kommen irgendwann
+
+131
+00:04:42,210 --> 00:04:48,080
+das heißt sobald wir geteilt rechnen
+oder irgendein ergebnis rauskommt was
+
+133
+00:04:48,090 --> 00:04:51,530
+eine nachkommastelle hat die habe ich
+hier ein integer haben dann wird die
+
+135
+00:04:51,540 --> 00:04:53,750
+nachkommastelle eben einfach
+abgeschnitten
+
+137
+00:04:53,760 --> 00:04:57,890
+und hier wird dann auch keine rücksicht
+auf rundungen genommen so und das was
+
+139
+00:04:57,900 --> 00:05:01,490
+wir jetzt mit einer variable realisiert
+haben können wir natürlich auch mit
+
+141
+00:05:01,500 --> 00:05:06,200
+mehreren variablen realisieren
+hierzu speichern wir in dieser variable
+
+143
+00:05:06,210 --> 00:05:10,640
+jetzt nur einen einzigen wert zb die 3
+und jetzt legen wir das noch eine zweite
+
+145
+00:05:10,650 --> 00:05:16,280
+variable an zum beispiel number two ist
+gleich hier speichern wir mal die fünf
+
+147
+00:05:16,290 --> 00:05:21,350
+rein dann speichern wir das ganze
+und jetzt können wir zum beispiel sagen
+
+149
+00:05:21,360 --> 00:05:29,590
+integer result ist gleich und jetzt auch
+einfach sagen number plus number two und
+
+151
+00:05:29,600 --> 00:05:34,850
+jetzt geben wir hier
+diese variable aus und dann sehen wir
+
+153
+00:05:34,860 --> 00:05:38,810
+jetzt kommt die acht raus also wenn wir
+zwei variablen hinschreiben diese mit
+
+155
+00:05:38,820 --> 00:05:42,140
+einem operator verknüpfen
+dann werden eben die werte die da die
+
+157
+00:05:42,150 --> 00:05:47,300
+sich darin befinden ausgewertet und hier
+miteinander addiert und dann hier in
+
+159
+00:05:47,310 --> 00:05:50,750
+dieser variable gespeichert und dann
+eben ausgegeben das einzigste
+
+161
+00:05:50,760 --> 00:05:54,980
+interessante was es jetzt hier noch gibt
+wäre folgendes und zwar wenn wir diese
+
+163
+00:05:54,990 --> 00:05:58,580
+zwei variablen wieder haben und die
+berechnung jetzt hier drinnen
+
+165
+00:05:58,590 --> 00:06:04,570
+durchführen
+wir sagen number one plus number two
+
+167
+00:06:04,580 --> 00:06:09,320
+schon jetzt ist die frage was passiert
+jetzt denn im letzten video hatten wir
+
+169
+00:06:09,330 --> 00:06:13,220
+kennen gelernt sobald wir uns hier in
+der print ln methode befinden und
+
+171
+00:06:13,230 --> 00:06:17,900
+hierbei den parametern sind und dann ein
+plus schreiben dann geht es ja um die
+
+173
+00:06:17,910 --> 00:06:24,050
+sogenannte verkettung wir verketten also
+diesen ausdruck mit diesem hier jetzt
+
+175
+00:06:24,060 --> 00:06:27,440
+ist die frage wird das jetzt passieren
+oder wird einfach nur die rechnung
+
+177
+00:06:27,450 --> 00:06:30,180
+ausgeführt
+wir können es einfach mal testen ich für
+
+179
+00:06:30,190 --> 00:06:35,400
+das ganze aus und wie wir sehen es wird
+tatsächlich die berechnung ausgeführt
+
+181
+00:06:35,410 --> 00:06:39,330
+das ganze hier wird also als ausdruck
+aufgefasst die berechnung erfolgt es
+
+183
+00:06:39,340 --> 00:06:43,589
+kommt ein ergebnis daraus und dieses
+ergebnis wird dann ausgegeben wenn wir
+
+185
+00:06:43,599 --> 00:06:47,309
+jetzt wirklich wollten das wird zunächst
+die drei ausgeben wollen und dann die
+
+187
+00:06:47,319 --> 00:06:53,969
+fünf und zwar vergessen das dann quasi
+35 da steht dann müssten wir hier noch
+
+189
+00:06:53,979 --> 00:06:58,050
+einen string einbauen
+den würden wir einfach leer lassen und
+
+191
+00:06:58,060 --> 00:07:02,490
+hier wieder so eine verkettung operator
+und wenn wir das ganze jetzt ausführen
+
+193
+00:07:02,500 --> 00:07:07,260
+dann kommt quasi 35 raus weil er erst
+der wert hin geschrieben wird dann kommt
+
+195
+00:07:07,270 --> 00:07:11,040
+quasi dieser lehre string der einfach
+wirklich nur leer ist nicht mal ein
+
+197
+00:07:11,050 --> 00:07:15,270
+leerzeichen enthält und dann als
+nächstes hängen wir nochmal den wert 5
+
+199
+00:07:15,280 --> 00:07:19,560
+dran weil der ersten am tatort drin und
+dann entsteht eben dieses ergebnis hier
+
+201
+00:07:19,570 --> 00:07:23,040
+ich denke du wirst diese operatoren sehr
+intuitiv nutzen können
+
+203
+00:07:23,050 --> 00:07:26,189
+ich würde trotzdem empfehlen jetzt noch
+ein bisschen damit herumzuspielen
+
+205
+00:07:26,199 --> 00:07:30,540
+aber wie gesagt du kennst die eigentlich
+schon aus der schulzeit deswegen sollten
+
+207
+00:07:30,550 --> 00:07:34,890
+diese kein problem darstellen
+das war s für dieses video ich hoffe es
+
+209
+00:07:34,900 --> 00:07:38,430
+hat dir gefallen falls diese ist dann
+würden wir uns über einen daumen nach
+
+211
+00:07:38,440 --> 00:07:41,550
+oben wahnsinnig freuen
+und falls du den kanal noch nicht
+
+213
+00:07:41,560 --> 00:07:45,629
+abonniert hast dann drückt jetzt auf den
+abonnieren -button und dann wirst du
+
+215
+00:07:45,639 --> 00:07:50,550
+immer informiert werden wenn wir ein
+neues video rausbringen und glaube uns
+
+217
+00:07:50,560 --> 00:07:54,270
+das willst du nicht verpassen denn wir
+haben noch einiges geplant auf diesem
+
+219
+00:07:54,280 --> 00:07:58,680
+kanal in diesem sinne wünscht dir jetzt
+noch einen schönen tag und dann sehen
+
+221
+00:07:58,690 --> 00:08:03,509
+wir uns im nächsten video wieder biss
+dann schau
+
+222
+00:08:00,639 --> 00:08:03,509
+dann schau
+

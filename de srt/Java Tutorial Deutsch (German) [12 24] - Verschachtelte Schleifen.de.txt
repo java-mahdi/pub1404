@@ -1,0 +1,524 @@
+1
+00:00:00,000 --> 00:00:04,789
+hallo und herzlich willkommen auf dem
+youtube-kanal von programmieren -
+
+3
+00:00:04,799 --> 00:00:10,129
+staaten punkt.de mein name ist hendrik
+und wir befinden uns mittlerweile im
+
+5
+00:00:10,139 --> 00:00:15,709
+zwölften teil unseres java crash kursus
+und in diesem video soll es um
+
+7
+00:00:15,719 --> 00:00:18,260
+sogenannte verschachtelte schleifen
+gehen
+
+9
+00:00:18,270 --> 00:00:21,590
+wir werden uns hier gar nicht erst
+angucken was wir lernen denn bespringen
+
+11
+00:00:21,600 --> 00:00:25,759
+direkt in die entwicklungsumgebung denn
+im prinzip haben wir schon alles nötige
+
+13
+00:00:25,769 --> 00:00:30,080
+gelernt um uns diese verschachtelte
+schleifen jetzt näher zu bringen was
+
+15
+00:00:30,090 --> 00:00:34,220
+meine ich damit in den letzten videos
+sind wir bereits auf verschiedenste
+
+17
+00:00:34,230 --> 00:00:37,760
+schleifen konstrukte eingegangen wir
+haben die wahl schleife kennengelernt
+
+19
+00:00:37,770 --> 00:00:42,350
+die duval schleife und dann auch noch
+die vor schleife und was ich dir in
+
+21
+00:00:42,360 --> 00:00:46,490
+diesem video zeigen möchte ist folgendes
+man kann alles schleifen die wir kennen
+
+23
+00:00:46,500 --> 00:00:51,049
+gelernt haben ineinander verschachteln
+sehen wir uns das mal anhand eines
+
+25
+00:00:51,059 --> 00:00:53,930
+beispiels an
+ich definiere jetzt mal eine vor
+
+27
+00:00:53,940 --> 00:01:00,319
+schleife die zell variablen ähnlich und
+die startet beim wert 1 dann sage ich es
+
+29
+00:01:00,329 --> 00:01:04,549
+kleiner als 4
+und dann sage ich noch + + in jedem
+
+31
+00:01:04,559 --> 00:01:09,469
+schleifen durchlauf und anstatt jetzt
+schon irgendwas reinzuschreiben
+
+33
+00:01:09,479 --> 00:01:14,660
+definiert hier drin jetzt erneut eine
+voll schleife dann endlich die zeller
+
+35
+00:01:14,670 --> 00:01:24,160
+variable j auch die staatlich bei 1 dann
+sage ich j kleiner gleich vier und j + +
+
+37
+00:01:24,170 --> 00:01:28,550
+und was wir jetzt programmieren möchten
+dass folgendes ich möchte wir sehen uns
+
+39
+00:01:28,560 --> 00:01:31,910
+hier unten schon das habe ich zuvor mal
+programmierten wieder weg gelöscht hier
+
+41
+00:01:31,920 --> 00:01:36,380
+so eine ausgabe so eine drei mal drei
+matrix sozusagen das sieht aus wie im
+
+43
+00:01:36,390 --> 00:01:40,880
+tic tac toe feld wo es überall echsen
+stehen und das können wir uns mit hilfe
+
+45
+00:01:40,890 --> 00:01:45,859
+dieses vor schleifen konstrukt mit
+dieser ineinander verschachtelten vor
+
+47
+00:01:45,869 --> 00:01:49,910
+schleife sozusagen ausgeben lassen
+und das funktioniert jetzt
+
+49
+00:01:49,920 --> 00:01:54,770
+folgendermaßen hier drin benötigen wird
+erstmal eine print methode
+
+51
+00:01:54,780 --> 00:01:59,300
+und hier liegt jetzt der trick daran
+dass wir hier nicht print ln schreiben
+
+53
+00:01:59,310 --> 00:02:04,520
+sondern das ln weg löschen
+das ln hier steht für laien und im
+
+55
+00:02:04,530 --> 00:02:08,180
+prinzip sorgt es dafür dass zunächst
+alles was in der klammer steht
+
+57
+00:02:08,190 --> 00:02:12,460
+ausgegeben wird und durch dieses
+wird dann automatisch ein zeilenumbruch
+
+59
+00:02:12,470 --> 00:02:16,330
+gemacht und wir befinden uns in der
+nächsten zeile wenn wir das weg löschen
+
+61
+00:02:16,340 --> 00:02:21,430
+und stattdessen nur print schreiben dann
+wird eben kein zeilenumbruch gemacht und
+
+63
+00:02:21,440 --> 00:02:24,850
+jetzt können wir mal einen string
+ausgeben und 2x und dann ein leerzeichen
+
+65
+00:02:24,860 --> 00:02:31,930
+und damit haben wir das jetzt schon mal
+die innere schleife und hier geben wir
+
+67
+00:02:31,940 --> 00:02:36,130
+jetzt machen wir jetzt auch noch mal
+eine print allen methode führen das
+
+69
+00:02:36,140 --> 00:02:40,540
+ganze aus und wie wir sehen es kommt
+genau das jetzt hier bei raus was habe
+
+71
+00:02:40,550 --> 00:02:44,020
+ich jetzt hier gemacht wie gesagt es
+handelt sich um eine verschachtelte vor
+
+73
+00:02:44,030 --> 00:02:48,430
+schleife zunächst mal haben wir hier die
+äußere vor schleife die äußere vorschlag
+
+75
+00:02:48,440 --> 00:02:53,380
+wie start bei 1 das geht läuft so lange
+durch kleiner als 4 also insgesamt drei
+
+77
+00:02:53,390 --> 00:02:57,220
+schleifen durch läufe da wir hier immer
+um 1 erhöhen mit der äußeren schleif
+
+79
+00:02:57,230 --> 00:03:01,240
+haben wir also drei schleifen durchläufe
+gleichzeitig haben wir hier eine innere
+
+81
+00:03:01,250 --> 00:03:06,220
+schleife die daten sind hier gleich nur
+dass die zell variable j heißt das heißt
+
+83
+00:03:06,230 --> 00:03:11,020
+auch hier haben die drei schleifen
+durchläufe das ganze läuft hierzu ab wir
+
+85
+00:03:11,030 --> 00:03:14,350
+springen hier rein wir sind hier quasi
+von der äußeren schleife im ersten
+
+87
+00:03:14,360 --> 00:03:18,130
+durchlauf in diesem ersten durchlauf
+springen wir hier in diese innere vor
+
+89
+00:03:18,140 --> 00:03:22,090
+schleife jetzt wird hier ein x iks
+gesprintet
+
+91
+00:03:22,100 --> 00:03:26,020
+jetzt ist die schleife aber noch nicht
+vorbei weil j quasi auf den wert 2
+
+93
+00:03:26,030 --> 00:03:28,420
+erhöht wird zwar ist immer noch kleiner
+als 4
+
+95
+00:03:28,430 --> 00:03:33,220
+deshalb wird wieder ex leerzeichen
+ausgegeben und dann ist drei immer noch
+
+97
+00:03:33,230 --> 00:03:36,940
+kleiner als 4 also wird es noch ein
+drittes mal ausgegeben und zwar wieder
+
+99
+00:03:36,950 --> 00:03:41,289
+diese print methode und dadurch kriegen
+wir hier diese erste zeile zustande
+
+101
+00:03:41,299 --> 00:03:45,250
+und wie gesagt da ich hier dieses ln
+weggelassen habe wird es jetzt immer
+
+103
+00:03:45,260 --> 00:03:49,569
+nacheinander geschrieben und es erfolgt
+ein zeilenumbruch sobald diese schleife
+
+105
+00:03:49,579 --> 00:03:53,650
+jetzt erfolgreich durch gelaufen ist
+geht es hier weiter mit dieser print
+
+107
+00:03:53,660 --> 00:03:58,569
+allen methode hierüber gebe ich nichts
+das heißt diese methode hier sorgt
+
+109
+00:03:58,579 --> 00:04:02,890
+einfach dafür dass es im programm zu
+einem zeilenumbruch kommt und wir uns
+
+111
+00:04:02,900 --> 00:04:06,610
+jetzt hier in dieser zweiten zeile
+befinden und dann springen wir wieder
+
+113
+00:04:06,620 --> 00:04:09,849
+hier in die schleife weil der ganze
+schleifen blog von der äußeren schleife
+
+115
+00:04:09,859 --> 00:04:15,250
+ist jetzt durch gelaufen wird erhöht
+jetzt ist er auf 22 ist noch kleiner als
+
+117
+00:04:15,260 --> 00:04:18,219
+4
+und das ganze startet erneut und dadurch
+
+119
+00:04:18,229 --> 00:04:22,620
+kommt eben am ende diese
+drei kreuz drei matrix raus sozusagen
+
+121
+00:04:22,630 --> 00:04:26,250
+und so kann man eben mit verschachtelten
+schleifen arbeiten
+
+123
+00:04:26,260 --> 00:04:30,390
+das ist jetzt natürlich nur ein beispiel
+indem ich hier lauter xe ausgibt das hat
+
+125
+00:04:30,400 --> 00:04:33,810
+jetzt natürlich keinen tieferen sinn
+ich möchte dir hiermit nur zeigen dass
+
+127
+00:04:33,820 --> 00:04:38,100
+du sämtliche schleifen die durch hier in
+diesem kurs kennen gelernt hast du
+
+129
+00:04:38,110 --> 00:04:41,010
+kannst du natürlich ineinander
+verschachteln und zwar auch beliebig oft
+
+131
+00:04:41,020 --> 00:04:44,580
+das heißt hier könnten wir jetzt wieder
+eine schleife reinbauen zum beispiel
+
+133
+00:04:44,590 --> 00:04:49,350
+eine weil schleife und so weiter und an
+vielen punkten wird es dann in deiner
+
+135
+00:04:49,360 --> 00:04:52,790
+programm ihrer laufbahn natürlich auch
+sinn machen schleifen zu verschachteln
+
+137
+00:04:52,800 --> 00:04:56,640
+abschließend möchte ich jetzt nur noch
+mal kurz darauf eingehen auf was du beim
+
+139
+00:04:56,650 --> 00:05:00,570
+verschachteln von schleifen achten muss
+und zwar müssen wir bei schleifen darauf
+
+141
+00:05:00,580 --> 00:05:06,000
+achten wie weit die gültigkeit von
+variablen reicht was meine ich damit wir
+
+143
+00:05:06,010 --> 00:05:09,480
+kennen es ja dass wir eine variable
+definieren ich nenne sie jetzt mal in
+
+145
+00:05:09,490 --> 00:05:14,150
+kitzscher test ist gleich null
+initialisieren sie also mit dem wert 0
+
+147
+00:05:14,160 --> 00:05:18,510
+diese variable ist jetzt hier definiert
+und ich kann sie überall in diesem
+
+149
+00:05:18,520 --> 00:05:22,080
+ganzen programm verwenden
+genauer gesagt kann ich die variable
+
+151
+00:05:22,090 --> 00:05:26,250
+immer da verwenden wo ich sie definiert
+haben und zwar in dem entsprechenden
+
+153
+00:05:26,260 --> 00:05:31,260
+blog der block startet hier und geht bis
+hier runter das heißt hier im ganzen
+
+155
+00:05:31,270 --> 00:05:34,470
+programm kann ich den blog verwenden
+auch wenn wir schleifen ineinander
+
+157
+00:05:34,480 --> 00:05:39,090
+verschachteln also wenn es sozusagen
+tiefer rein geht dann ist diese variable
+
+159
+00:05:39,100 --> 00:05:41,870
+immer noch verwendbar und man kann damit
+arbeiten
+
+161
+00:05:41,880 --> 00:05:46,230
+jetzt schauen wir uns mal dass hier an
+wir haben jetzt hier eine vor schleife
+
+163
+00:05:46,240 --> 00:05:49,980
+und hier öffnet sich jetzt ein neuer
+block der startet hier und geht bis hier
+
+165
+00:05:49,990 --> 00:05:55,710
+und hier drin definieren wir quasi die
+variable in titz wenn sie hier im kopf
+
+167
+00:05:55,720 --> 00:06:00,930
+definiert wird diese zell variable zählt
+es so als wäre sie quasi hier im blog
+
+169
+00:06:00,940 --> 00:06:06,900
+definiert worden so diese variable ist
+jetzt auch innerhalb sichtbar
+
+171
+00:06:06,910 --> 00:06:11,190
+aber sobald dieser blog zu ende ist wird
+diese variable zerstört und ist nicht
+
+173
+00:06:11,200 --> 00:06:15,630
+mehr gültig das können wir ganz leicht
+überprüfen indem wir mal versuchen und
+
+175
+00:06:15,640 --> 00:06:20,310
+ciri ausgeben zu lassen wir sehen dann
+kommt hier sofort eine fehlermeldung des
+
+177
+00:06:20,320 --> 00:06:25,230
+lebt liegt jetzt eben daran dass hier
+gar nicht mehr existiert weil es sofort
+
+179
+00:06:25,240 --> 00:06:27,710
+zerstört wird sobald der block verlassen
+wird
+
+181
+00:06:27,720 --> 00:06:31,370
+und das ist eben noch wichtig und nur
+deshalb musst du das auch beachten
+
+183
+00:06:31,380 --> 00:06:35,960
+und aus diesem grund kann man hier an
+dieser stelle jetzt nicht einfach auch
+
+185
+00:06:35,970 --> 00:06:40,370
+als sie bezeichnen weil ich selbst hier
+drin ist die variable ihn noch gültig
+
+187
+00:06:40,380 --> 00:06:44,120
+und wenn ich mir das jetzt hier auch als
+sie bezeichnen würde dann müsste der
+
+189
+00:06:44,130 --> 00:06:49,100
+computer nicht mehr welches events genau
+mein das heißt sobald du schleifen
+
+191
+00:06:49,110 --> 00:06:52,640
+verschachtelt musst du natürlich auch
+die zeller variablen also jetzt hier im
+
+193
+00:06:52,650 --> 00:06:55,820
+fall von der vor schleife na ja anders
+benennen
+
+195
+00:06:55,830 --> 00:07:00,440
+ansonsten weiß der computer eben nicht
+mehr um welche variables ich gerade
+
+197
+00:07:00,450 --> 00:07:04,430
+handelt bzw welche du meinst das war
+jetzt auch schon alles was ich dir in
+
+199
+00:07:04,440 --> 00:07:08,480
+diesem video kurz mitteilen wollte falls
+du ein mehrwert daraus ziehen konnte ist
+
+201
+00:07:08,490 --> 00:07:11,990
+dann gibt doch gerne einen daumen nach
+oben lasse gerne einen kommentar
+
+203
+00:07:12,000 --> 00:07:15,920
+und falls sie diesen kanal noch nicht
+abonniert haben solltest dann abonnieren
+
+205
+00:07:15,930 --> 00:07:19,940
+jetzt dann wirst du nämlich in zukunft
+keines mehr unsere tutorial videos
+
+207
+00:07:19,950 --> 00:07:23,510
+verpassen das war's ich bin raus für
+heute ich wünschen noch einen schönen
+
+209
+00:07:23,520 --> 00:07:26,810
+tag bis dahin
+
